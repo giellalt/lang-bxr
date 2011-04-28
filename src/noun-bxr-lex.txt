@@ -1,0 +1,23 @@
+LEXICON Noun 
+
+шшшор numlex ;
+буряад numlex ;
+гар  numlex ;
+улас numlex ;
+Байгал numlex ;
+шэрээ numlex ;
+хүреэ numlex ;
+харюу numlex ;
+Москва:Москваа2  numlex ;
+бороо numlex ;
+толи numlex ;
+Заря:Заряа2 numlex ;
+заряа numlex ;
+морин numlex ;
+тэргэ numlex ;
+бэшэг numlex ;
+малгай numlex ;
+нохой numlex ;
+бээлэй numlex ;
+
+

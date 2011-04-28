@@ -1,0 +1,13 @@
+# Paradigm grammar
+#
+# Used in paradigm generator.
+# List the tag groups in the order they are given to generator.
+# The names of the tag groups are listed in korpustags.sma.txt
+# "?" marks the optionality of the tag.
+# It is not possible to mark alternation of the different tags.
+#
+# $Id: paradigm.sma.txt 37069 2010-12-03 14:31:32Z trond $
+#
+	
+N+Number+Case+Possessive?
+

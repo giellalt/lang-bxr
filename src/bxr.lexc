@@ -1,0 +1,23 @@
+Multichar_Symbols
++N +Sg +Pl +Nom +Acc +Gen +Ins +Dat +Com +Abl
+
+LEXICON Root
+
+буряад numlex ;
+гар  numlex ;
+улас numlex ;
+Байгал numlex ;
+
+LEXICON numlex
++N+Sg:  caselex ;
++N+Pl:ууд caselex ;
+
+LEXICON caselex
++Nom: # ;
++Acc:ые # ;
++Gen:ай # ;
++Dat:да # ;
++Dat:та # ;
++Ins:аар # ;
++Com:тай # ;
++Abl:һаа # ;
