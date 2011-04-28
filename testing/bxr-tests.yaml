@@ -1,0 +1,183 @@
+Config:
+  hfst:
+    Gen: ../st/bxr/bin/ibxr.hfstol
+    Morph: ../st/bxr/bin/bxr.hfstol
+  xerox:
+    Gen: ../st/bxr/bin/ibxr.fst
+    Morph: ../st/bxr/bin/bxr.fst
+
+Tests:
+  Noun - гар: # Masculine vowel, Cns final
+    гар+N+Sg+Nom: гар
+    гар+N+Sg+Acc: гаре
+    гар+N+Sg+Gen: гарай
+    гар+N+Sg+Dat: гарда
+    гар+N+Sg+Ins: гараар
+    гар+N+Sg+Com: гартай
+    гар+N+Sg+Abl: гарһаа
+    гар+N+Pl+Nom: гарууд
+    гар+N+Pl+Acc: гарууде
+    гар+N+Pl+Gen: гаруудай
+    гар+N+Pl+Dat: гаруудда
+    гар+N+Pl+Ins: гаруудаар
+    гар+N+Pl+Com: гаруудтай
+    гар+N+Pl+Abl: гаруудһаа
+
+  Noun - бэшэг: # Feminine vowel, Cns final
+    бэшэг+N+Sg+Nom: бэшэг
+    бэшэг+N+Sg+Acc: бэшэге
+    бэшэг+N+Sg+Gen: бэшэгэй
+    бэшэг+N+Sg+Dat: бэшэгда
+    бэшэг+N+Sg+Ins: бэшэгаар
+    бэшэг+N+Sg+Com: бэшэгтай
+    бэшэг+N+Sg+Abl: бэшэгһаа
+    бэшэг+N+Pl+Nom: бэшэгууд
+    бэшэг+N+Pl+Acc: бэшэгууде
+    бэшэг+N+Pl+Gen: бэшэгуудай
+    бэшэг+N+Pl+Dat: бэшэгуудда
+    бэшэг+N+Pl+Ins: бэшэгуудаар
+    бэшэг+N+Pl+Com: бэшэгуудтай
+    бэшэг+N+Pl+Abl: бэшэгуудһаа
+
+  Noun - морин: # Neuter vowel, Cns final
+    морин+N+Sg+Nom: морин
+    морин+N+Sg+Acc: морине
+    морин+N+Sg+Gen: мориной
+    морин+N+Sg+Dat: моринди
+    морин+N+Sg+Ins: моринаар
+    морин+N+Sg+Com: моринтай
+    морин+N+Sg+Abl: моринһаа
+    морин+N+Pl+Nom: моринууд
+    морин+N+Pl+Acc: моринууде
+    морин+N+Pl+Gen: моринуудай
+    морин+N+Pl+Dat: моринуудда
+    морин+N+Pl+Ins: моринуудаар
+    морин+N+Pl+Com: моринуудтай
+    морин+N+Pl+Abl: моринуудһаа
+
+  Noun - шшшор: # Low round vowel, Cns final
+    шшшор+N+Sg+Nom: шшшор
+    шшшор+N+Sg+Acc: шшшоре
+    шшшор+N+Sg+Gen: шшшорэй
+    шшшор+N+Sg+Dat: шшшорда
+    шшшор+N+Sg+Ins: шшшораар
+    шшшор+N+Sg+Com: шшшортай
+    шшшор+N+Sg+Abl: шшшорһаа
+    шшшор+N+Pl+Nom: шшшорууд
+    шшшор+N+Pl+Acc: шшшорууде
+    шшшор+N+Pl+Gen: шшшоруудай
+    шшшор+N+Pl+Dat: шшшоруудда
+    шшшор+N+Pl+Ins: шшшоруудаар
+    шшшор+N+Pl+Com: шшшоруудтай
+    шшшор+N+Pl+Abl: шшшоруудһаа
+
+  Noun - Москва: # Invisible long vowel
+    Москва+N+Sg+Nom: Москва
+    Москва+N+Sg+Acc: Москвае
+    Москва+N+Sg+Gen: Москвагай
+    Москва+N+Sg+Dat: Москвада
+    Москва+N+Sg+Ins: Москвааар
+    Москва+N+Sg+Com: Москва
+    Москва+N+Sg+Abl: Москваһаа
+
+  Noun - : # Feminine vowel, long final final
+    шэрээ+N+Sg+Nom: шэрээ
+    шэрээ+N+Sg+Acc: шэрээе
+    шэрээ+N+Sg+Gen: шэрээгэй
+    шэрээ+N+Sg+Dat: шэрээда
+    шэрээ+N+Sg+Ins: шэрээаар
+    шэрээ+N+Sg+Com: шэрээтай
+    шэрээ+N+Sg+Abl: шэрээһаа
+    шэрээ+N+Pl+Nom: шэрээууд
+    шэрээ+N+Pl+Acc: шэрээууде
+    шэрээ+N+Pl+Gen: шэрээуудай
+    шэрээ+N+Pl+Dat: шэрээуудда
+    шэрээ+N+Pl+Ins: шэрээуудаар
+    шэрээ+N+Pl+Com: шэрээуудтай
+    шэрээ+N+Pl+Abl: шэрээуудһаа
+
+
+  Noun - бороо: # Low round vowel, long final vowel
+    бороо+N+Sg+Nom: бороо
+    бороо+N+Sg+Acc: бороое
+    бороо+N+Sg+Gen: бороогой
+    бороо+N+Sg+Dat: бороода
+    бороо+N+Sg+Ins: борооаар
+    бороо+N+Sg+Com: бороотай
+    бороо+N+Sg+Abl: борооһаа
+    бороо+N+Pl+Nom: борооууд
+    бороо+N+Pl+Acc: борооууде
+    бороо+N+Pl+Gen: борооуудай
+    бороо+N+Pl+Dat: борооуудда
+    бороо+N+Pl+Ins: борооуудаар
+    бороо+N+Pl+Com: борооуудтай
+    бороо+N+Pl+Abl: борооуудһаа
+
+
+  Noun - малгай: # Masculine vowel, final й
+    малгай+N+Sg+Nom: малгай
+    малгай+N+Sg+Acc: малгайе
+    малгай+N+Sg+Gen: малгайгай
+    малгай+N+Sg+Dat: малгайда
+    малгай+N+Sg+Ins: малгайаар
+    малгай+N+Sg+Com: малгайтай
+    малгай+N+Sg+Abl: малгайһаа
+    малгай+N+Pl+Nom: малгайууд
+    малгай+N+Pl+Acc: малгайууде
+    малгай+N+Pl+Gen: малгайуудай
+    малгай+N+Pl+Dat: малгайуудда
+    малгай+N+Pl+Ins: малгайуудаар
+    малгай+N+Pl+Com: малгайуудтай
+    малгай+N+Pl+Abl: малгайуудһаа
+
+
+  Noun - нохой: # Low round vowel, final й
+    нохой+N+Sg+Nom: нохой
+    нохой+N+Sg+Acc: нохойе
+    нохой+N+Sg+Gen: нохойгой
+    нохой+N+Sg+Dat: нохойда
+    нохой+N+Sg+Ins: нохойаар
+    нохой+N+Sg+Com: нохойтай
+    нохой+N+Sg+Abl: нохойһаа
+    нохой+N+Pl+Nom: нохойууд
+    нохой+N+Pl+Acc: нохойууде
+    нохой+N+Pl+Gen: нохойуудай
+    нохой+N+Pl+Dat: нохойуудда
+    нохой+N+Pl+Ins: нохойуудаар
+    нохой+N+Pl+Com: нохойуудтай
+    нохой+N+Pl+Abl: нохойуудһаа
+
+
+  Noun - Бээлэй: # Feminine vowel, final й
+    бээлэй+N+Sg+Nom: бээлэй
+    бээлэй+N+Sg+Acc: бээлэйе
+    бээлэй+N+Sg+Gen: бээлэйгэй
+    бээлэй+N+Sg+Dat: бээлэйда
+    бээлэй+N+Sg+Ins: бээлэйаар
+    бээлэй+N+Sg+Com: бээлэйтай
+    бээлэй+N+Sg+Abl: бээлэйһаа
+    бээлэй+N+Pl+Nom: бээлэйууд
+    бээлэй+N+Pl+Acc: бээлэйууде
+    бээлэй+N+Pl+Gen: бээлэйуудай
+    бээлэй+N+Pl+Dat: бээлэйуудда
+    бээлэй+N+Pl+Ins: бээлэйуудаар
+    бээлэй+N+Pl+Com: бээлэйуудтай
+    бээлэй+N+Pl+Abl: бээлэйуудһаа
+
+
+  Noun - толи: # Final и
+    толи+N+Sg+Nom: толи
+    толи+N+Sg+Acc: толие
+    толи+N+Sg+Gen: толиин
+    толи+N+Sg+Dat: толида
+    толи+N+Sg+Ins: толиаар
+    толи+N+Sg+Com: толитай
+    толи+N+Sg+Abl: толиһаа
+    толи+N+Pl+Nom: толиууд
+    толи+N+Pl+Acc: толиууде
+    толи+N+Pl+Gen: толиуудай
+    толи+N+Pl+Dat: толиуудда
+    толи+N+Pl+Ins: толиуудаар
+    толи+N+Pl+Com: толиуудтай
+    толи+N+Pl+Abl: толиуудһаа
+

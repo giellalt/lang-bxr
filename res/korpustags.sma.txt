@@ -1,0 +1,13 @@
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
+%                                                                              %
+%    List of morphological and syntactic tags used in the South Sámi corpus    %
+%                                                                              %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
+
+
+% Noun: N
+% Number: Sg|Pl
+% Case: Nom|Gen|Acc|Dat|Ins|Abl|Com
+% Possessive: -|PxSg1|PxSg2|PxSg3|PxPl1|PxPl2|PxPl3
+
+
