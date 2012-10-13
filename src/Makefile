@@ -6,11 +6,11 @@ XFST = xfst
 LEXC = lexc
 TWOLC = twolc
 
-ifeq (victorio.uit.no, $(shell hostname))
-XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
-LEXC = /opt/sami/xerox/bin/lexc -utf8
-TWOLC = /opt/sami/xerox/bin/twolc -utf8
-endif
+#ifeq (victorio.uit.no, $(shell hostname))
+#XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
+#LEXC = /opt/sami/xerox/bin/lexc -utf8
+#TWOLC = /opt/sami/xerox/bin/twolc -utf8
+#endif
 
 scripts=$(GTHOME)/gt/script
 
@@ -46,8 +46,8 @@ ibxr.fst: ../bin/ibxr.fst
 #				 ../bin/tok.fst \
 				 ../bin/abbr.txt \
 #            	 ../bin/allcaps.fst \
-            	 ../bin/bxr-dis.bin \
-            	 ../bin/bxr-dep.bin 
+		 ../bin/bxr-dis.bin \
+		 ../bin/bxr-dep.bin 
 #            	 ../bin/tagfix.fst
 	@echo
 	@echo "*** Building the inverse ibxr.fst ***"
