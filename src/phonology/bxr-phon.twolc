@@ -1,0 +1,164 @@
+Alphabet
+А Б В Г Д Е Ё Ж З И Й К Л М Н О Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
+а б в г д е ё ж з и й к л м н о ө п р с т у ү ф х һ ц ч ш щ ь ы ъ э ю я
+%^G:0 %^D:д %^A:а %^J:й %^V:a %>:0 а2:0 ;
+
+Sets
+
+Cns = Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Һ Ц Ч Ш Щ Ь Ъ 
+	  б в г д ж з й к л м н п р с т ф х һ ц ч ш щ ь ъ 
+	  %^D %^G %^J  ;
+Vow =     А Е Ё И О Ө У Ү Ы Э Ю Я
+          а е ё и о ө у ү ы э ю я 
+          %^A %^V ;
+FemVow = Э э Ө ө Ү ү  ;
+MscVow =   А а О о У у Я я Ё ё ;
+NeuVow =   И и Ы ы Е е Ю ю ;
+LowRndVow = О о Ё ё ; ! Ө ө Tentatively removing Ө ө since they are fem. 
+VowNotI = А О Ө У Ү Ы Э Ю
+          а о ө у ү ы э ю ;
+VowI = И и Я я Е е ;          
+
+
+HardCons = Б б Г г Р р С с Д д П п Т т К к ;
+
+SonCns = й р Й Р ;
+
+UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ  
+	                к п с т ф х ц ч ш щ ;
+
+VoicedNonSonCns = Б В Г Д Ж З Л М Н Ң 
+                  б в г д ж з л м н ң ;
+
+! These sets do not continue suffix borders.
+CnsFemVow = Cns NeuVow FemVow ;
+CnsMscVow = Cns NeuVow MscVow ;
+CnsNeuVow = Cns NeuVow NeuVow ;
+CnsLowRndVow = Cns NeuVow LowRndVow ;
+ 
+Rules
+
+"Labial Vowel Harmony"
+ %^A:о <=> LowRndVow CnsNeuVow:* Cns %>:  CnsNeuVow:* _ ; ! ?C>?_
+
+"Front Vowel Harmony"
+ %^A:э <=> FemVow CnsNeuVow:* Cns %>:  CnsNeuVow:* _ ; ! ?C>?_
+
+"Genitive After й and ы"
+ %^A:0 <=> Vow [ й | ы ] %>: %^G: _ %^J: ;  
+	
+"Genitive After и 1"
+ %^A:и <=> Cns Vx: %>: %^G: _ %^J: ;
+	where Vx in ( VowI ) ;
+
+
+"Short Vowel Deletion in Genitive"
+ Vx:0 <=> Cns _ %>: %^G: %^A: %^J: ;
+    where Vx in ( VowNotI ) ;
+
+"Genitive After Short Vowel 1"
+ %^A:ы <=> Cns Vx: %>: %^G: _ %^J: ;
+	where Vx in ( VowNotI ) ;
+	
+! "Genitive After Short Vowel 2"
+!  %^J:н <=> Cns Vx: %>: %^G: :ы _ [ .#. | %>: ] ;
+! 	where Vx in ( VowNotI ) ;
+
+"Final н in Genitive with и and ы 1"
+ %^J:н <=> Cns Vow: %>: %^G: [ :и | :ы ] _ [ .#. | %>: ] ;
+
+"Final н in Genitive with и and ы 2"
+ %^J:н <=> Cns Vow: [ й | ы ] %>: %^G: %^A: _ [ .#. | %>: ] ;
+
+
+"Stem Vowel for Genitive After и"
+ Vx:и <=> Cns _ %>: %^G: :и %^J: ;
+	where Vx in ( Я я Е е ) ;
+
+"Genitive After Long Vowel 1"
+ %^G:г <=> Vx: Vy: %>: _ %^A: %^J: ;  
+	where Vx in ( А А  Е Ё О Ө У Ү Э Ю Я Я  а а  е ё о ө у ү э ю я я  )
+		  Vy in ( А а2 Э О О Ө У Ү Э У А а2 а а2 э о о ө у ү э у а а2 )
+		  matched ;
+		  
+"Genitive After Long Vowel 2"
+ %^A:Vz <=> Vx: Vy: %>: %^G: _ %^J: ;  
+	where Vx in ( А А  Е Ё О Ө У Ү Э Ю Я Я  а а  е ё о ө у ү э ю я я  )
+		  Vy in ( А а2 Э О О Ө У Ү Э У А а2 а а2 э о о ө у ү э у а а2 )
+		  Vz in ( А А  Э О О Э А Э Э А А А  а а  э о о э а э э а а я  )
+		  matched ;
+		  
+"Consonant after Unvoiced Consonant"
+ %^D:т <=> UnvoicedNonSonCns %>: _ ;
+
+!"Vowel Copying"
+! %^V:Vx <=> Vx: _ (Cns) %>: %^D: _ .#. ;
+!	where Vw in Vow ;
+
+
+! "Front Harmony in Suffixes"
+! Vx:э <=> FrontUnrndVow: CnsFrontUnrndVowSB:* Cns %>:     CnsFrontUnrndVow:* _ ; !  ?C>?_
+!           FrontUnrndVow: CnsFrontUnrndVowSB:*     %>: Cns CnsFrontUnrndVow:* _ ; !   ?>C_
+! 	where Vx in ( %^A %^I )
+! 	      Vy in (   е     и   )
+! 	      matched ; 
+
+! "Suffix Vow deletion in V-stems"
+! %^I:0 <=> Vow %>: _ ;
+! 
+! 
+! 
+! "Front Rnd harmony in suffixes"
+! Vx:Vy <=> FrontRndVow: CnsFrontRndVowSB:* Cns %>:     CnsFrontRndVow:* _ ; ! ?C>?_
+!           FrontRndVow: CnsFrontRndVowSB:*     %>: Cns CnsFrontRndVow:* _ ; !  ?>C_
+! 	where Vx in ( %^A %^I )
+! 	      Vy in (   ө     ү   )
+! 	      matched ;
+! 
+! 
+! "Back Low Rnd harmony in suffixes"
+!  %^A:о <=> BackLowRndVow: CnsBackLowRndVow:* Cns %>:     CnsBackLowRndVow:* _ ; ! ?C>?_
+!              BackLowRndVow: CnsBackLowRndVow:*     %>: Cns CnsBackLowRndVow:* _ ; !  ?>C_
+! 
+! 
+! "Back High Rnd harmony in suffixes"
+! %^I:у <=> BackRndVow: CnsBackRndVowSB:* Cns %>:     CnsBackRndVow:* _ ; ! ?C>?_
+!             BackRndVow: CnsBackRndVowSB:*     %>: Cns CnsBackRndVow:* _ ; !  ?>C_
+! 
+! 
+! "L Desonorisation"
+! %^L:д <=> VoicedNonSonCns %>:  _ ;
+! 
+! "N Desonorisation"
+! %^N:д <=> [ SonCns | VoicedNonSonCns ] %>:  _ ;
+! 
+! "L Desonorisation and Devoicing"
+! Cx:т <=> UnvoicedNonSonCns %>: _ ;
+! 	where Cx in ( %^L %^N ) ;
+! 
+! "Katkalan harmony in consonants 2"
+! %^G:к <=> UnvoicedNonSonCns %>: _ ;
+! 
+! "Katkalan harmony in consonants 1"
+! %^D:т <=> UnvoicedNonSonCns %>: _ ;
+! 
+! "Мягкий знак deletion before suffix"
+! ь:0 <=> _ %>: ; 
+! 
+! "Realisation of converb marker after vowels"
+! %^AJ:й <=> Vow %>: _ ;
+! 
+! ! ndt	N
+! ! ldt	L
+! ! gk	G
+! ! dt	D
+! ! mbp	M
+! 
+
+
+! These three sets include the suffix border, and accounts for long-distance VH
+! CnsFemVowSB = Cns NeuVow FemVow %> ;
+! CnsMscVowSB = Cns NeuVow MscVow %> ;
+! CnsNeuVowSB = Cns NeuVow NeuVow %> ;
+! CnsLowRndVowSB = Cns NeuVow LowRndVow %> ;
+
