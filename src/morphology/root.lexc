@@ -1,28 +1,61 @@
 Multichar_Symbols
 
 ! POS
-+N +V +A 
-+Adv +CC +CS +Interj +Pron +Num
++N	     !!= * @CODE@ 
++V	     !!= * @CODE@ 
++A	     !!= * @CODE@ 
+	     !!= * @CODE@ 
++Adv     !!= * @CODE@ 
++CC	     !!= * @CODE@ 
++CS	     !!= * @CODE@ 
++Interj  !!= * @CODE@ 
++Pron    !!= * @CODE@ 
++Num     !!= * @CODE@ 
 
 ! Verbal MSP
-+Prs +Fut +Prt +Prf 
-+Ind +Imp +Cond +Opt
-+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
-+Inf
-+Pos +Neg +ConNeg
++Prs    !!= * @CODE@ 
++Fut    !!= * @CODE@ 
++Prt    !!= * @CODE@ 
++Prf    !!= * @CODE@ 
++Ind    !!= * @CODE@ 
++Imp    !!= * @CODE@ 
++Cond   !!= * @CODE@ 
++Opt    !!= * @CODE@ 
++Sg1    !!= * @CODE@ 
++Sg2    !!= * @CODE@ 
++Sg3    !!= * @CODE@ 
++Pl1    !!= * @CODE@ 
++Pl2    !!= * @CODE@ 
++Pl3    !!= * @CODE@ 
++Inf    !!= * @CODE@ 
++Pos    !!= * @CODE@ 
++Neg    !!= * @CODE@ 
++ConNeg !!= * @CODE@ 
 
 ! Nominal MSP
-+Sg +Pl
-+Nom +Acc +Gen +Abl +Dat +Ins +Com 
-+Ord
-+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
++Sg	    !!= * @CODE@ 
++Pl	    !!= * @CODE@ 
++Nom    !!= * @CODE@ 
++Acc    !!= * @CODE@ 
++Gen    !!= * @CODE@ 
++Abl    !!= * @CODE@ 
++Dat    !!= * @CODE@ 
++Ins    !!= * @CODE@ 
++Com    !!= * @CODE@ 
++Ord    !!= * @CODE@ 
++PxSg1  !!= * @CODE@ 
++PxSg2  !!= * @CODE@ 
++PxSg3  !!= * @CODE@ 
++PxPl1  !!= * @CODE@ 
++PxPl2  !!= * @CODE@ 
++PxPl3  !!= * @CODE@ 
 
 %^G %^A %^J %^D %^V
 
-а2
+а2 !!= * @CODE@ 
 
 
-! Key lexicon
+!! Key lexicon
 
 LEXICON Root
 
