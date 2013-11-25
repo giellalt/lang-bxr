@@ -1,4 +1,12 @@
-$Rev: 83976 $
+$Rev: 84086 $
+Added a rule to generate phonology documentation from xfscript, not 
+only from twolc.
+
+r83997:
+Only build one file of tags, using hfst or xfst depending on the configuration.
+Extract semantic tags.
+
+r83976:
 Reverted a change to hfst lexc compilation - the -f option doesn't work.
 
 r83961:
