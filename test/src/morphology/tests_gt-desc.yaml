@@ -1,10 +1,11 @@
 Config:
   hfst:
-    Gen: ../st/bxr/bin/ibxr.hfstol
-    Morph: ../st/bxr/bin/bxr.hfstol
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
   xerox:
-    Gen: ../st/bxr/bin/ibxr.fst
-    Morph: ../st/bxr/bin/bxr.fst
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
 
 Tests:
   Noun - гар: # Masculine vowel, Cns final
@@ -96,7 +97,6 @@ Tests:
     шэрээ+N+Pl+Com: шэрээуудтай
     шэрээ+N+Pl+Abl: шэрээуудһаа
 
-
   Noun - бороо: # Low round vowel, long final vowel
     бороо+N+Sg+Nom: бороо
     бороо+N+Sg+Acc: бороое
@@ -112,7 +112,6 @@ Tests:
     бороо+N+Pl+Ins: борооуудаар
     бороо+N+Pl+Com: борооуудтай
     бороо+N+Pl+Abl: борооуудһаа
-
 
   Noun - малгай: # Masculine vowel, final й
     малгай+N+Sg+Nom: малгай
@@ -130,7 +129,6 @@ Tests:
     малгай+N+Pl+Com: малгайуудтай
     малгай+N+Pl+Abl: малгайуудһаа
 
-
   Noun - нохой: # Low round vowel, final й
     нохой+N+Sg+Nom: нохой
     нохой+N+Sg+Acc: нохойе
@@ -146,7 +144,6 @@ Tests:
     нохой+N+Pl+Ins: нохойуудаар
     нохой+N+Pl+Com: нохойуудтай
     нохой+N+Pl+Abl: нохойуудһаа
-
 
   Noun - Бээлэй: # Feminine vowel, final й
     бээлэй+N+Sg+Nom: бээлэй
@@ -164,7 +161,6 @@ Tests:
     бээлэй+N+Pl+Com: бээлэйуудтай
     бээлэй+N+Pl+Abl: бээлэйуудһаа
 
-
   Noun - толи: # Final и
     толи+N+Sg+Nom: толи
     толи+N+Sg+Acc: толие
@@ -180,4 +176,3 @@ Tests:
     толи+N+Pl+Ins: толиуудаар
     толи+N+Pl+Com: толиуудтай
     толи+N+Pl+Abl: толиуудһаа
-
