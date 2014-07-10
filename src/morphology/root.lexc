@@ -1,58 +1,58 @@
 Multichar_Symbols
 
 ! POS
-+N	     !!= * @CODE@ 
-+V	     !!= * @CODE@ 
-+A	     !!= * @CODE@ 
-	     !!= * @CODE@ 
-+Adv     !!= * @CODE@ 
-+CC	     !!= * @CODE@ 
-+CS	     !!= * @CODE@ 
-+Interj  !!= * @CODE@ 
-+Pron    !!= * @CODE@ 
-+Num     !!= * @CODE@ 
++N	     !!= * @CODE@
++V	     !!= * @CODE@
++A	     !!= * @CODE@
+	     !!= * @CODE@
++Adv     !!= * @CODE@
++CC	     !!= * @CODE@
++CS	     !!= * @CODE@
++Interj  !!= * @CODE@
++Pron    !!= * @CODE@
++Num     !!= * @CODE@
 
 ! Verbal MSP
-+Prs    !!= * @CODE@ 
-+Fut    !!= * @CODE@ 
-+Prt    !!= * @CODE@ 
-+Prf    !!= * @CODE@ 
-+Ind    !!= * @CODE@ 
-+Imp    !!= * @CODE@ 
-+Cond   !!= * @CODE@ 
-+Opt    !!= * @CODE@ 
-+Sg1    !!= * @CODE@ 
-+Sg2    !!= * @CODE@ 
-+Sg3    !!= * @CODE@ 
-+Pl1    !!= * @CODE@ 
-+Pl2    !!= * @CODE@ 
-+Pl3    !!= * @CODE@ 
-+Inf    !!= * @CODE@ 
-+Pos    !!= * @CODE@ 
-+Neg    !!= * @CODE@ 
-+ConNeg !!= * @CODE@ 
++Prs    !!= * @CODE@
++Fut    !!= * @CODE@
++Prt    !!= * @CODE@
++Prf    !!= * @CODE@
++Ind    !!= * @CODE@
++Imp    !!= * @CODE@
++Cond   !!= * @CODE@
++Opt    !!= * @CODE@
++Sg1    !!= * @CODE@
++Sg2    !!= * @CODE@
++Sg3    !!= * @CODE@
++Pl1    !!= * @CODE@
++Pl2    !!= * @CODE@
++Pl3    !!= * @CODE@
++Inf    !!= * @CODE@
++Pos    !!= * @CODE@
++Neg    !!= * @CODE@
++ConNeg !!= * @CODE@
 
 ! Nominal MSP
-+Sg	    !!= * @CODE@ 
-+Pl	    !!= * @CODE@ 
-+Nom    !!= * @CODE@ 
-+Acc    !!= * @CODE@ 
-+Gen    !!= * @CODE@ 
-+Abl    !!= * @CODE@ 
-+Dat    !!= * @CODE@ 
-+Ins    !!= * @CODE@ 
-+Com    !!= * @CODE@ 
-+Ord    !!= * @CODE@ 
-+PxSg1  !!= * @CODE@ 
-+PxSg2  !!= * @CODE@ 
-+PxSg3  !!= * @CODE@ 
-+PxPl1  !!= * @CODE@ 
-+PxPl2  !!= * @CODE@ 
-+PxPl3  !!= * @CODE@ 
++Sg	    !!= * @CODE@
++Pl	    !!= * @CODE@
++Nom    !!= * @CODE@
++Acc    !!= * @CODE@
++Gen    !!= * @CODE@
++Abl    !!= * @CODE@
++Dat    !!= * @CODE@
++Ins    !!= * @CODE@
++Com    !!= * @CODE@
++Ord    !!= * @CODE@
++PxSg1  !!= * @CODE@
++PxSg2  !!= * @CODE@
++PxSg3  !!= * @CODE@
++PxPl1  !!= * @CODE@
++PxPl2  !!= * @CODE@
++PxPl3  !!= * @CODE@
 
 %^G %^A %^J %^D %^V
 
-а2 !!= * @CODE@ 
+а2 !!= * @CODE@
 
 
 !! Key lexicon
