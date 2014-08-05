@@ -15,10 +15,10 @@ Tests:
 # а б в г д е ё ж з и й к л м н о п р с т у ф х ц 
 # ч ш щ ъ ы ь э ю я ҥ
 
-# The test sample is now replaced with real strings from
-# the language in question:
+# The test sample is now replaced with strings containing letters from
+# the alphabet of the language in question:
   Optional Initial Upper:
     москва: [москва, Москва]
     заряа: [заряа, Заряа]
-#    тэргэ: [тЭргэ, ТЭргэ]
+    тЭргэ: [тЭргэ, ТЭргэ]
     тоЛИ: [тоЛИ, ТоЛИ]
