@@ -301,18 +301,16 @@ CARDINAL ;
 ORDINAL ;
 
 LEXICON CARDINAL
-akte:1 COMMA ;
-göökte:2 COMMA ;
-golme:3 COMMA ;
-njieljie:4 COMMA ;
-njielje+Use/NG:4 COMMA ;
-nieljie+Use/NG:4 COMMA ;  
-nielje+Use/NG:4 COMMA ; 
-vïjhte:5 COMMA ;
-govhte:6 COMMA ;
-tjïjhtje:7 COMMA ;
-gaektsie:8 COMMA ;
-uktsie:9 COMMA ;
+нэгэ  :1 COMMA ;
+хоёр  :2 COMMA ;
+гурба :3 COMMA ;
+дүрбэ :4 COMMA ;
+таба  :5 COMMA ;
+зургаа:6 COMMA ; 
+долоо :7 COMMA ;
+найма :8 COMMA ;
+юһэ   :9 COMMA ;
+!10 = арба : COMMA ;
 
 LEXICON ORDINAL
 voestes:1%.     COMMA ;
