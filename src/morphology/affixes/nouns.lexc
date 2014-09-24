@@ -1,12 +1,12 @@
 LEXICON numlex
 +N+Sg:  caselex ;
-+N+Pl:ууд caselex ;
++N+Pl:%>ууд caselex ;
 
 LEXICON caselex
 +Nom: # ;
-+Acc:%>е # ;
++Acc:%>ые # ;
 +Gen:%>%^G%^A%^J # ;
-+Dat:%>%^D%^V # ;
-+Ins:%>аар # ;
-+Com:%>тай # ;
-+Abl:%>һаа # ;
++Dat:%>%^D%^A # ;
++Ins:%>%^A%^Aр # ;
++Com:%>т%^Aй # ;
++Abl:%>һ%^A%^A # ;
