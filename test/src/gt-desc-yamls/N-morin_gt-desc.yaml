@@ -1,0 +1,26 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+  Noun - морин: # 'horse' Neuter vowel, Cns final
+    морин+N+Sg+Nom: морин
+    морин+N+Sg+Acc: мориие
+    морин+N+Sg+Gen: мориной
+    морин+N+Sg+Dat: мориндо
+    морин+N+Sg+Ins: морёор
+    морин+N+Sg+Com: моринтой
+    морин+N+Sg+Abl: моринһоо
+    морин+N+Pl+Nom: морид
+    морин+N+Pl+Acc: моридые
+    морин+N+Pl+Gen: моридой
+    морин+N+Pl+Dat: моридто
+    морин+N+Pl+Ins: моридоор
+    морин+N+Pl+Com: моридтой
+    морин+N+Pl+Abl: моридһоо
+

@@ -1,7 +1,8 @@
 Alphabet
 А Б В Г Д Е Ё Ж З И Й К Л М Н О Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
 а б в г д е ё ж з и й к л м н о ө п р с т у ү ф х һ ц ч ш щ ь ы ъ э ю я
-%^G:0 %^D:д %^A:а %^J:й %^V:a %>:0 а2:0 ;
+%^G:0 %^D:д %^A:а %^J:й %^V:a а2:0 
+ %> ;
 
 Sets
 
@@ -30,6 +31,8 @@ UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ
 VoicedNonSonCns = Б В Г Д Ж З Л М Н Ң 
                   б в г д ж з л м н ң ;
 
+Dummies = %^G %^D %^A %^V ;
+
 ! These sets do not continue suffix borders.
 CnsFemVow = Cns NeuVow FemVow ;
 CnsMscVow = Cns NeuVow MscVow ;
@@ -39,10 +42,14 @@ CnsLowRndVow = Cns NeuVow LowRndVow ;
 Rules
 
 "Labial Vowel Harmony"
- %^A:о <=> LowRndVow CnsNeuVow:* Cns %>:  CnsNeuVow:* _ ; ! ?C>?_
+ %^A:о <=> LowRndVow CnsNeuVow:* Cns %>:  CnsNeuVow:* (%^A:) _ ; ! ?C>?_
+ 	LowRndVow CnsNeuVow:* Cns %> %^D: _ ; 
+
+!€# морин%>ууд%>%^D%^A
+!€0 мори0000д0то
 
 "Front Vowel Harmony"
- %^A:э <=> FemVow CnsNeuVow:* Cns %>:  CnsNeuVow:* _ ; ! ?C>?_
+ %^A:э <=> FemVow CnsNeuVow:* Cns %>:  CnsNeuVow:* (%^A:) _ ; ! ?C>?_
 
 "Genitive After й and ы"
  %^A:0 <=> Vow [ й | ы ] %>: %^G: _ %^J: ;  
@@ -55,6 +62,22 @@ Rules
 "Short Vowel Deletion in Genitive"
  Vx:0 <=> Cns _ %>: %^G: %^A: %^J: ;
     where Vx in ( VowNotI ) ;
+
+!! Vowel loss
+"ы to 0"
+ы:0 <=> й %> _ е ;
+
+"%^A to 0"
+ %^A:0 <=> [ о | ё ] Cns+ Vow: н: %> _ %^A: ; 
+!€# морин%>%^A%^Aр
+!€0 морё000ор
+
+"у to 0"
+ у:0 <=> и н: %> _ у: д ;
+         и н: %> у: _ д ;
+!€# морин%>ууд
+!€0 мори0000д
+
 
 "Genitive After Short Vowel 1"
  %^A:ы <=> Cns Vx: %>: %^G: _ %^J: ;
@@ -75,21 +98,60 @@ Rules
  Vx:и <=> Cns _ %>: %^G: :и %^J: ;
 	where Vx in ( Я я Е е ) ;
 
+"ы to и after surface и"
+ ы:и <=> :и (н:0) %> _ е ;
+
+"и to ё "
+и:ё <=> р _ н: %> %^A: %^A: р ;
+!€# морин%>%^A%^Aр
+!€0 морё000ор
+
 "Genitive After Long Vowel 1"
  %^G:г <=> Vx: Vy: %>: _ %^A: %^J: ;  
 	where Vx in ( А А  Е Ё О Ө У Ү Э Ю Я Я  а а  е ё о ө у ү э ю я я  )
 		  Vy in ( А а2 Э О О Ө У Ү Э У А а2 а а2 э о о ө у ү э у а а2 )
 		  matched ;
 		  
+
+
 "Genitive After Long Vowel 2"
  %^A:Vz <=> Vx: Vy: %>: %^G: _ %^J: ;  
-	where Vx in ( А А  Е Ё О Ө У Ү Э Ю Я Я  а а  е ё о ө у ү э ю я я  )
-		  Vy in ( А а2 Э О О Ө У Ү Э У А а2 а а2 э о о ө у ү э у а а2 )
-		  Vz in ( А А  Э О О Э А Э Э А А А  а а  э о о э а э э а а я  )
+	where Vx in ( А А  Е Ё О Ө У Ү Э Ю Я Я  а а  е ё ө у ү э ю я я  )
+		  Vy in ( А а2 Э О О Ө У Ү Э У А а2 а а2 э о ө у ү э у а а2 )
+		  Vz in ( А А  Э О О Э А Э Э А А А  а а  э о э а э э а а я  )
 		  matched ;
+
+"Genitive After Long Vowel 2 %^A to о"
+ %^A:о <=> о: о: %> %^G: _ %^J: ;
+           [ о | ё ] Cns+ Vow: (н:) %> :0* д %> [ %^G: | %^D: | т | һ ]  _  ; 
+           [ о | ё ] Cns+ Vow: (н:) %> :0* д %> һ  %^A: _  ; 
+       
+!€# морин%>ууд%>%^G%^A%^J
+!€0 мори0000д00ой
+
+           [ о | ё ] Cns+ Vow: (н:) %> %^A: _ ; 
+!€# морин%>%^A%^Aр
+!€0 морё000ор
+
 		  
 "Consonant after Unvoiced Consonant"
  %^D:т <=> UnvoicedNonSonCns %>: _ ;
+!€# морин%>ууд%>%^D%^A
+!€0 мори0000д0то
+
+
+!! CONSONANT LOSS
+"final н loss"
+н:0 <=> Vow: _ %> [ ы: е | %^A: %^A: р | у: у: д ] ;
+!€# морин%>%^A%^Aр
+!€0 морё000ор
+
+!€# морин%>ууд
+!€0 мори0000д
+
+"%^G to 0"
+ %^G:0 <=> Cns %> _ ;
+
 
 !"Vowel Copying"
 ! %^V:Vx <=> Vx: _ (Cns) %>: %^D: _ .#. ;
