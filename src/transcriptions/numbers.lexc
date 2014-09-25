@@ -1,5 +1,17 @@
+!Distributed under the terms of the GNU General Public License version 2
+! or any later version.
+
+Multichar_Symbols
+
++Use/NG
++Use/NA
++Use/SpellNoSugg
 
 LEXICON Root
+CARDINAL ;
+!ORDINAL
+
+LEXICON CARDINAL
 HUNDREDSM ;		! 200M
 зуу% :1 HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
@@ -131,9 +143,9 @@ LEXICON TENST
 ерэн% :9 THOUSANDSS ;
 
 LEXICON THOUSANDSS
-нэгэн% :1 THOUSANDS ;
-:%0 THOUSANDS ;
-!:1 THOUSAND ;
+!нэгэн% :1 THOUSANDS ;
+!:%0 THOUSANDS ;
+:1 THOUSANDS ;
 : ONEST ;
 
 LEXICON ONEST
@@ -148,6 +160,7 @@ LEXICON ONEST
 
 LEXICON THOUSANDS      ! x > 1
 мянга% : THOUSAND ;
+мянга:%0%0%0%- ORDINAL_A ;
 
 LEXICON THOUSAND
 UNDERTHOUSAND ;	   ! 1100-1999
@@ -176,18 +189,28 @@ LEXICON HUNDREDS
 LEXICON HUNDRED
 зуун% : TENS ;
 зуун% :%0 ONES ;
-:%0%0 # ;
+зуу:%0%0 # ;
+зуу:%0%0%-  ORDINAL_A ;
 
 LEXICON TENS
 арба:1 TEN ;
+арба:1%0%-  ORDINAL_A ;
 хори:2 TEN ;
+хори:2%0%-  ORDINAL_O ;
 гуша:3 TEN ;
+гуша:3%0%-  ORDINAL_A ;
 дүшэ:4 TEN ;
+дүшэ:4%0%-  ORDINAL_E ;
 таби:5 TEN ;
+таби:5%0%-  ORDINAL_A ;
 жара:6 TEN ;
+жара:6%0%-  ORDINAL_A ;
 дала:7 TEN ;
+дала:7%0%-  ORDINAL_A ;
 ная:8 TEN ;
+ная:8%0%-  ORDINAL_A ;
 ерэ:9 TEN ;
+ерэ:9%0%-  ORDINAL_E ;
 
 LEXICON TEN
 :%0 # ;
@@ -195,12 +218,29 @@ LEXICON TEN
 
 LEXICON ONES
 нэгэ:1 # ;
+нэгэ:1%- ORDINAL_E ;
 хоёр:2 # ;
+хоёр:2%-  ORDINAL_O ;
 гурба:3 # ;
+гурба:3%-  ORDINAL_A ;
 дүрбэ:4 # ;
+дүрбэ:4%- ORDINAL_E ;
 таба:5 # ;
+таба:5%-  ORDINAL_A ;
 зургаа:6 # ;
+зургаа:6%-  ORDINAL_A ;
 долоо:7 # ;
+долоо:7%-  ORDINAL_O ;
 найма:8 # ;
+найма:8%-  ORDINAL_A ;
 юһэ:9 # ;
+юһэ:9%- ORDINAL_E ;
 
+LEXICON ORDINAL_E
+дэхи:хи # ;
+
+LEXICON ORDINAL_O
+дохи:хи # ;
+
+LEXICON ORDINAL_A
+дахи:хи # ;
