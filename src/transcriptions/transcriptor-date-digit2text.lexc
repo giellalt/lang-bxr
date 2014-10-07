@@ -13,12 +13,12 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ==================== !
-! The South Sámi dates !
+! The Template dates !
 ! ==================== !
 
 
 ! 12.8.
-! Borgemánu 12. b.
+! Month.Gen 12. b.
 ! Borgemánu guoktenuppelot beaivi
 
 Multichar_Symbols
@@ -45,9 +45,6 @@ LEXICON Root
 
 @U.MONTH.1@:tsïengelen%_@U.MONTH.1@ 31DAYS ;
 @U.MONTH.1@+Use/NG:garretsïengelen%_@U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:garre-tsïengelen%_@U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:orrejaepienasken%_@U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:orrejaepien-asken%_@U.MONTH.1@ 31DAYS ;
 
 @U.MONTH.1@+Use/NG:Tsïengelen%_@U.MONTH.1@ 31DAYS ;
 @U.MONTH.1@+Use/NG:Garretsïengelen%_@U.MONTH.1@ 31DAYS ;
