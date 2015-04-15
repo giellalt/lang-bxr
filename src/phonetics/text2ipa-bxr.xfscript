@@ -72,23 +72,43 @@ define Syll Cns* Vow+ (ː) Cns*  ;
 echo << Rules>>
 
 define down [ А -> а ,
- Б -> б ,  В -> в ,  Г -> г ,  Д -> д ,  Е -> е ,  Ё -> ё ,  Ж -> ж ,  З -> з ,  И -> и ,  
- Й -> й ,  К -> к ,  Л -> л ,  М -> м ,  Н -> н ,  О -> о ,  Ө -> ө ,  П -> п ,  Р -> р ,  
- С -> с ,  Т -> т ,  У -> у ,  Ү -> ү ,  Ф -> ф ,  Х -> х ,  Һ -> һ ,  Ц -> ц ,  Ч -> ч ,  
- Ш -> ш ,  Щ -> щ ,  Ь -> ь ,  Ы -> ы ,  Ъ -> ъ ,  Э -> э ,  Ю -> ю , Я -> я  ] ;
+ Б -> б ,  В -> в ,  Г -> г ,  Д -> д ,  Е -> е ,  
+ Ё -> ё ,  Ж -> ж ,  З -> з ,  И -> и ,  
+ Й -> й ,  К -> к ,  Л -> л ,  М -> м ,  
+ Н -> н ,  О -> о ,  Ө -> ө ,  П -> п ,  Р -> р ,  
+ С -> с ,  Т -> т ,  У -> у ,  Ү -> ү ,  Ф -> ф ,  
+ Х -> х ,  Һ -> һ ,  Ц -> ц ,  Ч -> ч ,  
+ Ш -> ш ,  Щ -> щ ,  Ь -> ь ,  Ы -> ы ,  
+ Ъ -> ъ ,  Э -> э ,  Ю -> ю , Я -> я  ] ;
 
 echo << cyr 2 ipa >>
 
 define cyr2ipa [ а -> a ,
- б -> b ,  в -> v ,  г -> g ,  д -> d ,  е -> j e ,  ё -> j o ,  ж -> ʒ ,  з -> z ,  и -> i ,  
- й -> j ,  к -> k ,  л -> l ,  м -> m ,  н -> n ,  о -> o ,  ө -> ɵ ,  п -> p ,  р -> r ,  
- с -> s ,  т -> t ,  у -> u ,  ү -> ʊ ,  ф -> f ,  х -> χ ,  һ -> huni ,  ц -> t s ,  ч -> ʧ ,  
- ш -> ʃ ,  щ -> ʃ ˊ,  ь -> 0 ,  ы -> ɨ ,  ъ -> 0 ,  э -> e ,  ю -> j u , я -> j a ] ;
+ б -> b ,  в -> v ,  г -> g ,  д -> d ,  е -> j e ,  
+ ё -> j o ,  ж -> ʒ ,  з -> z ,  и -> i ,  
+ й -> j ,  к -> k ,  л -> l ,  м -> m ,  н -> n ,  
+ о -> o ,  ө -> ɵ ,  п -> p ,  р -> r ,  
+ с -> s ,  т -> t ,  у -> u ,  ү -> ʊ ,  ф -> f ,  
+ х -> χ ,  һ -> h ,  ц -> t s ,  ч -> ʧ ,  
+ ш -> ʃ ,  щ -> ʃ ˊ,  ь -> 0 ,  ы -> ɨ ,  ъ -> 0 ,  
+ э -> e ,  ю -> j u , я -> j a ] ;
 
+echo << the prav ruleset >>
 
-define prav1 o -> ɔ || .#. (Cns) _ ;
+define pravOJ o j -> œ ɛ ;
+define pravO o -> ɔ || .#. (Cns) _ ;
 define prav2 n -> ŋ || _ .#. ;
 define prav3 a j -> ɛ ː ;
+define prav4 f -> g ;
+define prav7 a a -> x ;
+define prav8 i i -> x ;
+define prav9 u u -> x ;
+define prav11 e e -> x ;
+!define prav12 
+!define prav13
+!define prav14
+!define prav15
+!define prav16
 
 
 echo << And now we go for IPA OUTPUTFORMAT >>
@@ -103,7 +123,7 @@ define COLONLENGTH   ɑ ɑ -> ɑ ː , e e -> e ː , i i -> i ː , o o -> o ː , 
                      s s -> s ː , t t -> t ː , ʃ ʃ -> ʃ ː , v v -> v ː ,
                     l̥ l̥  -> l̥ ː , r̥ r̥  -> r̥ ː , m̥ m̥ -> m̥ ː , n̥ n̥ -> n̥ ː , 
                     ŋ̊ ŋ̊ -> ŋ̊ ː , v̥ v̥ -> v̥ ː ,
-                     ŋ ŋ -> ŋ ː ,
+                     ŋ ŋ -> ŋ ː , ʊ ʊ -> ʊ  ː ,
                      a a -> ɑ ː ;
 
 ! Cleaning up
@@ -114,9 +134,17 @@ echo <<Combining...>>
 read regex [ 
     down 
 .o. cyr2ipa
-.o. prav1
+.o. pravOJ
+.o. pravO
 .o. prav2
 .o. prav3
+!.o. prav4
+!.o. prav5
+!.o. prav6
+!.o. prav7
+!.o. prav8
+!.o. prav9
+!.o. prav11
 !.o. OUTPUTFORMAT
 .o. COLONLENGTH
 
