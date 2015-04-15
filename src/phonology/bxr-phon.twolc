@@ -30,7 +30,7 @@ UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ
 VoicedNonSonCns = Б В Г Д Ж З Л М Н Ң 
                   б в г д ж з л м н ң ;
 
-Dummies = %{F%} %{D%} %{A%} %%{V%} ;
+Dummies = %{F%} %{D%} %{A%} %{V%} ;
 
 ! These sets do not continue suffix borders.
 CnsFemVow = Cns NeuVow FemVow ;
@@ -125,7 +125,7 @@ Rules
            [ о | ё ] Cns+ Vow: (н:) %> :0* д %> ( %{F%}: | %{D%}: | т | һ )  _  ; 
            [ о | ё ] Cns+ Vow: (н:) %> :0* д %> ( һ )  %{A%}: _  ; 
        
-!€# морин>ууд>{G}{A}^J
+!€# морин>ууд>{G}{A}{J}
 !€0 мори0>00д>0ой
 !€# морин>ууд>{D}{A}
 !€0 мори0>00д>то
