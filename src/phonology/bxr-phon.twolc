@@ -30,7 +30,7 @@ UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ
 VoicedNonSonCns = Б В Г Д Ж З Л М Н Ң 
                   б в г д ж з л м н ң ;
 
-Dummies = %^G %^D %^A %^V ;
+Dummies = %{F%} %{D%} %{A%} %%{V%} ;
 
 ! These sets do not continue suffix borders.
 CnsFemVow = Cns NeuVow FemVow ;
@@ -43,7 +43,7 @@ Rules
 "Labial Vowel Harmony"
  %{A%}:о <=> LowRndVow CnsNeuVow:* Cns %>:  [CnsNeuVow:* - %{G%}:] _ ; ! ?C>?_
 
-!€# морин>ууд>^D^A
+!€# морин>ууд>{D}{A}
 !€0 мори0>00д>то
 
 "Front Vowel Harmony"
@@ -65,9 +65,9 @@ Rules
 "ы to 0"
 ы:0 <=> й %> _ е ;
 
-"%^A to 0"
- %^A:0 <=> [ о | ё ] Cns+ Vow: н: %> _ %^A: ; 
-!€# морин>^A^Aр
+"%{A%} to 0"
+ %{A%}:0 <=> [ о | ё ] Cns+ Vow: н: %> _ %{A%}: ; 
+!€# морин>{A}{A}р
 !€0 морё0>0ор
 
 "у to 0"
@@ -100,8 +100,8 @@ Rules
  ы:и <=> :и (н:0) %> _ е ;
 
 "и to ё "
-и:ё <=> р _ н: %> %^A: %^A: р ;
-!€# морин>^A^Aр
+и:ё <=> р _ н: %> %{A%}: %{A%}: р ;
+!€# морин>{A}{A}р
 !€0 морё0>0ор
 
 "Genitive After Long Vowel 1"
@@ -120,18 +120,18 @@ Rules
 		  Vz in ( А А  Э О О Э А Э Э А А А  а а  э о э а э э а а я  )
 		  matched ;
 
-"Genitive After Long Vowel 2 %^A to о"
- %^A:о <=> о: о: %> %^G: _ %^J: ;
-           [ о | ё ] Cns+ Vow: (н:) %> :0* д %> ( %^G: | %^D: | т | һ )  _  ; 
-           [ о | ё ] Cns+ Vow: (н:) %> :0* д %> ( һ )  %^A: _  ; 
+"Genitive After Long Vowel 2 %{A%} to о"
+ %{A%}:о <=> о: о: %> %{F%}: _ %{J%}: ;
+           [ о | ё ] Cns+ Vow: (н:) %> :0* д %> ( %{F%}: | %{D%}: | т | һ )  _  ; 
+           [ о | ё ] Cns+ Vow: (н:) %> :0* д %> ( һ )  %{A%}: _  ; 
        
-!€# морин>ууд>^G^A^J
+!€# морин>ууд>{G}{A}^J
 !€0 мори0>00д>0ой
-!€# морин>ууд>^D^A
+!€# морин>ууд>{D}{A}
 !€0 мори0>00д>то
 
-           [ о | ё ] Cns+ Vow: (н:) %> %^A: _ ; 
-!€# морин>^A^Aр
+           [ о | ё ] Cns+ Vow: (н:) %> %{A%}: _ ; 
+!€# морин>{A}{A}р
 !€0 морё0>0ор
 
 		  
@@ -141,15 +141,15 @@ Rules
 
 !! CONSONANT LOSS
 "final н loss"
-н:0 <=> Vow: _ %> [ ы: е | %^A: %^A: р | у: у: д ] ;
-!€# морин>^A^Aр
+н:0 <=> Vow: _ %> [ ы: е | %{A%}: %{A%}: р | у: у: д ] ;
+!€# морин>{A}{A}р
 !€0 морё0>0ор
 
 !€# морин>ууд
 !€0 мори0>00д
 
-"%^G to 0"
- %^G:0 <=> Cns %> _ ;
+"%{F%} to 0"
+ %{F%}:0 <=> Cns %> _ ;
 
 
 !"Vowel Copying"
