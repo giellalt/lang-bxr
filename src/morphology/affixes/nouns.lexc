@@ -1,12 +1,30 @@
-LEXICON numlex
-+N+Sg:  caselex ;
-+N+Pl:%>ууд caselex ;
+LEXICON NUM1
++N+Sg: case1 ;
++N+Pl:%>ууд case1 ;
+LEXICON NUM2
++N+Sg: case2 ;
++N+Pl:%>ууд case2 ;
 
-LEXICON caselex
+LEXICON case1
 +Nom: # ;
-+Acc:%>ые # ;
-+Gen:%>%{G%}%{A%}%{J%} # ;
-+Dat:%>%{D%}%{A%} # ;
-+Ins:%>%{A%}%{A%}р # ;
++Acc:%>%{I%}е # ;
++Gen:%>ын # ;
++Abl:%>гһ%{Ө%}%{Ө%} # ;
 +Com:%>т%{A%}й # ;
-+Abl:%>һ%{A%}%{A%} # ;
++Dat:%>%{T%}%{A%} # ;
++Ins:%>г%{A%}%{A%}р # ;
+
+LEXICON case2
++Nom: # ;
++Acc:%>%{I%}е # ;
++Gen:%>г%{A%}й # ;
++Abl:%>гһ%{Ө%}%{Ө%} # ;
++Com:%>т%{A%}й # ;
++Dat:%>%{T%}%{A%} # ;
++Ins:%>г%{A%}%{A%}р # ;
+
+!самолёт
+!+Gen:%>%{G%}%{A%}%{J%} # ;
+!+Dat:%>%{D%}%{A%} # ;
+!+Ins:%>%{A%}%{A%}р # ;
+!+Abl:%>һ%{A%}%{A%} # ;
