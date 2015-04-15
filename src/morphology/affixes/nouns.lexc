@@ -5,8 +5,8 @@ LEXICON numlex
 LEXICON caselex
 +Nom: # ;
 +Acc:%>ые # ;
-+Gen:%>%^G%^A%^J # ;
-+Dat:%>%^D%^A # ;
-+Ins:%>%^A%^Aр # ;
-+Com:%>т%^Aй # ;
-+Abl:%>һ%^A%^A # ;
++Gen:%>%{G%}%{A%}%{J%} # ;
++Dat:%>%{D%}%{A%} # ;
++Ins:%>%{A%}%{A%}р # ;
++Com:%>т%{A%}й # ;
++Abl:%>һ%{A%}%{A%} # ;
