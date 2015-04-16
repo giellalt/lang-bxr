@@ -43,7 +43,12 @@ Rules
 "{I} to и in Gen case"
 %{I%}:и <=> и: %>: %{I%}: _ н ;
 
+
+
 "{I} to и in Acc case"
+%{I%}:и <=> 
+
+
 
 !! !!Other vowel rules
 "Final vowel deletion before ые and ын"
