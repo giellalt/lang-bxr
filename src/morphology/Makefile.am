@@ -21,6 +21,7 @@ GT_LEXC_ROOT=root.lexc
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
 			 affixes/nouns.lexc \
+			 affixes/propernouns.lexc \
 			 affixes/verbs.lexc \
 			 stems/adjectives.lexc \
 			 stems/adverbs.lexc \
@@ -52,10 +53,12 @@ GT_LEXC_L2_SRCS=\
 			$(L2)
 
 # Set this to the names of all generated lexc files, if any
-GENERATED_LEXC_SRCS=
+GENERATED_LEXC_SRCS=\
+			generated_files/urj-Cyrl-propernouns.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=
+# Set this to the names of all generated lexc files, if any
 
 # Define any additional sources here (compiled on their own, or just included
 # in the distro):
@@ -63,6 +66,10 @@ GT_LOCAL_SRCS=
 
 ### BEGIN: Local processing: ###
 
+generated_files/urj-Cyrl-propernouns.lexc: \
+			$(GTCORE)/gtdshared/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
+			$(AM_V_at)$(MKDIR_P) generated_files
+			$(AM_V_GEN)cp -f $< $@
 
 ### END: Local processing: ###
 
