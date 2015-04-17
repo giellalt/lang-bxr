@@ -45,8 +45,8 @@ Rules
 
 
 
-"{I} to и in Acc case"
-%{I%}:и <=> 
+!"{I} to и in Acc case"
+!%{I%}:и <=> 
 
 
 
