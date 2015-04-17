@@ -33,6 +33,34 @@
 ~―
 ~’
 ~€
+~-
+~D
+~H
+~T
+~l
+~p
+~t
+~x
+~S
+~c
+~g
+~o
+~s
+~{
+~.
+~B
+~R
+~b
+~f
+~n
+~r
+~v
+~F
+~a
+~e
+~i
+~u
+~}
 
 ## Transition pairs + weight:
 @@
