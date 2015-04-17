@@ -82,7 +82,7 @@ Vx:0 <=> Cns _ %>: ы [ н | е] ;
 ! д:д <=> Vow %>: _ ;
 
 
-!€ морин>ууд>{D}{A}
+!€ морин>ууд>{T}{A}
 !€ мори0>00д>то
 
 !€ морин>{A}{A}р
@@ -94,10 +94,7 @@ Vx:0 <=> Cns _ %>: ы [ н | е] ;
 !€ морин>{A}{A}р
 !€ морё0>0ор
 
-!€ морин>ууд>{G}{A}{J}
-!€ мори0>00д>0ой
-
-!€ морин>ууд>{D}{A}
+!€ морин>ууд>{T}{A}
 !€ мори0>00д>то
 
 !€ морин>{A}{A}р
@@ -116,152 +113,4 @@ Vx:0 <=> Cns _ %>: ы [ н | е] ;
 
 
 
-! Самолёт
-!Alphabet
-!А Б В Г Д Е Ё Ж З И Й К Л М Н О Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
-!а б в г д е ё ж з и й к л м н о ө п р с т у ү ф х һ ц ч ш щ ь ы ъ э ю я
-!%{G%}:0 %{D%}:д %{A%}:а %{J%}:й %{V%}:a %>:0 а2:0 ;
-!
-!Sets
-!
-!Cns = Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Һ Ц Ч Ш Щ Ь Ъ 
-!	  б в г д ж з й к л м н п р с т ф х һ ц ч ш щ ь ъ 
-!	  %{D%} %{G%} %{J%}  ;
-!Vow =     А Е Ё И О Ө У Ү Ы Э Ю Я
-!          а е ё и о ө у ү ы э ю я 
-!          %{A%} %{V%} ;
-!FemVow = Э э Ө ө Ү ү  ;
-!MscVow =   А а О о У у Я я Ё ё ;
-!NeuVow =   И и Ы ы Е е Ю ю ;
-!LowRndVow = О о Ё ё ; ! Ө ө Tentatively removing Ө ө since they are fem. 
-!VowNotI = А О Ө У Ү Ы Э Ю
-!          а о ө у ү ы э ю ;
-!VowI = И и Я я Е е ;          
-!
-!
-!HardCons = Б б Г г Р р С с Д д П п Т т К к ;
-!
-!SonCns = й р Й Р ;
-!
-!UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ  
-!	                к п с т ф х ц ч ш щ ;
-!
-!VoicedNonSonCns = Б В Г Д Ж З Л М Н Ң 
-!                  б в г д ж з л м н ң ;
-!
-!Dummies = %{F%} %{D%} %{A%} %{V%} ;
-!
-!! These sets do not continue suffix borders.
-!CnsFemVow = Cns NeuVow FemVow ;
-!CnsMscVow = Cns NeuVow MscVow ;
-!CnsNeuVow = Cns NeuVow NeuVow ;
-!CnsLowRndVow = Cns NeuVow LowRndVow ;
-! 
-!Rules
-!
-!"Labial Vowel Harmony"
-! %{A%}:о <=> LowRndVow CnsNeuVow:* Cns %>:  [CnsNeuVow:* - %{G%}:] _ ; ! ?C>?_
-!
-!
-!"Front Vowel Harmony"
-! %{A%}:э <=> FemVow CnsNeuVow:* Cns %>:  [CnsNeuVow:* - %{G%}:] _ ; ! ?C>?_
-!
-!"Genitive After й and ы"
-! %{A%}:0 <=> Vow [ й | ы ] %>: %{G%}: _ %{J%}: ;  
-!	
-!"Genitive After и 1"
-! %{A%}:и <=> Cns Vx: %>: %{G%}: _ %{J%}: ;
-!	where Vx in ( VowI ) ;
-!
-!
-!"Short Vowel Deletion in Genitive"
-! Vx:0 <=> Cns _ %>: %{G%}: %{A%}: %{J%}: ;
-!    where Vx in ( VowNotI ) ;
-!
-!!! Vowel loss
-!"ы to 0"
-!ы:0 <=> й %> _ е ;
-!
-!"%{A%} to 0"
-! %{A%}:0 <=> [ о | ё ] Cns+ Vow: н: %> _ %{A%}: ; 
-!
-!"у to 0"
-! у:0 <=> и н: %> _ у: д ;
-!         и н: %> у: _ д ;
-!
-!
-!"Genitive After Short Vowel 1"
-! %{A%}:ы <=> Cns Vx: %>: %{G%}: _ %{J%}: ;
-!	where Vx in ( VowNotI ) ;
-!	
-!! "Genitive After Short Vowel 2"
-!!  %{J%}:н <=> Cns Vx: %>: %{G%}: :ы _ [ .#. | %>: ] ;
-!! 	where Vx in ( VowNotI ) ;
-!
-!"Final н in Genitive with и and ы 1"
-! %{J%}:н <=> Cns Vow: %>: %{G%}: [ :и | :ы ] _ [ .#. | %>: ] ;
-!
-!"Final н in Genitive with и and ы 2"
-! %{J%}:н <=> Cns Vow: [ й | ы ] %>: %{G%}: %{A%}: _ [ .#. | %>: ] ;
-!
-!
-!"Stem Vowel for Genitive After и"
-! Vx:и <=> Cns _ %>: %{G%}: :и %{J%}: ;
-!	where Vx in ( Я я Е е ) ;
-!
-!"ы to и after surface и"
-! ы:и <=> :и (н:0) %> _ е ;
-!
-!"и to ё "
-!и:ё <=> р _ н: %> %{A%}: %{A%}: р ;
-!
-!"Genitive After Long Vowel 1"
-! %{G%}:г <=> Vx: Vy: %>: _ %{A%}: %{J%}: ;  
-!	where Vx in ( А А  Е Ё О Ө У Ү Э Ю Я Я  а а  е ё о ө у ү э ю я я  )
-!		  Vy in ( А а2 Э О О Ө У Ү Э У А а2 а а2 э о о ө у ү э у а а2 )
-!		  matched ;
-!
-!		  
-!
-!
-!"Genitive After Long Vowel 2"
-! %{A%}:Vz <=> Vx: Vy: %>: %{G%}: _ %{J%}: ;  
-!	where Vx in ( А А  Е Ё О Ө У Ү Э Ю Я Я  а а  е ё ө у ү э ю я я  )
-!		  Vy in ( А а2 Э О О Ө У Ү Э У А а2 а а2 э о ө у ү э у а а2 )
-!		  Vz in ( А А  Э О О Э А Э Э А А А  а а  э о э а э э а а я  )
-!		  matched ;
-!
-!"Genitive After Long Vowel 2 %{A%} to о"
-! %{A%}:о <=> о: о: %> %{F%}: _ %{J%}: ;
-!           [ о | ё ] Cns+ Vow: (н:) %> :0* д %> ( %{F%}: | %{D%}: | т | һ )  _  ; 
-!           [ о | ё ] Cns+ Vow: (н:) %> :0* д %> ( һ )  %{A%}: _  ; 
-!       
-!
-!           [ о | ё ] Cns+ Vow: (н:) %> %{A%}: _ ; 
-
-!		  
-!"Consonant after Unvoiced Consonant"
-! %{D%}:т <=> UnvoicedNonSonCns %>: _ ;
-!
-!
-!!! CONSONANT LOSS
-!"final н loss"
-!н:0 <=> Vow: _ %> [ ы: е | %{A%}: %{A%}: р | у: у: д ] ;
-
-!"%{F%} to 0"
-! %{F%}:0 <=> Cns %> _ ;
-!
-
-!"Vowel Copying"
-! %{V%}:Vx <=> Vx: _ (Cns) %>: %{D%}: _ .#. ;
-!	where Vw in Vow ;
-
-
-
-
-! These three sets include the suffix border, and accounts for long-distance VH
-! CnsFemVowSB = Cns NeuVow FemVow %> ;
-! CnsMscVowSB = Cns NeuVow MscVow %> ;
-! CnsNeuVowSB = Cns NeuVow NeuVow %> ;
-! CnsLowRndVowSB = Cns NeuVow LowRndVow %> ;
 
