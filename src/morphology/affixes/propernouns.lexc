@@ -1,0 +1,7 @@
+
+LEXICON PROP1
++N+Prop+Sg: case1 ;
+!+N+Pl:%>ууд case1 ;
+LEXICON PROP2
++N+Prop+Sg: case2 ;
+!+N+Pl:%>ууд case2 ;
