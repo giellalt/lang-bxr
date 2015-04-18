@@ -6,11 +6,11 @@ LEXICON NUM2
 !+N+Pl:%>ууд case2 ;
 
 LEXICON case1
-+Nom:                   # ;
-+Acc:%>%{I%}%{I%}е     # ;
++Nom:                 Poss ;
++Acc:%>%{I%}%{I%}е    Poss ;
 +Gen:%>%{I%}%{I%}н    # ;
 +Abl:  %>гһ%{Ө%}%{Ө%}   # ;
-!+Com:  %>т%{A%}й    # ;
++Com:  %>т%{A%}й    # ;
 !+Dat:  %>%{T%}%{A%}     # ;
 !+Ins:  %>г%{A%}%{A%}р   # ;
 
@@ -19,7 +19,7 @@ LEXICON case2
 +Acc:  %>%{I%}%{I%}е # ;
 +Gen:  %>г%{A%}й # ;
 +Abl:  %>гһ%{Ө%}%{Ө%} # ;
-!+Com:  %>т%{A%}й # ;
++Com:  %>т%{A%}й # ;
 !+Dat:  %>%{D%}%{A%} # ;
 !+Ins:  %>г%{A%}%{A%}р   # ;
 
@@ -28,3 +28,6 @@ LEXICON case2
 !+Dat:%>%{D%}%{A%} # ;
 !+Ins:%>%{A%}%{A%}р # ;
 !+Abl:%>һ%{A%}%{A%} # ;
+
+LEXICON Poss
+# ;
