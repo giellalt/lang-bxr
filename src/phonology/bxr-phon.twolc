@@ -30,13 +30,15 @@ Rules
 
 !! !!Vowel harmony
 "Vowel harmony A:а"
-%{A%}:а <=> [а|я|\ю у]  [Cns:|ю (у)|ы|и]*  %>: (:RealCns) (%{A%}:) _  ;
+%{A%}:а <=> [а|я|\ю у]  [RealCns:|ю (у)|ы|и]*  %>: (RealCns:) (%{A%}:) _  ;
+
+!@ б а с а г а н >:0 г:0 {A}:а й
 
 "Vowel harmony A:o"
-%{A%}:о <=> [о|ё]       [Cns:|ю (у)|ы|и]*  %>: (:RealCns) (%{A%}:) _  ;
+%{A%}:о <=> [о|ё]       [RealCns:|ю (у)|ы|и]*  %>: (RealCns:) (%{A%}:) _  ;
 
 "Vowel harmony A:э"
-%{A%}:э <=> [э|е|ү|ө ө] [Cns:|ю (у)|ы|и]*  %>: (:RealCns) (%{A%}:) _  ;
+%{A%}:э <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|и]*  %>: (RealCns:) (%{A%}:) _  ;
 
 
 "Vowel harmony ӨӨ:аa"
