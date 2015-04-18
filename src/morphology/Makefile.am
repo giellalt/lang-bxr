@@ -66,9 +66,13 @@ GT_LOCAL_SRCS=
 
 ### BEGIN: Local processing: ###
 
+# step one: copy from gtcore
 generated_files/urj-Cyrl-propernouns.lexc: \
 	$(GTCORE)/gtdshared/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
 	$(AM_V_CP)cp -f $< $@
+
+# step two: take the gtcore __and_- the local files, and join them
+# step three: run them through the  perl script.
 
 generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc: \
 		generated_files/urj-Cyrl-propernouns.lexc \
