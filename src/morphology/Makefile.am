@@ -71,8 +71,9 @@ generated_files/urj-Cyrl-propernouns.lexc: \
 	$(GTCORE)/gtdshared/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
 	$(AM_V_CP)cp -f $< $@
 
-# step two: take the gtcore __and_- the local files, and join them
-# step three: run them through the  perl script.
+# step two:   copy the local file, add a comment (using echo) ...
+# step three: ... and run the gtcore copy through the  perl script and add it to
+#             the copy of the local file
 
 generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc: \
 		generated_files/urj-Cyrl-propernouns.lexc \
