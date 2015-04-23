@@ -8,6 +8,8 @@ Alphabet
 %{Ө%}:а %{Ө%}:о %{Ө%}:э %{Ө%}:ө
 %{D%}:т %{D%}:д
 %{I%}:ы %{I%}:и %{I%}:0
+%{Y%}:и %{Y%}:0  !!= * @CODE@ kept after Cns, deleted after Vow
+
 %> 
 а2:а я2:я
  ;
@@ -15,7 +17,7 @@ Alphabet
 Sets
 RealVow =  А Е Ё И О Ө У Ү Ы Э Ю Я
            а е ё и о ө у ү ы э ю я ;
-ArchiVow = а2 %{A%} %{U%} %{Ө%} %{I%} ;
+ArchiVow = а2 %{A%} %{U%} %{Ө%} %{I%} %{Y%} ;
 RealCns =  Б В Г Д Ж З Й К Л М Н П Р С Т
            Ф Х Һ Ц Ч Ш Щ Ь Ъ
            б в г д ж з й к л м н п р с т
@@ -30,15 +32,15 @@ Rules
 
 !! !!Vowel harmony
 "Vowel harmony A:а"
-%{A%}:а <=> [а|я|\ю у]  [RealCns:|ю (у)|ы|и]*  %>: (RealCns:) (%{A%}:) _  ;
+%{A%}:а <=> [а|я|\ю у]  [RealCns:|ю (у)|ы|и]*  %>: (Cns:) (%{A%}:) _  ;
 
 !@ б а с а г а н >:0 г:0 {A}:а й
 
 "Vowel harmony A:o"
-%{A%}:о <=> [о|ё]       [RealCns:|ю (у)|ы|и]*  %>: (RealCns:) (%{A%}:) _  ;
+%{A%}:о <=> [о|ё]       [RealCns:|ю (у)|ы|и]*  %>: (Cns:) (%{A%}:) _  ;
 
 "Vowel harmony A:э"
-%{A%}:э <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|и]*  %>: (RealCns:) (%{A%}:) _  ;
+%{A%}:э <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|и]*  %>: (Cns:) (%{A%}:) _  ;
 
 
 "Vowel harmony ӨӨ:аa"
@@ -86,7 +88,7 @@ Vx:0 <=> _ %>: %{I%}: %{I%}:  ;
 Vx:0 <=> :RealCns _ %>: ы [ н | е] ;
      where Vx in ( а о э ) ;
 
-"Deletion SHV"
+"Deletion SHV"00
 и:0 <=>  _ н %>: е %{A%}: р ;
 
 "Deletion of ы in word-final ые"
@@ -95,18 +97,29 @@ Vx:0 <=> :RealCns _ %>: ы [ н | е] ;
 "Deletion of и in word-final иие"
 и:0 <=> и %>: _ :и е ;
 
-!! !!Consonant rules
+"Deletion of Y in predicative particle"
+%{Y%}:0 <=> :RealVow %>: б _ ;
+
+!€ би>б{Y}
+!€ би>б0
+
+"Keep the Y in predicative particle"
+%{Y%}:и <=> :RealCns %>: б _ ;
+
+!€ тэдэнэр>б{Y}
+!€ тэдэнэр>би
+
+0!! !!Consonant rules
 "Changing t and d"
 %{D%}:т <=> р %>: _ ;
 
 ! Always delete /g/ in affix if there anything apart from /n/
 
 "Трансформация буквы т до д после н и л"  ! check
-%{D%}:д <=> [н (г:0)|л|й|:RealVow] %>: _ ;
-
+%{D%}:д <=> [н (г:)|л|й|:RealVow] %>: _ ;
 
 "Deletion of g in word-final ng"
-г:0 <=> н _ [%>: | .#.] ;
+г:0 <=> н _ [%>:  [:Cns - :һ] | .#.] ;
 
 !€ анг>{D}{A}
 !€ ан0>да
@@ -133,6 +146,8 @@ Vx:0 <=> :RealCns _ %>: ы [ н | е] ;
 ! д:д <=> RealVow %>: _ ;
 
 
+!€ t e s t w i l l f a i l
+!€ f a i l i t w i l l 0 0 
 
 
 
