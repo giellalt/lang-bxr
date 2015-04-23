@@ -50,7 +50,15 @@ Multichar_Symbols
 +PxPl2  !!= * @CODE@
 +PxPl3  !!= * @CODE@
 
-%{G%} %{A%} %{J%} %{T%} %{V%} %{I%} %{U%} %{Ө%}
+%{G%}  !!= * @CODE@ 
+%{A%}  !!= * @CODE@ 
+%{J%}  !!= * @CODE@ 
+%{T%}  !!= * @CODE@ 
+%{V%}  !!= * @CODE@ 
+%{I%}  !!= * @CODE@ 
+%{U%}  !!= * @CODE@ 
+%{Ө%}  !!= * @CODE@ 
+%{Y%}  !!= * @CODE@ kept after Cns, deleted after Vow
 
 а2 я2 !!= * @CODE@ these are а and я in Russian loanwords that do not weaken to ых
 
@@ -97,7 +105,7 @@ bxr-Propernouns ;
 !Subjunction ;
 !Interjection ;
 !Numeral ;
-!Pronoun ;
+Pronoun ;
 !Postposition ;
 !Punctuation ;
 

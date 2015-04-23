@@ -1,14 +1,204 @@
 LEXICON Pronoun 
 
 Personal ;
-Demonstrative ;
+!Demonstrative ;
 Reflexive ;
 
-LEXICON Personal
-K ;
 
-LEXICON Demonstrative
-K ;
+LEXICON Personal
+би+Pron+Pers+Sg1: BI_LEX ;
+бидэ+Pron+Pers+Pl1: BIDE_LEX ;
+бидэ+Pron+Pers+Pl1: BIDE_LEX ;
+бидэнэр+Pron+Pers+Pl1: BIDENER_LEX ;
+маанар+Pron+Pers+Pl1: MAANAR_LEX ;
+маанад+Pron+Pers+Pl1: MAANAD_LEX ;
+маанадууд+Pron+Pers+Pl1: MAANADUUD_LEX ;
+ши+Pron+Pers+Sg2: SHI_LEX ;
+та+Pron+Pers+Pl2: TA_LEX ;
+таанар+Pron+Pers+Pl2: TAANAR_LEX ;
+таанад+Pron+Pers+Pl2: TAANAD_LEX ;
+таанадууд+Pron+Pers+Pl2: TAANADUUD_LEX ;
+тэрэ+Pron+Pers+Sg3: TERE_LEX ;
+тэдэ+Pron+Pers+Pl3: TEDE_LEX ;
+тэдэнэр+Pron+Pers+Pl3: TEDENER_LEX ;
+тэдээнүүд+Pron+Pers+Pl3: TEDEENUUD_LEX ;
+
+LEXICON BI_LEX
++Nom:би PD ;
++Acc:намайе PD ;
++Acc+Use/NG:намай PD ;
++Gen:минии PD ;
++Dat:намда PD ;
++Abl:намһаа PD ;
++Com:намтай PD ;
++Ins:намаар PD ;
+
+LEXICON BIDE_LEX
++Nom:бидэ PD ;
++Acc:бидэниие PD ;
++Acc+Use/NG:бидэнии PD ;
++Gen:бидэнэй PD ;
++Dat:бидэндэ PD ;
++Abl:бидэнһээ PD ;
++Com:бидэнтэй PD ;
++Ins:бидэнээр PD ;
+
+LEXICON BIDENER_LEX
++Nom:бидэнэр PD ;
++Acc:бидэнэрые PD ;
++Acc+Use/NG:бидэнэры PD ;
++Gen:бидэнэрэй PD ;
++Dat:бидэнэртэ PD ;
++Abl:бидэнэрһээ PD ;
++Com:бидэнэртэй PD ;
++Ins:бидэнэрээр PD ;
+
+LEXICON MAANAR_LEX
++Nom:маанар PD ;
++Acc:маниие PD ;
++Acc+Use/NG:мании PD ;
++Acc+Use/NG:маанарые PD ;
++Acc+Use/NG:маанары PD ;
++Gen:манай PD ;
++Gen+Use/NG:маанарые PD ;
++Dat:манда PD ;
++Dat+Use/NG:маанарта PD ;
++Abl:манһаа PD ;
++Abl+Use/NG:маанарһаа PD ;
++Com:мантай PD ;
++Com+Use/NG:маанартай PD ;
++Ins:манаар PD ;
++Ins+Use/NG:маанараар PD ;
+
+LEXICON MAANAD_LEX
++Nom:маанад PD ;
++Acc:маанадые PD ;
++Acc+Use/NG:маанады PD ;
++Gen:маанадай PD ;
++Dat:маанадта PD ;
++Abl:маанадһаа PD ;
++Com:маанадтай PD ;
++Ins:маанадаар PD ;
+
+LEXICON MAANADUUD_LEX
++Nom:маанадууд PD ;
++Acc:маанадуудые PD ;
++Acc+Use/NG:маанадууды PD ;
++Gen:маанадуудай PD ;
++Dat:маанадуудта PD ;
++Abl:маанадуудһаа PD ;
++Com:маанадуудтай PD ;
++Ins:маанадуудаар PD ;
+
+LEXICON SHI_LEX
++Nom:ши PD ;
++Acc:шамайе PD ;
++Acc+Use/NG:шамай PD ;
++Gen:шинии PD ;
++Dat:шамда PD ;
++Abl:шамһаа PD ;
++Com:шамтай PD ;
++Ins:шамаар PD ;
+
+LEXICON TA_LEX
++Nom:та PD ;
++Acc:таниие PD ;
++Acc+Use/NG:тании PD ;
++Gen:танай PD ;
++Dat:танда PD ;
++Abl:танһаа PD ;
++Com:тантай PD ;
++Ins:танаар PD ;
+
+LEXICON TAANAR_LEX
++Nom:таанар PD ;
++Acc:таанарые PD ;
++Acc+Use/NG:таанары PD ;
++Gen:таанарай PD ;
++Dat:таанарта PD ;
++Abl:таанарһаа PD ;
++Com:таанартай PD ;
++Ins:таанараар PD ;
+
+LEXICON TAANAD_LEX
++Nom:таанад PD ;
++Acc:таанадые PD ;
++Acc+Use/NG:таанады PD ;
++Gen:таанадай PD ;
++Dat:таанадта PD ;
++Abl:таанадһаа PD ;
++Com:таанадтай PD ;
++Ins:таанадаар PD ;
+
+LEXICON TAANADUUD_LEX
++Nom:таанадууд PD ;
++Acc:таанадуудые PD ;
++Acc+Use/NG:таанадууды PD ;
++Gen:таанадуудай PD ;
++Dat:таанадуудта PD ;
++Abl:таанадуудһаа PD ;
++Com:таанадуудтай PD ;
++Ins:таанадуудаар PD ;
+
+LEXICON TERE_LEX
++Nom:тэрэ PD ;
++Acc:тэрэниие PD ;
++Acc+Use/NG:тэрэнии PD ;
++Acc+Use/NG:тэрээниие PD ;
++Acc+Use/NG:тэрээнии PD ;
++Gen:тэрэнэй PD ;
++Gen+Use/NG:тэрээнэй PD ;
++Dat:тэрэндэ PD ;
++Dat+Use/NG:тэрээндэ PD ;
++Abl:тэрэнһээ PD ;
++Abl+Use/NG:тэрээнһээ PD ;
++Com:тэрэнтэй PD ;
++Com+Use/NG:тэрээнтэй PD ;
++Ins:тэрэнээр PD ;
++Ins+Use/NG:тэрээнээр PD ;
+
+LEXICON TEDE_LEX
++Nom:тэдэ PD ;
++Acc:тэдэниие PD ;
++Acc+Use/NG:тэдэнии PD ;
++Acc+Use/NG:тэдээниие PD ;
++Acc+Use/NG:тэдээнии PD ;
++Gen:тэдэнэй PD ;
++Gen+Use/NG:тэдээнэй PD ;
++Dat:тэдэндэ PD ;
++Dat+Use/NG:тэдээндэ PD ;
++Abl:тэдэнһээ PD ;
++Abl+Use/NG:тэдээнһээ PD ;
++Com:тэдэнтэй PD ;
++Com+Use/NG:тэдээнтэй PD ;
++Ins:тэдэнээр PD ;
++Ins+Use/NG:тэдээнээр PD ;
+
+LEXICON TEDENER_LEX
++Nom:тэдэнэр PD ;
++Acc:тэдэнэрые PD ;
++Acc+Use/NG:тэдэнэры PD ;
++Gen:тэдэнэрэй PD ;
++Dat:тэдэнэртэ PD ;
++Abl:тэдэнэрһээ PD ;
++Com:тэдэнэртэй PD ;
++Ins:тэдэнэрээр PD ;
+
+LEXICON TEDEENUUD_LEX
++Nom:тэдээнүүд PD ;
++Acc:тэдээнүүдые PD ;
++Acc+Use/NG:тэдээнүүды PD ;
++Gen:тэдээнүүдэй PD ;
++Dat:тэдээнүүдтэ PD ;
++Abl:тэдээнүүдһээ PD ;
++Com:тэдээнүүдтэй PD ;
++Ins:тэдээнүүдээр PD ;
+
+LEXICON PD
+# ;
++Dem:%>би # ;
++Dem:%>б%{Y%} # ;
 
 LEXICON Reflexive
 K ;
+

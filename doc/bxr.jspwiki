@@ -57,6 +57,15 @@ This is free and open source South Sámi morphology.
  * +PxPl2  
  * +PxPl3  
 
+ * %{G%}   
+ * %{A%}   
+ * %{J%}   
+ * %{T%}   
+ * %{V%}   
+ * %{I%}   
+ * %{U%}   
+ * %{Ө%}   
+ * %{Y%}   kept after Cns, deleted after Vow
 
  * а2 я2  these are а and я in Russian loanwords that do not weaken to ых
 
