@@ -62,9 +62,53 @@
 ~u
 ~}
 
-## Transition pairs + weight:
+## Inclusions: this is the real alphabet definition:
+a
+b
+c
+č
+d
+e
+f
+g
+h
+i
+î
+ï
+j
+k
+l
+m
+n
+o
+p
+r
+s
+t
+u
+v
+w
+x
+y
+z
+-
+.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+:
+
+## Transition pairs + weight - section separator:
 @@
 
+## Transition pair specifications + weight:
 е	э	0.4
 у	ү	0.4
 х	һ	0.4
@@ -73,3 +117,6 @@
 г	к	0.4
 д	т	0.4
 
+## Swaps:
+## Change dh into hd with the weight 0.5:
+##d,h	h,d	0.5
