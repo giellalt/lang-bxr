@@ -14,6 +14,7 @@ while(<>) {
 	s/CYRL-VOW_SUR/PROP1/g ;
 	s/CYRL-А_SUR/PROP1/g ;
 	s/CYRL-К_SUR/PROP2/g ;
+	s/CYRL-Л_SUR/PROP2/g ;
 	s/CYRL-Т_SUR/PROP2/g ;
 	s/Deriv-RUS-В_SURMAL/PROP2/g ;
 	s/Deriv-RUS-АН_SURMAL/PROP2/g ;
