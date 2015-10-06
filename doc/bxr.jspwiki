@@ -1,14 +1,19 @@
-!!!Free and Open source Finnish analyser gtsvn-fi
+!!!Free and Open source Russia Buriat analyser giella-bxr
 
-;Authors: Divvun and Giellatekno teams, Aajege, community members
+;Authors: Divvun and Giellatekno teams, community members
 ;Software version: 2012
 ;Documentation license: GNU GFDL
 ;SVN Revision: $Revision: 68217 $
 ;SVN Date: $Date: 2013-01-16 11:31:33 +0200 (Wed, 16 Jan 2013) $
 
-!!!GTSVN-sma
+!!!giella-bxr
 
-This is free and open source South Sámi morphology.
+This is free and open source Russia Buriat morphology.
+
+           !!!Russia Buriat morphological analyser                      !
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Russia Buriat LANGUAGE.
+
+ !!!Definitions for Multichar_Symbols
 
  * +N	     
  * +V	     
