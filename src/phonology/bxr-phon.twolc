@@ -46,8 +46,8 @@ Rules
 "Vowel harmony ӨӨ:аa"
 %{Ө%}:а <=> а (:RealCns) г: %>: һ ( %{Ө%}: ) _  ;
 
-!€ анг>һ{Ө}{Ө}
-!€ анг>һаа
+!!€ анг>һ{Ө}{Ө}
+!!€ анг>һаа
 
 "Vowel harmony ӨӨ:оо"
 %{Ө%}:о <=> о (:RealCns) %>: г: һ ( %{Ө%}: ) _  ;
@@ -100,14 +100,14 @@ Vx:0 <=> :RealCns _ %>: ы [ н | е] ;
 "Deletion of Y in predicative particle"
 %{Y%}:0 <=> :RealVow %>: б _ ;
 
-!€ би>б{Y}
-!€ би>б0
+!!€ би>б{Y}
+!!€ би>б0
 
 "Keep the Y in predicative particle"
 %{Y%}:и <=> :RealCns %>: б _ ;
 
-!€ тэдэнэр>б{Y}
-!€ тэдэнэр>би
+!!€ тэдэнэр>б{Y}
+!!€ тэдэнэр>би
 
 !! !!Consonant rules
 "Changing t and d"
@@ -121,11 +121,11 @@ Vx:0 <=> :RealCns _ %>: ы [ н | е] ;
 "Deletion of g in word-final ng"
 г:0 <=> н _ [%>:  [:Cns - :һ] | .#.] ;
 
-!€ анг>{D}{A}
-!€ ан0>да
+!!€ анг>{D}{A}
+!!€ ан0>да
 
-!€ анг>һ{Ө}{Ө}
-!€ анг>һаа
+!!€ анг>һ{Ө}{Ө}
+!!€ анг>һаа
 
 
 
@@ -146,8 +146,8 @@ Vx:0 <=> :RealCns _ %>: ы [ н | е] ;
 ! д:д <=> RealVow %>: _ ;
 
 
-!€ t e s t w i l l f a i l
-!€ f a i l i t w i l l 0 0 
+!!€ t e s t w i l l f a i l
+!!€ f a i l i t w i l l 0 0 
 
 
 
