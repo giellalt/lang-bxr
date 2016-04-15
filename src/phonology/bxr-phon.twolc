@@ -88,7 +88,7 @@ Vx:0 <=> _ %>: %{I%}: %{I%}:  ;
 Vx:0 <=> :RealCns _ %>: ы [ н | е] ;
      where Vx in ( а о э ) ;
 
-"Deletion SHV"00
+"Deletion SHV"
 и:0 <=>  _ н %>: е %{A%}: р ;
 
 "Deletion of ы in word-final ые"
