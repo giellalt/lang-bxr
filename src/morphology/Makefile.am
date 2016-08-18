@@ -76,7 +76,7 @@ GT_DISTRO_SRCS=
 
 # step one: copy from gtcore
 generated_files/urj-Cyrl-propernouns.lexc: \
-	$(GTCORE)/giella-shared/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
+	$(GIELLA_SHARED)/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
 	$(AM_V_CP)cp -f $< $@
 
 # step two:   copy the local file, add a comment (using echo) ...
