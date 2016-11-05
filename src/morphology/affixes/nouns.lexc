@@ -1,33 +1,33 @@
 LEXICON NUM1
-+N+Sg: case1 ;
-!+N+Pl:%>ууд case1 ;
+  +N+Sg:      case1 ;
+! +N+Pl:%>ууд case1 ;
 LEXICON NUM2
-+N+Sg: case2 ;
-!+N+Pl:%>ууд case2 ;
+  +N+Sg:      case2 ;
+! +N+Pl:%>ууд case2 ;
 
 LEXICON case1
-+Nom:                 Poss ;
-+Acc:%>%{I%}%{I%}е    Poss ;
-+Gen:%>%{I%}%{I%}н    # ;
-+Abl:%>һ%{Ө%}%{Ө%}   # ;
-+Com:%>т%{A%}й    # ;
-!+Dat:  %>%{T%}%{A%}     # ;
-!+Ins:  %>г%{A%}%{A%}р   # ;
+  +Nom:               Poss ;
+  +Acc:%>%{I%}%{I%}е  Poss ;
+  +Gen:%>%{I%}%{I%}н  #    ;
+  +Abl:%>һ%{Ө%}%{Ө%}  #    ;
+  +Com:%>т%{A%}й      #    ;
+! +Dat:%>%{T%}%{A%}   #    ;
+! +Ins:%>г%{A%}%{A%}р #    ;
 
 LEXICON case2
-+Nom: # ;
-+Acc:  %>%{I%}%{I%}е # ;
-+Gen:  %>г%{A%}й # ;
-+Abl:  %>һ%{Ө%}%{Ө%} # ;
-+Com:  %>т%{A%}й # ;
-!+Dat:  %>%{D%}%{A%} # ;
-!+Ins:  %>г%{A%}%{A%}р   # ;
+  +Nom:                  # ;
+  +Acc:%>%{I%}%{I%}е     # ;
+  +Gen:%>г%{A%}й         # ;
+  +Abl:%>һ%{Ө%}%{Ө%}     # ;
+  +Com:%>т%{A%}й         # ;
+! +Dat:%>%{D%}%{A%}      # ;
+! +Ins:%>г%{A%}%{A%}р    # ;
 
 !самолёт
-!+Gen:%>%{G%}%{A%}%{J%} # ;
-!+Dat:%>%{D%}%{A%} # ;
-!+Ins:%>%{A%}%{A%}р # ;
-!+Abl:%>һ%{A%}%{A%} # ;
+! +Gen:%>%{G%}%{A%}%{J%} # ;
+! +Dat:%>%{D%}%{A%}      # ;
+! +Ins:%>%{A%}%{A%}р     # ;
+! +Abl:%>һ%{A%}%{A%}     # ;
 
 LEXICON Poss
-# ;
+  # ;
