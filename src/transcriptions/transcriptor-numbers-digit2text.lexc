@@ -13,88 +13,88 @@ CARDINAL ;
 
 LEXICON CARDINAL
 HUNDREDSM ;		! 200M
-зуу% :1 HUNDREDM ;	! 100M
+1:зуу%  HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
 TEENSM ;		! 11-19M
 !TENM ;			! 10M->11M
 ONESM ;			! 1-9M
 HUNDREDST ;		! 200000-999999
-зуун:1 HUNDREDT ;	! 100000-100999
+1:зуун HUNDREDT ;	! 100000-100999
 TENST ;			! 11000-99999,10000-10999
 ONEST ;			! 2000-9999
-мянга% :1 THOUSAND ;	! 1000-1999
+1:мянга%  THOUSAND ;	! 1000-1999
 UNDERTHOUSAND ;		! 100-999
 TENS ;			! 10-99
 ONES ;			! 1-9
 
 LEXICON HUNDREDSM
-кокет:2  CUODIM ;
-кум:3 CUODIM ;
-ныл:4 CUODIM ;
-вит:5 CUODIM ;
-кут:6 CUODIM ;
-шем:7 CUODIM ;
-кандаш:8 CUODIM ;
-индеш:9 CUODIM ;
+2:хоёр  CUODIM ;
+3:гурба CUODIM ;
+4:дүрбэ CUODIM ;
+5:таба CUODIM ;
+6:зургаа CUODIM ;
+7:долоо CUODIM ;
+8:найма CUODIM ;
+9:юһэ CUODIM ;
 
 LEXICON CUODIM
-зуун: HUNDREDM ;
+:зуун HUNDREDM ;
 
 LEXICON HUNDREDM
 TENSM ;
 TEENSM ;
-:%0 ONESM ;
-:%0%0 MILJON ;
+%0: ONESM ;
+%0%0: MILJON ;
 
 LEXICON TEENSM
-:1 TEENM ;
+1: TEENM ;
 
 LEXICON TEENM
-лат: LOHKAIM ;
+:арбан%  LOHKAIM ;
 
 
 LEXICON LOHKAIM
-икыт:1 MILJON ;
-кокет:2 MILJON ;
-кум:3 MILJON ;
-ныл:4 MILJON ;
-вит:5 MILJON ;
-кут:6 MILJON ;
-шем:7 MILJON ;
-кандаш:8 MILJON ;
-индеш:9 MILJON ;
+1:нэгэ MILJON ;
+2:хоёр MILJON ;
+3:гурба MILJON ;
+4:дүрбэ MILJON ;
+5:таба MILJON ;
+6:зургаа MILJON ;
+7:долоо MILJON ;
+8:найма MILJON ;
+9:юһэ MILJON ;
 
 LEXICON TENSM
-арбан:1%0 LÅGEVM ;
-хорин:2 LÅGEVM ;
-гушан:3 LÅGEVM ;
-дүшэн:4 LÅGEVM ;
-табин:5 LÅGEVM ;
-жаран:6 LÅGEVM ;
-далан:7 LÅGEVM ;
-наян:8 LÅGEVM ;
-ерэн:9 LÅGEVM ;
+1%0:арбан LÅGEVM ;
+2:хорин  LÅGEVM ;
+3:гушан  LÅGEVM ;
+4:дүшэн  LÅGEVM ;
+5:табин  LÅGEVM ;
+6:жаран  LÅGEVM ;
+7:далан  LÅGEVM ;
+8:наян  LÅGEVM ;
+9:ерэн  LÅGEVM ;
 
 !LEXICON TENM
 !арбан:1%0 MILJON ;
 
 LEXICON LÅGEVM
-:%0 MILJON ;
+%0: MILJON ;
 : ONESM ;
 
 LEXICON ONESM
-икыт% miljon% :1 OVERTHOUSANDS ;
-хоёр:2 MILJON ;
-гурбан:3 MILJON ;
-дүрбэн:4 MILJON ;
-табан:5 MILJON ;
-зургаан:6 MILJON ;
-долоон:7 MILJON ;
-найман:8 MILJON ;
-юһэн:9 MILJON ; 
+1:нэгэ% сая%  OVERTHOUSANDS ;
+2:хоёр  MILJON ;
+3:гурбан  MILJON ;
+4:дүрбэн  MILJON ;
+5:табан  MILJON ;
+6:зургаан  MILJON ;
+7:долоон  MILJON ;
+8:найман  MILJON ;
+9:юһэн  MILJON ; 
 
 LEXICON MILJON
-% сая% : OVERTHOUSANDS ;
+:% сая%  OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -102,71 +102,71 @@ LEXICON MILJON
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
-зуун% :1 HUNDREDT ;	! 100.000.000
-:%0 TENST ;		!  20.000.000
-!:%0 TEENST ;		!  10.000.000
-:%0%0 ONEST ;		!   2.000.000
-мянга% :%0%01 THOUSAND ;	!   1.000.000
-:%0%0%0 UNDERTHOUSAND ;	
-:%0%0%0%0 TENS ;
-!:%0%0%0%0 TEENS ;
-:%0%0%0%0%0 ONES ;
-:%0%0%0%0%0%0 # ;	!  x000000
+1:зуун%  HUNDREDT ;	! 100.000.000
+%0:  TENST ;		!  20.000.000
+!%0: TEENST ;		!  10.000.000
+%0%0: ONEST ;		!   2.000.000
+%0%01:мянга%   THOUSAND ;	!   1.000.000
+%0%0%0: UNDERTHOUSAND ;	
+%0%0%0%0: TENS ;
+!%0%0%0%0: TEENS ;
+%0%0%0%0%0: ONES ;
+%0%0%0%0%0%0:  # ;	!  x000000
 
 LEXICON HUNDREDST
-хоёр:2  CUODIT ;	! 200000-299999
-гурбан:3 CUODIT ;	! 300000-399999
-дүрбэн:4 CUODIT ;	! 400000-499999
-табан:5 CUODIT ;	! 500000-599999
-зургаан:6 CUODIT ;	! 600000-699999
-долоон:7 CUODIT ;	! 700000-799999
-найман:8 CUODIT ;	! 800000-899999
-юһэн:9 CUODIT ;	! 900000-999999
+2:хоёр   CUODIT ;	! 200000-299999
+3:гурбан  CUODIT ;	! 300000-399999
+4:дүрбэн  CUODIT ;	! 400000-499999
+5:табан  CUODIT ;	! 500000-599999
+6:зургаан  CUODIT ;	! 600000-699999
+7:долоон  CUODIT ;	! 700000-799999
+8:найман  CUODIT ;	! 800000-899999
+9:юһэн  CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
-% зуун% : HUNDREDT ;	! 100000-199999
+:% зуун%  HUNDREDT ;	! 100000-199999
 
 LEXICON HUNDREDT	! X = 1-9, Y = 0-9
 TENST ;			! X1XYYY, X10YYY
-:%0 ONEST ;		! XX0YYY
-:%0%0 THOUSANDS ;	! X00YYY
+%0: ONEST ;		! XX0YYY
+%0%0: THOUSANDS ;	! X00YYY
 
 LEXICON TENST
-арбан% :1 THOUSANDSS ;
-хорин% :2 THOUSANDSS ;
-гушан% :3 THOUSANDSS ;
-дүшэн% :4 THOUSANDSS ;
-табин% :5 THOUSANDSS ;
-жаран% :6 THOUSANDSS ;
-далан% :7 THOUSANDSS ;
-наян% :8 THOUSANDSS ;
-ерэн% :9 THOUSANDSS ;
+1:арбан%  THOUSANDSS ;
+2:хорин%  THOUSANDSS ;
+3:гушан%  THOUSANDSS ;
+4:дүшэн%  THOUSANDSS ;
+5:табин%  THOUSANDSS ;
+6:жаран%  THOUSANDSS ;
+7:далан%  THOUSANDSS ;
+8:наян%  THOUSANDSS ;
+9:ерэн%  THOUSANDSS ;
 
 LEXICON THOUSANDSS
-!нэгэн% :1 THOUSANDS ;
-!:%0 THOUSANDS ;
-:1 THOUSANDS ;
+!1:нэгэн%  THOUSANDS ;
+!%0: THOUSANDS ;
+1: THOUSANDS ;
 : ONEST ;
 
 LEXICON ONEST
-хоёр% :2 THOUSANDS ;
-гурбан% :3 THOUSANDS ;
-дүрбэн% :4 THOUSANDS ;
-табан% :5 THOUSANDS ;
-зургаан% :6 THOUSANDS ;
-долоон% :7 THOUSANDS ;
-найман% :8 THOUSANDS ;
-юһэн% :9 THOUSANDS ;
+2:хоёр%   THOUSANDS ;
+3:гурбан%  THOUSANDS ;
+4:дүрбэн%   THOUSANDS ;
+5:табан%   THOUSANDS ;
+6:зургаан%  THOUSANDS ;
+7:долоон%    THOUSANDS ;
+8:найман%   THOUSANDS ;
+9:юһэн%   THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-мянга% : THOUSAND ;
-мянга:%0%0%0%- ORDINAL_A ;
+:мянга%  THOUSAND ;
+%0%0%0%-:мянга ORDINAL_A ;
 
 LEXICON THOUSAND
 UNDERTHOUSAND ;	   ! 1100-1999
-:%0 TENS ;	   ! 1020-1099
-:%0%0 ONES ;	   ! 1001-1009
-:%0%0%0 # ;	   ! 1000
+%0: TENS ;	   ! 1020-1099
+%0%0: ONES ;	   ! 1001-1009
+%0%0%0: # ;	   ! 1000
 
 !===========================
 !Here starts the 999 numbers
@@ -174,73 +174,73 @@ UNDERTHOUSAND ;	   ! 1100-1999
 
 LEXICON UNDERTHOUSAND
 HUNDREDS ;
-:1 HUNDRED ;
+1: HUNDRED ;
 
 LEXICON HUNDREDS
-хоёр% :2  HUNDRED ;
-гурбан% :3 HUNDRED ;
-дүрбэн% :4 HUNDRED ;
-табан% :5 HUNDRED ;
-зургаан% :6 HUNDRED ;
-долоон% :7 HUNDRED ;
-найман% :8 HUNDRED ;
-юһэн% :9 HUNDRED ;
+2:хоёр%   HUNDRED ;
+3:гурбан%  HUNDRED ;
+4:дүрбэн%  HUNDRED ;
+5:табан%  HUNDRED ;
+6:зургаан%  HUNDRED ;
+7:долоон%  HUNDRED ;
+8:найман%  HUNDRED ;
+9:юһэн%   HUNDRED ;
 
 LEXICON HUNDRED
-зуун% : TENS ;
-зуун% :%0 ONES ;
-зуу:%0%0 # ;
-зуу:%0%0%-  ORDINAL_A ;
+:зуун%  TENS ;
+%0:зуун%  ONES ;
+%0%0:зуу # ;
+%0%0%-:зуу  ORDINAL_A ;
 
 LEXICON TENS
-арба:1 TEN ;
-арба:1%0%-  ORDINAL_A ;
-хори:2 TEN ;
-хори:2%0%-  ORDINAL_O ;
-гуша:3 TEN ;
-гуша:3%0%-  ORDINAL_A ;
-дүшэ:4 TEN ;
-дүшэ:4%0%-  ORDINAL_E ;
-таби:5 TEN ;
-таби:5%0%-  ORDINAL_A ;
-жара:6 TEN ;
-жара:6%0%-  ORDINAL_A ;
-дала:7 TEN ;
-дала:7%0%-  ORDINAL_A ;
-ная:8 TEN ;
-ная:8%0%-  ORDINAL_A ;
-ерэ:9 TEN ;
-ерэ:9%0%-  ORDINAL_E ;
+1:арба TEN ;
+1%0%-:арба  ORDINAL_A ;
+2:хори TEN ;
+2%0%-:хори  ORDINAL_O ;
+3:гуша TEN ;
+3%0%-:гуша  ORDINAL_A ;
+4:дүшэ TEN ;
+4%0%-:дүшэ  ORDINAL_E ;
+5:таби TEN ;
+5%0%-:таби  ORDINAL_A ;
+6:жара TEN ;
+6%0%-:жара  ORDINAL_A ;
+7:дала TEN ;
+7%0%-:дала  ORDINAL_A ;
+8:ная TEN ;
+8%0%-:ная  ORDINAL_A ;
+9:ерэ TEN ;
+9%0%-:ерэ  ORDINAL_E ;
 
 LEXICON TEN
-:%0 # ;
-н% :    ONES ;
+%0:  # ;
+:н%     ONES ;
 
 LEXICON ONES
-нэгэ:1 # ;
-нэгэ:1%- ORDINAL_E ;
-хоёр:2 # ;
-хоёр:2%-  ORDINAL_O ;
-гурба:3 # ;
-гурба:3%-  ORDINAL_A ;
-дүрбэ:4 # ;
-дүрбэ:4%- ORDINAL_E ;
-таба:5 # ;
-таба:5%-  ORDINAL_A ;
-зургаа:6 # ;
-зургаа:6%-  ORDINAL_A ;
-долоо:7 # ;
-долоо:7%-  ORDINAL_O ;
-найма:8 # ;
-найма:8%-  ORDINAL_A ;
-юһэ:9 # ;
-юһэ:9%- ORDINAL_E ;
+1:нэгэ # ;
+1%-:нэгэ ORDINAL_E ;
+2:хоёр # ;
+2%-:хоёр  ORDINAL_O ;
+3:гурба # ;
+3%-:гурба  ORDINAL_A ;
+4:дүрбэ # ;
+4%-:дүрбэ  ORDINAL_E ;
+5:таба # ;
+5%-:таба  ORDINAL_A ;
+6:зургаа # ;
+6%-:зургаа  ORDINAL_A ;
+7:долоо # ;
+7%-:долоо  ORDINAL_O ;
+8:найма # ;
+8%-:найма  ORDINAL_A ;
+9:юһэ # ;
+9%-:юһэ ORDINAL_E ;
 
 LEXICON ORDINAL_E
-дэхи:хи # ;
+хи:дэхи # ;
 
 LEXICON ORDINAL_O
-дохи:хи # ;
+хи:дохи # ;
 
 LEXICON ORDINAL_A
-дахи:хи # ;
+хи:дахи # ;
