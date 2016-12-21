@@ -35,10 +35,10 @@ while(<>) {
 	s/PROP_КИТ_MAL/PROP2/g ;
 	s/PROP_ЛАК_MAL/PROP2/g ;
 	s/PROP_КИТ_SUR/PROP2/g ;
-#	s/PROP_КУДО_FEM/PROP2/g ;
-#	s/PROP_КУДО_MAL/PROP2/g ;
-#	s/PROP_КУДО_PATRFEM/PROP2/g ;
-#	s/PROP-PLC_КУДО/PROP1/g ;
+	s/PROP_КУДО_FEM/PROP2/g ;
+	s/PROP_КУДО_MAL/PROP2/g ;
+	s/PROP_КУДО_PATRFEM/PROP2/g ;
+	s/PROP-PLC_КУДО/PROP1/g ;
 	s/PropNameMaleDer-I-YEvich/PROP2/g ;
 	s/PropNameMaleDer-IJ-I0Evich/PROP2/g ;
 	s/PropNameMaleDer-IJ-Y0Evich/PROP2/g ;
@@ -49,7 +49,7 @@ while(<>) {
 
 	my $line = $_;
 
-	print $line  unless ($line =~ m/КУДО/) ;
+	print $line ; #  unless ($line =~ m/КУДО/) ;
 	
 }
 

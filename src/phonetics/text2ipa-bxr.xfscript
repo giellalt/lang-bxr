@@ -65,6 +65,10 @@ define Son [ m | n | ŋ | ɲ | l | r | j | v | đ ] ;
 
 define Nas [ м | н ] ;
 
+define MscVow [ а | ё | о | у | я ] ;
+define FemVow [ е | ө | ү | э | 
+                e | ɵ | ʊ ] ;
+define NeuVow [ и | ы | ю ] ;
 
 define Syll Cns* Vow+ (ː) Cns*  ;
 
@@ -84,14 +88,14 @@ define down [ А -> а ,
 echo << cyr 2 ipa >>
 
 define cyr2ipa [ а -> a ,
- б -> b ,  в -> v ,  г -> g ,  д -> d ,  е -> j e ,  
- ё -> j o ,  ж -> ʒ ,  з -> z ,  и -> i ,  
- й -> j ,  к -> k ,  л -> l ,  м -> m ,  н -> n ,  
- о -> o ,  ө -> ɵ ,  п -> p ,  р -> r ,  
- с -> s ,  т -> t ,  у -> u ,  ү -> ʊ ,  ф -> f ,  
- х -> χ ,  һ -> h ,  ц -> t s ,  ч -> ʧ ,  
- ш -> ʃ ,  щ -> ʃ ˊ,  ь -> 0 ,  ы -> ɨ ,  ъ -> 0 ,  
- э -> e ,  ю -> j u , я -> j a ] ;
+ б -> b   ,  в -> v  ,   г -> g   ,  д -> d ,  е -> j e ,  
+ ё -> j o ,  ж -> ʒ  ,   з -> z   ,  и -> i ,  
+ й -> j   ,  к -> k  ,   л -> l   ,  м -> m ,  н -> n ,  
+ о -> o   ,  ө -> ɵ  ,   п -> p   ,  р -> r ,  
+ с -> s   ,  т -> t  ,   у -> u   ,  ү -> ʊ ,  ф -> f ,  
+ х -> χ   ,  һ -> h  ,   ц -> t s ,  ч -> ʧ ,  
+ ш -> ʃ   ,  щ -> ʃ ˊ,   ь -> 0   ,  ы -> ɨ ,  ъ -> 0 ,  
+ э -> e   ,  ю -> j  u , я -> j a ] ;
 
 echo << the prav ruleset >>
 
@@ -100,11 +104,8 @@ define pravO o -> ɔ || .#. (Cns) _ ;
 define prav2 n -> ŋ || _ .#. ;
 define prav3 a j -> ɛ ː ;
 define prav4 f -> g ;
-define prav7 a a -> x ;
-define prav8 i i -> x ;
-define prav9 u u -> x ;
-define prav11 e e -> x ;
-!define prav12 
+define prav12a χ -> x ||        _ FemVow ;
+define prav12b χ -> x || FemVow _ ;
 !define prav13
 !define prav14
 !define prav15
@@ -138,6 +139,8 @@ read regex [
 .o. pravO
 .o. prav2
 .o. prav3
+.o. prav12a
+.o. prav12b
 !.o. prav4
 !.o. prav5
 !.o. prav6
