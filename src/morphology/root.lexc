@@ -20,65 +20,70 @@
 Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 ! POS
-+N	     !!= * @CODE@
-+V	     !!= * @CODE@
-+A	     !!= * @CODE@
-+Adv     !!= * @CODE@
-+CC	     !!= * @CODE@
-+CS	     !!= * @CODE@
-+Interj  !!= * @CODE@
-+Pron    !!= * @CODE@
-+Num     !!= * @CODE@
++N	     !!= * @CODE@ Noun 
++V	     !!= * @CODE@ Verb
++A	     !!= * @CODE@ Adjective
++Adv     !!= * @CODE@ Adverb
++CC	     !!= * @CODE@ Conjunction
++CS	     !!= * @CODE@ Subjunction
++Interj  !!= * @CODE@ Interjection
++Pron    !!= * @CODE@ Pronoun
++Num     !!= * @CODE@ Numaral
 
 ! Verbal MSP
-+Prs    !!= * @CODE@
-+Fut    !!= * @CODE@
-+Prt    !!= * @CODE@
-+Prf    !!= * @CODE@
-+Ind    !!= * @CODE@
-+Imp    !!= * @CODE@
-+Cond   !!= * @CODE@
-+Opt    !!= * @CODE@
-+Sg1    !!= * @CODE@
-+Sg2    !!= * @CODE@
-+Sg3    !!= * @CODE@
-+Pl1    !!= * @CODE@
-+Pl2    !!= * @CODE@
-+Pl3    !!= * @CODE@
-+Inf    !!= * @CODE@
-+Pos    !!= * @CODE@
-+Neg    !!= * @CODE@
-+ConNeg !!= * @CODE@
++Prs    !!= * @CODE@ Present
++Fut    !!= * @CODE@ Future
++Prt    !!= * @CODE@ Preterite
++Prf    !!= * @CODE@ Perfect
++Ind    !!= * @CODE@ Indicative
++Imp    !!= * @CODE@ Imperative
++Cond   !!= * @CODE@ Conditional
++Opt    !!= * @CODE@ Optative
++Sg1    !!= * @CODE@ first person singular
++Sg2    !!= * @CODE@ second person singular
++Sg3    !!= * @CODE@ third person singular
++Pl1    !!= * @CODE@ first person plural
++Pl2    !!= * @CODE@ second person plural
++Pl3    !!= * @CODE@ third person plural
++Inf    !!= * @CODE@ Infinitive
++Pos    !!= * @CODE@ Positive
++Neg    !!= * @CODE@ Negative
 
 ! Nominal MSP
-+Sg	    !!= * @CODE@
-+Pl	    !!= * @CODE@
-+Nom    !!= * @CODE@
-+Acc    !!= * @CODE@
-+Gen    !!= * @CODE@
-+Abl    !!= * @CODE@
-+Dat    !!= * @CODE@
-+Ins    !!= * @CODE@
-+Com    !!= * @CODE@
-+Ord    !!= * @CODE@
-+PxSg1  !!= * @CODE@
-+PxSg2  !!= * @CODE@
-+PxSg3  !!= * @CODE@
-+PxPl1  !!= * @CODE@
-+PxPl2  !!= * @CODE@
-+PxPl3  !!= * @CODE@
++Sg     !!= * @CODE@ Singular
++Pl     !!= * @CODE@ Plural
++Nom    !!= * @CODE@ Nominative
++Acc    !!= * @CODE@ Accusative
++Gen    !!= * @CODE@ Genitive
++Abl    !!= * @CODE@ Ablative
++Dat    !!= * @CODE@ Dative
++Ins    !!= * @CODE@ Instrumental
++Com    !!= * @CODE@ Comitative
++Ord    !!= * @CODE@ Ordinal
++PxSg1  !!= * @CODE@ first person singular possessive
++PxSg2  !!= * @CODE@ second person singular possessive
++PxSg3  !!= * @CODE@ third person singular possessive
++PxPl1  !!= * @CODE@ first person plural possessive
++PxPl2  !!= * @CODE@ second person plural possessive
++PxPl3  !!= * @CODE@ third person plural possessive
+Px3  !!= * @CODE@ third person plural possessive
 
-%{G%}  !!= * @CODE@ 
-%{A%}  !!= * @CODE@ 
-%{J%}  !!= * @CODE@ 
-%{T%}  !!= * @CODE@ 
-%{V%}  !!= * @CODE@ 
-%{I%}  !!= * @CODE@ 
-%{U%}  !!= * @CODE@ 
-%{Ө%}  !!= * @CODE@ 
+%{G%}  !!= * @CODE@ letter class 
+%{A%}  !!= * @CODE@ letter class 
+%{J%}  !!= * @CODE@ letter class 
+%{T%}  !!= * @CODE@ letter class 
+%{V%}  !!= * @CODE@ letter class 
+%{I%}  !!= * @CODE@ letter class 
+%{U%}  !!= * @CODE@ letter class 
+%{Ө%}  !!= * @CODE@ letter class 
 %{Y%}  !!= * @CODE@ kept after Cns, deleted after Vow
 
 а2 я2 !!= * @CODE@ these are а and я in Russian loanwords that do not weaken to ых
+
+!! !!Usage tags
+
++Use/NG  !!= * @CODE@ Do not generate 
+
 
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
@@ -116,14 +121,14 @@ Noun ;
 urj-Cyrl-ProperNouns ;
 bxr-Propernouns ;
 
-!Verb ;
-!Adjective ;
-!Adverb ;
+Verb ;
+Adjective ;
+Adverb ;
 !Conjunction ;
-!Subjunction ;
-!Interjection ;
+Subjunction ;
+Interjection ;
 !Numeral ;
 Pronoun ;
-!Postposition ;
-!Punctuation ;
+Postposition ;
+Punctuation ;
 

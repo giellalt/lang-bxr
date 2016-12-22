@@ -15,63 +15,68 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Russia Buriat LANGUAGE.
 
  !!!Definitions for Multichar_Symbols
 
- * +N	     
- * +V	     
- * +A	     
- * +Adv     
- * +CC	     
- * +CS	     
- * +Interj  
- * +Pron    
- * +Num     
+ * +N	      Noun 
+ * +V	      Verb
+ * +A	      Adjective
+ * +Adv      Adverb
+ * +CC	      Conjunction
+ * +CS	      Subjunction
+ * +Interj   Interjection
+ * +Pron     Pronoun
+ * +Num      Numaral
 
- * +Prs    
- * +Fut    
- * +Prt    
- * +Prf    
- * +Ind    
- * +Imp    
- * +Cond   
- * +Opt    
- * +Sg1    
- * +Sg2    
- * +Sg3    
- * +Pl1    
- * +Pl2    
- * +Pl3    
- * +Inf    
- * +Pos    
- * +Neg    
- * +ConNeg 
+ * +Prs     Present
+ * +Fut     Future
+ * +Prt     Preterite
+ * +Prf     Perfect
+ * +Ind     Indicative
+ * +Imp     Imperative
+ * +Cond    Conditional
+ * +Opt     Optative
+ * +Sg1     first person singular
+ * +Sg2     second person singular
+ * +Sg3     third person singular
+ * +Pl1     first person plural
+ * +Pl2     second person plural
+ * +Pl3     third person plural
+ * +Inf     Infinitive
+ * +Pos     Positive
+ * +Neg     Negative
 
- * +Sg	    
- * +Pl	    
- * +Nom    
- * +Acc    
- * +Gen    
- * +Abl    
- * +Dat    
- * +Ins    
- * +Com    
- * +Ord    
- * +PxSg1  
- * +PxSg2  
- * +PxSg3  
- * +PxPl1  
- * +PxPl2  
- * +PxPl3  
+ * +Sg      Singular
+ * +Pl      Plural
+ * +Nom     Nominative
+ * +Acc     Accusative
+ * +Gen     Genitive
+ * +Abl     Ablative
+ * +Dat     Dative
+ * +Ins     Instrumental
+ * +Com     Comitative
+ * +Ord     Ordinal
+ * +PxSg1   first person singular possessive
+ * +PxSg2   second person singular possessive
+ * +PxSg3   third person singular possessive
+ * +PxPl1   first person plural possessive
+ * +PxPl2   second person plural possessive
+ * +PxPl3   third person plural possessive
+ * Px3   third person plural possessive
 
- * %{G%}   
- * %{A%}   
- * %{J%}   
- * %{T%}   
- * %{V%}   
- * %{I%}   
- * %{U%}   
- * %{Ө%}   
+ * %{G%}   letter class 
+ * %{A%}   letter class 
+ * %{J%}   letter class 
+ * %{T%}   letter class 
+ * %{V%}   letter class 
+ * %{I%}   letter class 
+ * %{U%}   letter class 
+ * %{Ө%}   letter class 
  * %{Y%}   kept after Cns, deleted after Vow
 
  * а2 я2  these are а and я in Russian loanwords that do not weaken to ых
+
+!!Usage tags
+
+ * +Use/NG   Do not generate 
+
 
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following
