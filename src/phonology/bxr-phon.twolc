@@ -58,29 +58,41 @@ Rules
 "Vowel harmony ӨӨ:өө"
 %{Ө%}:ө <=> ө (:RealCns) %>: г: һ ( %{Ө%}: ) _  ;
 
-!"Floating vowel"
-!и:ё <=> :Cns _ н %>: () ;
 
-
-
-!"{I} to и in Acc case"
-!%{I%}:и <=> 
 
 !!! ы and и
-"{I}{I} to ы in Gen case 1"
-%{I%}:ы <=> [а:|э:|о:] %>: _ %{I%}: [н | е] ;
+"{I}{I} to ы in Gen/Acc and Poss 1"
+%{I%}:ы <=> [а:0|э:0|о:0] %>: _ %{I%}: [н | е] [.#.|%>:] ; ! Gen/Acc
+            [Cns - н]  %>: _ %{I%}: н ь ;  
+                    
+"{I}{I} to ы in Gen/Acc and Poss 2"
+%{I%}:0 <=> [а:0|э:0|о:0] %>: %{I%}: _ [н | е] [.#.|%>:] ; ! Gen/Acc
+            [Cns - н]  %>: %{I%}: _ н ь ;   
+            RealVow %>: %{I%}: _ н ь ;
+            RealVow %>: _ %{I%}: н ь ;
 
+!!€ Байгал>{I}{I}нь
+!!€ Байгал>ы0нь
 
-"{I}{I} to ии in Gen case"
-%{I%}:и <=>  и: %>:  _ %{I%}: [н | е] ;
-            и: %>:  %{I%}: _  [н | е] ;
+!!€ аба>{I}{I}нь
+!!€ аба>00нь
 
-"{I}{I} to ы in Gen case 2"
-%{I%}:0 <=> [а:|э:|о:] %>: %{I%}: _ [н | е] ;
+"{I}{I} to ии in Gen/Acc and Poss"
+%{I%}:и <=>  и: %>:  _      %{I%}: [н | е] [.#.|%>:] ;
+             и: %>:  %{I%}: _      [н | е] [.#.|%>:] ;
+             н  %>:  _      %{I%}: н ь ; ! Poss
+             н  %>:  %{I%}: _      н ь ; ! Poss
+        RealVow %>: н _      %{I%}: н ь ; ! Poss
+        RealVow %>: н %{I%}: _      н ь ; ! Poss
 
+!!€ морин>{I}{I}нь
+!!€ морин>иинь
+
+!!€ морин>{I}{I}е>тнай
+!!€ мори0>и
 
 "Stem vowel deletion"
-Vx:0 <=> _ %>: %{I%}: %{I%}:  ; 
+Vx:0 <=> _ %>: %{I%}: %{I%}: [.#.|%>:] ; 
       where Vx in ( и э а о ) ; 
 
 !! !!Other vowel rules
@@ -111,7 +123,10 @@ Vx:0 <=> :RealCns _ %>: ы [ н | е] ;
 
 !! !!Consonant rules
 "Changing t and d"
-%{D%}:т <=> р %>: _ ;
+%{D%}:т <=> [б|г|р|с|д] %>: _ ;
+
+!!€ сэсэг>{D}{A}
+!!€ сэсэг>тэ
 
 ! Always delete /g/ in affix if there anything apart from /n/
 
@@ -127,16 +142,24 @@ Vx:0 <=> :RealCns _ %>: ы [ н | е] ;
 !!€ анг>һ{Ө}{Ө}
 !!€ анг>һаа
 
+"Final consonant voicing in loanwords"
+[п:б|к:г|т:д] <=> RealVow _ %>: [Vow|Cns] ;
 
+!!€ самолёт>{A}й
+!!€ самолёд>ой
 
 "Deleting the g before g{A}j and gh{Ө}{Ө}"
 г:0 <=> Cns: %>: _ [ %{A%}: й | һ %{Ө%}: %{Ө%}: ] ;
 
-
-
 !@ б а с а г а н >:0 г:0 {A}:а й
 !@ б а с а г а н >:0 г:0 һ {A}:а {A}:а 
 
+
+"Deletion of possessive m for consonant stems"
+м:0 <=> [Cns: - [н:|й:]] %>: _ ;
+
+"Deletion of н before м in possessive"
+н:0 <=> RealVow _ %>: м н и ;
 
 "Deletion of n"
 н:0 <=> Vx Vx _ %>: г %{A%}: %{A%}: р ;
@@ -154,6 +177,15 @@ Vx:0 <=> :RealCns _ %>: ы [ н | е] ;
 
 
 
+
+
+!"Floating vowel"
+!и:ё <=> :Cns _ н %>: () ;
+
+
+
+!"{I} to и in Acc case"
+!%{I%}:и <=> 
 
 
 

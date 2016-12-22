@@ -6,28 +6,28 @@ LEXICON NUM2
 ! +N+Pl:%>ууд case2 ;
 
 LEXICON case1
-  +Nom:               Poss ;
-  +Acc:%>%{I%}%{I%}е  Poss ;
-  +Gen:%>%{I%}%{I%}н  #    ;
-  +Abl:%>һ%{Ө%}%{Ө%}  #    ;
-  +Com:%>т%{A%}й      #    ;
-! +Dat:%>%{T%}%{A%}   #    ;
-! +Ins:%>г%{A%}%{A%}р #    ;
+  +Gen:%>%{I%}%{I%}н #    ;
+  commoncase ;
 
 LEXICON case2
-  +Nom:                  # ;
-  +Acc:%>%{I%}%{I%}е     # ;
-  +Gen:%>г%{A%}й         # ;
-  +Abl:%>һ%{Ө%}%{Ө%}     # ;
-  +Com:%>т%{A%}й         # ;
-! +Dat:%>%{D%}%{A%}      # ;
-! +Ins:%>г%{A%}%{A%}р    # ;
+  +Gen:%>г%{A%}й # ;
+  commoncase ;
 
-!самолёт
-! +Gen:%>%{G%}%{A%}%{J%} # ;
-! +Dat:%>%{D%}%{A%}      # ;
-! +Ins:%>%{A%}%{A%}р     # ;
-! +Abl:%>һ%{A%}%{A%}     # ;
+LEXICON commoncase 
+  +Nom:               Poss ;
+  +Acc:%>%{I%}%{I%}е  Poss ;
+  +Abl:%>һ%{Ө%}%{Ө%}  #    ;
+  +Com:%>т%{A%}й      #    ;
+  +Dat:%>%{D%}%{A%}   #    ;
+  +Ins:%>г%{A%}%{A%}р #    ;
 
 LEXICON Poss
-  # ;
+  # ; ! Absolute declension
++PxSg1:%>мни # ;
++PxSg1+Use/NG:%>м # ; ! in case of one, prefer -мни
++PxSg2:%>шни # ;
++PxSg2+Use/NG:%>ш # ;
++PxPl1:%>мнай # ;
++PxPl2:%>тнай # ;
++Px3:%>%{I%}%{I%}нь # ;
++Px3:%>н%{I%}%{I%}нь # ; ! keep the n in mind
