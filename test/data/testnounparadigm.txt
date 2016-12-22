@@ -1,0 +1,14 @@
++N+Sg+Nom
++N+Sg+Gen
++N+Sg+Acc
++N+Sg+Abl
++N+Sg+Com
++N+Sg+Dat
++N+Sg+Ins
++N+Pl+Nom
++N+Pl+Gen
++N+Pl+Acc
++N+Pl+Abl
++N+Pl+Com
++N+Pl+Dat
++N+Pl+Ins
