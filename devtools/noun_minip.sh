@@ -7,7 +7,7 @@
 # sh devtools/noun_minip.sh NUM1 | less
 # sh devtools/noun_minip.sh аба 
 # Only get the lemma you ask for:
-# sh devtools/noun_minip.sh '^аба[:+ ]' 
+# sh devtools/noun_minip.sh '^аба:' 
 
 
 LOOKUP=$(echo $LOOKUP)
