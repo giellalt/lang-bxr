@@ -15,11 +15,11 @@ LEXICON case2
 
 LEXICON commoncase 
   +Nom:               Poss ;
+  +Dat:%>%{D%}%{A%}   #    ;
   +Acc:%>%{I%}%{I%}е  Poss ;
   +Abl:%>һ%{Ө%}%{Ө%}  #    ;
-  +Com:%>т%{A%}й      #    ;
-  +Dat:%>%{D%}%{A%}   #    ;
   +Ins:%>г%{A%}%{A%}р #    ;
+  +Com:%>т%{A%}й      #    ;
 
 LEXICON Poss
   # ; ! Absolute declension
