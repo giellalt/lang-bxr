@@ -61,13 +61,13 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Russia Buriat LANGUAGE.
  * +PxPl3   third person plural possessive
  * Px3   third person plural possessive
 
- * %{G%}   letter class 
  * %{A%}   letter class 
- * %{J%}   letter class 
- * %{T%}   letter class 
- * %{V%}   letter class 
+ * %{D%}   letter class 
+ * %{G%}   letter class 
  * %{I%}   letter class 
+ * %{J%}   letter class 
  * %{U%}   letter class 
+ * %{V%}   letter class 
  * %{Ө%}   letter class 
  * %{Y%}   kept after Cns, deleted after Vow
 
