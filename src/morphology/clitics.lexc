@@ -5,5 +5,10 @@
 !! These clitics attach to the open parts of speech.
 
 LEXICON K
-# ;
-+Qst:гү # ;
+ENDLEX ;
++Qst:гү ENDLEX ;
+
+
+LEXICON ENDLEX
+ :%^END # ;
+ 
