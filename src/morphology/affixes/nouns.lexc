@@ -1,9 +1,9 @@
 LEXICON NUM1
   +N+Sg:      case1 ;
-! +N+Pl:%>ууд case1 ;
+  +N+Pl:%>ууд case1 ; ! was uncommented
 LEXICON NUM2
   +N+Sg:      case2 ;
-! +N+Pl:%>ууд case2 ;
+  +N+Pl:%>ууд case2 ; ! was uncommented
 
 LEXICON case1
   +Gen:%>%{I%}%{I%}н #    ;
