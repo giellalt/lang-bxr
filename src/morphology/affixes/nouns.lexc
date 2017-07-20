@@ -6,28 +6,28 @@ LEXICON NUM2
   +N+Pl:%>ууд case2 ; ! was uncommented
 
 LEXICON case1
-  +Gen:%>%{I%}%{I%}н #    ;
+  +Gen:%>%{I%}%{I%}н K    ;
   commoncase ;
 
 LEXICON case2
-  +Gen:%>г%{A%}й # ;
+  +Gen:%>г%{A%}й K ;
   commoncase ;
 
 LEXICON commoncase 
   +Nom:               Poss ;
-  +Dat:%>%{D%}%{A%}   #    ;
+  +Dat:%>%{D%}%{A%}   K    ;
   +Acc:%>%{I%}%{I%}е  Poss ;
-  +Abl:%>һ%{Ө%}%{Ө%}  #    ;
-  +Ins:%>г%{A%}%{A%}р #    ;
-  +Com:%>т%{A%}й      #    ;
+  +Abl:%>һ%{Ө%}%{Ө%}  K    ;
+  +Ins:%>г%{A%}%{A%}р K    ;
+  +Com:%>т%{A%}й      K    ;
 
 LEXICON Poss
-  # ; ! Absolute declension
-+PxSg1:%>мни # ;
-+PxSg1+Use/NG:%>м # ; ! in case of one, prefer -мни
-+PxSg2:%>шни # ;
-+PxSg2+Use/NG:%>ш # ;
-+PxPl1:%>мнай # ;
-+PxPl2:%>тнай # ;
-+Px3:%>%{I%}%{I%}нь # ;
-+Px3:%>н%{I%}%{I%}нь # ; ! keep the n in mind
+  K ; ! Absolute declension
++PxSg1:%>мни K ;
++PxSg1+Use/NG:%>м K ; ! in case of one, prefer -мни
++PxSg2:%>шни K ;
++PxSg2+Use/NG:%>ш K ;
++PxPl1:%>мнай K ;
++PxPl2:%>тнай K ;
++Px3:%>%{I%}%{I%}нь K ;
++Px3:%>н%{I%}%{I%}нь K ; ! keep the n in mind

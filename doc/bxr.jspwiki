@@ -73,6 +73,8 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Russia Buriat LANGUAGE.
 
  * а2 я2  these are а and я in Russian loanwords that do not weaken to ых
 
+ * %^END   we do the mhr trick to harmonise twolc and lexc
+
 !!Usage tags
 
  * +Use/NG   Do not generate 
