@@ -2,13 +2,13 @@
 
 !! !!Buryaad clitics
 
-!! These clitics attach to the open parts of speech.
+!! This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
 
-LEXICON K
+LEXICON K  !!= * __@CODE@__ , containing the following clitics:
 ENDLEX ;
-+Qst:гү ENDLEX ;
++Qst:гү ENDLEX ; !! ** гү
 
 
-LEXICON ENDLEX
+LEXICON ENDLEX !!= * __@CODE@__ is the lexicon adding ^END
  :%^END # ;
  

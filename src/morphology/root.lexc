@@ -13,9 +13,9 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-!!            !!!Russia Buriat morphological analyser                      !
+!!            !!!Buryaad morphological analyser                      !
 ! ========================================================================== !
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Russia Buriat LANGUAGE.
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 
 Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
@@ -117,20 +117,19 @@ Px3  !!= * @CODE@ third person plural possessive
 
 !! Key lexicon
 
-LEXICON Root
+LEXICON Root !!= __@CODE@__ is where it all starts, with these lexica:
 
-Noun ;
-urj-Cyrl-ProperNouns ;
-bxr-Propernouns ;
-
-Verb ;
-Adjective ;
-Adverb ;
+Noun ;				   !!= * @CODE@
+urj-Cyrl-ProperNouns ; !!= * @CODE@
+bxr-Propernouns ;	   !!= * @CODE@
+Verb ;				   !!= * @CODE@
+Adjective ;			   !!= * @CODE@
+Adverb ;			   !!= * @CODE@
+Subjunction ;		   !!= * @CODE@
+Interjection ;		   !!= * @CODE@
+Pronoun ;			   !!= * @CODE@
+Postposition ;		   !!= * @CODE@
+Punctuation ;		   !!= * @CODE@
 !Conjunction ;
-Subjunction ;
-Interjection ;
 !Numeral ;
-Pronoun ;
-Postposition ;
-Punctuation ;
 

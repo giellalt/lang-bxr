@@ -1,5 +1,9 @@
-LECIXON CC ;
-+CC: #;
+!! !!!Buryaad conjunctions
+
+!! This file is still empty.
+
+LECIXON conj ;
++CC: # ;
 
 LEXICON Conjunction ;
-ja CC ;
+да conj ; ! dummy example
