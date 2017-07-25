@@ -1,16 +1,18 @@
 LEXICON NUM1
   +N+Sg:      case1 ;
-  +N+Pl:%>ууд case1 ; ! was uncommented
+  +N+Pl:%>нар case1 ; ! was uncommented
 LEXICON NUM2
   +N+Sg:      case2 ;
   +N+Pl:%>ууд case2 ; ! was uncommented
 
 LEXICON case1
   +Gen:%>%{I%}%{I%}н K    ;
+  +Ins:%>%{A%}%{A%}р K    ;
   commoncase ;
 
 LEXICON case2
   +Gen:%>г%{A%}й K ;
+  +Ins:%>г%{A%}%{A%}р K    ;
   commoncase ;
 
 LEXICON commoncase 
@@ -18,7 +20,6 @@ LEXICON commoncase
   +Dat:%>%{D%}%{A%}   K    ;
   +Acc:%>%{I%}%{I%}е  Poss ;
   +Abl:%>һ%{Ө%}%{Ө%}  K    ;
-  +Ins:%>г%{A%}%{A%}р K    ;
   +Com:%>т%{A%}й      K    ;
 
 LEXICON Poss
