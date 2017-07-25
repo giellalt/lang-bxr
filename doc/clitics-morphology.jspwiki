@@ -2,8 +2,11 @@
 
 !!Buryaad clitics
 
-These clitics attach to the open parts of speech.
+This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
+
+ * __LEXICON K  __ , containing the following clitics:
+** гү
 
 
-
+ * __LEXICON ENDLEX __ is the lexicon adding ^END
 
