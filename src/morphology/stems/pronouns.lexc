@@ -1,24 +1,32 @@
-LEXICON Pronoun 
+!! !!!Buryaad pronouns
 
-Personal ;
+!! This file contains pronouns.
+
+!! So far, the following pronouns are covered:
+
+LEXICON Pronoun !!= * __@CODE*__
+
+Personal ;         !!= ** __@CODE*__
 !Demonstrative ;
-Reflexive ;
+!Reflexive ;        
 
 
 LEXICON Personal
 би+Pron+Pers+Sg1: BI_LEX ;
-бидэ+Pron+Pers+Pl1: BIDE_LEX ;
+ши+Pron+Pers+Sg2: SHI_LEX ;
+тэрэ+Pron+Pers+Sg3: TERE_LEX ;
+
 бидэ+Pron+Pers+Pl1: BIDE_LEX ;
 бидэнэр+Pron+Pers+Pl1: BIDENER_LEX ;
 маанар+Pron+Pers+Pl1: MAANAR_LEX ;
 маанад+Pron+Pers+Pl1: MAANAD_LEX ;
 маанадууд+Pron+Pers+Pl1: MAANADUUD_LEX ;
-ши+Pron+Pers+Sg2: SHI_LEX ;
+
 та+Pron+Pers+Pl2: TA_LEX ;
 таанар+Pron+Pers+Pl2: TAANAR_LEX ;
 таанад+Pron+Pers+Pl2: TAANAD_LEX ;
 таанадууд+Pron+Pers+Pl2: TAANADUUD_LEX ;
-тэрэ+Pron+Pers+Sg3: TERE_LEX ;
+
 тэдэ+Pron+Pers+Pl3: TEDE_LEX ;
 тэдэнэр+Pron+Pers+Pl3: TEDENER_LEX ;
 тэдээнүүд+Pron+Pers+Pl3: TEDEENUUD_LEX ;
@@ -199,6 +207,6 @@ LEXICON PD
 +Dem:%>би # ;
 +Dem:%>б%{Y%} # ;
 
-LEXICON Reflexive
-K ;
+!LEXICON Reflexive
+!K ;
 
