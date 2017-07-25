@@ -1,61 +1,84 @@
-Alphabet
-А Б В Г Д Е Ё Ж З И Й К Л М Н О 
-Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
-а б в г д е ё ж з и й к л м н о 
-ө п р с т у ү ф х һ ц ч ш щ ь ы ъ э ю я
-%{A%}:а %{A%}:о %{A%}:э
-%{U%}:у %{U%}:ү  
-%{Ө%}:а %{Ө%}:о %{Ө%}:э %{Ө%}:ө
-%{D%}:т %{D%}:д
-%{I%}:и %{I%}:ы %{I%}:0
-%{Y%}:и %{Y%}:0  !!= * @CODE@ kept after Cns, deleted after Vow
+!! !!!Buryaad morphophonology
 
-%> 
-а2:а я2:я
-%^END:0
+!! This file expresses Buryaad morphophonological alternation, from abstract underlying forms.
+
+!! !!!Alphabet
+
+!! This is a list of all symbols in use.
+
+Alphabet
+
+А Б В Г Д Е Ё Ж З И Й К Л М Н О   !!= * @CODE@ 
+Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ь Ы   !!=   @CODE@  
+Ъ Э Ю Я							  !!=   @CODE@ = Capital letters
+а б в г д е ё ж з и й к л м н о   !!= * @CODE@ 
+ө п р с т у ү ф х һ ц ч ш щ ь ы   !!=   @CODE@
+ъ э ю я							  !!=   @CODE@ = Small letters
+%{A%}:а %{A%}:о %{A%}:э			  !!= * @CODE@ = archivowel A
+%{U%}:у %{U%}:ү  				  !!= * @CODE@ = archivowel U
+%{Ө%}:а %{Ө%}:о %{Ө%}:э %{Ө%}:ө	  !!= * @CODE@ = archivowel Ө 
+%{I%}:и %{I%}:ы %{I%}:0			  !!= * @CODE@ = archivowel I
+%{Y%}:и %{Y%}:0              !!= * @CODE@ = archivowel Y, kept after Cns, deleted after Vow
+%{D%}:т %{D%}:д					  !!= * @CODE@ = arciconsonant D
+
+%> 		        !!= * @CODE@ = suffix border
+а2:а я2:я       !!= * @CODE@ = invariant а/я in loanwords
+%^END:0	        !!= * @CODE@ = auxiliary end symbol to fix xerox bug
  ;
 
+!! !!!Sets
+
+!! Some of the symbols are bundled together in sets
+
 Sets
-RealVow =  А Е Ё И О Ө У Ү Ы Э Ю Я
-           а е ё и о ө у ү ы э ю я ;
-ArchiVow = а2 %{A%} %{U%} %{Ө%} %{I%} %{Y%} ;
-RealCns =  Б В Г Д Ж З Й К Л М Н П Р С Т
-           Ф Х Һ Ц Ч Ш Щ Ь Ъ
-           б в г д ж з й к л м н п р с т
-           ф х һ ц ч ш щ ь ъ ;
-ArchiCns = %{D%} ;
+RealVow =  А Е Ё И О Ө У Ү Ы Э Ю Я			  !!= * @CODE@ 
+           а е ё и о ө у ү ы э ю я ;		  !!=   @CODE@ 
+ArchiVow = а2 %{A%} %{U%} %{Ө%} %{I%} %{Y%} ; !!= * @CODE@ 
+RealCns =  Б В Г Д Ж З Й К Л М Н П Р С Т	  !!= * @CODE@ 
+           Ф Х Һ Ц Ч Ш Щ Ь Ъ				  !!=   @CODE@ 
+           б в г д ж з й к л м н п р с т	  !!=   @CODE@ 
+           ф х һ ц ч ш щ ь ъ ;				  !!=   @CODE@ 
+ArchiCns = %{D%} ;							  !!= * @CODE@ 
 
-Vow = RealVow ArchiVow ;
-Cns = RealCns ArchiCns ;
-Sgm = Vow Cns ;
+Vow = RealVow ArchiVow ;  !!= * @CODE@ 
+Cns = RealCns ArchiCns ;  !!= * @CODE@ 
+Sgm = Vow Cns ;			  !!= * @CODE@ 
 
+
+!! !!!Rules
+
+!! Here come all the rules (marked with RULE:), and test cases.
 
 Rules
 
 !! !!Vowel harmony
+!! !Vowel harmony for short vowels
 
 "Vowel harmony A:а"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ gives a after stems with a or juu
 %{A%}:а <=> [:а|:я|\ю у]  [RealCns:|ю (у)|ы|и|:0]*  %>: (Cns:) (%{A%}:) _  ;
 
 !@ б а с а г а н >:0 г:0 {A}:а й
 !!€ басаган>г{A}й
 !!€ басаган>0ай
 
+
 "Vowel harmony A:o"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ gives o after stems with o or jo
 %{A%}:о <=> [о|ё]       [RealCns:|ю (у)|ы|и]*  %>: (Cns:) (%{A%}:) _  ;
 
 !!€ самолёт>{D}{A}^END
 !!€ самолёд>то0
 
 "Vowel harmony A:э"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ gives e after e etc
 %{A%}:э <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|и]*  %>: (Cns:) (%{A%}:) _  ;
 
 
+!! !Vowel harmony for long vowels
+
 "Vowel harmony ӨӨ:аa"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ gives aa after a
 !%{Ө%}:а <=> а (:RealCns) г: %>: һ ( %{Ө%}: ) _  ;
 %{Ө%}:а <=> а :RealCns*  %>: ([:RealCns|:RealVow]*  %>:) һ ( %{Ө%}: ) _  ;
 
@@ -66,15 +89,15 @@ Rules
 !!€ аха>һаа0
 
 "Vowel harmony ӨӨ:оо"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ gives oo after o
 %{Ө%}:о <=> о (:RealCns) %>: г: һ ( %{Ө%}: ) _  ;
 
 "Vowel harmony ӨӨ:ээ"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ gives ee after e
 %{Ө%}:э <=> э (:RealCns) %>: г: һ ( %{Ө%}: ) _  ;
 
 "Vowel harmony ӨӨ:өө"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ gives ø after ø
 %{Ө%}:ө <=> ө (:RealCns) %>: г: һ ( %{Ө%}: ) _  ;
 
 
@@ -82,13 +105,15 @@ Rules
 !! !ы and и
 
 "{I}{I} to ы in Gen/Acc and Poss 1"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ gives y for the first I
 %{I%}:ы <=> [а:|э:|о:|:RealCns] %>: _ %{I%}: [н|е] [%^END:|%>:] ; !Gen/Acc
             [Cns - н]  %>: _ %{I%}: н ь ;  
                     
 "{I}{I} to ы in Gen/Acc and Poss 2"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ deletes the second I
 %{I%}:0 <=> [а:|э:|о:|:RealCns] %>: %{I%}: _ [н|е] [%^END:|%>:] ; !Gen/Acc
+            н:    %>: %{I%}: _        е [%^END:|%>:] ; !Gen/Acc
+            н:    %>:        _ %{I%}: е [%^END:|%>:] ; !Gen/Acc
             [Cns - н]  %>: %{I%}: _ н ь ;   
             RealVow    %>: %{I%}: _ н ь ;
             RealVow    %>:        _ %{I%}: н ь ;
@@ -103,7 +128,7 @@ Rules
 !!€ аб0>ы0е0
 
 "{I}{I} to ии in Gen/Acc and Poss"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ changes both I to i
 %{I%}:и <=>  и: %>:          _ %{I%}: [н | е] [%^END:|%>:] ;
              и: %>:   %{I%}: _        [н | е] [%^END:|%>:] ;
              н  %>:          _ %{I%}: н ь ; ! Poss
@@ -126,7 +151,7 @@ Rules
 !! !Vowel deletion rules
 
 "Final stem vowel deletion before ые and ын"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ 
 Vx:0 <=> :RealCns _ %>: :ы (:0) [ н | е] ;
          :RealCns _ %>: :RealVow ;
      where Vx in ( а о э ) ;
@@ -135,17 +160,17 @@ Vx:0 <=> :RealCns _ %>: :ы (:0) [ н | е] ;
 !!€ ах0>аар0
 
 "Deletion of и in word-final иие and Deletion SHV"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ 
 и:0 <=>       _ н %>: е %{A%}: р ;
         и %>: _ :и е ;
 
 
 "Deletion of ы in -ые for aj and VV stems"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ 
 ы:0 <=> [ а й | а а| о о |э э ] %>: _  :е  ;
 
 "Deletion of Y in predicative particle -b for vowel stem"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ 
 %{Y%}:0 <=> :RealVow %>: б _ ;
 
 !!€ би>б{Y}^END
@@ -154,16 +179,17 @@ Vx:0 <=> :RealCns _ %>: :ы (:0) [ н | е] ;
 !! !Vowel change rules
 
 "Y to i in predicative particle -bi for consonant stem"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ 
 %{Y%}:и <=> :RealCns %>: б _ ;
 
 !!€ тэдэнэр>б{Y}^END
 !!€ тэдэнэр>би0
 
 !! !!Consonant rules
+!! !Consonant change rules
 
 "D to t suffix initially for VC stems"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ 
 %{D%}:т <=> :RealVow [б|г|р|с|:д] %>: _ ;
 !%{D%}:т <=> [б|г|р|с|д|т] %>: _ ;
 
@@ -171,28 +197,33 @@ Vx:0 <=> :RealCns _ %>: :ы (:0) [ н | е] ;
 !!€ сэсэг>тэ0
 
 "D to d after n i l"  ! check
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ 
 %{D%}:д <=> [н (г:)|л|й|:RealVow] %>: _ ;
 
 
 
 "Final consonant ptd voicing to bdg in loanwords"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ 
 [п:б|т:д|к:г] <=> RealVow _ %>: [Vow|:Cns] ;
 
 !!€ самолёт>{A}й^END
 !!€ самолёд>ой0
 
 
+!! !Consonant deletion rules
 
 "Deletion of possessive m for consonant stems"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ 
 м:0 <=> [Cns: - [н:|й:]] %>: _ ;
 
 "Deletion of n before m in possessive and before gAAr"
-!! * __@RULENAME@__ 
+!! * RULE:  __@RULENAME@__ 
 н:0 <=>         RealVow _ %>: м н и ;
         RealVow RealVow _ %>: г %{A%}: %{A%}: р ;
+        RealVow RealVow _ %>: %{I%}: %{I%}: е ;
+
+!!€ һанаан>{I}{I}е^END
+!!€ һанаа0>ы0е0
 
 !"Буква д после гласных"
 ! д:д <=> RealVow %>: _ ;
@@ -200,8 +231,8 @@ Vx:0 <=> :RealCns _ %>: :ы (:0) [ н | е] ;
 
 ! Always delete /g/ in affix if there anything apart from /n/
 
-"Deletion of g in word-final ng and before g{A}j and gh{Ө}{Ө}"
-!! * __@RULENAME@__ 
+"Deletion of g in word-final ng and before gaj and haa"
+!! * RULE:  __@RULENAME@__ 
 г:0 <=>        н _ [%>:  [:Cns - :һ] | %^END:] ;
         Cns: %>: _ [ %{A%}: [%{A%}: р|й] | һ %{Ө%}: %{Ө%}: ] ;
 
@@ -211,7 +242,7 @@ Vx:0 <=> :RealCns _ %>: :ы (:0) [ н | е] ;
 !!€ анг>{D}{A}^END
 !!€ ан0>да0
 
-!!€ анг>һ{Ө}{Ө}^END
+!!€ анг>һ{Ө}{Ө}^END 
 !!€ анг>һаа0
 
 
