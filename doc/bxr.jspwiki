@@ -113,3 +113,235 @@ Key lexicon
 
 
 
+
+
+!!Buryaad clitics
+
+These clitics attach to the open parts of speech.
+
+
+
+
+!!!Buryaad noun stems
+
+ * __LEXICON Noun  __  the lexicon itself
+
+There are some names here, they should eventually
+be moved to bxr-propernouns.lexc
+
+
+
+
+
+
+
+
+
+
+
+!!!Buryaad noun affixes
+
+We have two lexica, NUM1 and NUM2, 
+NUM1 with -нар plural and V-initial Gen, Ins, and
+NUM2 with -ууд plural and г-initial Gen, Ins
+
+ * __LEXICON NUM1 __
+
+ * __LEXICON NUM2 __
+
+ * __LEXICON case1 __ Gen, Ins
+
+ * __LEXICON case2 __
+
+ * __LEXICON commoncase  __ for other cases
+
+ * __LEXICON Poss __ for Px
+!!!Buryaad morphophonology
+
+This file expresses Buryaad morphophonological alternation, from abstract underlying forms.
+
+!!!Alphabet
+
+This is a list of all symbols in use.
+
+
+ * А Б В Г Д Е Ё Ж З И Й К Л М Н О    
+   Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ь Ы     
+   Ъ Э Ю Я							   = Capital letters
+ * а б в г д е ё ж з и й к л м н о    
+   ө п р с т у ү ф х һ ц ч ш щ ь ы   
+   ъ э ю я							   = Small letters
+ * %{A%}:а %{A%}:о %{A%}:э			   = archivowel A
+ * %{U%}:у %{U%}:ү  				   = archivowel U
+ * %{Ө%}:а %{Ө%}:о %{Ө%}:э %{Ө%}:ө	   = archivowel Ө 
+ * %{I%}:и %{I%}:ы %{I%}:0			   = archivowel I
+ * %{Y%}:и %{Y%}:0               = archivowel Y, kept after Cns, deleted after Vow
+ * %{D%}:т %{D%}:д					   = arciconsonant D
+
+ * %> 		         = suffix border
+ * а2:а я2:я        = invariant а/я in loanwords
+ * %^END:0	         = auxiliary end symbol to fix xerox bug
+
+!!!Sets
+
+Some of the symbols are bundled together in sets
+
+ * RealVow =  А Е Ё И О Ө У Ү Ы Э Ю Я			   
+              а е ё и о ө у ү ы э ю я ;		   
+ * ArchiVow = а2 %{A%} %{U%} %{Ө%} %{I%} %{Y%} ;  
+ * RealCns =  Б В Г Д Ж З Й К Л М Н П Р С Т	   
+              Ф Х Һ Ц Ч Ш Щ Ь Ъ				   
+              б в г д ж з й к л м н п р с т	   
+              ф х һ ц ч ш щ ь ъ ;				   
+ * ArchiCns = %{D%} ;							   
+
+ * Vow = RealVow ArchiVow ;   
+ * Cns = RealCns ArchiCns ;   
+ * Sgm = Vow Cns ;			   
+
+
+!!!Rules
+
+Here come all the rules (marked with RULE:), and test cases.
+
+
+!!Vowel harmony
+!Vowel harmony for short vowels
+
+* RULE:  __Vowel harmony A:а__ gives a after stems with a or juu
+
+* __басаган>г{A}й __
+* __басаган>0ай __
+
+
+* RULE:  __Vowel harmony A:o__ gives o after stems with o or jo
+
+* __самолёт>{D}{A}^END __
+* __самолёд>то0 __
+
+* RULE:  __Vowel harmony A:э__ gives e after e etc
+
+
+!Vowel harmony for long vowels
+
+* RULE:  __Vowel harmony ӨӨ:аa__ gives aa after a
+
+* __анг>һ{Ө}{Ө}^END __
+* __анг>һаа0 __
+
+* __аха>һ{Ө}{Ө}^END __
+* __аха>һаа0 __
+
+* RULE:  __Vowel harmony ӨӨ:оо__ gives oo after o
+
+* RULE:  __Vowel harmony ӨӨ:ээ__ gives ee after e
+
+* RULE:  __Vowel harmony ӨӨ:өө__ gives ø after ø
+
+
+
+!ы and и
+
+* RULE:  __{I}{I} to ы in Gen/Acc and Poss 1__ gives y for the first I
+
+* RULE:  __{I}{I} to ы in Gen/Acc and Poss 2__ deletes the second I
+
+* __Байгал>{I}{I}нь^END __
+* __Байгал>ы0нь0 __
+
+* __аба>{I}{I}нь^END __
+* __аба>00нь0 __
+
+* __аба>{I}{I}е^END __
+* __аб0>ы0е0 __
+
+* RULE:  __{I}{I} to ии in Gen/Acc and Poss__ changes both I to i
+
+* __морин>{I}{I}нь^END __
+* __морин>иинь0 __
+
+
+
+
+!!Other vowel rules
+!Vowel deletion rules
+
+* RULE:  __Final stem vowel deletion before ые and ын__ 
+
+* __аха>{A}{A}р^END __
+* __ах0>аар0 __
+
+* RULE:  __Deletion of и in word-final иие and Deletion SHV__ 
+
+
+* RULE:  __Deletion of ы in -ые for aj and VV stems__ 
+
+* RULE:  __Deletion of Y in predicative particle -b for vowel stem__ 
+
+* __би>б{Y}^END __
+* __би>б00 __
+
+!Vowel change rules
+
+* RULE:  __Y to i in predicative particle -bi for consonant stem__ 
+
+* __тэдэнэр>б{Y}^END __
+* __тэдэнэр>би0 __
+
+!!Consonant rules
+!Consonant change rules
+
+* RULE:  __D to t suffix initially for VC stems__ 
+
+* __сэсэг>{D}{A}^END __
+* __сэсэг>тэ0 __
+
+* RULE:  __D to d after n i l  __ 
+
+
+
+* RULE:  __Final consonant ptd voicing to bdg in loanwords__ 
+
+* __самолёт>{A}й^END __
+* __самолёд>ой0 __
+
+
+!Consonant deletion rules
+
+* RULE:  __Deletion of possessive m for consonant stems__ 
+
+* RULE:  __Deletion of n before m in possessive and before gAAr__ 
+
+* __һанаан>{I}{I}е^END __
+* __һанаа0>ы0е0 __
+
+
+
+
+* RULE:  __Deletion of g in word-final ng and before gaj and haa__ 
+
+
+* __анг>{D}{A}^END __
+* __ан0>да0 __
+
+* __анг>һ{Ө}{Ө}^END __
+* __анг>һаа0 __
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
