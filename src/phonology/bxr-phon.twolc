@@ -27,18 +27,22 @@ ArchiCns = %{D%} ;
 
 Vow = RealVow ArchiVow ;
 Cns = RealCns ArchiCns ;
+Sgm = Vow Cns ;
 
 
 Rules
 
 !! !!Vowel harmony
 "Vowel harmony A:а"
-%{A%}:а <=> [а|я|\ю у]  [RealCns:|ю (у)|ы|и]*  %>: (Cns:) (%{A%}:) _  ;
+%{A%}:а <=> [:а|:я|\ю у]  [RealCns:|ю (у)|ы|и]*  %>: (Cns:) (%{A%}:) _  ;
 
 !@ б а с а г а н >:0 г:0 {A}:а й
 
 "Vowel harmony A:o"
 %{A%}:о <=> [о|ё]       [RealCns:|ю (у)|ы|и]*  %>: (Cns:) (%{A%}:) _  ;
+
+!!€ самолёт>{D}{A}^END
+!!€ самолёд>до0
 
 "Vowel harmony A:э"
 %{A%}:э <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|и]*  %>: (Cns:) (%{A%}:) _  ;
@@ -47,11 +51,12 @@ Rules
 "Vowel harmony ӨӨ:аa"
 !%{Ө%}:а <=> а (:RealCns) г: %>: һ ( %{Ө%}: ) _  ;
 %{Ө%}:а <=> а :RealCns*  %>: һ ( %{Ө%}: ) _  ;
-!!€ анг>һ{Ө}{Ө}
-!!€ анг>һаа
 
-!!€ аха>һ{Ө}{Ө}
-!!€ аха>һаа
+!!€ анг>һ{Ө}{Ө}^END
+!!€ анг>һаа0
+
+!!€ аха>һ{Ө}{Ө}^END
+!!€ аха>һаа0
 
 "Vowel harmony ӨӨ:оо"
 %{Ө%}:о <=> о (:RealCns) %>: г: һ ( %{Ө%}: ) _  ;
@@ -66,20 +71,23 @@ Rules
 
 !!! ы and и
 "{I}{I} to ы in Gen/Acc and Poss 1"
-%{I%}:ы <=> [а:0|э:0|о:0] %>: _ %{I%}: [н | е] [%^END:|%>:] ; ! Gen/Acc
+%{I%}:ы <=> [а:|э:|о:] %>: _ %{I%}: [н | е] [%^END:|%>:] ; ! Gen/Acc
             [Cns - н]  %>: _ %{I%}: н ь ;  
                     
 "{I}{I} to ы in Gen/Acc and Poss 2"
-%{I%}:0 <=> [а:0|э:0|о:0] %>: %{I%}: _ [н | е] [%^END:|%>:] ; ! Gen/Acc
+%{I%}:0 <=> [а:|э:|о:] %>: %{I%}: _ [н | е] [%^END:|%>:] ; ! Gen/Acc
             [Cns - н]  %>: %{I%}: _ н ь ;   
             RealVow %>: %{I%}: _ н ь ;
             RealVow %>: _ %{I%}: н ь ;
 
-!!€ Байгал>{I}{I}нь
-!!€ Байгал>ы0нь
+!!€ Байгал>{I}{I}нь^END
+!!€ Байгал>ы0нь0
 
-!!€ аба>{I}{I}нь
-!!€ аба>00нь
+!!€ аба>{I}{I}нь^END
+!!€ аба>00нь0
+
+!!€ аба>{I}{I}е^END
+!!€ аб0>ы0е0
 
 "{I}{I} to ии in Gen/Acc and Poss"
 %{I%}:и <=>  и: %>:  _      %{I%}: [н | е] [%^END:|%>:] ;
@@ -89,19 +97,19 @@ Rules
         RealVow %>: н _      %{I%}: н ь ; ! Poss
         RealVow %>: н %{I%}: _      н ь ; ! Poss
 
-!!€ морин>{I}{I}нь
-!!€ морин>иинь
+!!€ морин>{I}{I}нь^END
+!!€ морин>иинь0
 
 ! морин>{I}{I}е>тнай
 ! мори0>и .. fill in with correct form
 
-"Stem vowel deletion"
-Vx:0 <=> _ %>: %{I%}: %{I%}: [%^END:|%>:] ; 
-      where Vx in ( и э а о ) ; 
+!"Stem vowel deletion"
+!Vx:0 <=> _ %>: %{I%}: %{I%}: [%^END:|%>:] ; 
+!      where Vx in ( и э а о ) ; 
 
 !! !!Other vowel rules
 "Final vowel deletion before ые and ын"
-Vx:0 <=> :RealCns _ %>: ы [ н | е] ;
+Vx:0 <=> :RealCns _ %>: :ы (:0) [ н | е] ;
      where Vx in ( а о э ) ;
 
 "Deletion SHV"
@@ -116,41 +124,43 @@ Vx:0 <=> :RealCns _ %>: ы [ н | е] ;
 "Deletion of Y in predicative particle"
 %{Y%}:0 <=> :RealVow %>: б _ ;
 
-!!€ би>б{Y}
-!!€ би>б0
+!!€ би>б{Y}^END
+!!€ би>б00
 
 "Keep the Y in predicative particle"
 %{Y%}:и <=> :RealCns %>: б _ ;
 
-!!€ тэдэнэр>б{Y}
-!!€ тэдэнэр>би
+!!€ тэдэнэр>б{Y}^END
+!!€ тэдэнэр>би0
 
 !! !!Consonant rules
 "Changing t and d"
 %{D%}:т <=> [б|г|р|с|д] %>: _ ;
+!%{D%}:т <=> [б|г|р|с|д|т] %>: _ ;
 
-!!€ сэсэг>{D}{A}
-!!€ сэсэг>тэ
+!!€ сэсэг>{D}{A}^END
+!!€ сэсэг>тэ0
 
 ! Always delete /g/ in affix if there anything apart from /n/
 
 "Трансформация буквы т до д после н и л"  ! check
-%{D%}:д <=> [н (г:)|л|й|:RealVow] %>: _ ;
+!%{D%}:д <=> [н (г:)|л|й|:RealVow] %>: _ ;
+%{D%}:д <=> [н (г:)|л|й|:RealVow|:д] %>: _ ;
 
 "Deletion of g in word-final ng"
 г:0 <=> н _ [%>:  [:Cns - :һ] | %^END:] ;
 
-!!€ анг>{D}{A}
-!!€ ан0>да
+!!€ анг>{D}{A}^END
+!!€ ан0>да0
 
-!!€ анг>һ{Ө}{Ө}
-!!€ анг>һаа
+!!€ анг>һ{Ө}{Ө}^END
+!!€ анг>һаа0
 
 "Final consonant voicing in loanwords"
-[п:б|к:г|т:д] <=> RealVow _ %>: [Vow|Cns] ;
+[п:б|к:г|т:д] <=> RealVow _ %>: [Vow|:Cns] ;
 
-!!€ самолёт>{A}й
-!!€ самолёд>ой
+!!€ самолёт>{A}й^END
+!!€ самолёд>ой0
 
 "Deleting the g before g{A}j and gh{Ө}{Ө}"
 г:0 <=> Cns: %>: _ [ %{A%}: й | һ %{Ө%}: %{Ө%}: ] ;
