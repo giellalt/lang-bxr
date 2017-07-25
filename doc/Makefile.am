@@ -9,19 +9,19 @@
 
 if CAN_DOCC
 
-JSP_PAGES=root-morphology.jspwiki
-# clitics-morphology.jspwiki       \
+JSP_PAGES=root-morphology.jspwiki \
+	clitics-morphology.jspwiki       \
+	nouns-stems.jspwiki              \
+	nouns-affixes.jspwiki            \
+	bxr-phon-phonology.jspwiki      
 # compounding-morphology.jspwiki   \
 # abbreviations-stems.jspwiki      \
 # acronyms-stems.jspwiki           \
-# adjectives-oahpa-stems.jspwiki   \
 # adjectives-stems.jspwiki         \
 # adpositions-stems.jspwiki        \
 # adverbs-stems.jspwiki            \
 # conjunctions-stems.jspwiki       \
 # interjections-stems.jspwiki      \
-# nouns-oahpa-stems.jspwiki        \
-# nouns-stems.jspwiki              \
 # numerals-stems.jspwiki           \
 # particles-stems.jspwiki          \
 # pronouns-stems.jspwiki           \
@@ -32,7 +32,6 @@ JSP_PAGES=root-morphology.jspwiki
 # verbs-stems.jspwiki              \
 # adjectives-oahpa-affixes.jspwiki \
 # adjectives-affixes.jspwiki       \
-# nouns-affixes.jspwiki            \
 # propernouns-affixes.jspwiki      \
 # verbs-affixes.jspwiki
 
