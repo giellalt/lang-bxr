@@ -1,6 +1,11 @@
-LEXICON Noun 
+!! !!!Buryaad noun stems
 
+LEXICON Noun  !!= * __@CODE@__  the lexicon itself
 
+!! There are some names here, they should eventually
+!! be moved to bxr-propernouns.lexc
+
+! This word guesser is not in use
 !< 
 !   [а|е|ё|и|о|ө|у|ү|ы|э|ю|я]
 !   [б|в|г|д|ж|з|й|к|л|м|н|п|р|с|т|ф|х|һ|ц|ч|ш|щ|ь|ъ]
