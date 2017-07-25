@@ -42,7 +42,7 @@ Rules
 %{A%}:о <=> [о|ё]       [RealCns:|ю (у)|ы|и]*  %>: (Cns:) (%{A%}:) _  ;
 
 !!€ самолёт>{D}{A}^END
-!!€ самолёд>до0
+!!€ самолёд>то0
 
 "Vowel harmony A:э"
 %{A%}:э <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|и]*  %>: (Cns:) (%{A%}:) _  ;
@@ -112,14 +112,13 @@ Rules
 Vx:0 <=> :RealCns _ %>: :ы (:0) [ н | е] ;
      where Vx in ( а о э ) ;
 
-"Deletion SHV"
-и:0 <=>  _ н %>: е %{A%}: р ;
+"Deletion of и in word-final иие and Deletion SHV"
+и:0 <=>       _ н %>: е %{A%}: р ;
+        и %>: _ :и е ;
+
 
 "Deletion of ы in word-final ые"
 ы:0 <=> [ а й | а а| о о |э э ] %>: _  :е  ;
-
-"Deletion of и in word-final иие"
-и:0 <=> и %>: _ :и е ;
 
 "Deletion of Y in predicative particle"
 %{Y%}:0 <=> :RealVow %>: б _ ;
@@ -134,20 +133,26 @@ Vx:0 <=> :RealCns _ %>: :ы (:0) [ н | е] ;
 !!€ тэдэнэр>би0
 
 !! !!Consonant rules
-"Changing t and d"
-%{D%}:т <=> [б|г|р|с|д] %>: _ ;
+
+"Changing D to t"
+%{D%}:т <=> :RealVow [б|г|р|с|:д] %>: _ ;
 !%{D%}:т <=> [б|г|р|с|д|т] %>: _ ;
 
 !!€ сэсэг>{D}{A}^END
 !!€ сэсэг>тэ0
 
-! Always delete /g/ in affix if there anything apart from /n/
-
-"Трансформация буквы т до д после н и л"  ! check
+"Transformation of D to d after n i l"  ! check
 %{D%}:д <=> [н (г:)|л|й|:RealVow] %>: _ ;
 
-"Deletion of g in word-final ng"
-г:0 <=> н _ [%>:  [:Cns - :һ] | %^END:] ;
+
+! Always delete /g/ in affix if there anything apart from /n/
+
+"Deletion of g in word-final ng and before g{A}j and gh{Ө}{Ө}"
+г:0 <=>        н _ [%>:  [:Cns - :һ] | %^END:] ;
+        Cns: %>: _ [ %{A%}: й | һ %{Ө%}: %{Ө%}: ] ;
+
+!@ б а с а г а н >:> г:0 {A}:а й
+!@ б а с а г а н >:> г:0 һ {A}:а {A}:а 
 
 !!€ анг>{D}{A}^END
 !!€ ан0>да0
@@ -161,27 +166,20 @@ Vx:0 <=> :RealCns _ %>: :ы (:0) [ н | е] ;
 !!€ самолёт>{A}й^END
 !!€ самолёд>ой0
 
-"Deleting the g before g{A}j and gh{Ө}{Ө}"
-г:0 <=> Cns: %>: _ [ %{A%}: й | һ %{Ө%}: %{Ө%}: ] ;
-
-!@ б а с а г а н >:0 г:0 {A}:а й
-!@ б а с а г а н >:0 г:0 һ {A}:а {A}:а 
 
 
 "Deletion of possessive m for consonant stems"
 м:0 <=> [Cns: - [н:|й:]] %>: _ ;
 
-"Deletion of н before м in possessive"
-н:0 <=> RealVow _ %>: м н и ;
-
-"Deletion of n"
-н:0 <=> Vx Vx _ %>: г %{A%}: %{A%}: р ;
-	where Vx in RealVow ;
+"Deletion of n before m in possessive"
+н:0 <=>         RealVow _ %>: м н и ;
+        RealVow RealVow _ %>: г %{A%}: %{A%}: р ;
 
 !"Буква д после гласных"
 ! д:д <=> RealVow %>: _ ;
 
 
+! This magic spell in order to show make check output also when everything passes:
 !!€ t e s t w i l l f a i l
 !!€ f a i l i t w i l l 0 0 
 
