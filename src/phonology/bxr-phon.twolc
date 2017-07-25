@@ -144,8 +144,7 @@ Vx:0 <=> :RealCns _ %>: :ы (:0) [ н | е] ;
 ! Always delete /g/ in affix if there anything apart from /n/
 
 "Трансформация буквы т до д после н и л"  ! check
-!%{D%}:д <=> [н (г:)|л|й|:RealVow] %>: _ ;
-%{D%}:д <=> [н (г:)|л|й|:RealVow|:д] %>: _ ;
+%{D%}:д <=> [н (г:)|л|й|:RealVow] %>: _ ;
 
 "Deletion of g in word-final ng"
 г:0 <=> н _ [%>:  [:Cns - :һ] | %^END:] ;
