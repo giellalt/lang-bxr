@@ -1,6 +1,6 @@
 
-           !!!Russia Buriat morphological analyser                      !
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Russia Buriat LANGUAGE.
+           !!!Buryaad morphological analyser                      !
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 
  !!!Definitions for Multichar_Symbols
 
@@ -99,6 +99,17 @@ given the proper use of these flags.
 
 Key lexicon
 
+ __LEXICON Root __ is where it all starts, with these lexica:
 
-
+ * Noun ;				   
+ * urj-Cyrl-ProperNouns ; 
+ * bxr-Propernouns ;	   
+ * Verb ;				   
+ * Adjective ;			   
+ * Adverb ;			   
+ * Subjunction ;		   
+ * Interjection ;		   
+ * Pronoun ;			   
+ * Postposition ;		   
+ * Punctuation ;		   
 
