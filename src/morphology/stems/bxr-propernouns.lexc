@@ -28,7 +28,7 @@ LEXICON bxr-Propernouns
 Байгал PROP2 ;
 Москва:Москва2  PROP2 ;
 Заря:Заря2 PROP2 ;
-Ород:Ород PROP2 ; ! ""
+Ород:Ород PROP2 ; 
 Рюкю                    PROP2 ;
 Таня                    PROP1 ;
 Лазарь                  PROP1 ;
