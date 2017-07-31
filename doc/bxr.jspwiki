@@ -208,7 +208,7 @@ Here come all the rules (marked with RULE:), and test cases.
 
 
 
-!ы and и
+!Realisation of I as ы and и
 
 * RULE:  __{I}{I} to ы in Gen/Acc and Poss 1__ gives y for the first I
 
@@ -426,6 +426,7 @@ This file is still empty.
 
 It will eventually contain Buryaad-specific names. General Russian
 and international names will be taken from the urj-Cyrl file.
+
 
 
 
