@@ -17,17 +17,13 @@ LEXICON Noun  !!= * __@CODE@__  the lexicon itself
 !+N+Guess: NUM2 ;
 
 
-Пётр NUM2 ;
 хүл NUM2 ;
 буряад NUM2 ;
 гар  NUM2 ;
-Байгал NUM2 ;
 шэрээ NUM2 ;
 хүреэ NUM2 ;
 харюу NUM2 ;
-Москва:Москва2  NUM2 ;
 бороо NUM2 ;
-Заря:Заря2 NUM2 ;
 заряа NUM2 ;
 морин NUM2 ;
 тэргэ NUM1 ;
@@ -96,7 +92,6 @@ LEXICON Noun  !!= * __@CODE@__  the lexicon itself
 нюур:нюур NUM2 ; ! ""
 няма:няма NUM1 ; ! ""
 ой:ой NUM1 ; ! ""
-Ород:Ород NUM2 ; ! ""
 орой:орой NUM1 ; ! ""
 планетэ:планетэ NUM1 ; ! ""
 помидор:помидор NUM2 ; ! ""
@@ -225,13 +220,8 @@ LEXICON Noun  !!= * __@CODE@__  the lexicon itself
 шоно                    NUM1 ;
 баяр                    NUM2 ;
 дэрэ                    NUM1 ;
-Рюкю                    NUM2 ;
-Таня                    NUM1 ;
 хэрэг                   NUM2 ;
 толгой                  NUM1 ;
 бээлэй                  NUM1 ;
-Лазарь                  NUM1 ;
-Чилэдү                  NUM2 ;
 блокнот                 NUM2 ;
 харанхы                 NUM1 ;
-Антананариву            NUM2 ;
