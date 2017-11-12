@@ -33,18 +33,24 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * +Imp     Imperative
  * +Cond    Conditional
  * +Opt     Optative
+ * +Vol     Voluntative
+ * +Dur     Durative
+ * +Term     Terminative
+ * +Conf     Conf
+
  * +Sg1     first person singular
  * +Sg2     second person singular
  * +Sg3     third person singular
  * +Pl1     first person plural
  * +Pl2     second person plural
  * +Pl3     third person plural
+
  * +Inf     Infinitive
  * +Pos     Positive
  * +Neg     Negative
 
- * +Sg      Singular
  * +Pl      Plural
+
  * +Nom     Nominative
  * +Acc     Accusative
  * +Gen     Genitive
@@ -53,13 +59,41 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * +Ins     Instrumental
  * +Com     Comitative
  * +Ord     Ordinal
+ * +Presc    check this
+
+ * +AgPrc   
+ * +AgConstPrc   
+ * +DualPrc      
+ * +FutPrc	      
+ * +HabPrc	      
+ * +ImpfPrc      
+ * +PassPrc      
+ * +PerfPrc      
+ * +PotPrc	      
+ * +PrsPrc	      
+ * +ResPrc	      
+
+ * +ConMod    
+ * +ConImpf    
+ * +ConPrf    
+ * +ConCond    
+ * +ConConc    
+ * +ConTerm    
+ * +ConCntmp    
+ * +ConAbtmp    
+ * +ConFin    
+ * +ConIntnt    
+ * +ConSucc    
+ * +ConCmp    
+
+
  * +PxSg1   first person singular possessive
  * +PxSg2   second person singular possessive
  * +PxSg3   third person singular possessive
  * +PxPl1   first person plural possessive
  * +PxPl2   second person plural possessive
  * +PxPl3   third person plural possessive
- * Px3   third person plural possessive
+ * +Px3   third person plural possessive
 
  * %{A%}   letter class 
  * %{D%}   letter class 
@@ -467,4 +501,14 @@ This file add +N+Prop and points to the noun case morphology
 !!!Buryaad verb affixes
 
 This file is still empty.
+
+
+
+
+
+
+
+
+
+
 

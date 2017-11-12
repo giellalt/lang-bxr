@@ -39,19 +39,24 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Imp    !!= * @CODE@ Imperative
 +Cond   !!= * @CODE@ Conditional
 +Opt    !!= * @CODE@ Optative
++Vol    !!= * @CODE@ Voluntative
++Dur    !!= * @CODE@ Durative
++Term    !!= * @CODE@ Terminative
++Conf    !!= * @CODE@ Conf
+
 +Sg1    !!= * @CODE@ first person singular
 +Sg2    !!= * @CODE@ second person singular
 +Sg3    !!= * @CODE@ third person singular
 +Pl1    !!= * @CODE@ first person plural
 +Pl2    !!= * @CODE@ second person plural
 +Pl3    !!= * @CODE@ third person plural
+
 +Inf    !!= * @CODE@ Infinitive
 +Pos    !!= * @CODE@ Positive
 +Neg    !!= * @CODE@ Negative
 
-! Nominal MSP
-+Sg     !!= * @CODE@ Singular
 +Pl     !!= * @CODE@ Plural
+
 +Nom    !!= * @CODE@ Nominative
 +Acc    !!= * @CODE@ Accusative
 +Gen    !!= * @CODE@ Genitive
@@ -60,13 +65,41 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Ins    !!= * @CODE@ Instrumental
 +Com    !!= * @CODE@ Comitative
 +Ord    !!= * @CODE@ Ordinal
++Presc   !!= * @CODE@ check this
+
++AgPrc   !!= * @CODE@
++AgConstPrc   !!= * @CODE@
++DualPrc      !!= * @CODE@
++FutPrc	      !!= * @CODE@
++HabPrc	      !!= * @CODE@
++ImpfPrc      !!= * @CODE@
++PassPrc      !!= * @CODE@
++PerfPrc      !!= * @CODE@
++PotPrc	      !!= * @CODE@
++PrsPrc	      !!= * @CODE@
++ResPrc	      !!= * @CODE@
+
++ConMod    !!= * @CODE@
++ConImpf    !!= * @CODE@
++ConPrf    !!= * @CODE@
++ConCond    !!= * @CODE@
++ConConc    !!= * @CODE@
++ConTerm    !!= * @CODE@
++ConCntmp    !!= * @CODE@
++ConAbtmp    !!= * @CODE@
++ConFin    !!= * @CODE@
++ConIntnt    !!= * @CODE@
++ConSucc    !!= * @CODE@
++ConCmp    !!= * @CODE@
+
+
 +PxSg1  !!= * @CODE@ first person singular possessive
 +PxSg2  !!= * @CODE@ second person singular possessive
 +PxSg3  !!= * @CODE@ third person singular possessive
 +PxPl1  !!= * @CODE@ first person plural possessive
 +PxPl2  !!= * @CODE@ second person plural possessive
 +PxPl3  !!= * @CODE@ third person plural possessive
-Px3  !!= * @CODE@ third person plural possessive
++Px3  !!= * @CODE@ third person plural possessive
 
 %{A%}  !!= * @CODE@ letter class 
 %{D%}  !!= * @CODE@ letter class 
