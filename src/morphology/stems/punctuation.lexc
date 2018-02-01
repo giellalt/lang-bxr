@@ -67,8 +67,8 @@ LEXICON Punctuation
 
 !! !!Paired punctuation marks
 
-  «+PUNCT+LEFT:«7     # ; !!= *@CODE@
-  »+PUNCT+RIGHT:»7    # ; !!= *@CODE@
+  «+PUNCT+LEFT:«     # ; !!= *@CODE@
+  »+PUNCT+RIGHT:»    # ; !!= *@CODE@
  %“+PUNCT+LEFT:%“     # ;
  %”+PUNCT+RIGHT:%”    # ;
  %‘+PUNCT+LEFT:%‘     # ;
