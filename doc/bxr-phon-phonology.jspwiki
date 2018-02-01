@@ -14,6 +14,7 @@ This is a list of all symbols in use.
    ө п р с т у ү ф х һ ц ч ш щ ь ы   
    ъ э ю я							   = Small letters
  * %{A%}:а %{A%}:о %{A%}:э			   = archivowel A
+ * %{A%}:я %{A%}:ё %{A%}:е			   = archivowel A
  * %{U%}:у %{U%}:ү  				   = archivowel U
  * %{Ө%}:а %{Ө%}:о %{Ө%}:э %{Ө%}:ө	   = archivowel Ө 
  * %{I%}:и %{I%}:ы %{I%}:0			   = archivowel I
@@ -55,13 +56,35 @@ Here come all the rules (marked with RULE:), and test cases.
 * __басаган>г{A}й __
 * __басаган>0ай __
 
-
 * RULE:  __Vowel harmony A:o__ gives o after stems with o or jo
 
 * __самолёт>{D}{A}^END __
 * __самолёд>то0 __
 
 * RULE:  __Vowel harmony A:э__ gives e after e etc
+
+
+* RULE:  __Vowel harmony A:я__ gives a after stems with a or juu
+
+* __басаган>г{A}й __
+* __басаган>0ай __
+
+* RULE:  __Vowel harmony A:ё__ gives o after stems with o or jo
+
+* __самолёт>{D}{A}^END __
+* __самолёд>то0 __
+
+* RULE:  __Vowel harmony A:е__ gives e after e etc
+
+* RULE:  __Vowel harmony й:0__ deletes й in front of {A}
+
+
+
+* RULE:  __Vowel harmony U:у__ gives a after stems with a or juu
+
+
+* RULE:  __Vowel harmony U:ү__ gives e after e etc
+
 
 
 !Vowel harmony for long vowels
