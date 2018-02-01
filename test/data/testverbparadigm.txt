@@ -6,12 +6,20 @@
 +V+Ind+Prs+Pl2
 +V+Ind+Prs+Pl3
 
-+V+Ind+Prt+Sg1
-+V+Ind+Prt+Sg2
-+V+Ind+Prt+Sg3
-+V+Ind+Prt+Pl1
-+V+Ind+Prt+Pl2
-+V+Ind+Prt+Pl3
++V+Ind+Prt+Derm+Sg1
++V+Ind+Prt+Derm+Sg2
++V+Ind+Prt+Derm+Sg3
++V+Ind+Prt+Derm+Pl1
++V+Ind+Prt+Derm+Pl2
++V+Ind+Prt+Derm+Pl3
+
++V+Ind+Prt+Conf+Sg1
++V+Ind+Prt+Conf+Sg2
++V+Ind+Prt+Conf+Sg3
++V+Ind+Prt+Conf+Pl1
++V+Ind+Prt+Conf+Pl2
++V+Ind+Prt+Conf+Pl3
+
 +V+PrfPrc
 
 +V+Imprt+Sg2
@@ -104,25 +112,4 @@
 +V+ConSucc
 +V+ConCmp
 
-
-+V+Ind+Prs+Dur+Sg1
-+V+Ind+Prs+Dur+Sg2
-+V+Ind+Prs+Dur+Sg3
-+V+Ind+Prs+Dur+Pl1
-+V+Ind+Prs+Dur+Pl2
-+V+Ind+Prs+Dur+Pl3
-
-+V+Ind+Prs+Derm+Sg1
-+V+Ind+Prs+Derm+Sg2
-+V+Ind+Prs+Derm+Sg3
-+V+Ind+Prs+Derm+Pl1
-+V+Ind+Prs+Derm+Pl2
-+V+Ind+Prs+Derm+Pl3
-
-+V+Ind+Prs+Conf+Sg1
-+V+Ind+Prs+Conf+Sg2
-+V+Ind+Prs+Conf+Sg3
-+V+Ind+Prs+Conf+Pl1
-+V+Ind+Prs+Conf+Pl2
-+V+Ind+Prs+Conf+Pl3
 
