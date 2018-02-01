@@ -3,17 +3,39 @@
 !! This file is still empty.
 
 LEXICON v1
-!+V+Ind+Prs+Dur:%>н%{A%} present ;
 +V+Ind+Prs:%>н%{A%} present ;
 +V+Ind+Prt+Derm:%>б%{A%} past ;
 +V+Ind+Prt+Conf:%>л%{A%}й past ;
-!+V+Ind+Prt: past ;
 +V+Imp: imperative ;
 +V+Vol: voluntative ;
 +V+Opt: optative ;
 +V+Presc: presc ; ! Prescriptive mood
 +V: participles ;
 +V: converbs ;
+
+LEXICON v2
++V+Ind+Prs:%>н%{A%} present ;
++V+Ind+Prt+Derm:%>б%{A%} past ;
++V+Ind+Prt+Conf:%>л%{A%}й past ;
++V+Imp: imperative ;
++V+Vol: voluntative ;
++V+Opt: optative ;
++V+Presc: presc ; 
++V: participles ;
++V: converbs ;
+
+
+LEXICON v3
++V+Ind+Prs:%>н%{A%} present ;
++V+Ind+Prt+Derm:%>б%{A%} past ;
++V+Ind+Prt+Conf:%>л%{A%}й past ;
++V+Imp: imperative ;
++V+Vol: voluntative ;
++V+Opt: optative ;
++V+Presc: presc ; 
++V: participles ;
++V: converbs ;
+
 
 LEXICON present
 +Sg1:%>б K ;
@@ -36,10 +58,11 @@ LEXICON imperative
 +Pl2:%>гты  K ;
 
 LEXICON voluntative ! or +Imp?
-+Sg1:%>я%{A%} K ;
++Sg1:%>яа K ;
 +Sg2:  K ;
 +Sg3: K ;
-+Pl1:%>ябди K ;
++Pl1:%>й%{A%} K ;
++Pl1+Use/NG:%>й%{A%}бди K ;
 +Pl2:  K ;
 +Pl3: K ;
 
@@ -55,7 +78,6 @@ LEXICON presc
 +Pl2:%>ыш K ;
 
 LEXICON participles 
-+FutPrc:%>х%{A%}   ptc ; 
 +FutPrc:%>х%{A%}   ptc ; 
 +ImpfPrc:%>%{A%}   ptc ;
 +HabPrc:%>д%{A%}г   ptc ;
@@ -81,7 +103,7 @@ LEXICON converbs
 +ConCntmp:%>мс%{A%}%{A%}р    # ;
 +ConAbtmp:%>һ%{A%}%{A%}р    # ;
 +ConFin:%>х%{A%}%{A%}р    # ;
-+ConIntnt:%>х%{A%}я%{A%}    # ;
++ConIntnt:%>хй%{A%}%{A%}    # ;
 +ConSucc:%>х%{A%}л%{A%}%{A%}р    # ;
 +ConCmp:%>нх%{A%}ар    # ;
 
