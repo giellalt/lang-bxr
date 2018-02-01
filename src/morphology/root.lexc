@@ -111,6 +111,11 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 %{Ө%}  !!= * @CODE@ letter class 
 %{Y%}  !!= * @CODE@ kept after Cns, deleted after Vow
 
+! я ё 
+! a. two archiphonemes. JA => я/ё/е  А => а/о/э  
+! b. one archiphon A => а/о/э and й + а/о/э = я/ё/е
+
+
 а2 я2 !!= * @CODE@ these are а and я in Russian loanwords that do not weaken to ых
 
 %^END  !!= * @CODE@ we do the mhr trick to harmonise twolc and lexc
