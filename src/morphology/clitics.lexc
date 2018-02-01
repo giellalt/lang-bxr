@@ -6,7 +6,7 @@
 
 LEXICON K  !!= * __@CODE@__ , containing the following clitics:
 ENDLEX ;
-+Qst:гү ENDLEX ; !! ** гү
+!+Qst:гү ENDLEX ; ! гү always written separately
 
 
 LEXICON ENDLEX !!= * __@CODE@__ is the lexicon adding ^END
