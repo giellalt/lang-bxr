@@ -75,6 +75,17 @@ Rules
 %{A%}:э <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|и]*  %>: (Cns:) (%{A%}:) _  ;
 
 
+"Vowel harmony U:у"
+!! * RULE:  __@RULENAME@__ gives a after stems with a or juu
+%{U%}:у <=> [:а|:я|\ю у]  [RealCns:|ю (у)|ы|и|:0]*  %>: (Cns:) (%{U%}:) _  ;
+
+
+"Vowel harmony U:ү"
+!! * RULE:  __@RULENAME@__ gives e after e etc
+%{U%}:ү <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|и]*  %>: (Cns:) (%{U%}:) _  ;
+
+
+
 !! !Vowel harmony for long vowels
 
 "Vowel harmony ӨӨ:аa"
