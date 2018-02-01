@@ -65,7 +65,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Ins    !!= * @CODE@ Instrumental
 +Com    !!= * @CODE@ Comitative
 +Ord    !!= * @CODE@ Ordinal
-+Presc   !!= * @CODE@ check this
++Presc   !!= * @CODE@ Prescriptive mood
 
 +AgPrc   !!= * @CODE@
 +AgConstPrc   !!= * @CODE@
