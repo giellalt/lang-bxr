@@ -105,6 +105,8 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * %{Ө%}   letter class 
  * %{Y%}   kept after Cns, deleted after Vow
 
+
+
  * а2 я2  these are а and я in Russian loanwords that do not weaken to ых
 
  * %^END   we do the mhr trick to harmonise twolc and lexc
@@ -174,6 +176,7 @@ This is a list of all symbols in use.
    ө п р с т у ү ф х һ ц ч ш щ ь ы   
    ъ э ю я							   = Small letters
  * %{A%}:а %{A%}:о %{A%}:э			   = archivowel A
+ * %{A%}:я %{A%}:ё %{A%}:е			   = archivowel A
  * %{U%}:у %{U%}:ү  				   = archivowel U
  * %{Ө%}:а %{Ө%}:о %{Ө%}:э %{Ө%}:ө	   = archivowel Ө 
  * %{I%}:и %{I%}:ы %{I%}:0			   = archivowel I
@@ -215,13 +218,35 @@ Here come all the rules (marked with RULE:), and test cases.
 * __басаган>г{A}й __
 * __басаган>0ай __
 
-
 * RULE:  __Vowel harmony A:o__ gives o after stems with o or jo
 
 * __самолёт>{D}{A}^END __
 * __самолёд>то0 __
 
 * RULE:  __Vowel harmony A:э__ gives e after e etc
+
+
+* RULE:  __Vowel harmony A:я__ gives a after stems with a or juu
+
+* __басаган>г{A}й __
+* __басаган>0ай __
+
+* RULE:  __Vowel harmony A:ё__ gives o after stems with o or jo
+
+* __самолёт>{D}{A}^END __
+* __самолёд>то0 __
+
+* RULE:  __Vowel harmony A:е__ gives e after e etc
+
+* RULE:  __Vowel harmony й:0__ deletes й in front of {A}
+
+
+
+* RULE:  __Vowel harmony U:у__ gives a after stems with a or juu
+
+
+* RULE:  __Vowel harmony U:ү__ gives e after e etc
+
 
 
 !Vowel harmony for long vowels
@@ -354,7 +379,6 @@ Here come all the rules (marked with RULE:), and test cases.
 This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
 
  * __LEXICON K  __ , containing the following clitics:
-** гү
 
 
  * __LEXICON ENDLEX __ is the lexicon adding ^END
@@ -493,6 +517,7 @@ This file is still empty.
 
 This file is still empty.
 
+
 !!!Buryaad proper noun morphology
 
 This file add +N+Prop and points to the noun case morphology
@@ -501,6 +526,10 @@ This file add +N+Prop and points to the noun case morphology
 !!!Buryaad verb affixes
 
 This file is still empty.
+
+
+
+
 
 
 
