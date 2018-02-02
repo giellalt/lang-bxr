@@ -1,0 +1,119 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Verb - вариха: #
+
+    бариха+V+FutPrc+Sg1: бариха
+    бариха+V+Ind+Prs+Sg1: баринаб
+    бариха+V+Ind+Prs+Sg2: баринаш
+    бариха+V+Ind+Prs+Sg3: барина
+    бариха+V+Ind+Prs+Pl1: баринабди
+    бариха+V+Ind+Prs+Pl2: баринат
+    бариха+V+Ind+Prs+Pl3: барина
+    бариха+V+Ind+Prt+Derm+Sg1: барибаб
+    бариха+V+Ind+Prt+Derm+Sg2: бариба
+    бариха+V+Ind+Prt+Derm+Sg3: бариба
+    бариха+V+Ind+Prt+Derm+Pl1: барибаб
+    бариха+V+Ind+Prt+Derm+Pl2: бариба
+    бариха+V+Ind+Prt+Derm+Pl3: бариба
+    бариха+V+Ind+Prt+Conf+Sg1: барилайб
+    бариха+V+Ind+Prt+Conf+Sg2: барилай
+    бариха+V+Ind+Prt+Conf+Sg3: барилай
+    бариха+V+Ind+Prt+Conf+Pl1: барилайб
+    бариха+V+Ind+Prt+Conf+Pl2: барилай
+    бариха+V+Ind+Prt+Conf+Pl3: барилай
+
+    бариха+V+Imp+Sg2: бари
+    бариха+V+Imp+Pl2: баригты
+    бариха+V+Opt+Sg1: бариһууб
+    бариха+V+Opt+Pl1: бариһуубди
+    бариха+V+Vol+Sg1: барияа
+    бариха+V+Vol+Pl1: [бария, бариябди]
+    
+    бариха+V+FutPrc+Sg1: барихаб
+    бариха+V+FutPrc+Sg2: барихаш
+    бариха+V+FutPrc+Sg3: бариха
+    бариха+V+FutPrc+Pl1: барихабди
+    бариха+V+FutPrc+Pl2: барихат
+    бариха+V+FutPrc+Pl3: бариха
+    бариха+V+ImpfPrc+Sg1: баряаб
+    бариха+V+ImpfPrc+Sg2: баряаш
+    бариха+V+ImpfPrc+Sg3: баряа
+    бариха+V+ImpfPrc+Pl1: баряабди
+    бариха+V+ImpfPrc+Pl2: баряат
+    бариха+V+ImpfPrc+Pl3: баряа
+    бариха+V+HabPrc+Sg1: баридагби
+    бариха+V+HabPrc+Sg2: баридагши
+    бариха+V+HabPrc+Sg3: баридаг
+    бариха+V+HabPrc+Pl1: баридагбди
+    бариха+V+HabPrc+Pl2: баридагта
+    бариха+V+HabPrc+Pl3: баридаг
+    бариха+V+AgPrc+Sg1: баригшаб
+    бариха+V+AgPrc+Sg2: баригшаш
+    бариха+V+AgPrc+Sg3: баригша
+    бариха+V+AgPrc+Pl1: баригшабди
+    бариха+V+AgPrc+Pl2: баригшат
+    бариха+V+AgPrc+Pl3: баригша
+
+    бариха+V+AgConstPrc+Sg1: баряашаб
+    бариха+V+AgConstPrc+Sg2: баряашаш
+    бариха+V+AgConstPrc+Sg3: баряаша
+    бариха+V+AgConstPrc+Pl1: баряашабди
+    бариха+V+AgConstPrc+Pl2: баряашат
+    бариха+V+AgConstPrc+Pl3: баряаша
+
+    бариха+V+PerfPrc+Sg1: бариһанби
+    бариха+V+PerfPrc+Sg2: бариһанши
+    бариха+V+PerfPrc+Sg3: бариһан
+    бариха+V+PerfPrc+Pl1: бариһанбди
+    бариха+V+PerfPrc+Pl2: бариһанта
+    бариха+V+PerfPrc+Pl3: бариһан
+
+    бариха+V+PotPrc+Sg1: барихаарби
+    бариха+V+PotPrc+Sg2: барихаарши
+    бариха+V+PotPrc+Sg3: барихаар
+    бариха+V+PotPrc+Pl1: барихаарбди
+    бариха+V+PotPrc+Pl2: барихаарта
+    бариха+V+PotPrc+Pl3: барихаар
+
+    бариха+V+DualPrc+Sg1: баримаарби
+    бариха+V+DualPrc+Sg2: баримаарши
+    бариха+V+DualPrc+Sg3: баримаар
+    бариха+V+DualPrc+Pl1: баримаарбди
+    бариха+V+DualPrc+Pl2: баримаарта
+    бариха+V+DualPrc+Pl3: баримаар
+
+    бариха+V+PassPrc+Sg1: баряатайб
+    бариха+V+PassPrc+Sg2: баряатайш
+    бариха+V+PassPrc+Sg3: баряатай
+    бариха+V+PassPrc+Pl1: баряатайбди
+    бариха+V+PassPrc+Pl2: баряатайт
+    бариха+V+PassPrc+Pl3: баряатай
+
+    бариха+V+ResPrc+Sg1: баринхайб
+    бариха+V+ResPrc+Sg2: баринхайш
+    бариха+V+ResPrc+Sg3: баринхай
+    бариха+V+ResPrc+Pl1: баринхайбди
+    бариха+V+ResPrc+Pl2: баринхайт
+    бариха+V+ResPrc+Pl3: баринхай
+
+    бариха+V+ConMod: барин
+    бариха+V+ConImpf: барижа
+    бариха+V+ConPrf: баряад
+    бариха+V+ConCond: барибал
+    бариха+V+ConConc: барибашье
+    бариха+V+ConTerm: баритар
+    бариха+V+ConCntmp: баримсаар
+    бариха+V+ConAbtmp: бариһаар
+    бариха+V+ConFin: барихаар
+    бариха+V+ConIntnt: барихаяа
+    бариха+V+ConSucc: барихалаар
+    бариха+V+ConCmp: баринхаар
