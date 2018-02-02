@@ -218,27 +218,31 @@ Here come all the rules (marked with RULE:), and test cases.
 * __басаган>г{A}й __
 * __басаган>0ай __
 
-* RULE:  __Vowel harmony A:o__ gives o after stems with o or jo
+* __бари>х{A}л{A}{A}р __
+* __бари>халаар __
 
+* RULE:  __Vowel harmony A:o__ gives o after stems with o or jo
 * __самолёт>{D}{A}^END __
 * __самолёд>то0 __
 
 * RULE:  __Vowel harmony A:э__ gives e after e etc
 
-
-* RULE:  __Vowel harmony A:я__ gives a after stems with a or juu
-
 * __басаган>г{A}й __
 * __басаган>0ай __
 
-* RULE:  __Vowel harmony A:ё__ gives o after stems with o or jo
+* RULE:  __Vowel harmony A:я__ gives я after stems with a or juu
+
+* RULE:  __Vowel harmony A:ё__ gives ё after stems with o or jo
 
 * __самолёт>{D}{A}^END __
 * __самолёд>то0 __
 
-* RULE:  __Vowel harmony A:е__ gives e after e etc
+* RULE:  __Vowel harmony A:е__ gives е after e etc and preceeding 
 
-* RULE:  __Vowel harmony й:0__ deletes й in front of {A}
+* RULE:  __Vowel harmony й:0__ deletes й in front of A
+
+* RULE:  __Vowel harmony и:0__ deletes и in front of A initial suffix
+
 
 
 
@@ -505,8 +509,8 @@ and international names will be taken from the urj-Cyrl file.
 
 !!Paired punctuation marks
 
- *  «+PUNCT+LEFT:«7     # ; 
- *  »+PUNCT+RIGHT:»7    # ; 
+ *  «+PUNCT+LEFT:«     # ; 
+ *  »+PUNCT+RIGHT:»    # ; 
 
 !!!Buryaad subjunctions
 
@@ -515,7 +519,14 @@ This file is still empty.
 
 !!!Buryaad verbs
 
-This file is still empty.
+This file is almost empty, it contains ca 40 verbs of 3 types, v1, v2, v3:
+
+ * LEXICON Verb  
+ ** хүрэхэ:хүрэ v1 "reach"  ; 
+ ** һууха:һуу v2 "sit" ;       
+ ** бариха:бари v3 "hold"  ;  
+
+
 
 
 !!!Buryaad proper noun morphology
@@ -526,6 +537,8 @@ This file add +N+Prop and points to the noun case morphology
 !!!Buryaad verb affixes
 
 This file is still empty.
+
+
 
 
 
