@@ -13,54 +13,60 @@ Tests:
 
     хараха+V+FutPrc: хараха
 
-    хараха+V+Ind+Prs+Sg1: хараб
-    хараха+V+Ind+Prs+Sg2: харыш
-    хараха+V+Ind+Prs+Sg3: хара
-    хараха+V+Ind+Prs+Pl1: харабди
-    хараха+V+Ind+Prs+Pl2: харыт
-    хараха+V+Ind+Prs+Pl3: хара
+    хараха+V+Ind+Prs+Sg1: харанаб
+    хараха+V+Ind+Prs+Sg2: харанаш
+    хараха+V+Ind+Prs+Sg3: харана
+    хараха+V+Ind+Prs+Pl1: харанабди
+    хараха+V+Ind+Prs+Pl2: харанат
+    хараха+V+Ind+Prs+Pl3: харана
 
-    хараха+V+Ind+Prt+Sg1: хараб
-    хараха+V+Ind+Prt+Sg2: хара
-    хараха+V+Ind+Prt+Sg3: хара
-    хараха+V+Ind+Prt+Pl1: хараб
-    хараха+V+Ind+Prt+Pl2: хара
-    хараха+V+Ind+Prt+Pl3: хара
+    хараха+V+Ind+Prt+Derm+Sg1: харабаб
+    хараха+V+Ind+Prt+Derm+Sg2: харабаш
+    хараха+V+Ind+Prt+Derm+Sg3: хараба
+    хараха+V+Ind+Prt+Derm+Pl1: харабабди
+    хараха+V+Ind+Prt+Derm+Pl2: харабат
+    хараха+V+Ind+Prt+Derm+Pl3: хараба
 
-    хараха+V+PrfPrc: XXX
-    хараха+V+Imprt+Sg2: XXX
-    хараха+V+Imprt+Pl2: XXX
+    хараха+V+Ind+Prt+Conf+Sg1: харалайб
+    хараха+V+Ind+Prt+Conf+Sg2: харалайш
+    хараха+V+Ind+Prt+Conf+Sg3: харалай
+    хараха+V+Ind+Prt+Conf+Pl1: харалайбди
+    хараха+V+Ind+Prt+Conf+Pl2: харалайт
+    хараха+V+Ind+Prt+Conf+Pl3: харалай
+    
+    хараха+V+Imp+Sg2: хара
+    хараха+V+Imp+Pl2: харагты
     хараха+V+Opt+Sg1: хараһууб
     хараха+V+Opt+Pl1: хараһуубди
     хараха+V+Vol+Sg1: хараяа
-    хараха+V+Vol+Pl1: хараябди
+    хараха+V+Vol+Pl1: [хараябди, харая]
 
     хараха+V+FutPrc+Sg1: харахаб
-    хараха+V+FutPrc+Sg2: харахыш
+    хараха+V+FutPrc+Sg2: харахаш
     хараха+V+FutPrc+Sg3: хараха
     хараха+V+FutPrc+Pl1: харахабди
-    хараха+V+FutPrc+Pl2: харахыт
+    хараха+V+FutPrc+Pl2: харахат
     хараха+V+FutPrc+Pl3: хараха
 
     хараха+V+ImpfPrc+Sg1: харааб
-    хараха+V+ImpfPrc+Sg2: харааыш
+    хараха+V+ImpfPrc+Sg2: харааш
     хараха+V+ImpfPrc+Sg3: хараа
     хараха+V+ImpfPrc+Pl1: хараабди
-    хараха+V+ImpfPrc+Pl2: харааыт
+    хараха+V+ImpfPrc+Pl2: хараат
     хараха+V+ImpfPrc+Pl3: хараа
 
-    хараха+V+HabPrc+Sg1: харадагб
-    хараха+V+HabPrc+Sg2: харадагыш
+    хараха+V+HabPrc+Sg1: харадагби
+    хараха+V+HabPrc+Sg2: харадагши
     хараха+V+HabPrc+Sg3: харадаг
     хараха+V+HabPrc+Pl1: харадагбди
-    хараха+V+HabPrc+Pl2: харадагыт
+    хараха+V+HabPrc+Pl2: харадагта
     хараха+V+HabPrc+Pl3: харадаг
 
     хараха+V+AgPrc+Sg1: харагшаб
-    хараха+V+AgPrc+Sg2: харагшыш
+    хараха+V+AgPrc+Sg2: харагшаш
     хараха+V+AgPrc+Sg3: харагша
     хараха+V+AgPrc+Pl1: харагшабди
-    хараха+V+AgPrc+Pl2: харагшыт
+    хараха+V+AgPrc+Pl2: харагшат
     хараха+V+AgPrc+Pl3: харагша
 
     хараха+V+AgConstPrc+Sg1: хараашаб
@@ -70,39 +76,39 @@ Tests:
     хараха+V+AgConstPrc+Pl2: хараашыт
     хараха+V+AgConstPrc+Pl3: харааша
 
-    хараха+V+PerfPrc+Sg1: хараһанб
-    хараха+V+PerfPrc+Sg2: хараһаныш
+    хараха+V+PerfPrc+Sg1: хараһанби
+    хараха+V+PerfPrc+Sg2: хараһанши
     хараха+V+PerfPrc+Sg3: хараһан
-    хараха+V+PerfPrc+Pl1: хараһанбди
-    хараха+V+PerfPrc+Pl2: хараһаныт
+    хараха+V+PerfPrc+Pl1: хараһамди
+    хараха+V+PerfPrc+Pl2: хараһанта
     хараха+V+PerfPrc+Pl3: хараһан
 
-    хараха+V+PotPrc+Sg1: харахаарб
-    хараха+V+PotPrc+Sg2: харахаарыш
+    хараха+V+PotPrc+Sg1: харахаарби
+    хараха+V+PotPrc+Sg2: харахаарши
     хараха+V+PotPrc+Sg3: харахаар
     хараха+V+PotPrc+Pl1: харахаарбди
-    хараха+V+PotPrc+Pl2: харахаарыт
+    хараха+V+PotPrc+Pl2: харахаарта
     хараха+V+PotPrc+Pl3: харахаар
 
-    хараха+V+DualPrc+Sg1: харамаарб
-    хараха+V+DualPrc+Sg2: харамаарыш
+    хараха+V+DualPrc+Sg1: харамаарби
+    хараха+V+DualPrc+Sg2: харамаарши
     хараха+V+DualPrc+Sg3: харамаар
     хараха+V+DualPrc+Pl1: харамаарбди
-    хараха+V+DualPrc+Pl2: харамаарыт
+    хараха+V+DualPrc+Pl2: харамаарта
     хараха+V+DualPrc+Pl3: харамаар
 
     хараха+V+PassPrc+Sg1: хараатайб
-    хараха+V+PassPrc+Sg2: хараатайыш
+    хараха+V+PassPrc+Sg2: хараатайш
     хараха+V+PassPrc+Sg3: хараатай
     хараха+V+PassPrc+Pl1: хараатайбди
-    хараха+V+PassPrc+Pl2: хараатайыт
+    хараха+V+PassPrc+Pl2: хараатайт
     хараха+V+PassPrc+Pl3: хараатай
 
     хараха+V+ResPrc+Sg1: харанхайб
-    хараха+V+ResPrc+Sg2: харанхайыш
+    хараха+V+ResPrc+Sg2: харанхайш
     хараха+V+ResPrc+Sg3: харанхай
     хараха+V+ResPrc+Pl1: харанхайбди
-    хараха+V+ResPrc+Pl2: харанхайыт
+    хараха+V+ResPrc+Pl2: харанхайт
     хараха+V+ResPrc+Pl3: харанхай
 
     хараха+V+ConMod: харан
@@ -118,23 +124,3 @@ Tests:
     хараха+V+ConSucc: харахалаар
     хараха+V+ConCmp: харанхаар
 
-    хараха+V+Ind+Prs+Dur+Sg1: харанаб
-    хараха+V+Ind+Prs+Dur+Sg2: хараныш
-    хараха+V+Ind+Prs+Dur+Sg3: харана
-    хараха+V+Ind+Prs+Dur+Pl1: харанабди
-    хараха+V+Ind+Prs+Dur+Pl2: хараныт
-    хараха+V+Ind+Prs+Dur+Pl3: харана
-
-    хараха+V+Ind+Prs+Derm+Sg1: харабаб
-    хараха+V+Ind+Prs+Derm+Sg2: харабыш
-    хараха+V+Ind+Prs+Derm+Sg3: хараба
-    хараха+V+Ind+Prs+Derm+Pl1: харабабди
-    хараха+V+Ind+Prs+Derm+Pl2: харабыт
-    хараха+V+Ind+Prs+Derm+Pl3: хараба
-
-    хараха+V+Ind+Prs+Conf+Sg1: харалайб
-    хараха+V+Ind+Prs+Conf+Sg2: харалайыш
-    хараха+V+Ind+Prs+Conf+Sg3: харалай
-    хараха+V+Ind+Prs+Conf+Pl1: харалайбди
-    хараха+V+Ind+Prs+Conf+Pl2: харалайыт
-    хараха+V+Ind+Prs+Conf+Pl3: харалай
