@@ -56,27 +56,31 @@ Here come all the rules (marked with RULE:), and test cases.
 * __басаган>г{A}й __
 * __басаган>0ай __
 
-* RULE:  __Vowel harmony A:o__ gives o after stems with o or jo
+* __бари>х{A}л{A}{A}р __
+* __бари>халаар __
 
+* RULE:  __Vowel harmony A:o__ gives o after stems with o or jo
 * __самолёт>{D}{A}^END __
 * __самолёд>то0 __
 
 * RULE:  __Vowel harmony A:э__ gives e after e etc
 
-
-* RULE:  __Vowel harmony A:я__ gives a after stems with a or juu
-
 * __басаган>г{A}й __
 * __басаган>0ай __
 
-* RULE:  __Vowel harmony A:ё__ gives o after stems with o or jo
+* RULE:  __Vowel harmony A:я__ gives я after stems with a or juu
+
+* RULE:  __Vowel harmony A:ё__ gives ё after stems with o or jo
 
 * __самолёт>{D}{A}^END __
 * __самолёд>то0 __
 
-* RULE:  __Vowel harmony A:е__ gives e after e etc
+* RULE:  __Vowel harmony A:е__ gives е after e etc and preceeding 
 
-* RULE:  __Vowel harmony й:0__ deletes й in front of {A}
+* RULE:  __Vowel harmony й:0__ deletes й in front of A
+
+* RULE:  __Vowel harmony и:0__ deletes и in front of A initial suffix
+
 
 
 
