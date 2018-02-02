@@ -20,10 +20,8 @@
 +V+Ind+Prt+Conf+Pl2
 +V+Ind+Prt+Conf+Pl3
 
-+V+PrfPrc
-
-+V+Imprt+Sg2
-+V+Imprt+Pl2
++V+Imp+Sg2
++V+Imp+Pl2
 +V+Opt+Sg1
 +V+Opt+Pl1
 +V+Vol+Sg1

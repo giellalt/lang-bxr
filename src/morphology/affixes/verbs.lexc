@@ -45,6 +45,14 @@ LEXICON present
 +Pl2:%>т  K ;
 +Pl3: K ;
 
+LEXICON present2
++Sg1:%>би K ;
++Sg2:%>ши  K ;
++Sg3: K ;
++Pl1:%>бди K ;
++Pl2:%>та  K ;
++Pl3: K ;
+
 LEXICON past 
 +Sg1:%>б K ;
 +Sg2:  K ;
@@ -79,31 +87,35 @@ LEXICON presc
 
 LEXICON participles 
 +FutPrc:%>х%{A%}   ptc ; 
-+ImpfPrc:%>%{A%}   ptc ;
-+HabPrc:%>д%{A%}г   ptc ;
++ImpfPrc:%>%{A%}%{A%}   ptc ;
++HabPrc:%>д%{A%}г   ptc2 ;
 +AgPrc:%>гш%{A%}   ptc ;
-+AgConstPrc:%>%{A%}ш%{A%}   ptc ;
-+PerfPrc:%>һ%{A%}н   ptc ;
-+PotPrc:%>х%{A%}%{A%}р   ptc ;
-+DualPrc:%>м%{A%}%{A%}р   ptc ;
-+PassPrc:%>%{A%}т%{A%}й   ptc ;
++AgConstPrc:%>%{A%}%{A%}ш%{A%}   ptc ;
++PerfPrc:%>һ%{A%}н   ptc2 ;
++PotPrc:%>х%{A%}%{A%}р   ptc2 ;
++DualPrc:%>м%{A%}%{A%}р   ptc2 ;
++PassPrc:%>%{A%}%{A%}т%{A%}й   ptc ;
 +ResPrc:%>нх%{A%}й   ptc ;
 
 LEXICON ptc
 K ;
 present ;
 
+LEXICON ptc2
+K ;
+present2 ;
+
 LEXICON converbs
 +ConMod:%>н    # ;
 +ConImpf:%>ж%{A%}    # ;
-+ConPrf:%>%{A%}д    # ;
++ConPrf:%>%{A%}%{A%}д    # ;
 +ConCond:%>б%{A%}л    # ;
 +ConConc:%>б%{A%}шье    # ;
-+ConTerm:%>%{D%}%{A%}р    # ;
++ConTerm:%>т%{A%}р    # ;
 +ConCntmp:%>мс%{A%}%{A%}р    # ;
 +ConAbtmp:%>һ%{A%}%{A%}р    # ;
 +ConFin:%>х%{A%}%{A%}р    # ;
-+ConIntnt:%>хй%{A%}%{A%}    # ;
++ConIntnt:%>х%{A%}й%{A%}%{A%}    # ; ! хаяа
 +ConSucc:%>х%{A%}л%{A%}%{A%}р    # ;
 +ConCmp:%>нх%{A%}ар    # ;
 
