@@ -168,6 +168,6 @@ Interjection ;		   !!= * @CODE@
 Pronoun ;			   !!= * @CODE@
 Postposition ;		   !!= * @CODE@
 Punctuation ;		   !!= * @CODE@
-!Conjunction ;
-!Numeral ;
+Conjunction ;
+Numeral ;
 
