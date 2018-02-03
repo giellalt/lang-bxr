@@ -3,9 +3,9 @@
 !! This file is still empty.
 
 LEXICON v1
-+V+Ind+Prs:%>н%{A%} present ;
-+V+Ind+Prt+Derm:%>б%{A%} past ;
-+V+Ind+Prt+Conf:%>л%{A%}й past ;
++V+Ind+Prs:%>н%{A%} persprd ;
++V+Ind+Prt+Derm:%>б%{A%} persprd ;
++V+Ind+Prt+Conf:%>л%{A%}й persprd ;
 +V+Imp: imperative ;
 +V+Vol: voluntative ;
 +V+Opt: optative ;
@@ -14,7 +14,7 @@ LEXICON v1
 +V: converbs ;
 
 LEXICON v2
-+V+Ind+Prs:%>н%{A%} present ;
++V+Ind+Prs:%>н%{A%} persprd ;
 +V+Ind+Prt+Derm:%>б%{A%} past ;
 +V+Ind+Prt+Conf:%>л%{A%}й past ;
 +V+Imp: imperative ;
@@ -26,7 +26,7 @@ LEXICON v2
 
 
 LEXICON v3
-+V+Ind+Prs:%>н%{A%} present ;
++V+Ind+Prs:%>н%{A%} persprd ;
 +V+Ind+Prt+Derm:%>б%{A%} past ;
 +V+Ind+Prt+Conf:%>л%{A%}й past ;
 +V+Imp: imperative ;
@@ -37,7 +37,7 @@ LEXICON v3
 +V: converbs ;
 
 
-LEXICON present
+LEXICON persprd
 +Sg1:%>б K ;
 +Sg2:%>ш  K ;
 +Sg3: K ;
@@ -45,7 +45,7 @@ LEXICON present
 +Pl2:%>т  K ;
 +Pl3: K ;
 
-LEXICON present2
+LEXICON persprd2
 +Sg1:%>би K ;
 +Sg2:%>ши  K ;
 +Sg3: K ;
@@ -92,6 +92,7 @@ LEXICON participles
 +AgPrc:%>гш%{A%}   ptc ;
 +AgConstPrc:%>%{A%}%{A%}ш%{A%}   ptc ;
 +PerfPrc:%>һ%{A%}н   ptc2 ;
++PerfPrc+Pl1:%>һ%{A%}мди  # ;
 +PotPrc:%>х%{A%}%{A%}р   ptc2 ;
 +DualPrc:%>м%{A%}%{A%}р   ptc2 ;
 +PassPrc:%>%{A%}%{A%}т%{A%}й   ptc ;
@@ -99,11 +100,11 @@ LEXICON participles
 
 LEXICON ptc
 K ;
-present ;
+persprd ;
 
 LEXICON ptc2
 K ;
-present2 ;
+persprd2 ;
 
 LEXICON converbs
 +ConMod:%>н    # ;
