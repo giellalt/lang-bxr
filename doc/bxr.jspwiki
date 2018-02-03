@@ -232,6 +232,9 @@ Here come all the rules (marked with RULE:), and test cases.
 
 * RULE:  __Vowel harmony A:я__ gives я after stems with a or juu
 
+* __хара>х{A}й{A}{A} __
+* __хара>ха0яа __
+
 * RULE:  __Vowel harmony A:ё__ gives ё after stems with o or jo
 
 * __самолёт>{D}{A}^END __
@@ -418,6 +421,7 @@ NUM2 with -ууд plural and г-initial Gen, Ins
 
  * __LEXICON case2 __
 
+
  * __LEXICON commoncase  __ for other cases
 
  * __LEXICON Poss __ for Px
@@ -442,6 +446,11 @@ Here follows a lost of some 20 adverbs.
 !!!Buryaad conjunctions
 
 This file is still empty.
+
+
+
+
+
 
 
 !!!Buryaad interjections
