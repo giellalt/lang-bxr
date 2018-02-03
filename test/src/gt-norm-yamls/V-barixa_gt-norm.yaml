@@ -73,7 +73,7 @@ Tests:
     бариха+V+PerfPrc+Sg1: бариһанби
     бариха+V+PerfPrc+Sg2: бариһанши
     бариха+V+PerfPrc+Sg3: бариһан
-    бариха+V+PerfPrc+Pl1: бариһанбди
+    бариха+V+PerfPrc+Pl1: [бариһанбди, бариһамди]
     бариха+V+PerfPrc+Pl2: бариһанта
     бариха+V+PerfPrc+Pl3: бариһан
 

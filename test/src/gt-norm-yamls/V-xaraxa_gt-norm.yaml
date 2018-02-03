@@ -70,16 +70,16 @@ Tests:
     хараха+V+AgPrc+Pl3: харагша
 
     хараха+V+AgConstPrc+Sg1: хараашаб
-    хараха+V+AgConstPrc+Sg2: хараашыш
+    хараха+V+AgConstPrc+Sg2: хараашаш
     хараха+V+AgConstPrc+Sg3: харааша
     хараха+V+AgConstPrc+Pl1: хараашабди
-    хараха+V+AgConstPrc+Pl2: хараашыт
+    хараха+V+AgConstPrc+Pl2: хараашат
     хараха+V+AgConstPrc+Pl3: харааша
 
     хараха+V+PerfPrc+Sg1: хараһанби
     хараха+V+PerfPrc+Sg2: хараһанши
     хараха+V+PerfPrc+Sg3: хараһан
-    хараха+V+PerfPrc+Pl1: хараһамди
+    хараха+V+PerfPrc+Pl1: [хараһамди, хараһанбди]
     хараха+V+PerfPrc+Pl2: хараһанта
     хараха+V+PerfPrc+Pl3: хараһан
 
