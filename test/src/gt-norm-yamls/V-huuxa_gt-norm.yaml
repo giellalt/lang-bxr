@@ -1,0 +1,125 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Verb - һууха: #
+
+    һууха+V+FutPrc: һууха
+
+    һууха+V+Ind+Prs+Sg1: һуунаб
+    һууха+V+Ind+Prs+Sg2: һуунаш
+    һууха+V+Ind+Prs+Sg3: һууна
+    һууха+V+Ind+Prs+Pl1: һуунабди
+    һууха+V+Ind+Prs+Pl2: һуунат
+    һууха+V+Ind+Prs+Pl3: һууна
+
+    һууха+V+Ind+Prt+Derm+Sg1: һуубаб
+    һууха+V+Ind+Prt+Derm+Sg2: һууба
+    һууха+V+Ind+Prt+Derm+Sg3: һууба
+    һууха+V+Ind+Prt+Derm+Pl1: һуубаб
+    һууха+V+Ind+Prt+Derm+Pl2: һууба
+    һууха+V+Ind+Prt+Derm+Pl3: һууба
+
+    һууха+V+Ind+Prt+Conf+Sg1: һуулайб
+    һууха+V+Ind+Prt+Conf+Sg2: һуулай
+    һууха+V+Ind+Prt+Conf+Sg3: һуулай
+    һууха+V+Ind+Prt+Conf+Pl1: һуулайб
+    һууха+V+Ind+Prt+Conf+Pl2: һуулай
+    һууха+V+Ind+Prt+Conf+Pl3: һуулай
+
+    һууха+V+Imp+Sg2: һуу
+    һууха+V+Imp+Pl2: һуугты
+    һууха+V+Opt+Sg1: һууһууб
+    һууха+V+Opt+Pl1: һууһуубди
+    һууха+V+Vol+Sg1: һууяа
+    һууха+V+Vol+Pl1: [һууя, һууябди]
+
+    һууха+V+FutPrc+Sg1: һуухаб
+    һууха+V+FutPrc+Sg2: һуухаш
+    һууха+V+FutPrc+Sg3: һууха
+    һууха+V+FutPrc+Pl1: һуухабди
+    һууха+V+FutPrc+Pl2: һуухат
+    һууха+V+FutPrc+Pl3: һууха
+
+    һууха+V+ImpfPrc+Sg1: һууааб
+    һууха+V+ImpfPrc+Sg2: һууааш
+    һууха+V+ImpfPrc+Sg3: һууаа
+    һууха+V+ImpfPrc+Pl1: һууаабди
+    һууха+V+ImpfPrc+Pl2: һууаат
+    һууха+V+ImpfPrc+Pl3: һууаа
+
+    һууха+V+HabPrc+Sg1: һуудагби
+    һууха+V+HabPrc+Sg2: һуудагши
+    һууха+V+HabPrc+Sg3: һуудаг
+    һууха+V+HabPrc+Pl1: һуудагбди
+    һууха+V+HabPrc+Pl2: һуудагта
+    һууха+V+HabPrc+Pl3: һуудаг
+
+    һууха+V+AgPrc+Sg1: һуугшаб
+    һууха+V+AgPrc+Sg2: һуугшаш
+    һууха+V+AgPrc+Sg3: һуугша
+    һууха+V+AgPrc+Pl1: һуугшабди
+    һууха+V+AgPrc+Pl2: һуугшат
+    һууха+V+AgPrc+Pl3: һуугша
+
+    һууха+V+AgConstPrc+Sg1: һууаашаб
+    һууха+V+AgConstPrc+Sg2: һууаашаш
+    һууха+V+AgConstPrc+Sg3: һууааша
+    һууха+V+AgConstPrc+Pl1: һууаашабди
+    һууха+V+AgConstPrc+Pl2: һууаашат
+    һууха+V+AgConstPrc+Pl3: һууааша
+
+    һууха+V+PerfPrc+Sg1: һууһанби
+    һууха+V+PerfPrc+Sg2: һууһанши
+    һууха+V+PerfPrc+Sg3: һууһан
+    һууха+V+PerfPrc+Pl1: һууһанбди
+    һууха+V+PerfPrc+Pl2: һууһанта
+    һууха+V+PerfPrc+Pl3: һууһан
+
+    һууха+V+PotPrc+Sg1: һуухаарби
+    һууха+V+PotPrc+Sg2: һуухаарши
+    һууха+V+PotPrc+Sg3: һуухаар
+    һууха+V+PotPrc+Pl1: һуухаарбди
+    һууха+V+PotPrc+Pl2: һуухаарта
+    һууха+V+PotPrc+Pl3: һуухаар
+
+    һууха+V+DualPrc+Sg1: һуумаарби
+    һууха+V+DualPrc+Sg2: һуумаарши
+    һууха+V+DualPrc+Sg3: һуумаар
+    һууха+V+DualPrc+Pl1: һуумаарбди
+    һууха+V+DualPrc+Pl2: һуумаарта
+    һууха+V+DualPrc+Pl3: һуумаар
+
+    һууха+V+PassPrc+Sg1: һууаатайб
+    һууха+V+PassPrc+Sg2: һууаатайш
+    һууха+V+PassPrc+Sg3: һууаатай
+    һууха+V+PassPrc+Pl1: һууаатайбди
+    һууха+V+PassPrc+Pl2: һууаатайт
+    һууха+V+PassPrc+Pl3: һууаатай
+
+    һууха+V+ResPrc+Sg1: һуунхайб
+    һууха+V+ResPrc+Sg2: һуунхайш
+    һууха+V+ResPrc+Sg3: һуунхай
+    һууха+V+ResPrc+Pl1: һуунхайбди
+    һууха+V+ResPrc+Pl2: һуунхайт
+    һууха+V+ResPrc+Pl3: һуунхай
+
+    һууха+V+ConMod: һуун
+    һууха+V+ConImpf: һуужа
+    һууха+V+ConPrf: һууаад
+    һууха+V+ConCond: һуубал
+    һууха+V+ConConc: һуубашье
+    һууха+V+ConTerm: һуутар
+    һууха+V+ConCntmp: һуумсаар
+    һууха+V+ConAbtmp: һууһаар
+    һууха+V+ConFin: һуухаар
+    һууха+V+ConIntnt: һуухаяа
+    һууха+V+ConSucc: һуухалаар
+    һууха+V+ConCmp: һуунхаар
