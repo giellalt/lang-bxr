@@ -57,10 +57,10 @@ Rules
 
 "Vowel harmony A:а"
 !! * RULE:  __@RULENAME@__ gives a after stems with a or juu
-%{A%}:а <=> [:а|:я|\ю у] [RealCns:|ю (у)|ы]* %> [(Cns:* - й:) (%{A%}:)]*      _  ;
+%{A%}:а <=> [:а|:я|\ю у] [RealCns:|ю (у)|ы|а:]* %> [(Cns:* - й:) (%{A%}:)]*      _  ;
             [:а|:я|\ю у] RealCns и:          %>  :я [(Cns:* - й:) (%{A%}:)]* _  ; 
             [:а|:я|\ю у] RealCns и           %> [Cns:+ - й:]  (%{A%}:)               _  ; ! бари>х{A}
-            [:а|:я|\ю у] RealCns и           %> [Cns:+ - й:]  (%{A%}:) й: (%{A%}:) %{A%}: _  ; ! бари>х{A}
+            [:а|:я|\ю у] RealCns [и|а]       %> [Cns:+ - й:]  (%{A%}:) й: (%{A%}:) %{A%}: _  ; ! бари>х{A}
             [:а|:я|\ю у] RealCns и           %> [Cns:+ - й:]   %{A%}:  л  (%{A%}:) _  ; ! бари>х{A}
 
 !@ б а с а г а н >:0 г:0 {A}:а й
@@ -88,9 +88,14 @@ Rules
 
 "Vowel harmony A:я"
 !! * RULE:  __@RULENAME@__ gives я after stems with a or juu
-%{A%}:я <=> [:а|:я|\ю у]  [RealCns:|ю (у)|ы|и|:0]*  %> й: _ ;
-            [:а|:я|\ю у]   RealCns          и:      %>    _ ;
-            [:а|:я|\ю у]   RealCns          и       %> :Cns %{A%}: й: _ ;
+%{A%}:я <=> [:а|:я|\ю у]  [RealCns:|ю (у)|ы|и|:0]* %>  й:            _ ;
+            [:а|:я|\ю у]   RealCns          и:     %>                _ ;
+            [:а|:я|\ю у]   RealCns      [а|и]      %> :Cns %{A%}: й: _ ;
+
+!!€ хара>х{A}й{A}{A}
+!!€ хара>ха0яа
+!!€ бари>х{A}й{A}{A}
+!!€ бари>ха0яа
 
 "Vowel harmony A:ё"
 !! * RULE:  __@RULENAME@__ gives ё after stems with o or jo
@@ -165,16 +170,16 @@ Rules
 "{I}{I} to ы in Gen/Acc and Poss 1"
 !! * RULE:  __@RULENAME@__ gives y for the first I
 %{I%}:ы <=> [а:|э:|о:|:RealCns] %> _ %{I%}: [н|е] [%^END:|%>:] ; !Gen/Acc
-            [Cns - н]  %> _ %{I%}: н ь ;  
+                     [Cns - н]  %> _ %{I%}: н ь ;  
                     
 "{I}{I} to ы in Gen/Acc and Poss 2"
 !! * RULE:  __@RULENAME@__ deletes the second I
 %{I%}:0 <=> [а:|э:|о:|:RealCns] %> %{I%}: _ [н|е] [%^END:|%>:] ; !Gen/Acc
-            н:    %> %{I%}: _        е [%^END:|%>:] ; !Gen/Acc
-            н:    %>        _ %{I%}: е [%^END:|%>:] ; !Gen/Acc
-            [Cns - н]  %> %{I%}: _ н ь ;   
-            RealVow    %> %{I%}: _ н ь ;
-            RealVow    %>        _ %{I%}: н ь ;
+                          н:    %> %{I%}: _        е [%^END:|%>:] ; !Gen/Acc
+                          н:    %>        _ %{I%}: е [%^END:|%>:] ; !Gen/Acc
+                     [Cns - н]  %> %{I%}: _ н ь ;   
+                     RealVow    %> %{I%}: _ н ь ;
+                     RealVow    %>        _ %{I%}: н ь ;
 
 !!€ Байгал>{I}{I}нь^END
 !!€ Байгал>ы0нь0
@@ -210,7 +215,7 @@ Rules
 
 "Final stem vowel deletion before ые and ын"
 !! * RULE:  __@RULENAME@__ 
-Vx:0 <=> :RealCns _ %> :ы (:0) [ н | е] ;
+Vx:0 <=> :RealCns _ %> [:ы (:0) [н|е]|:а :а|:о :о|:э :э|:ө :ө] ;
 !         :RealCns _ %> :RealVow ;
      where Vx in ( а о э ) ;
 
