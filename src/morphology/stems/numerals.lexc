@@ -1,0 +1,56 @@
+
+
+LEXICON Numeral
+
+нэгэ:нэгэ NUM ; ! "1"
+нэгэн:нэгэл NUM ; ! "1" ! Dial/Other
+нэгэн:нэгэн NUM-н ; ! "one"
+хоёр:хоёр NUM ; ! "2"
+хоёр:хоер NUM ; ! "two" ! Dir/LR
+гурбан:гурба NUM-н ; ! "3"
+дүрбэн:дүрбэ NUM-н ; ! "4"
+табан:таба NUM-н ; ! "5"
+зургаан:зургаа NUM-н ; ! "6"
+долоон:долоон NUM ; ! "7"
+найман:найма NUM-н ; ! "8"
+ес:ес NUM ; ! "9"
+юһэн:юһэ NUM-н ; ! "9"
+арбан:арба NUM-н ; ! "10"
+
+дүшэн:дүшэ NUM-н ; ! "forty"
+далан:дала NUM-н ; ! "70ʔ"
+ерэн:ерэ NUM-н ; ! "90"
+зуун:зуун NUM ; ! "hundred"
+мянган:мянга NUM-н ; ! "thousand"
+хорин:хори NUM-н ; ! "twenty"
+
+дүшэн:дүшөөд NUM-DIST ; ! ""
+мянган:мянгаад NUM-DIST ; ! ""
+далан:далаад NUM-DIST ; ! ""
+
+
+тысяча:тысяча NUM ; ! ""
+одна:одна NUM ; ! ""
+
+
+
+
+LEXICON NUM
+
++Num: # ;
++Num%<ord%>:%>д%{A%}хи # ;
++Num%<dim%>:%>х%{A%}н # ;
++Num%<subst%>: case1 ;
+
+LEXICON NUM-н
+
++Num: # ;
++Num:н # ;
++Num+Ord:%>д%{A%}хи # ; 
++Num+Dim:%>х%{A%}н # ;
++Num: case3 ;
++Num:н case1 ;
+
+LEXICON NUM-DIST 
+
++Num+Dist: # ;
