@@ -2,8 +2,30 @@
 
 !! This file is still empty.
 
-LECIXON conj ;
+LEXICON conj
 +CC: # ;
 
-LEXICON Conjunction ;
+LEXICON Conjunction
 да conj ; ! dummy example
+
+
+харин:харин conj ; ! "но"
+
+ба:ба conj ; ! ""
+гү:гү conj ; ! ""
+али:али conj ; ! ""
+аад:аад conj ; ! ""
+һанаа:һанаа conj ; ! ""
+
+баһа:баһа conj ; ! "" ! FIXME: CHECK
+болон:болон conj ; ! "" ! FIXME: CHECK
+гадна:гадна conj ; ! "" ! FIXME: CHECK
+и:и conj ; ! "" ! FIXME: CHECK
+суг:суг conj ; ! "" ! FIXME: CHECK
+тиигээд:тиигээд conj ; ! "" ! FIXME: CHECK
+хамта:хамта conj ; ! "" ! FIXME: CHECK
+хоёр:хоёр conj ; ! "" ! FIXME: CHECK
+хоёрой:хоёрой conj ; ! "" ! FIXME: CHECK
+
+теэд:теэд conj ; ! also adv
+тиимэһээ:тиимэһээ conj ; ! also adv

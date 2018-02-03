@@ -22,6 +22,9 @@ LEXICON case2 !!= * __@CODE@__
   +Ins:%>г%{A%}%{A%}р K    ;
   commoncase ;
 
+LEXICON case3
+case2 ; ! TODO, the case3 comes from the numerals
+
 LEXICON commoncase  !!= * __@CODE@__ for other cases
   +Nom:               Poss ;
   +Dat:%>%{D%}%{A%}   K    ;
