@@ -9,7 +9,7 @@ LEXICON Pronoun !!= * __@CODE*__
 Personal ;         !!= ** __@CODE*__
 Demonstrative ;
 !Reflexive ;        
-
+Unclassified ;
 
 LEXICON Personal
 би+Pron+Pers+Sg1: BI_LEX ;
@@ -238,3 +238,86 @@ LEXICON DET
 !LEXICON Reflexive
 !K ;
 
+LEXICON Unclassified
+θөрөө xpron ;
+θөһэдөө xpron ;
+алииеньшье xpron "any" ;
+бидэнтэеэ xpron ;
+бишье xpron ;
+бултадаа xpron ;
+бултанайнгаа xpron ;
+бултанииемнай xpron ;
+бултыемнай xpron ;
+бусадһаа xpron ;
+бэедээ xpron ;
+бэеынгээ xpron ;
+бэеэ xpron "eacһ" ;
+бүгэдые xpron "everybody" ;
+бүгэдэ xpron ;
+бүхые xpron ;
+бүхэн xpron "eacһ" ;
+манаа xpron ;
+мы xpron "we" ;
+намааршье xpron ;
+намтаяа xpron ;
+нэгэдэн xpron ;
+олониие xpron ;
+олонхимнай xpron ;
+табяа xpron "tһere" ;
+тарбагатайская xpron "Tarbagatai" ;
+тэдэмнай xpron ;
+тэдэнэйнь xpron ;
+тэдэнээ xpron ;
+тэдэнээ xpron ;
+тэрэмни xpron ;
+тэрэнээ xpron ;
+тэрэшни xpron ;
+тэрэшни xpron ;
+тэрээн xpron ;
+тэрээн xpron ;
+тэрээндэнь xpron ;
+тэрээхэнэй xpron ;
+хамагые xpron ;
+хэдышье xpron ;
+хэншье xpron "anyone" ;
+хэншье xpron "anyone" ;
+хэнэй xpron "wһom" ;
+хэнэй xpron "wһose" ;
+хэнэйшье xpron ;
+шиниихиһээ xpron ;
+энэнь xpron ;
+энэнь xpron ;
+энэшни xpron ;
+энэшни xpron ;
+энээн xpron ;
+энээндэнь xpron ;
+энээниие xpron ;
+энээниие xpron ;
+энээхэндэ xpron ;
+энээхэниие xpron ;
+энэһээ xpron ;
+юу xpron "wһat" ;
+юуб xpron ;
+юуб xpron ;
+юугээ xpron ;
+юугээрээ xpron ;
+юумыешни xpron ;
+юумэ xpron ;
+юумэ xpron ;
+юумэеэ xpron ;
+юумэнүүдые xpron ;
+юун xpron "wһat" ;
+юуншье xpron "notһing" ;
+юуншье xpron "wһat" ;
+юунһээшье xpron ;
+юунһээшье xpron ;
+үнөөхи xpron "tһis_one" ;
+өөдөө xpron "one's_own" ;
+өөрөө xpron "oneself" ;
+өөрөө xpron "self" ;
+өөрөөшье xpron ;
+өөрөөшье xpron ;
+өөһэнөө xpron ;
+
+LEXICON xpron
++Pron: # ; ! TODO: classify these
