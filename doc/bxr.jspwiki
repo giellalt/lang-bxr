@@ -234,6 +234,8 @@ Here come all the rules (marked with RULE:), and test cases.
 
 * __хара>х{A}й{A}{A} __
 * __хара>ха0яа __
+* __бари>х{A}й{A}{A} __
+* __бари>ха0яа __
 
 * RULE:  __Vowel harmony A:ё__ gives ё after stems with o or jo
 
