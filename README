@@ -1,9 +1,9 @@
 .. -*- mode: rst -*-
 ========================================
- The Russia Buriat morphology and tools
+ The Russia Buryad morphology and tools
 ========================================
 
-This directory contains source files for the Russia Buriat language morphology
+This directory contains source files for the Russia Buryad language morphology
 and dictionary. The data and implementation are licenced under __LICENCE__
 licence also detailed in the LICENCE file of this directory. The authors named
 in the AUTHORS file are available to grant other licencing choices.
@@ -20,7 +20,7 @@ Documentation is scattered around on the Giellatekno and Divvun pages, e.g.:
 Requirements
 ------------
 
-In order to compile and use Russia Buriat language morphology and dictionaries,
+In order to compile and use Russia Buryad language morphology and dictionaries,
 you need:
 
 * Xerox Finite-State Morphology tools, or
@@ -34,7 +34,7 @@ Optionally:
 Downloading
 -----------
 
-The Russia Buriat language sources can be acquired using `giella SVN
+The Russia Buryad language sources can be acquired using `giella SVN
 repository <http://divvun.no/doc/infra/anonymous-svn.html>`_, from the
 language specific directory, after the core has been downloaded and initial
 setup has been performed.
