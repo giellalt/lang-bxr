@@ -3,6 +3,43 @@
 !! This file is almost empty, it contains ca 40 verbs of 3 types, v1, v2, v3:
 
 LEXICON Verb  !!= * @CODE@
+
+!! Verbs marked aux may perhaps be changed to v1, ... 
+!! It is unclear whether the distinction is morphologically relevant.
+!! Also, some of the aux-es may have wrong baseform.
+
+аргагүйгөөр:аргагүйгөөр aux "treat" ; 
+аргатай:аргатай aux "able" ;
+баатайха:баатай aux "һave to" ;
+бай:бай aux "be" ;
+байха:бай aux "be" ;
+байха:бай aux "become" ;
+байха:бай aux "to be" ;
+байха:бай aux "was" ;
+болгохо:болго aux "become, be" ;
+болонхой:болонхой aux "become, be" ;
+болохо:боло aux "become, be" ;
+бэхилхэ:бэхил aux "strengtһen" ;
+гээшэб:гээшэб aux "be" ;
+еһотой:еһотой aux "must" ;
+тааруу:тааруу aux "correspond, matcһ" ;
+тэмдэглэхэ:тэмдэглэ aux "sһould" ;
+хэрэг:хэрэг aux "need" ;
+хэрэггүй:хэрэггүй aux "need, require" ;
+шадалтай:шадалтай aux "capable, can" ;
+шадаха:шада aux "can" ;
+шалгаруулха:шалгаруул aux "can" ;
+шухала:шухала aux "must" ;
+эхилхэ:эхил aux "begin, start" ;
+ябаха:яба aux "go, walk" ;
+ядаха:яда aux "can" ;
+ядахагүй:ядахагүй aux "cannot" ;
+ёһотой:ёһотой aux "must" ;
+үзэхэ:үзэ aux "try" ;
+үрдихэ:үрди aux "manage" ;
+үүргэ:үүргэ aux "must" ;
+
+
 хүрэхэ:хүрэ v1 "reach"  ; !!= ** @CODE@
 һууха:һуу v2 "sit" ;       !!= ** @CODE@
 бариха:бари v3 "hold"  ;  !!= ** @CODE@
@@ -40,3 +77,4 @@ LEXICON Verb  !!= * @CODE@
 
 
 орхихо:орхи v3 ;
+

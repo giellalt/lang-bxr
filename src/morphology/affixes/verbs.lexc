@@ -2,6 +2,9 @@
 
 !! This file is still empty.
 
+LEXICON aux
+v1 ; ! direct aux to v1 for now.
+
 LEXICON v1
 +V+Ind+Prs:%>н%{A%} persprd ;
 +V+Ind+Prt+Derm:%>б%{A%} persprd ;
