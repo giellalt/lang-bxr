@@ -1,5 +1,11 @@
 !!!Buryaad postpositions
 
-This file is still empty.
+This file contains 40 postpositions
 
+ LEXICON pp  = These are the indeclieable ones 
+ * +Po: # ;  = The tag
 
+ LEXICON Postposition   = The lexicon
+ * болон pp "until" ;   
+ * болотор pp "until" ;   
+ * гадна pp "besides" ;  ... 
