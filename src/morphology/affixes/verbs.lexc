@@ -116,8 +116,8 @@ LEXICON converbs
 +ConCntmp:%>мс%{A%}%{A%}р    # ;
 +ConAbtmp:%>һ%{A%}%{A%}р    # ;
 +ConFin:%>х%{A%}%{A%}р    # ;
-+ConIntnt:%>х%{A%}й%{A%}%{A%}    # ; ! хаяа
-+ConSucc:%>х%{A%}л%{A%}%{A%}р    # ;
++ConIntnt:%>х%{A%}й%{A%}%{A%}    # ; ! хаяа   xajaa
++ConSucc:%>х%{A%}л%{A%}%{A%}р    # ; ! халаар xalaar
 +ConCmp:%>нх%{A%}ар    # ;
 
 
