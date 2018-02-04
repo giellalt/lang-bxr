@@ -24,11 +24,14 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +V	     !!= * @CODE@ Verb
 +A	     !!= * @CODE@ Adjective
 +Adv     !!= * @CODE@ Adverb
++Pcle     !!= * @CODE@ Particles (Probably adverbs, look into this)
 +CC	     !!= * @CODE@ Conjunction
 +CS	     !!= * @CODE@ Subjunction
 +Interj  !!= * @CODE@ Interjection
 +Pron    !!= * @CODE@ Pronoun
++Prop    !!= * @CODE@ Propernoun
 +Num     !!= * @CODE@ Numaral
++Det     !!= * @CODE@ Determiner (Demonstrative?)
 
 ! Verbal MSP
 +Prs    !!= * @CODE@ Present
@@ -166,8 +169,9 @@ Adverb ;			   !!= * @CODE@
 Subjunction ;		   !!= * @CODE@
 Interjection ;		   !!= * @CODE@
 Pronoun ;			   !!= * @CODE@
-Postposition ;		   !!= * @CODE@
-Punctuation ;		   !!= * @CODE@
-Conjunction ;
-Numeral ;
+Postposition ;		   !!= * @CODE@ 
+Particles ;		   !!= * @CODE@ , these should rather be adverbs
+Punctuation ;		   !!= * @CODE@ 
+Conjunction ;		   !!= * @CODE@ 
+Numeral ;		   !!= * @CODE@ 
 

@@ -4,6 +4,9 @@
 !! NUM1 with -нар plural and V-initial Gen, Ins, and
 !! NUM2 with -ууд plural and г-initial Gen, Ins
 
+LEXICON NUMX ! unclassified
+NUM1 ;
+
 LEXICON NUM1 !!= * __@CODE@__
   +N+Sg:      case1 ;
   +N+Pl:%>нар case1 ; ! was uncommented

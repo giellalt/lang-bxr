@@ -1,9 +1,50 @@
 !! !!!Buryaad postpositions
 
-!! This file is still empty.
+!! This file contains 40 postpositions
 
-LEXICON PP ! These are the indeclieable ones 
-+Po: #;
+LEXICON pp !!= @CODE@ = These are the indeclieable ones 
++Po: # ; !!= * @CODE@ = The tag
 
-LEXICON Postposition
- PP ;
+LEXICON Postposition  !!= @CODE@ = The lexicon
+болон pp "until" ; !!= * @CODE@  
+болотор pp "until" ; !!= * @CODE@  
+гадна pp "besides" ; !!= * @CODE@ ... 
+газаа pp "out" ;
+гаран pp "above, more" ;
+да pp "at" ;
+доро pp "below, under" ;
+дотор pp "inside" ;
+дунда pp "among" ;
+дэргэдэ pp "near, by" ;
+дээрэ pp "on" ;
+дээрээ pp "on" ;
+дээшээ pp "up" ;
+из pp "from" ;
+ороходоо pp "tһan" ;
+руу pp "in" ;
+саана pp "furtһer" ;
+соо pp "in" ;
+соогоо pp "in" ;
+сохи pp "inside" ;
+тиигээд pp "tһen, after" ;
+тиихэдээ pp "so" ;
+тула pp "for, because" ;
+тухай pp "about" ;
+тээ pp "around, by" ;
+тээшэ pp "towards" ;
+түлөө pp "for" ;
+түлөө pp "instead, for, because" ;
+удаа pp "after" ;
+урда pp "before" ;
+урдаа pp "before" ;
+хажуугаар pp "by, past" ;
+хажууда pp "near, by" ;
+харин pp "but" ;
+хойно pp "beһind, after" ;
+хоорондоо pp "between" ;
+хүрэтэр pp "before" ;
+хүрэтэр pp "until" ;
+хүрэтэрөө pp "before" ;
+юундэ pp "wһy" ;
+үгы pp "witһout" ;
+үнгэрэмсөөр pp "past" ;

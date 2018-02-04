@@ -6,26 +6,28 @@ LEXICON conj
 +CC: # ;
 
 LEXICON Conjunction
+
+
+
+
+
+аад conj "but" ;
+али conj "or" ;
+ба conj "and" ;
+баһа conj "again" ;
+болон conj "and" ;
+гадна conj "besides" ;
+гү conj "if" ;
 да conj ; ! dummy example
-
-
-харин:харин conj ; ! "но"
-
-ба:ба conj ; ! ""
-гү:гү conj ; ! ""
-али:али conj ; ! ""
-аад:аад conj ; ! ""
-һанаа:һанаа conj ; ! ""
-
-баһа:баһа conj ; ! "" ! FIXME: CHECK
-болон:болон conj ; ! "" ! FIXME: CHECK
-гадна:гадна conj ; ! "" ! FIXME: CHECK
-и:и conj ; ! "" ! FIXME: CHECK
-суг:суг conj ; ! "" ! FIXME: CHECK
+и conj "and" ;
+суг conj "togetһer" ;
+теэд conj "but" ;
+тиигээд conj "tһat" ;
 тиигээд:тиигээд conj ; ! "" ! FIXME: CHECK
-хамта:хамта conj ; ! "" ! FIXME: CHECK
-хоёр:хоёр conj ; ! "" ! FIXME: CHECK
-хоёрой:хоёрой conj ; ! "" ! FIXME: CHECK
-
-теэд:теэд conj ; ! also adv
-тиимэһээ:тиимэһээ conj ; ! also adv
+тиимэһээ conj "because, tһat is wһy" ;
+хамта conj "togetһer" ;
+харин conj "but" ;
+харин:харин conj ; ! "но"
+хоёр conj "botһ, togetһer" ;
+хоёрой conj "botһ" ;
+һанаа conj "and" ;

@@ -2,6 +2,9 @@
 
 !! This file add +N+Prop and points to the noun case morphology
 
+LEXICON PROPX ! unclassified
+PROP1 ;
+
 LEXICON PROP1
 +N+Prop+Sg: case1 ;
 !+N+Pl:%>ууд case1 ;
