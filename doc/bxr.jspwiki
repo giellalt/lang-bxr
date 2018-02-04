@@ -19,11 +19,14 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * +V	      Verb
  * +A	      Adjective
  * +Adv      Adverb
+ * +Pcle      Particles (Probably adverbs, look into this)
  * +CC	      Conjunction
  * +CS	      Subjunction
  * +Interj   Interjection
  * +Pron     Pronoun
+ * +Prop     Propernoun
  * +Num      Numaral
+ * +Det      Determiner (Demonstrative?)
 
  * +Prs     Present
  * +Fut     Future
@@ -157,8 +160,11 @@ Key lexicon
  * Subjunction ;		   
  * Interjection ;		   
  * Pronoun ;			   
- * Postposition ;		   
- * Punctuation ;		   
+ * Postposition ;		    
+ * Particles ;		    , these should rather be adverbs
+ * Punctuation ;		    
+ * Conjunction ;		    
+ * Numeral ;		    
 
 !!!Buryaad morphophonology
 
@@ -394,16 +400,10 @@ This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
 
 !!!Buryaad noun stems
 
- * __LEXICON Noun  __  the lexicon itself
+ * __LEXICON Noun __ the lexicon itself
 
 There are some names here, they should eventually
 be moved to bxr-propernouns.lexc
-
-
-
-
-
-
 
 
 
@@ -414,6 +414,7 @@ be moved to bxr-propernouns.lexc
 We have two lexica, NUM1 and NUM2, 
 NUM1 with -нар plural and V-initial Gen, Ins, and
 NUM2 with -ууд plural and г-initial Gen, Ins
+
 
  * __LEXICON NUM1 __
 
@@ -429,19 +430,24 @@ NUM2 with -ууд plural and г-initial Gen, Ins
  * __LEXICON Poss __ for Px
 !!!Buryaad adjectives
 
-No adjectives so far.
+here there are some 500 adjectives from the Apertium source files.
+
 
 !!!Buryaad postpositions
 
-This file is still empty.
+This file contains 40 postpositions
 
+ LEXICON pp  = These are the indeclieable ones 
+ * +Po: # ;  = The tag
 
+ LEXICON Postposition   = The lexicon
+ * болон pp "until" ;   
+ * болотор pp "until" ;   
+ * гадна pp "besides" ;  ... 
 
 !!!Buryaad adverbs
 
 Here follows a lost of some 20 adverbs.
-
-
 
 
 
@@ -469,6 +475,11 @@ So far, the following pronouns are covered:
 LEXICON Pronoun   * __@CODE*__
 
 Personal ;           ** __@CODE*__
+
+
+
+
+
 
 
 
@@ -543,6 +554,7 @@ This file is almost empty, it contains ca 40 verbs of 3 types, v1, v2, v3:
 !!!Buryaad proper noun morphology
 
 This file add +N+Prop and points to the noun case morphology
+
 
 
 !!!Buryaad verb affixes

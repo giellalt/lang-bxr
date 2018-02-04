@@ -8,11 +8,14 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * +V	      Verb
  * +A	      Adjective
  * +Adv      Adverb
+ * +Pcle      Particles (Probably adverbs, look into this)
  * +CC	      Conjunction
  * +CS	      Subjunction
  * +Interj   Interjection
  * +Pron     Pronoun
+ * +Prop     Propernoun
  * +Num      Numaral
+ * +Det      Determiner (Demonstrative?)
 
  * +Prs     Present
  * +Fut     Future
@@ -146,6 +149,9 @@ Key lexicon
  * Subjunction ;		   
  * Interjection ;		   
  * Pronoun ;			   
- * Postposition ;		   
- * Punctuation ;		   
+ * Postposition ;		    
+ * Particles ;		    , these should rather be adverbs
+ * Punctuation ;		    
+ * Conjunction ;		    
+ * Numeral ;		    
 
