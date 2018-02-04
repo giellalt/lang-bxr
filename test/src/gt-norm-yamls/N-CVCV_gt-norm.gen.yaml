@@ -9,6 +9,326 @@ Config:
 
 Tests:
 
+!! short vowel
+!! stems ending in a short vowel except i
+
+  Noun - һара: # 
+    һара+N+Pl+Nom: һара
+    һара+N+Pl+Gen: һарын
+    һара+N+Pl+Acc: һарые
+    һара+N+Pl+Dat: һарада
+    һара+N+Pl+Abl: һараһаа
+    һара+N+Pl+Ins: һараар
+    һара+N+Pl+Com: һаратай
+
+  Noun - шоро: # 
+    шоро+N+Pl+Nom: шоро
+    шоро+N+Pl+Gen: шорын
+    шоро+N+Pl+Acc: шорые
+    шоро+N+Pl+Dat: шородо
+    шоро+N+Pl+Abl: шороһоо
+    шоро+N+Pl+Ins: шороор
+    шоро+N+Pl+Com: шоротой
+
   Noun - тэргэ: # 
     тэргэ+N+Pl+Nom: тэргэ
+    тэргэ+N+Pl+Gen: тэргын
+    тэргэ+N+Pl+Acc: тэргые
+    тэргэ+N+Pl+Dat: тэргэдэ
+    тэргэ+N+Pl+Abl: тэргэһээ
+    тэргэ+N+Pl+Ins: тэргээр
+    тэргэ+N+Pl+Com: тэргэтэй
+
+  Noun - хүүргэ: # 
+    хүүргэ+N+Pl+Nom: хүүргэ
+    хүүргэ+N+Pl+Gen: хүүргын
+    хүүргэ+N+Pl+Acc: хүүргые
+    хүүргэ+N+Pl+Dat: хүүргэдэ
+    хүүргэ+N+Pl+Abl: [хүүргэһээ, хүүргэһөө]
+    хүүргэ+N+Pl+Ins: [хүүргээр, хүүргөөр]
+    хүүргэ+N+Pl+Com: хүүргэтэй
+
+  Noun - бөөрэ: # 
+    бөөрэ+N+Pl+Nom: бөөрэ
+    бөөрэ+N+Pl+Gen: бөөрын
+    бөөрэ+N+Pl+Acc: бөөрые
+    бөөрэ+N+Pl+Dat: бөөрэдэ
+    бөөрэ+N+Pl+Abl: [бөөрэһөө, бөөрэһээ]
+    бөөрэ+N+Pl+Ins: бөөрөөр
+    бөөрэ+N+Pl+Com: бөөрэтэй
+
+  Noun - түрэ: # 
+    түрэ+N+Pl+Nom: түрэ
+    түрэ+N+Pl+Gen: түрын
+    түрэ+N+Pl+Acc: түрые
+    түрэ+N+Pl+Dat: түрэдэ
+    түрэ+N+Pl+Abl: [түрэһөө, түрэһээ]
+    түрэ+N+Pl+Ins: [түрөөр, түрээр]
+    түрэ+N+Pl+Com: түрэтэй
+
+!! short vowel
+!! Stems ending in n with a preceding short vowel except i
+!! Only Gen differs from the above category
+!! n is deleted in Acc, Ins, and in the alternative form of Com
+
+  Noun - наран: # 
+    наран+N+Pl+Nom: наран
+    наран+N+Pl+Gen: наранай
+    наран+N+Pl+Acc: нарые
+    наран+N+Pl+Dat: наранда
+    наран+N+Pl+Abl: наранһаа
+    наран+N+Pl+Ins: [нараар, наранаар]
+    наран+N+Pl+Com: [наратай, нарантай]
+
+  Noun - хорон: # 
+    хорон+N+Pl+Nom: хорон
+    хорон+N+Pl+Gen: хороной
+    хорон+N+Pl+Acc: хорые
+    хорон+N+Pl+Dat: хорондо
+    хорон+N+Pl+Abl: хоронһоо
+    хорон+N+Pl+Ins: хороор
+    хорон+N+Pl+Com: [хоротой, хоронтой]
+
+  Noun - хэлэн: # 
+    хэлэн+N+Pl+Nom: хэлэн
+    хэлэн+N+Pl+Gen: хэлэнэй
+    хэлэн+N+Pl+Acc: хэлые
+    хэлэн+N+Pl+Dat: хэлэндэ
+    хэлэн+N+Pl+Abl: хэлэнһээ
+    хэлэн+N+Pl+Ins: хэлээр
+    хэлэн+N+Pl+Com: [хэлэтэй, хэлэнтэй]
+
+  Noun - үүлэн: # 
+    үүлэн+N+Pl+Nom: үүлэн
+    үүлэн+N+Pl+Gen: үүлэнэй
+    үүлэн+N+Pl+Acc: үүлые
+    үүлэн+N+Pl+Dat: үүлэндэ
+    үүлэн+N+Pl+Abl: [үүлэнһээ, үүлэнһөө]
+    үүлэн+N+Pl+Ins: [үүлээр, үүлөөр]
+    үүлэн+N+Pl+Com: [үүлэтэй, үүлэнтэй]
+
+  Noun - бөөһэн: # 
+    бөөһэн+N+Pl+Nom: бөөһэн
+    бөөһэн+N+Pl+Gen: бөөһэнэй
+    бөөһэн+N+Pl+Acc: бөөһые
+    бөөһэн+N+Pl+Dat: бөөһэндэ
+    бөөһэн+N+Pl+Abl: [бөөһэнһөө, бөөһэнһээ]
+    бөөһэн+N+Pl+Ins: бөөһөөр
+    бөөһэн+N+Pl+Com: [бөөһэтэй, бөөһэнтэй]
+
+  Noun - шүлэн: # 
+    шүлэн+N+Pl+Nom: шүлэн
+    шүлэн+N+Pl+Gen: шүлэнэй
+    шүлэн+N+Pl+Acc: шүлые
+    шүлэн+N+Pl+Dat: шүлэндэ
+    шүлэн+N+Pl+Abl: [шүлэнһөө, шүлэнһээ]
+    шүлэн+N+Pl+Ins: [шүлөөр, шүлээр]
+    шүлэн+N+Pl+Com: [шүлэтэй, шүлэнтэй]
+
+!! short vowel
+!! Stems ending in short i
+
+  Noun - шаби: # 
+    шаби+N+Pl+Nom: шаби
+    шаби+N+Pl+Gen: шабиин
+    шаби+N+Pl+Acc: шабиие
+    шаби+N+Pl+Dat: шабида
+    шаби+N+Pl+Abl: шабиһаа
+    шаби+N+Pl+Ins: шабяар
+    шаби+N+Pl+Com: шабитай
+
+  Noun - боори: # 
+    боори+N+Pl+Nom: боори
+    боори+N+Pl+Gen: боориин
+    боори+N+Pl+Acc: боориие
+    боори+N+Pl+Dat: бооридо
+    боори+N+Pl+Abl: боориһоо
+    боори+N+Pl+Ins: боорёор
+    боори+N+Pl+Com: бооритой
+
+  Noun - мөөри: # 
+    мөөри+N+Pl+Nom: мөөри
+    мөөри+N+Pl+Gen: мөөриин
+    мөөри+N+Pl+Acc: мөөриие
+    мөөри+N+Pl+Dat: мөөридэ
+    мөөри+N+Pl+Abl: мөөриһөө
+    мөөри+N+Pl+Ins: мөөреэр
+    мөөри+N+Pl+Com: мөөритэй
+
+  Noun - үри: # 
+    үри+N+Pl+Nom: үри
+    үри+N+Pl+Gen: үриин
+    үри+N+Pl+Acc: үриие
+    үри+N+Pl+Dat: үридэ
+    үри+N+Pl+Abl: [үриһөө, үриһээ]
+    үри+N+Pl+Ins: үреэр
+    үри+N+Pl+Com: үритэй
+
+  Noun - бэри: # 
+    бэри+N+Pl+Nom: бэри
+    бэри+N+Pl+Gen: бэриин
+    бэри+N+Pl+Acc: бэриие
+    бэри+N+Pl+Dat: бэридэ
+    бэри+N+Pl+Abl: бэриһээ
+    бэри+N+Pl+Ins: бэреэр
+    бэри+N+Pl+Com: бэритэй
+
+!! short vowel
+!! Stems ending in n with a preceding short i vowel 
+!! Only Gen differs from the above category
+!! n is deleted in Acc, Ins, and in the alternative form of Com
+
+  Noun - амин: # 
+    амин+N+Pl+Nom: амин
+    амин+N+Pl+Gen: аминай
+    амин+N+Pl+Acc: амиие
+    амин+N+Pl+Dat: аминда
+    амин+N+Pl+Abl: аминһаа
+    амин+N+Pl+Ins: амяар
+    амин+N+Pl+Com: [амитай, аминтай]
+
+  Noun - морин: # 
+    морин+N+Pl+Nom: морин
+    морин+N+Pl+Gen: мориной
+    морин+N+Pl+Acc: мориие
+    морин+N+Pl+Dat: мориндо
+    морин+N+Pl+Abl: моринһоо
+    морин+N+Pl+Ins: морёор
+    морин+N+Pl+Com: [моритой, моринтой]
+
+  Noun - бүлхин: # 
+    бүлхин+N+Pl+Nom: бүлхин
+    бүлхин+N+Pl+Gen: бүлхинэй
+    бүлхин+N+Pl+Acc: бүлхиие
+    бүлхин+N+Pl+Dat: бүлхиндэ
+    бүлхин+N+Pl+Abl: [бүлхинһөө, бүлхинһээ]
+    бүлхин+N+Pl+Ins: бүлхеэр
+    бүлхин+N+Pl+Com: [бүлхитэй, бүлхинтэй]
+
+  Noun - эхин: # 
+    эхин+N+Pl+Nom: эхин
+    эхин+N+Pl+Gen: эхинэй
+    эхин+N+Pl+Acc: эхиие
+    эхин+N+Pl+Dat: эхиндэ
+    эхин+N+Pl+Abl: эхинһээ
+    эхин+N+Pl+Ins: эхеэр
+    эхин+N+Pl+Com: [эхитэй, эхинтэй]
+
+!! long vowel
+!! Stems ending in a diphthong
+!! Differs from the next only by Gen
+
+  Noun - малгай: # 
+    малгай+N+Pl+Nom: малгай
+    малгай+N+Pl+Gen: малгайн
+    малгай+N+Pl+Acc: малгайе
+    малгай+N+Pl+Dat: малгайда
+    малгай+N+Pl+Abl: малгайһаа
+    малгай+N+Pl+Ins: малгайгаар
+    малгай+N+Pl+Com: малгайтай
+
+  Noun - толгой: # 
+    толгой+N+Pl+Nom: толгой
+    толгой+N+Pl+Gen: толгойн
+    толгой+N+Pl+Acc: толгойе
+    толгой+N+Pl+Dat: толгойдо
+    толгой+N+Pl+Abl: толгойһоо
+    толгой+N+Pl+Ins: толгойгоор
+    толгой+N+Pl+Com: толгойтой
+
+  Noun - бээлэй: # 
+    бээлэй+N+Pl+Nom: бээлэй
+    бээлэй+N+Pl+Gen: бээлэйн
+    бээлэй+N+Pl+Acc: бээлэйе
+    бээлэй+N+Pl+Dat: бээлэйдэ
+    бээлэй+N+Pl+Abl: бээлэйһээ
+    бээлэй+N+Pl+Ins: бээлэйгээр
+    бээлэй+N+Pl+Com: бээлэйтэй
+
+  Noun - төөлэй: # 
+    төөлэй+N+Pl+Nom: төөлэй
+    төөлэй+N+Pl+Gen: төөлэйн
+    төөлэй+N+Pl+Acc: төөлэйе
+    төөлэй+N+Pl+Dat: төөлэйдэ
+    төөлэй+N+Pl+Abl: төөлэйһөө
+    төөлэй+N+Pl+Ins: төөлэйгөөр
+    төөлэй+N+Pl+Com: төөлэйтэй
+
+!! long vowel
+!! Stems ending in a long vowel
+
+  Noun - баглаа: # 
+    баглаа+N+Pl+Nom: баглаа
+    баглаа+N+Pl+Gen: баглаагай
+    баглаа+N+Pl+Acc: баглаае
+    баглаа+N+Pl+Dat: баглаада
+    баглаа+N+Pl+Abl: баглааһаа
+    баглаа+N+Pl+Ins: баглаагаар
+    баглаа+N+Pl+Com: баглаатай
+
+  Noun - хобоо: # 
+    хобоо+N+Pl+Nom: хобоо
+    хобоо+N+Pl+Gen: хобоогой
+    хобоо+N+Pl+Acc: хобоое
+    хобоо+N+Pl+Dat: хобоодо
+    хобоо+N+Pl+Abl: хобооһоо
+    хобоо+N+Pl+Ins: хобоогоор
+    хобоо+N+Pl+Com: хобоотой
+
+  Noun - һэрбээ: # 
+    һэрбээ+N+Pl+Nom: һэрбээ
+    һэрбээ+N+Pl+Gen: һэрбээгэй
+    һэрбээ+N+Pl+Acc: һэрбээе
+    һэрбээ+N+Pl+Dat: һэрбээдэ
+    һэрбээ+N+Pl+Abl: һэрбээһээ
+    һэрбээ+N+Pl+Ins: һэрбээгээр
+    һэрбээ+N+Pl+Com: һэрбээтэй
+
+  Noun - хюрөө: # 
+    хюрөө+N+Pl+Nom: хюрөө
+    хюрөө+N+Pl+Gen: хюрөөгэй
+    хюрөө+N+Pl+Acc: хюрөөе
+    хюрөө+N+Pl+Dat: хюрөөдэ
+    хюрөө+N+Pl+Abl: хюрөөһөө
+    хюрөө+N+Pl+Ins: хюрөөгөөр
+    хюрөө+N+Pl+Com: хюрөөтэй
+
+!! long vowel
+!! Stems ending in n with a preceding long vowel
+
+  Noun - һанаан: # 
+    һанаан+N+Pl+Nom: һанаан
+    һанаан+N+Pl+Gen: һанаанай
+    һанаан+N+Pl+Acc: һанаае
+    һанаан+N+Pl+Dat: һанаанда
+    һанаан+N+Pl+Abl: һанаанһаа
+    һанаан+N+Pl+Ins: һанаагаар
+    һанаан+N+Pl+Com: һанаатай
+
+  Noun - тогоон: # 
+    тогоон+N+Pl+Nom: тогоон
+    тогоон+N+Pl+Gen: тогооной
+    тогоон+N+Pl+Acc: тогоое
+    тогоон+N+Pl+Dat: тогоондо
+    тогоон+N+Pl+Abl: тогоонһоо
+    тогоон+N+Pl+Ins: тогоогоор
+    тогоон+N+Pl+Com: [тогоотой, тогоонтой]
+
+  Noun - тэмээн: # 
+    тэмээн+N+Pl+Nom: тэмээн
+    тэмээн+N+Pl+Gen: тэмээнэй
+    тэмээн+N+Pl+Acc: тэмээе
+    тэмээн+N+Pl+Dat: тэмээндэ
+    тэмээн+N+Pl+Abl: тэмээнһээ
+    тэмээн+N+Pl+Ins: тэмээгээр
+    тэмээн+N+Pl+Com: [тэмээтэй, тэмээнтэй]
+
+  Noun - зүблөөн: # 
+    жүтөөн+N+Pl+Nom: жүтөөн
+    жүтөөн+N+Pl+Gen: жүтөөнэй
+    жүтөөн+N+Pl+Acc: жүтөөе
+    жүтөөн+N+Pl+Dat: жүтөөндэ
+    жүтөөн+N+Pl+Abl: жүтөөнһөө
+    жүтөөн+N+Pl+Ins: жүтөөгөөр
+    жүтөөн+N+Pl+Com: жүтөөтэй
 
