@@ -169,6 +169,7 @@ Adverb ;			   !!= * @CODE@
 Subjunction ;		   !!= * @CODE@
 Interjection ;		   !!= * @CODE@
 Pronoun ;			   !!= * @CODE@
+Propernoun ;			   !!= * @CODE@
 Postposition ;		   !!= * @CODE@ 
 Particles ;		   !!= * @CODE@ , these should rather be adverbs
 Punctuation ;		   !!= * @CODE@ 
