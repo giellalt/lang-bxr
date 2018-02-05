@@ -160,6 +160,7 @@ Key lexicon
  * Subjunction ;		   
  * Interjection ;		   
  * Pronoun ;			   
+ * Propernoun ;			   
  * Postposition ;		    
  * Particles ;		    , these should rather be adverbs
  * Punctuation ;		    
@@ -544,13 +545,15 @@ This file is still empty.
 This file is almost empty, it contains ca 40 verbs of 3 types, v1, v2, v3:
 
  * LEXICON Verb  
+
+Verbs marked aux may perhaps be changed to v1, ... 
+It is unclear whether the distinction is morphologically relevant.
+Also, some of the aux-es may have wrong baseform.
+
+
+ ** бариха:бари v3 "hold"  ;  
  ** хүрэхэ:хүрэ v1 "reach"  ; 
  ** һууха:һуу v2 "sit" ;       
- ** бариха:бари v3 "hold"  ;  
-
-
-
-
 !!!Buryaad proper noun morphology
 
 This file add +N+Prop and points to the noun case morphology
@@ -560,6 +563,12 @@ This file add +N+Prop and points to the noun case morphology
 !!!Buryaad verb affixes
 
 This file is still empty.
+
+
+ * LEXICON v1t  the transitives
+
+ * LEXICON v1i  the intransitives
+
 
 
 
