@@ -5,16 +5,25 @@
 LEXICON aux
 v1 ; ! direct aux to v1 for now.
 
+LEXICON v1t !!= * @CODE@ the transitives
++V+TV: v1lex ;
+
+LEXICON v1i !!= * @CODE@ the intransitives
++V+TV: v1lex ;
+
 LEXICON v1
-+V+Ind+Prs:%>н%{A%} persprd ;
-+V+Ind+Prt+Derm:%>б%{A%} persprd ;
-+V+Ind+Prt+Conf:%>л%{A%}й persprd ;
-+V+Imp: imperative ;
-+V+Vol: voluntative ;
-+V+Opt: optative ;
-+V+Presc: presc ; ! Prescriptive mood
-+V: participles ;
-+V: converbs ;
++V: v1lex ;
+
+LEXICON v1lex
++Ind+Prs:%>н%{A%} persprd ;
++Ind+Prt+Derm:%>б%{A%} persprd ;
++Ind+Prt+Conf:%>л%{A%}й persprd ;
++Imp: imperative ;
+Vol: voluntative ;
++Opt: optative ;
++Presc: presc ; ! Prescriptive mood
+ participles ;
+ converbs ;
 
 LEXICON v2
 +V+Ind+Prs:%>н%{A%} persprd ;
