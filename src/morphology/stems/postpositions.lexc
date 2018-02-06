@@ -2,8 +2,8 @@
 
 !! This file contains 40 postpositions
 
-LEXICON pp !!= @CODE@ = These are the indeclieable ones 
-+Po: # ; !!= * @CODE@ = The tag
+LEXICON pp !!= @CODE@ = These are the indeclieable ones , tag +Po
++Po: # ;
 
 LEXICON Postposition  !!= @CODE@ = The lexicon
 болон pp "until" ; !!= * @CODE@  

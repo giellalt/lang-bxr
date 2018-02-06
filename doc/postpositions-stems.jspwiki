@@ -2,8 +2,7 @@
 
 This file contains 40 postpositions
 
- LEXICON pp  = These are the indeclieable ones 
- * +Po: # ;  = The tag
+ LEXICON pp  = These are the indeclieable ones , tag +Po
 
  LEXICON Postposition   = The lexicon
  * болон pp "until" ;   
