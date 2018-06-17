@@ -12,8 +12,12 @@
 
 !!! Grammatical issues
 
-* [The tags that are in use|https://victorio.uit.no/langtech/trunk/langs/bxr/src/morphology/root.lexc]   
-* [A list of morphological tags|../common/MorphologicalTags.html]
+* What tags to use? Cf the tags in use [for Buriaad|https://victorio.uit.no/langtech/trunk/langs/bxr/src/morphology/root.lexc], and [for the other languages|../common/MorphologicalTags.html] (todo: harmonise)
+
+
+!!!Project planning
+
+* [Topics for the summer of 2018|Topics.html]
 
 
 

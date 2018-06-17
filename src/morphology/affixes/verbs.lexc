@@ -1,20 +1,34 @@
  !! !!!Buryaad verb affixes
 
-!! This file is still empty.
+!! This is the file for Buryaad verb morphology. The documentation
+!! shortly explains the rationale behind each continuation lexicon.
 
-LEXICON aux
-v1 ; ! direct aux to v1 for now.
 
-LEXICON v1t !!= * @CODE@ the transitives
+!! !!The verb classes
+
+LEXICON aux  !!= * __@CODE@__ is directed to v1 for now.
+v1 ; 
+
+LEXICON v1t !!= * @CODE@ the transitive v1 verbs (add +TV and go on)
 +V+TV: v1lex ;
 
-LEXICON v1i !!= * @CODE@ the intransitives
+LEXICON v1i !!= * @CODE@ the intransitive v1 verbs (add +IV and go on)
 +V+TV: v1lex ;
 
-LEXICON v1
+LEXICON v1 !!= * @CODE@ the v1 verbs not yet classified for transitivity
 +V: v1lex ;
 
-LEXICON v1lex
+LEXICON v2
+v2lex ;
+
+!! !!Verb morphology
+!! We see the contlexes as two layers: The first layer to divide
+!! the different stem types into different suffix lexica, and
+!! the one for these suffixes.
+
+!! !Layer one: Dividing v1, v2, v3 into suffix lexica
+
+LEXICON v1lex !!= * __@CODE@__ the common v1 morphology
 +Ind+Prs:%>н%{A%} persprd ;
 +Ind+Prt+Derm:%>б%{A%} persprd ;
 +Ind+Prt+Conf:%>л%{A%}й persprd ;
@@ -25,7 +39,7 @@ Vol: voluntative ;
  participles ;
  converbs ;
 
-LEXICON v2
+LEXICON v2lex !!= * __@CODE@__ the common v2 morphology
 +V+Ind+Prs:%>н%{A%} persprd ;
 +V+Ind+Prt+Derm:%>б%{A%} past ;
 +V+Ind+Prt+Conf:%>л%{A%}й past ;
@@ -37,7 +51,7 @@ LEXICON v2
 +V: converbs ;
 
 
-LEXICON v3
+LEXICON v3 !!= * __@CODE@__ the common v3 morphology
 +V+Ind+Prs:%>н%{A%} persprd ;
 +V+Ind+Prt+Derm:%>б%{A%} past ;
 +V+Ind+Prt+Conf:%>л%{A%}й past ;
@@ -49,7 +63,9 @@ LEXICON v3
 +V: converbs ;
 
 
-LEXICON persprd
+!! !Layer two: The suffix lexica themselves.
+
+LEXICON persprd  !!= * __@CODE@__ for suffixes: б, ш, ...
 +Sg1:%>б K ;
 +Sg2:%>ш  K ;
 +Sg3: K ;
@@ -57,7 +73,7 @@ LEXICON persprd
 +Pl2:%>т  K ;
 +Pl3: K ;
 
-LEXICON persprd2
+LEXICON persprd2  !!= * __@CODE@__ for suffixes: би, ши, ...
 +Sg1:%>би K ;
 +Sg2:%>ши  K ;
 +Sg3: K ;
@@ -65,7 +81,7 @@ LEXICON persprd2
 +Pl2:%>та  K ;
 +Pl3: K ;
 
-LEXICON past 
+LEXICON past   !!= * __@CODE@__ for suffixes: б, 0, ...
 +Sg1:%>б K ;
 +Sg2:  K ;
 +Sg3: K ;
@@ -73,11 +89,11 @@ LEXICON past
 +Pl2:  K ;
 +Pl3: K ;
 
-LEXICON imperative 
+LEXICON imperative   !!= * __@CODE@__ for imperative suffixes (Sg2, Pl2)
 +Sg2:  K ;
 +Pl2:%>гты  K ;
 
-LEXICON voluntative ! or +Imp?
+LEXICON voluntative   !!= * __@CODE@__ for suffixes: яа, 0, ...
 +Sg1:%>яа K ;
 +Sg2:  K ;
 +Sg3: K ;
@@ -86,18 +102,18 @@ LEXICON voluntative ! or +Imp?
 +Pl2:  K ;
 +Pl3: K ;
 
-LEXICON optative ! or +Imp?
+LEXICON optativ   !!= * __@CODE@__ for suffixes: -һууб, ...
 +Sg1:%>һ%{U%}%{U%}б K ;
 +Sg2:  K ;
 +Pl1:%>һ%{U%}%{U%}бди K ;
 
-LEXICON presc
+LEXICON presc  !!= * __@CODE@__ for suffixes: -арайгтыт, ...
 +Sg2:%>%{A%}р%{A%}йгтыт K ;
 +Pl2:%>%{A%}р%{A%}йгтыш K ;
 +Sg2:%>ыт K ;
 +Pl2:%>ыш K ;
 
-LEXICON participles 
+LEXICON participles   !!= * __@CODE@__ giving 11 different participle tags: +FutPrc, +ImpPrc, ...
 +FutPrc:%>х%{A%}   ptc ; 
 +ImpfPrc:%>%{A%}%{A%}   ptc ;
 +HabPrc:%>д%{A%}г   ptc2 ;
@@ -110,15 +126,15 @@ LEXICON participles
 +PassPrc:%>%{A%}%{A%}т%{A%}й   ptc ;
 +ResPrc:%>нх%{A%}й   ptc ;
 
-LEXICON ptc
+LEXICON ptc   !!= * __@CODE@__ either stop or go to persprd suff
 K ;
 persprd ;
 
-LEXICON ptc2
+LEXICON ptc2   !!= * __@CODE@__ either stop or go to persprd2 suff
 K ;
 persprd2 ;
 
-LEXICON converbs
+LEXICON converbs   !!= * __@CODE@__ listing 12 converb suffixes: -н, -жа, ...
 +ConMod:%>н    # ;
 +ConImpf:%>ж%{A%}    # ;
 +ConPrf:%>%{A%}%{A%}д    # ;

@@ -394,10 +394,10 @@ Here come all the rules (marked with RULE:), and test cases.
 
 This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
 
- * __LEXICON K  __ , containing the following clitics:
+ * __LEXICON K  __ , in principle containing clitics, but no one so far, and pointing to ENDLEX
 
 
- * __LEXICON ENDLEX __ is the lexicon adding ^END
+ * __LEXICON ENDLEX __ is the lexicon adding ^END, for technical reasons.
 
 !!!Buryaad noun stems
 
@@ -416,19 +416,26 @@ We have two lexica, NUM1 and NUM2,
 NUM1 with -нар plural and V-initial Gen, Ins, and
 NUM2 with -ууд plural and г-initial Gen, Ins
 
+The noun classes
 
- * __LEXICON NUM1 __
+ * __LEXICON NUMX __ unclassified nouns
 
- * __LEXICON NUM2 __
+ * __LEXICON NUM1 __ with Gen -IIN, and -нар- suffix for oblique cases
 
- * __LEXICON case1 __ Gen, Ins
+ * __LEXICON NUM2 __ with Gen -GAj and -ууд suffič for oblique cases
 
- * __LEXICON case2 __
+The class-specific case morphology (Gen, Ins)
+ * __LEXICON case1 __ Gen, Ins for NUM1 nouns, and pointing to common cases
 
+ * __LEXICON case2 __ Gen, Ins for NUM2 nouns, and pointing to common cases
 
- * __LEXICON commoncase  __ for other cases
+ * __LEXICON case3 __ case3 are numerals, for now pointing to case2
 
- * __LEXICON Poss __ for Px
+The morphology common to the different stem classes
+
+ * __LEXICON commoncase  __ common treatment of Nom, Dat, Acc, Abl, Com for all nouns
+
+ * __LEXICON Poss __ for Px, common for all nouns
 !!!Buryaad adjectives
 
 here there are some 500 adjectives from the Apertium source files.
@@ -561,28 +568,58 @@ This file add +N+Prop and points to the noun case morphology
 
 !!!Buryaad verb affixes
 
-This file is still empty.
+This is the file for Buryaad verb morphology. The documentation
+shortly explains the rationale behind each continuation lexicon.
 
 
- * LEXICON v1t  the transitives
+!!The verb classes
 
- * LEXICON v1i  the intransitives
+ * __LEXICON aux  __ is directed to v1 for now.
 
+ * LEXICON v1t  the transitive v1 verbs (add +TV and go on)
 
+ * LEXICON v1i  the intransitive v1 verbs (add +IV and go on)
 
-
-
-
-
-
+ * LEXICON v1  the v1 verbs not yet classified for transitivity
 
 
+!!Verb morphology
+We see the contlexes as two layers: The first layer to divide
+the different stem types into different suffix lexica, and
+the one for these suffixes.
+
+!Layer one: Dividing v1, v2, v3 into suffix lexica
+
+ * __LEXICON v1lex __ the common v1 morphology
+
+ * __LEXICON v2lex __ the common v2 morphology
 
 
+ * __LEXICON v3 __ the common v3 morphology
 
 
+!Layer two: The suffix lexica themselves.
 
+ * __LEXICON persprd  __ for suffixes: б, ш, ...
 
+ * __LEXICON persprd2  __ for suffixes: би, ши, ...
 
+ * __LEXICON past   __ for suffixes: б, 0, ...
+
+ * __LEXICON imperative   __ for imperative suffixes (Sg2, Pl2)
+
+ * __LEXICON voluntative   __ for suffixes: яа, 0, ...
+
+ * __LEXICON optativ   __ for suffixes: -һууб, ...
+
+ * __LEXICON presc  __ for suffixes: -арайгтыт, ...
+
+ * __LEXICON participles   __ giving 11 different participle tags: +FutPrc, +ImpPrc, ...
+
+ * __LEXICON ptc   __ either stop or go to persprd suff
+
+ * __LEXICON ptc2   __ either stop or go to persprd2 suff
+
+ * __LEXICON converbs   __ listing 12 converb suffixes: -н, -жа, ...
 
 
