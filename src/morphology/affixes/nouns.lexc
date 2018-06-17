@@ -4,38 +4,43 @@
 !! NUM1 with -нар plural and V-initial Gen, Ins, and
 !! NUM2 with -ууд plural and г-initial Gen, Ins
 
-LEXICON NUMX ! unclassified
+!! !! The noun classes
+
+LEXICON NUMX !!= * __@CODE@__ unclassified nouns
 NUM1 ;
 
-LEXICON NUM1 !!= * __@CODE@__
+LEXICON NUM1 !!= * __@CODE@__ with Gen -IIN, and -нар- suffix for oblique cases
   +N+Sg:      case1 ;
   +N+Pl:%>нар case1 ; ! was uncommented
 
-LEXICON NUM2 !!= * __@CODE@__
+LEXICON NUM2 !!= * __@CODE@__ with Gen -GAj and -ууд suffič for oblique cases
   +N+Sg:      case2 ;
   +N+Pl:%>ууд case2 ; ! was uncommented
 
-LEXICON case1 !!= * __@CODE@__ Gen, Ins
+!! !! The class-specific case morphology (Gen, Ins)
+LEXICON case1 !!= * __@CODE@__ Gen, Ins for NUM1 nouns, and pointing to common cases
   +Gen:%>%{I%}%{I%}н K    ;
   +Ins:%>%{A%}%{A%}р K    ;
   commoncase ;
 
-LEXICON case2 !!= * __@CODE@__
+LEXICON case2 !!= * __@CODE@__ Gen, Ins for NUM2 nouns, and pointing to common cases
   +Gen:%>г%{A%}й K ;
   +Ins:%>г%{A%}%{A%}р K    ;
   commoncase ;
 
-LEXICON case3
-case2 ; ! TODO, the case3 comes from the numerals
+LEXICON case3 !!= * __@CODE@__ case3 are numerals, for now pointing to case2
+case2 ; !
 
-LEXICON commoncase  !!= * __@CODE@__ for other cases
+!! !! The morphology common to the different stem classes
+
+LEXICON commoncase  !!= * __@CODE@__ common treatment of Nom, Dat, Acc, Abl, Com for all nouns
   +Nom:               Poss ;
   +Dat:%>%{D%}%{A%}   K    ;
   +Acc:%>%{I%}%{I%}е  Poss ;
   +Abl:%>һ%{Ө%}%{Ө%}  K    ;
   +Com:%>т%{A%}й      K    ;
 
-LEXICON Poss !!= * __@CODE@__ for Px
+LEXICON Poss !!= * __@CODE@__ for Px, common for all nouns
   K ; ! Absolute declension
 +PxSg1:%>мни K ;
 +PxSg1+Use/NG:%>м K ; ! in case of one, prefer -мни

@@ -4,16 +4,23 @@ We have two lexica, NUM1 and NUM2,
 NUM1 with -нар plural and V-initial Gen, Ins, and
 NUM2 with -ууд plural and г-initial Gen, Ins
 
+The noun classes
 
- * __LEXICON NUM1 __
+ * __LEXICON NUMX __ unclassified nouns
 
- * __LEXICON NUM2 __
+ * __LEXICON NUM1 __ with Gen -IIN, and -нар- suffix for oblique cases
 
- * __LEXICON case1 __ Gen, Ins
+ * __LEXICON NUM2 __ with Gen -GAj and -ууд suffič for oblique cases
 
- * __LEXICON case2 __
+The class-specific case morphology (Gen, Ins)
+ * __LEXICON case1 __ Gen, Ins for NUM1 nouns, and pointing to common cases
 
+ * __LEXICON case2 __ Gen, Ins for NUM2 nouns, and pointing to common cases
 
- * __LEXICON commoncase  __ for other cases
+ * __LEXICON case3 __ case3 are numerals, for now pointing to case2
 
- * __LEXICON Poss __ for Px
+The morphology common to the different stem classes
+
+ * __LEXICON commoncase  __ common treatment of Nom, Dat, Acc, Abl, Com for all nouns
+
+ * __LEXICON Poss __ for Px, common for all nouns
