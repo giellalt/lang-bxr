@@ -58,6 +58,9 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Pos    !!= * @CODE@ Positive
 +Neg    !!= * @CODE@ Negative
 
++TV    !!= * @CODE@ Transitive
++IV     !!= * @CODE@ Intransitive
+
 +Pl     !!= * @CODE@ Plural
 
 +Nom    !!= * @CODE@ Nominative
