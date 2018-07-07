@@ -41,6 +41,9 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * +Pos     Positive
  * +Neg     Negative
 
+ * +TV     Transitive
+ * +IV      Intransitive
+
  * +Pl      Plural
 
  * +Nom     Nominative
