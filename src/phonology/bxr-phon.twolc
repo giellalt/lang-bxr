@@ -170,16 +170,18 @@ Rules
 "{I}{I} to ы in Gen/Acc and Poss 1"
 !! * RULE:  __@RULENAME@__ gives y for the first I
 %{I%}:ы <=> [а:|э:|о:|:RealCns] %> _ %{I%}: [н|е] [%^END:|%>:] ; !Gen/Acc
+                          н:    %> _ %{I%}:     е [%^END:|%>:] ; !Gen/Acc
                      [Cns - н]  %> _ %{I%}: н ь ;  
                     
 "{I}{I} to ы in Gen/Acc and Poss 2"
 !! * RULE:  __@RULENAME@__ deletes the second I
 %{I%}:0 <=> [а:|э:|о:|:RealCns] %> %{I%}: _ [н|е] [%^END:|%>:] ; !Gen/Acc
                           н:    %> %{I%}: _        е [%^END:|%>:] ; !Gen/Acc
-                          н:    %>        _ %{I%}: е [%^END:|%>:] ; !Gen/Acc
+!                          н:    %>        _ %{I%}: е [%^END:|%>:] ; !Gen/Acc
                      [Cns - н]  %> %{I%}: _ н ь ;   
                      RealVow    %> %{I%}: _ н ь ;
                      RealVow    %>        _ %{I%}: н ь ;
+
 
 !!€ Байгал>{I}{I}нь^END
 !!€ Байгал>ы0нь0
@@ -312,8 +314,8 @@ Vx:0 <=> :RealCns _ %> [:ы (:0) [н|е]|:а :а|:о :о|:э :э|:ө :ө] ;
 
 
 ! This magic spell in order to show make check output also when everything passes:
-!€ t e s t w i l l f a i l
-!€ f a i l i t w i l l 0 0 
+!€ т е с т р а б о т а е т
+!€ в т е с т е о ш и б к а
 
 
 
