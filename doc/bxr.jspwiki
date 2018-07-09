@@ -292,6 +292,7 @@ Here come all the rules (marked with RULE:), and test cases.
 
 * RULE:  __{I}{I} to ы in Gen/Acc and Poss 2__ deletes the second I
 
+
 * __Байгал>{I}{I}нь^END __
 * __Байгал>ы0нь0 __
 
@@ -553,16 +554,17 @@ This file is still empty.
 
 This file is almost empty, it contains ca 40 verbs of 3 types, v1, v2, v3:
 
- * LEXICON Verb  
+ * LEXICON Verb 
 
-Verbs marked aux may perhaps be changed to v1, ... 
+Verbs marked aux may perhaps be changed to v1, ...
+
 It is unclear whether the distinction is morphologically relevant.
+
 Also, some of the aux-es may have wrong baseform.
+ ** һууха:һуу v2 "sit" ; 
+ ** хүрэхэ:хүрэ v1 "reach" ; 
 
 
- ** бариха:бари v3 "hold"  ;  
- ** хүрэхэ:хүрэ v1 "reach"  ; 
- ** һууха:һуу v2 "sit" ;       
 !!!Buryaad proper noun morphology
 
 This file add +N+Prop and points to the noun case morphology
@@ -577,7 +579,13 @@ shortly explains the rationale behind each continuation lexicon.
 
 !!The verb classes
 
+!Auxiliary verbs
+ * __LEXICON BAJ  __ is directed to v1 for now. 
+
  * __LEXICON aux  __ is directed to v1 for now.
+
+
+!Ordinary verbs
 
  * LEXICON v1t  the transitive v1 verbs (add +TV and go on)
 
