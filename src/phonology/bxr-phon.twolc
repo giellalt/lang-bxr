@@ -57,9 +57,9 @@ Rules
 
 "Vowel harmony A:а"
 !! * RULE:  __@RULENAME@__ gives a after stems with a or juu
-%{A%}:а <=> .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] [RealCns:|ю (у)|ы|а:]* %> [(Cns:* - й:) (%{A%}:)]*      _  ;
-            .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] RealCns и:             %> :я [(Cns:* - й:) (%{A%}:)]* _  ; 
-            .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] RealCns и              %> [Cns:+ - й:] (%{A%}:)               _  ; ! бари>х{A}
+%{A%}:а <=> .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] [(Cns и) RealCns:|ю (у)|ы|а:]* %> [(Cns:* - й:) (%{A%}:)]*       _  ;
+            .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] RealCns и:          %> :я [(Cns:* - й:) (%{A%}:)]*    _  ; 
+!            .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] RealCns и              %> [Cns:+ - й:] (%{A%}:)               _  ; ! бари>х{A}
             .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] RealCns [и|а]          %> [Cns:+ - й:] (%{A%}:) й: (%{A%}:) %{A%}: _  ; ! бари>х{A}
             .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] RealCns и              %> [Cns:+ - й:]  %{A%}:  л  (%{A%}:) _  ; ! бари>х{A}
 
@@ -79,8 +79,8 @@ Rules
 
 "Vowel harmony A:э"
 !! * RULE:  __@RULENAME@__ gives e after e etc
-%{A%}:э <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|и|е]* %> [(Cns:* - й:) (%{A%}:)]* _  ;
-            [э|е|ү|ө ө]  RealCns и:             %> :е _  ;
+%{A%}:э <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|и|е|э:]* %> [(Cns:* - й:) (%{A%}:)]* _  ;
+            [э|е|ү|ө ө]  RealCns и:                %> :е _  ;
 
 !@ б а с а г а н >:0 г:0 {A}:а й
 !!€ басаган>г{A}й
@@ -115,20 +115,6 @@ Rules
 !! * RULE:  __@RULENAME@__ deletes й in front of A
 й:0 <=>  %> RealCns:* (%{A%}:) _ %{A%}: ;
 
-"Vowel harmony и:0"
-!! * RULE:  __@RULENAME@__ deletes и in front of A initial suffix
-и:0 <=> _ %> %{A%}: ;
-
-! a бариха+V+ImpfPrc  = lexc upper:lower a:b
-! b бари>{A}{A}
-! b бари>{A}{A}       = twolc upper:lower b:c
-! c бар0яа
-
-! a   b    a = бариха+V+ImpfPrc
-! - x - =  -
-! b   c    c = баряа
-! = a x b / b x c = a x c 
- 
 
 "Vowel harmony U:у"
 !! * RULE:  __@RULENAME@__ gives a after stems with a or juu
@@ -227,10 +213,14 @@ Vx:0 <=> :RealCns _ %> [:ы (:0) [н|е]|:а :а|:о :о|:э :э|:ө :ө] ;
 !!€ аха>{A}{A}р^END
 !!€ ах0>аар0
 
-"Deletion of и in word-final иие and Deletion SHV"
+"Deletion of и in word-final иие and Deletion SHV and Vowel harmony и:0"
 !! * RULE:  __@RULENAME@__ 
 и:0 <=>       _ н %> е %{A%}: р ;
         и %> _ :и е ;
+             _ %> %{A%}: ; ! deletes и in front of A initial suffix
+
+!!€ бари>{A}{A}       = twolc upper:lower b:c
+!!€ бар0яа
 
 
 "Deletion of ы in -ые for aj and VV stems"
