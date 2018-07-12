@@ -14,17 +14,30 @@ v1 ;
 
 !! !Ordinary verbs
 
+!! v1 the default verb category, v2 stem in long vowel or ditphtong, 
+!! v3 stem in и
+!! The difference comes for the non-indicative forms, thus
+!! all verb types point to the same finite_indicative.
+
 LEXICON v1t !!= * @CODE@ the transitive v1 verbs (add +TV and go on)
 +V+TV: v1lex ;
++V+TV: finite_indicative ;
 
 LEXICON v1i !!= * @CODE@ the intransitive v1 verbs (add +IV and go on)
-+V+TV: v1lex ;
++V+IV: v1lex ;
++V+IV: finite_indicative ;
 
 LEXICON v1 !!= * @CODE@ the v1 verbs not yet classified for transitivity
 +V: v1lex ;
++V: finite_indicative ;
 
-LEXICON v2
-v2lex ;
+LEXICON v2 !!= * __@CODE@__ stem in long vowel or diphthong
++V: v2lex ;
++V: finite_indicative ;
+
+LEXICON v3 !!= * __@CODE@__ stem in и
++V: v3lex ;
++V: finite_indicative ;
 
 !! !!Verb morphology
 !! We see the contlexes as two layers: The first layer to divide
@@ -33,39 +46,34 @@ v2lex ;
 
 !! !Layer one: Dividing v1, v2, v3 into suffix lexica
 
-LEXICON v1lex !!= * __@CODE@__ the common v1 morphology
+LEXICON finite_indicative
 +Ind+Prs:%>н%{A%} persprd ;
 +Ind+Prt+Derm:%>б%{A%} persprd ;
 +Ind+Prt+Conf:%>л%{A%}й persprd ;
+
+LEXICON v1lex !!= * __@CODE@__ the common v1 morphology
 +Imp: imperative ;
-Vol: voluntative ;
++Vol: voluntative ;
 +Opt: optative ;
 +Presc: presc ; ! Prescriptive mood
  participles ;
  converbs ;
 
 LEXICON v2lex !!= * __@CODE@__ the common v2 morphology
-+V+Ind+Prs:%>н%{A%} persprd ;
-+V+Ind+Prt+Derm:%>б%{A%} past ;
-+V+Ind+Prt+Conf:%>л%{A%}й past ;
-+V+Imp: imperative ;
-+V+Vol: voluntative ;
-+V+Opt: optative ;
-+V+Presc: presc ; 
-+V: participles ;
-+V: converbs ;
++Imp: imperative ;
++Vol: voluntative ;
++Opt: optative ;
++Presc: presc ; 
+ participles ;
+ converbs ;
 
-
-LEXICON v3 !!= * __@CODE@__ the common v3 morphology
-+V+Ind+Prs:%>н%{A%} persprd ;
-+V+Ind+Prt+Derm:%>б%{A%} past ;
-+V+Ind+Prt+Conf:%>л%{A%}й past ;
-+V+Imp: imperative ;
-+V+Vol: voluntative ;
-+V+Opt: optative ;
-+V+Presc: presc ; 
-+V: participles ;
-+V: converbs ;
+LEXICON v3lex
++Imp: imperative ;
++Vol: voluntative ;
++Opt: optative ;
++Presc: presc ; 
+ participles ;
+ converbs ;
 
 
 !! !Layer two: The suffix lexica themselves.
@@ -86,13 +94,13 @@ LEXICON persprd2  !!= * __@CODE@__ for suffixes: би, ши, ...
 +Pl2:%>та  K ;
 +Pl3: K ;
 
-LEXICON past   !!= * __@CODE@__ for suffixes: б, 0, ...
-+Sg1:%>б K ;
-+Sg2:  K ;
-+Sg3: K ;
-+Pl1:%>б K ;
-+Pl2:  K ;
-+Pl3: K ;
+!LEXICON past   !!= * __@CODE@__ for suffixes: б, 0, ...
+!+Sg1:%>б K ;
+!+Sg2:  K ;
+!+Sg3: K ;
+!+Pl1:%>б K ;
+!+Pl2:  K ;
+!+Pl3: K ;
 
 LEXICON imperative   !!= * __@CODE@__ for imperative suffixes (Sg2, Pl2)
 +Sg2:  K ;
