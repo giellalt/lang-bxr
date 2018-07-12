@@ -8,9 +8,7 @@
 
 !! !Auxiliary verbs
 
-LEXICON aux  !!= * __@CODE@__ is directed to v1 for now.
-v1 ; 
-
+!! No auxiliary verbs for now.
 
 !! !Ordinary verbs
 
@@ -30,6 +28,14 @@ LEXICON v1i !!= * @CODE@ the intransitive v1 verbs (add +IV and go on)
 LEXICON v1 !!= * @CODE@ the v1 verbs not yet classified for transitivity
 +V: v1lex ;
 +V: finite_indicative ;
+
+LEXICON v2t !!= * @CODE@ the transitive v2 verbs (add +TV and go on)
++V+TV: v2lex ;
++V+TV: finite_indicative ;
+
+LEXICON v2i !!= * @CODE@ the intransitive v2 verbs (add +IV and go on)
++V+IV: v2lex ;
++V+IV: finite_indicative ;
 
 LEXICON v2 !!= * __@CODE@__ stem in long vowel or diphthong
 +V: v2lex ;
