@@ -35,6 +35,15 @@ LEXICON v2 !!= * __@CODE@__ stem in long vowel or diphthong
 +V: v2lex ;
 +V: finite_indicative ;
 
+LEXICON v3t !!= * @CODE@ the transitive v3 verbs (add +TV and go on)
++V+TV: v3lex ;
++V+TV: finite_indicative ;
+
+LEXICON v3i !!= * @CODE@ the intransitive v3 verbs (add +IV and go on)
++V+IV: v3lex ;
++V+IV: finite_indicative ;
+
+
 LEXICON v3 !!= * __@CODE@__ stem in и
 +V: v3lex ;
 +V: finite_indicative ;
