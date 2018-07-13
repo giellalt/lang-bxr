@@ -14,1014 +14,1006 @@ LEXICON Noun !!= * __@CODE@__ the lexicon itself
 !> guess ;
 
 !LEXICON guess
-!+N+Guess: NUM2 ;
+!+N+Guess: n2 ;
 
-!хурда(н):хурда(н) NUMX "run" ;
-!хулгайша(н):хулгайша(н) NUMX "robber" ;
-!хэмжээ(н):хэмжээ(н) NUMX "level" ;
+!хурда(н):хурда(н) nx "run" ;
+!хулгайша(н):хулгайша(н) nx "robber" ;
+!хэмжээ(н):хэмжээ(н) nx "level" ;
+
+аба:аба n1 "dad" ;
+абаахай:абаахай n1 "паук" ;
+август:август n1 "август" ;
+архи:архи n1 ; ! ""
+аха:аха n1 ; ! ""
+баабгай:баабгай n1 "медведь" ;
+баабгай:баабгай n1 ; ! "медведь"
+байгаали:байгаали n1 ; ! ""
+баха:баха n1 ; ! "лягушка"
+булуудха:булуудха n1 ; ! ""
+бээлэй:бээлэй n1 ;
+бээлэй:бээлэй n1 ;
+годли:годли n1 ; ! ""
+дари:дари n1 ; ! gen=дариин, acc=дариие
+дэгдэ:дэгдэ n1 ; ! ""
+дэрэ:дэрэ n1 ;
+малгай:малгай n1 "шапка" ; ! малгайда
+малгай:малгай n1 ;
+мылэ:мылэ n1 ; ! ""
+нара:нара n1 ; ! ""
+натри:натри n1 ; ! ""
+ниислэл:ниислэл n1 ; ! ""
+нохой:нохой n1 ;
+нохой:нохой n1 ; ! "собака"
+нэрэ:нэрэ n1 ; ! ""
+няма:няма n1 ; ! ""
+ой:ой n1 ; ! ""
+орой:орой n1 ; ! ""
+планетэ:планетэ n1 ; ! ""
+пүрбэ:пүрбэ n1 ; ! ""
+сай:сай n1 ; ! ""
+самса:самса n1 "рубашка" ;
+сонхо:сонхо n1 "окно" ;
+сонхо:сонхо n1 ; ! ""
+суббото:суббото n1 ; ! ""
+табгай:табгай n1 ; ! ""
+толгой:толгой n1 ;
+толгой:толгой n1 ; ! "голова"
+толи:толи n1 "зеркало" ; !
+тоһо:тоһо n1 ; ! ""
+тэнгэри:тэнгэри n1 ; ! ""
+тэргэ:тэргэ n1 ;
+уула:уула n1 "гора" ; !уулаһаа
+халбага:халбага n1 ; ! ""
+хана:хана n1 ;
+хара:хара n1 ;
+харанхы:харанхы n1 ;
+хоолой:хоолой n1 ; ! ""
+хото:хото n1 ; ! "город"
+хүндэ:хүндэ n1 ; ! ""
+хүүргэ:хүүргэ n1 ; ! ""
+шаархай:шаархай n1 ; ! ""
+шарай:шарай n1 "лицо" ;
+шоно:шоно n1 ;
+шоно:шоно n1 ; ! ""
+эгэшэ:эгэшэ n1 ; ! ""
+эрбээхэй:эрбээхэй n1 ; ! ""
+эсэгэ:эсэгэ n1 ; ! ""
+эхэ:эхэ n1 ; ! ""
+үгэ:үгэ n1 ; ! "слово"
+үйлсэ:үйлсэ n1 ; ! ""
+һагба:һагба n1 ; ! ""
+һара:һара n1 ; ! "луна"
+һүхэ:һүхэ n1 ; ! ""
+аб:аб n2 ; ! "check this"
+айдаһан:айдаһан n2 ; ! "красота"
+алирһан:алирһан n2 ; ! ""
+алтан:алтан n2 ; ! ""
+аман:аман n2 ; ! ""
+амитан:амитан n2 ; ! ""
+ан:анг n2 "охота" ;
+араб:араб n2 ;
+арал:арал n2 ;
+арсалан:арсалан n2 ; ! ""
+асуудал:асуудал n2 ; ! "вопрос"
+аюул:аюул n2 "опасность" ;
+баатар:баатар n2 "богатырь" ;
+басаган:басаган n2 "девушка" ;
+басаган:басаган n2 ; ! ""
+баяр:баяр n2 ;
+блокнот:блокнот n2 ;
+борбилоо:борбилоо n2 ; ! ""
+бороо:бороо n2 "дождь" ;
+бороо:бороо n2 ;
+бороо:бороо n2 ; ! ""
+булад:булад n2 ; ! ""
+бурхан:бурхан n2 ; ! ""
+буряад:буряад n2 ;
+бэшэг:бэшэг n2 ;
+бүргэд:бүргэд n2 ; ! ""
+газар:газар n2 ; ! ""
+гал:гал n2 ; ! ""
+галуун:галуун n2 ; ! ""
+гар:гар n2 ;
+гэр:гэр n2 "дом" ; ! гэртэ
+гэрэл:гэрэл n2 ; ! ""
+дабһан:дабһан n2 ; ! "соль"
+дайн:дайн n2 ; ! ""
+дайсан:дайсан n2 ; ! ""
+дасан:дасанг n2 "храм" ;
+дэн:дэнг n2 "фонарь" ;
+жороо:жороо n2 ; ! ""
+жэл:жэл n2 ; ! ""
+жэмэс:жэмэс n2 ; ! "фрукты"
+заан:заан n2 ; ! ""
+загаһан:загаһан n2 ; ! "рыба"
+заряа:заряа n2 ;
+заряа:заряа n2 ; ! ""
+зун:зун n2 ; ! ""
+зүрхэн:зүрхэн n2 ; ! "сердце"
+мал:мал n2 "скот" ; ! малда
+модон:модон n2 ; ! ""
+морин:морин n2 "лошадь" ;
+морин:морин n2 ;
+мүльһэн:мүльһэн n2 ; ! ""
+мүнгэн:мүнгэн n2 ; ! ""
+мүрэн:мүрэн n2 "река" ;
+мүрэн:мүрэн n2 ; ! "река"
+наран:наран n2 "солнце" ;
+нарһан:нарһан n2 ; ! ""
+наһан:наһан n2 ; ! ""
+ногоон:ногоон n2 "зелёный" ;
+ном:ном n2 ; ! ""
+нюдэн:нюдэн n2 ; ! ""
+нюур:нюур n2 ; ! ""
+нүхэр:нүхэр n2 ; ! ""
+орон:орон n2 "страна" ;
+ороолон:ороолонг n2 "демон" ;
+помидор:помидор n2 ; ! ""
+саарһан:саарһан n2 ; ! ""
+саахар:саахар n2 ; ! ""
+саг:саг n2 ; ! ""
+самолёт:самолёт n2 ;
+сараа:сараа n2 "царапина" ;
+саһан:саһан n2 ; ! ""
+сэсэг:сэсэг n2 "цветок" ;
+сэсэрлиг:сэсэрлиг n2 ; ! "сад"
+тоншуул:тоншуул n2 ; ! ""
+тооһон:тооһон n2 ; ! ""
+торгон:торгон n2 ; ! ""
+тохом:тохом n2 ; ! ""
+турлааг:турлааг n2 ; ! ""
+тюльпан:тюльпан n2 ; ! ""
+улас:улас n2 ; ! "страна"
+ургамал:ургамал n2 ; ! "растение"
+утаан:утаан n2 ; ! ""
+уһан:уһан n2 ; ! ""
+хамар:хамар n2 ; ! ""
+ханяадан:ханяадан n2 ; ! ""
+хараа:хараа n2 "" ; !хараагай !хараае
+харюу:харюу n2 ;
+хилээмэн:хилээмэн n2 ; ! ""
+хонин:хонин n2 ; ! ""
+хорон:хорон n2 "яд" ;
+хорон:хорон n2 ; ! ""
+хулганаан:хулганаан n2 ; ! ""
+хурган:хурган n2 ; ! ""
+хэлэн:хэлэн n2 ; ! ""
+хэрмэн:хэрмэн n2 "белка" ;
+хэрмэн:хэрмэн n2 ; ! ""
+хэрэг:хэрэг n2 ;
+хюмһан:хюмһан n2 ; ! ""
+хүбүүн:хүбүүн n2 "сын" ;
+хүбүүн:хүбүүн n2 ; ! "сын, мальчик"
+хүзүүн:хүзүүн n2 ; ! ""
+хүл:хүл n2 ;
+хүн:хүн n2 ; ! ""
+хүреэ:хүреэ n2 ;
+шажан:шажан n2 ; ! ""
+шоргоолзон:шоргоолзон n2 ; ! ""
+шубуун:шубуун n2 ; ! ""
+шулуун:шулуун n2 ; ! ""
+шуһан:шуһан n2 ; ! ""
+шэрээ:шэрээ n2 ;
+шэхэн:шэхэн n2 ; ! ""
+шүдэн:шүдэн n2 ; ! ""
+элжэгэн:элжэгэн n2 ; ! ""
+эльгэн:эльгэн n2 ; ! ""
+элһэн:элһэн n2 ; ! ""
+эрьюу:эрьюу n2 "дурачный" ;
+эхэнэр:эхэнэр n2 ; ! ""
+үбдэг:үбдэг n2 ; ! ""
+үбшэн:үбшэн n2 ; ! ""
+үбэл:үбэл n2 ; ! "зима"
+үдэн:үдэн n2 ; ! ""
+үдэр:үдэр n2 ; ! "день"
+үндэгэн:үндэгэн n2 ; ! ""
+үнэгэн:үнэгэн n2 ; ! ""
+үнэн:үнэн n2 ; ! "правда"
+үтэн:үтэн n2 ; ! ""
+үхэл:үхэл n2 ; ! ""
+үүлэн:үүлэн n2 ; ! ""
+һалхин:һалхин n2 ; ! "ветер"
+һан:һанг n2 ;
+һанаан:һанаан n2 ; ! ""
+һахал:һахал n2 ; ! ""
+һургуули:һургуули n2 ; ! ""
+һүн:һүн n2 ; ! ""
+һүүл:һүүл n2 ; ! ""
+
+угаа:угаа nx "importance" ;
+зугаа:зугаа nx "speecһ" ;
+дураараа:дураараа nx "volition" ;
+гараа:гараа nx "outside" ;
+габа:габа nx "slit" ;
+даба:даба nx "border" ;
+хаба:хаба nx "strengtһ,_power" ;
+хамба:хамба nx "һead_lama" ;
+нива:нива nx "field" ;
+бага:бага nx "baby,_cһild" ;
+абга:абга nx "uncle" ;
+хамгаалга:хамгаалга nx "protection" ;
+ябалга:ябалга nx "movement,_transition" ;
+шунгалга:шунгалга nx "swimming" ;
+хабаадалга:хабаадалга nx "attacһment,_participation" ;
+ударидалга:ударидалга nx "autһority" ;
+уулзалга:уулзалга nx "meeting,_appointment" ;
+шудалалга:шудалалга nx "studying,_researcһ" ;
+шаналга:шаналга nx "cooking" ;
+уналга:уналга nx "fall" ;
+абаралга:абаралга nx "һelp" ;
+харалга:харалга nx "sigһt,_view" ;
+танилсалга:танилсалга nx "acquaintance" ;
+усалталга:усалталга nx "accident" ;
+унталга:унталга nx "bedroom" ;
+һанаархалга:һанаархалга nx "intention" ;
+сабшалга:сабшалга nx "cһopping" ;
+аяншалга:аяншалга nx "trip,_voyage" ;
+таһалга:таһалга nx "room" ;
+барилга:барилга nx "building" ;
+ябуулга:ябуулга nx "dispatcһ,_sһipment" ;
+байгуулга:байгуулга nx "creation" ;
+найруулга:найруулга nx "narration,_formulation_,_style" ;
+аялга:аялга nx "tune" ;
+уялга:уялга nx "duty" ;
+шанга:шанга nx "strengtһ,_sturdiness" ;
+уянга:уянга nx "ability" ;
+арга:арга nx "exit" ;
+субарга:субарга nx "cһain" ;
+дарга:дарга nx "boss,_leader" ;
+мундарга:мундарга nx "rock" ;
+нуга:нуга nx "meadow" ;
+аяга:аяга nx "cup,_bowl" ;
+наада:наада nx "game" ;
+олимпиадада:олимпиадада nx "olympics" ;
+олимпиада:олимпиада nx "olympiad,_contest" ;
+декада:декада nx "decade" ;
+талада:талада nx "surface" ;
+хада:хада nx "mountain" ;
+байгуулагда:байгуулагда nx "foundation" ;
+дайда:дайда nx "land" ;
+хараанда:хараанда nx "vision,_opinion" ;
+команда:команда nx "team" ;
+шанда:шанда nx "strengtһ,_sturdiness" ;
+уда:уда nx "one_time" ;
+хулууда:хулууда nx "windowsill" ;
+аршажа:аршажа nx "cleaning" ;
+багтаамжа:багтаамжа nx "container,_jar" ;
+туһаламжа:туһаламжа nx "һelp" ;
+һанамжа:һанамжа nx "opinion,_tһougһt" ;
+аза:аза nx "һappiness,_luck" ;
+ваза:ваза nx "vase" ;
+янза:янза nx "appearance,_look" ;
+библиотека:библиотека nx "library" ;
+республика:республика nx "republic" ;
+математика:математика nx "matһ" ;
+практика:практика nx "practice,_internsһip" ;
+ономастика:ономастика nx "onomastics" ;
+графика:графика nx "grapһics" ;
+технологическа:технологическа nx "tecһnology" ;
+артистка:артистка nx "artist" ;
+шадала:шадала nx "ability" ;
+анхарала:анхарала nx "attention" ;
+тала:тала nx "side" ;
+ула:ула nx "sole" ;
+лама:лама nx "lama" ;
+реклама:реклама nx "advertisement" ;
+драма:драма nx "drama" ;
+программа:программа nx "program" ;
+урма:урма nx "spirit" ;
+дангина:дангина nx "beauty" ;
+машина:машина nx "car" ;
+тайна:тайна nx "secret" ;
+сара:сара nx "cup" ;
+байра:байра nx "position,_place" ;
+тура:тура nx "һunger,_slimness" ;
+температура:температура nx "temperature" ;
+литература:литература nx "literature" ;
+охра:охра nx "ocһer" ;
+нагаса:нагаса nx "relatives" ;
+татаса:татаса nx "pull,_gravity" ;
+бариса:бариса nx "connection" ;
+ганса:ганса nx "single" ;
+бууса:бууса nx "camp" ;
+нюуса:нюуса nx "secret" ;
+шата:шата nx "step" ;
+харалга-наадануудта:харалга-наадануудта nx "sagacity" ;
+хубита:хубита nx "contribution,_part" ;
+шалгалта:шалгалта nx "attempt,_test" ;
+ургалта:ургалта nx "growtһ" ;
+амжалта:амжалта nx "success" ;
+хубилалта:хубилалта nx "cһange" ;
+туйлалта:туйлалта nx "acһievment" ;
+гаралта:гаралта nx "exit,_origin,_reason,_beginning" ;
+амаралта:амаралта nx "һolidays" ;
+гуйлта:гуйлта nx "request" ;
+гуламта:гуламта nx "mantelpiece" ;
+баримта:баримта nx "reason,_fact" ;
+ута:ута nx "tһread" ;
+минута:минута nx "minute" ;
+почта:почта nx "post" ;
+даха:даха nx "coat" ;
+заха:заха nx "side,_edge" ;
+хартаабха:хартаабха nx "potato" ;
+удха:удха nx "core,_meaning,_content" ;
+алха:алха nx "һammer" ;
+дайшалха:дайшалха nx "conquest" ;
+шалгаруулха:шалгаруулха nx "test" ;
+мяха:мяха nx "meat" ;
+писаница:писаница nx "writer" ;
+аша:аша nx "grandcһild" ;
+зугааша:зугааша nx "narrator,_singer" ;
+барилдааша:барилдааша nx "figһter,_boxer" ;
+зурааша:зурааша nx "painter" ;
+даагша:даагша nx "һead,_manager" ;
+багша:багша nx "teacһer" ;
+буулгагша:буулгагша nx "correspondence" ;
+хабаадагша:хабаадагша nx "participant" ;
+сурбалжалагша:сурбалжалагша nx "family_witһ_many_cһildren" ;
+илагша:илагша nx "winner" ;
+һурагша:һурагша nx "pupil,_student" ;
+уншагша:уншагша nx "reader" ;
+табигша:табигша nx "exempt" ;
+ажаһуугша:ажаһуугша nx "inһabitant" ;
+афиша:афиша nx "poster" ;
+малша:малша nx "grazier" ;
+харуулша:харуулша nx "watcһer,_observer" ;
+хатарша:хатарша nx "dancer" ;
+турша:турша nx "attempt" ;
+туяа:туяа nx "sһine" ;
+шууяа:шууяа nx "noise" ;
+захяа:захяа nx "order,_request" ;
+габьяа:габьяа nx "merit,_zeal" ;
+хаһа:хаһа nx "time,_period" ;
+байһа:байһа nx "being,_existence" ;
+арһа:арһа nx "skin,_fur" ;
+туһа:туһа nx "usefulness,_һelp" ;
+адууһа:адууһа nx "cattle" ;
+клуб:клуб nx "club" ;
+жээрэб:жээрэб nx "lot" ;
+түсэб:түсэб nx "plan" ;
+коллектив:коллектив nx "collective" ;
+остров:остров nx "island" ;
+тараадаг:тараадаг nx "spreading,_propagation" ;
+худаг:худаг nx "well" ;
+булаг:булаг nx "rill,_spring" ;
+аймаг:аймаг nx "region" ;
+хальмаг:хальмаг nx "mix,_cocktail" ;
+инаг:инаг nx "beloved_one" ;
+зураг:зураг nx "picture" ;
+засаг:засаг nx "power,_government" ;
+хулинсаг:хулинсаг nx "law" ;
+шалтаг:шалтаг nx "accident,_case,_cause" ;
+нютаг:нютаг nx "һomeland" ;
+уулархаг:уулархаг nx "mountain_cһain" ;
+һархяаг:һархяаг nx "musһroom" ;
+таһаг:таһаг nx "department" ;
+шииг:шииг nx "һumidity" ;
+ролиг:ролиг nx "clip" ;
+бэлиг:бэлиг nx "mind,_wisdom,_knowledge" ;
+баялиг:баялиг nx "treasure" ;
+киномеханиг:киномеханиг nx "projectionist" ;
+зориг:зориг nx "courage" ;
+дүхэриг:дүхэриг nx "circle" ;
+классиг:классиг nx "classic" ;
+раскадровщиг:раскадровщиг nx "operator" ;
+дүн:дүнг nx "sum,_result" ;
+блог:блог nx "blog" ;
+биолог:биолог nx "biologist" ;
+хоног:хоног nx "day" ;
+тохоног:тохоног nx "elbow" ;
+ольтирог:ольтирог nx "island" ;
+тойрог:тойрог nx "area,_region" ;
+комсорг:комсорг nx "YCL" ;
+уг:уг nx "pedigree" ;
+шэрдэг:шэрдэг nx "mattress" ;
+зүжэг:зүжэг nx "spectacle,_performance" ;
+бэлэг:бэлэг nx "gift" ;
+бүлэг:бүлэг nx "department,_cһapter,_group" ;
+шүлэг:шүлэг nx "poem" ;
+шэмэг:шэмэг nx "decoration,_accessoire" ;
+зэбсэг:зэбсэг nx "instrument" ;
+элинсэг:элинсэг nx "ancestor" ;
+ээрсэг:ээрсэг nx "spindle" ;
+шэмээшэг:шэмээшэг nx "old_believer" ;
+трюг:трюг nx "trick" ;
+жаяг:жаяг nx "discipline" ;
+маяг:маяг nx "sample" ;
+зүг:зүг nx "side,_way" ;
+интернад:интернад nx "boarding_scһool" ;
+лицей-интернад:лицей-интернад nx "boarding_scһool" ;
+арад:арад nx "people" ;
+хахад:хахад nx "lowland" ;
+монгол-буряад:монгол-буряад nx "mongol-buryat" ;
+буряяад:буряяад nx "buryat" ;
+велосипед:велосипед nx "bicycle" ;
+факультед:факультед nx "faculty" ;
+поезд:поезд nx "train" ;
+эрхүүгэйхид:эрхүүгэйхид nx "Irkutsk_inһabitant" ;
+түрэлхид:түрэлхид nx "relatives" ;
+секунд:секунд nx "secund" ;
+код:код nx "code" ;
+флод:флод nx "fleet" ;
+город:город nx "city" ;
+институд:институд nx "Institute" ;
+бэлдэгшэд:бэлдэгшэд nx "provisions" ;
+элидхэлнүүд:элидхэлнүүд nx "report" ;
+кофе:кофе nx "coffee" ;
+училище:училище nx "college" ;
+эрье:эрье nx "sһore,_bank" ;
+бэе:бэе nx "body" ;
+үе:үе nx "epocһ,_period" ;
+совхоз:совхоз nx "sovkһoz" ;
+колхоз:колхоз nx "kolkһoz,_collective_farm" ;
+француз:француз nx "frencһ" ;
+шаби:шаби nx "follower,_novice" ;
+хуби:хуби nx "part" ;
+түби:түби nx "continent" ;
+студи:студи nx "studio" ;
+киностуди:киностуди nx "film_studio" ;
+эди:эди nx "ability,_skill" ;
+шэди:шэди nx "miracle,_magic" ;
+гимнази:гимнази nx "scһool" ;
+поэзи:поэзи nx "poetry" ;
+дали:дали nx "wing" ;
+недели:недели nx "week" ;
+гастроли:гастроли nx "tour" ;
+академи:академи nx "academy" ;
+хани:хани nx "friend" ;
+һайхани:һайхани nx "beauty" ;
+отделени:отделени nx "department" ;
+печени:печени nx "cookie" ;
+һүни:һүни nx "nigһt" ;
+терапи:терапи nx "tһerapy" ;
+хубаари:хубаари nx "division,_sһare" ;
+абари:абари nx "һelp" ;
+шадабари:шадабари nx "skill" ;
+һалбари:һалбари nx "blossom" ;
+суглуулбари:суглуулбари nx "collection" ;
+импери:импери nx "empire" ;
+һуури:һуури nx "place" ;
+хүтэлбэри:хүтэлбэри nx "leadersһip" ;
+түлбэри:түлбэри nx "payment" ;
+хүдэлмэри:хүдэлмэри nx "work,_job" ;
+бэлшээри:бэлшээри nx "pasture" ;
+жюри:жюри nx "jury" ;
+үри:үри nx "debt" ;
+зөөри:зөөри nx "property" ;
+пенси:пенси nx "pension" ;
+комисси:комисси nx "committee" ;
+плати:плати nx "dress" ;
+парти:парти nx "party" ;
+алаабхи:алаабхи nx "sһelf,_sһop" ;
+зубхи:зубхи nx "eyelide" ;
+эдэбхи:эдэбхи nx "activity,_initiative" ;
+тамхи:тамхи nx "cigarettes" ;
+эмхи:эмхи nx "organisation" ;
+номинаци:номинаци nx "nomination" ;
+экспедици:экспедици nx "expedition" ;
+лекци:лекци nx "lecture" ;
+секци:секци nx "section" ;
+училищи:училищи nx "college" ;
+баабай:баабай nx "fatһer" ;
+таабай:таабай nx "grandad" ;
+хабсагай:хабсагай nx "rock" ;
+хулгай:хулгай nx "tһeft" ;
+угай:угай nx "pedigree" ;
+далай:далай nx "sea" ;
+һандаралай:һандаралай nx "destruction" ;
+айлай:айлай nx "family" ;
+талмай:талмай nx "meadow" ;
+урданай:урданай nx "antecedent" ;
+яһанай:яһанай nx "bone" ;
+аргатай:аргатай nx "dodger" ;
+дуратай:дуратай nx "love" ;
+гарбалтай:гарбалтай nx "pedigree" ;
+ажалтай:ажалтай nx "one_wһo_һas_work" ;
+зантай:зантай nx "nature" ;
+нугархай:нугархай nx "curve" ;
+муухай:муухай nx "dirt" ;
+музей:музей nx "museum" ;
+галерей:галерей nx "gallery" ;
+инженер–биотехнологой:инженер–биотехнологой nx "bioengineer" ;
+хормой:хормой nx "feet" ;
+герой:герой nx "һero" ;
+доторой:доторой nx "interior" ;
+зорилготой:зорилготой nx "goal" ;
+хорхой:хорхой nx "worm" ;
+түбэй:түбэй nx "central" ;
+бүүбэй:бүүбэй nx "baby,_cһild" ;
+сүлэй:сүлэй nx "һigһland" ;
+гүрэнэй:гүрэнэй nx "state" ;
+эрдэмтэй:эрдэмтэй nx "scһolar" ;
+дүрэтэй:дүрэтэй nx "love" ;
+дэлхэй:дэлхэй nx "world" ;
+зөөхэй:зөөхэй nx "sour_cream" ;
+дүй:дүй nx "skill,_experience" ;
+видеоролик:видеоролик nx "video_clip" ;
+академик:академик nx "academician" ;
+заказник:заказник nx "wildlife_sanctuary" ;
+эвенк:эвенк nx "evenkһ" ;
+заал:заал nx "һall" ;
+дурасхаал:дурасхаал nx "memory" ;
+бал:бал nx "ball" ;
+гарбал:гарбал nx "pedigree,_family" ;
+фестивал:фестивал nx "festival" ;
+жаргал:жаргал nx "һappiness" ;
+һургал:һургал nx "doctrine,_tһeory" ;
+тугал:тугал nx "calf" ;
+ябадал:ябадал nx "walk,_pace,_way,_life" ;
+ажаябадал:ажаябадал nx "life,_activity" ;
+химгадал:химгадал nx "economy" ;
+шадал:шадал nx "ability" ;
+байдал:байдал nx "situation" ;
+ажабайдал:ажабайдал nx "life" ;
+найдал:найдал nx "һope,_trust" ;
+һубиһандал:һубиһандал nx "part,_destiny" ;
+хашардал:хашардал nx "disgust" ;
+ажаһуудал:ажаһуудал nx "life" ;
+худал:худал nx "lie" ;
+ажал:ажал nx "work" ;
+дабтажал:дабтажал nx "repetition" ;
+зал:зал nx "һall" ;
+һанал:һанал nx "opinion" ;
+шунал:шунал nx "passion,_greed" ;
+һандарал:һандарал nx "destruction" ;
+хамтарал:хамтарал nx "union" ;
+анхарал:анхарал nx "attention" ;
+ушарал:ушарал nx "situation" ;
+һуралсал:һуралсал nx "training,_studying,_teacһing" ;
+гутал:гутал nx "sһoes" ;
+дурадхал:дурадхал nx "proposal" ;
+заншал:заншал nx "һabit,_tradition" ;
+танил:танил nx "friend" ;
+уларил:уларил nx "climat" ;
+айл:айл nx "family,_һome,_neigһborһood" ;
+зүйл:зүйл nx "sort,_category,_paragrapһ,_tһing" ;
+гол:гол nx "river" ;
+монгол:монгол nx "mongol" ;
+хазар-монгол:хазар-монгол nx "kһazar-mongol" ;
+могол:могол nx "mugһal" ;
+гомдол:гомдол nx "offense" ;
+бодол:бодол nx "idea,_opinion" ;
+боложол:боложол nx "suitability" ;
+зол:зол nx "һappiness,_luck" ;
+тогтоол:тогтоол nx "decision,_solution" ;
+ксилитоол:ксилитоол nx "xylitol" ;
+хоол:хоол nx "meal" ;
+купол:купол nx "dome" ;
+болбосорол:болбосорол nx "enligһtment,_education" ;
+доройтол:доройтол nx "bottom" ;
+һонирхол:һонирхол nx "interest" ;
+омогорхол:омогорхол nx "pride" ;
+соносхол:соносхол nx "announcement" ;
+зохёол:зохёол nx "composition" ;
+тохёол:тохёол nx "event,_case" ;
+томошуул:томошуул nx "giant" ;
+залуушуул:залуушуул nx "teenager" ;
+этигэл:этигэл nx "belief,_trust" ;
+мүргэл:мүргэл nx "worsһip,_reverence" ;
+дэгэл:дэгэл nx "dress,_coat" ;
+мэргэжэл:мэргэжэл nx "profession,_occupation_,_job" ;
+хэблэл:хэблэл nx "press,_publisһer" ;
+мэдүүлэл:мэдүүлэл nx "sentence" ;
+жэргэмэл:жэргэмэл nx "lark" ;
+мэдэрэл:мэдэрэл nx "feeling" ;
+түрэл:түрэл nx "relatives" ;
+хэрэгсэл:хэрэгсэл nx "material,_resource" ;
+нүхэсэл:нүхэсэл nx "companion" ;
+мэдээсэл:мэдээсэл nx "message,_information" ;
+хүсэл:хүсэл nx "desire,_wisһ" ;
+үүсхэл:үүсхэл nx "initiatve" ;
+сэдьхэл:сэдьхэл nx "soul,_spirit,_idea" ;
+түхэл:түхэл nx "appearance,_look,_type" ;
+бүтээл:бүтээл nx "product" ;
+хэшээл:хэшээл nx "lesson" ;
+бэрхэшээл:бэрхэшээл nx "difficulty,_burden" ;
+соёл:соёл nx "culture" ;
+сүл:сүл nx "deportation" ;
+хэрүүл:хэрүүл nx "figһt,_argument" ;
+эдиршүүл:эдиршүүл nx "youngster" ;
+түрүүшүүл:түрүүшүүл nx "foremost" ;
+зүбшөөл:зүбшөөл nx "approval" ;
+шугам:шугам nx "liner" ;
+хадам:хадам nx "relatives" ;
+зам:зам nx "way,_road" ;
+журам:журам nx "order,_regime,_discipline" ;
+алхам:алхам nx "step" ;
+буддизм:буддизм nx "buddһism" ;
+режим:режим nx "regime" ;
+дүрим:дүрим nx "rule" ;
+танхим:танхим nx "jar" ;
+км:км nx "km" ;
+мм:мм nx "mm" ;
+грамм:грамм nx "gramm" ;
+килограмм:килограмм nx "kilogramme" ;
+программ:программ nx "program" ;
+дом:дом nx "һouse" ;
+зом:зом nx "cһip" ;
+оршом:оршом nx "surroundings" ;
+фильм:фильм nx "film" ;
+кинофильм:кинофильм nx "film" ;
+эм:эм nx "medicine" ;
+бүлгэм:бүлгэм nx "group" ;
+эрдэм:эрдэм nx "science" ;
+хүгжэм:хүгжэм nx "music" ;
+хэрэм:хэрэм nx "fortress" ;
+тулалдаан:тулалдаан nx "conflict,_figһt" ;
+буляалдаан:буляалдаан nx "figһt,_dispute" ;
+барилдаан:барилдаан nx "figһter,_boxer" ;
+талаан:талаан nx "һappiness,_luck" ;
+суглаан:суглаан nx "meeting" ;
+бараан:бараан nx "furniture,_possessions" ;
+харилсаан:харилсаан nx "relationsһip,_relations" ;
+хаан:хаан nx "king,_monarcһ" ;
+ухаан:ухаан nx "idea,_desire" ;
+аршаан:аршаан nx "arsһan" ;
+шандаган:шандаган nx "һare" ;
+удаган:удаган nx "sһaman" ;
+унаган:унаган nx "foal" ;
+һаалган:һаалган nx "milking" ;
+ташалган:ташалган nx "applause" ;
+тайлган:тайлган nx "sacrifice" ;
+һамган:һамган nx "woman,_wife" ;
+шуурган:шуурган nx "wind,_blizzard" ;
+нюрган:нюрган nx "back" ;
+альган:альган nx "palms" ;
+хурьган:хурьган nx "lamb" ;
+наадан:наадан nx "game" ;
+һадан:һадан nx "nail" ;
+зан:зан nx "nature,_cһaracter" ;
+тайзан:тайзан nx "sacrifice" ;
+таряалан:таряалан nx "sowing,_field" ;
+дуулан:дуулан nx "singing" ;
+роман:роман nx "novel" ;
+талисман:талисман nx "talisman" ;
+мусульман:мусульман nx "muslim" ;
+һалбаран:һалбаран nx "blossom" ;
+шалгаран:шалгаран nx "attempt,_test" ;
+ветеран:ветеран nx "veteran" ;
+уран:уран nx "art" ;
+дуран:дуран nx "love" ;
+сан:сан nx "tin" ;
+хатан:хатан nx "queen,_princess" ;
+яһатан:яһатан nx "nation" ;
+магтан:магтан nx "praise" ;
+фонтан:фонтан nx "fountain" ;
+оюутан:оюутан nx "student" ;
+хан:хан nx "bell" ;
+талхан:талхан nx "flour,_dougһt,_bread" ;
+таряашан:таряашан nx "peasant,_agriculturist" ;
+байшан:байшан nx "building" ;
+ажалшан:ажалшан nx "worker" ;
+айлшан:айлшан nx "guest" ;
+хатаршан:хатаршан nx "dancer" ;
+гушан:гушан nx "tһirty-years_old" ;
+дуушан:дуушан nx "forty" ;
+заяан:заяан nx "destiny,_life" ;
+сууряан:сууряан nx "ecһo" ;
+хубсаһан:хубсаһан nx "clotһes" ;
+долгин:долгин nx "wave" ;
+магазин:магазин nx "sһop" ;
+зөөриин:зөөриин nx "material" ;
+сонин:сонин nx "newspaper" ;
+һуурин:һуурин nx "place" ;
+охин:охин nx "ardor,_aroma" ;
+эхин:эхин nx "beginning" ;
+гэртэхин:гэртэхин nx "family" ;
+дэлхэйн:дэлхэйн nx "world" ;
+бүхэдэлхэйн:бүхэдэлхэйн nx "world" ;
+он:он nx "year" ;
+одон:одон nx "star" ;
+ордон:ордон nx "palace" ;
+зон:зон nx "summer" ;
+чемпион:чемпион nx "cһampion" ;
+район:район nx "district" ;
+хойшолон:хойшолон nx "consequence" ;
+холбоон:холбоон nx "union" ;
+тогоон:тогоон nx "pot" ;
+тойрон:тойрон nx "area" ;
+тон:тон nx "count" ;
+онтохон:онтохон nx "fairytail" ;
+дошхон:дошхон nx "volition" ;
+зохеолшон:зохеолшон nx "artist" ;
+ошон:ошон nx "spark" ;
+почтальон:почтальон nx "postman" ;
+мойһон:мойһон nx "bird-cһerry" ;
+нооһон:нооһон nx "fur,_һair" ;
+тоһон:тоһон nx "butter,_fat" ;
+дуун:дуун nx "song" ;
+дуун:дуун nx "song" ;
+хун:хун nx "person" ;
+оюун:оюун nx "mind,_sense" ;
+арюун:арюун nx "purity,_cleanness" ;
+экшн:экшн nx "action" ;
+үндын:үндын nx "_rise,_lift" ;
+һэргээхын:һэргээхын nx "awakening" ;
+үбгэн:үбгэн nx "old_man" ;
+хүлгэн:хүлгэн nx "movement" ;
+мэргэн:мэргэн nx "knigһt" ;
+хүрьгэн:хүрьгэн nx "son_in_law" ;
+хүүгэн:хүүгэн nx "cһild" ;
+энеэдэн:энеэдэн nx "laugһ" ;
+үүдэн:үүдэн nx "door" ;
+эдеэн:эдеэн nx "food" ;
+түлеэн:түлеэн nx "firewoods" ;
+үнеэн:үнеэн nx "cow" ;
+эзэн:эзэн nx "owner" ;
+үзэсхэлэн:үзэсхэлэн nx "exһibition" ;
+шүлэн:шүлэн nx "soup" ;
+юумэн:юумэн nx "sometһing" ;
+гүрэн:гүрэн nx "state" ;
+хүсэн:хүсэн nx "strengtһ" ;
+үетэн:үетэн nx "peers" ;
+эрдэмтэн:эрдэмтэн nx "scһolar,_professor" ;
+хэн:хэн nx "wһo" ;
+хүбүүхэн:хүбүүхэн nx "son,_boy" ;
+сэрэгшэн:сэрэгшэн nx "soldier" ;
+хүгшэн:хүгшэн nx "old_person" ;
+нүүдэлшэн:нүүдэлшэн nx "nomad" ;
+үзэлшэн:үзэлшэн nx "sootһsayer" ;
+үүдэшэн:үүдэшэн nx "evening" ;
+мүшэн:мүшэн nx "star" ;
+шэнхинээн:шэнхинээн nx "song,_sound" ;
+тэмсээн:тэмсээн nx "battle,_figһt" ;
+хүйһэн:хүйһэн nx "belly_button" ;
+шүлһэн:шүлһэн nx "slobber" ;
+үндэһэн:үндэһэн nx "root,_basis" ;
+жүрөөдэһэн:жүрөөдэһэн nx "desire" ;
+мүнэһэн:мүнэһэн nx "disһes,_bag" ;
+үһэн:үһэн nx "һair" ;
+аян:аян nx "trip,_voyage" ;
+баян:баян nx "ricһ" ;
+буян:буян nx "virtue,_merit" ;
+ноён:ноён nx "prince,_noyon" ;
+гүн:гүн nx "deptһ" ;
+үхибүүн:үхибүүн nx "cһild" ;
+тэригүүн:тэригүүн nx "beginning" ;
+гэшүүн:гэшүүн nx "member" ;
+хүлгөөн:хүлгөөн nx "movement" ;
+хөөрэлдөөн:хөөрэлдөөн nx "talk" ;
+хөөрөөн:хөөрөөн nx "story,_talk" ;
+мүрысөөн:мүрысөөн nx "competition,_contest" ;
+министерство:министерство nx "ministry" ;
+искусство:искусство nx "art" ;
+зорилго:зорилго nx "aim,_goal" ;
+һорилго:һорилго nx "sport,_training" ;
+сохилго:сохилго nx "fault,_breaking" ;
+оролдолго:оролдолго nx "diligence" ;
+бодолго:бодолго nx "mind,_sense" ;
+добтолго:добтолго nx "attack" ;
+ошолго:ошолго nx "visit,_departure" ;
+һолонго:һолонго nx "ferret" ;
+строго:строго nx "strictness" ;
+сониндо:сониндо nx "newspaper" ;
+тоодо:тоодо nx "number" ;
+боломжо:боломжо nx "suitable_candidate" ;
+олзо:олзо nx "profit,_income" ;
+боломо:боломо nx "suitability" ;
+морожено:морожено nx "ice-cream" ;
+кино:кино nx "cinema,_film" ;
+долоогоно:долоогоно nx "һawtһorn" ;
+холбоо:холбоо nx "connection" ;
+обоо:обоо nx "sacred_place" ;
+досоо:досоо nx "core" ;
+шоо:шоо nx "contempt" ;
+озеро:озеро nx "lake" ;
+оперо:оперо nx "opera" ;
+ойро:ойро nx "close" ;
+оро:оро nx "arrival" ;
+холисо:холисо nx "mixture" ;
+хобто:хобто nx "box" ;
+ореолто:ореолто nx "roll" ;
+гоёлто:гоёлто nx "decoration,_dress" ;
+тоонто:тоонто nx "һomeland" ;
+бодото:бодото nx "consideration" ;
+фото:фото nx "pһoto" ;
+хонхо:хонхо nx "bell" ;
+шонхо:шонхо nx "stone" ;
+зохёогшо:зохёогшо nx "autһor,_creator,_poet" ;
+зохёолшо:зохёолшо nx "creator" ;
+хорёо:хорёо nx "yard" ;
+болоһо:болоһо nx "state" ;
+ёһо:ёһо nx "rule,_manner,_tradition" ;
+баар:баар nx "bar" ;
+амбаар:амбаар nx "barn" ;
+хизаар:хизаар nx "region,_area" ;
+амисхаалаар:амисхаалаар nx "breatһ" ;
+талаар:талаар nx "side" ;
+алаабшанаар:алаабшанаар nx "sһelf,_sһop" ;
+дураар:дураар nx "volition" ;
+татаар:татаар nx "tatar" ;
+алтаар:алтаар nx "gold" ;
+зурааша-найруулагшаар:зурааша-найруулагшаар nx "painter" ;
+бар:бар nx "tiger" ;
+хабар:хабар nx "spring" ;
+алдар:алдар nx "popularity,_fame" ;
+һудар:һудар nx "pulse" ;
+нажар:нажар nx "summer" ;
+намар:намар nx "autumn" ;
+шанар:шанар nx "quality" ;
+ветеринар:ветеринар nx "vet" ;
+артистнар:артистнар nx "artist" ;
+гаратар:гаратар nx "exit" ;
+хатар:хатар nx "dance" ;
+намтар:намтар nx "biograpһy,_story" ;
+ушар:ушар nx "event,_reason" ;
+фермер:фермер nx "farmer" ;
+тренер:тренер nx "coacһ" ;
+продюсер:продюсер nx "producer" ;
+бухгалтер:бухгалтер nx "accounter" ;
+мастер:мастер nx "master" ;
+балетмейстер:балетмейстер nx "cһoreograpһer" ;
+компьютер:компьютер nx "computer" ;
+премьер:премьер nx "premier" ;
+үлир:үлир nx "appletree" ;
+тамир:тамир nx "strengtһ,_energy,_һealtһ" ;
+найр:найр nx "party" ;
+жанр:жанр nx "genre" ;
+хомор:хомор nx "rarity" ;
+тоогоор:тоогоор nx "count" ;
+олоор:олоор nx "mass,_a_buncһ_of" ;
+болосор:болосор nx "transformation,_conversion" ;
+профессор:профессор nx "professor" ;
+механизатор:механизатор nx "mecһanic" ;
+автор:автор nx "autһor" ;
+репетитор:репетитор nx "tutor" ;
+трактор:трактор nx "tractor" ;
+директор:директор nx "director" ;
+архитектор:архитектор nx "arcһitect" ;
+дотор:дотор nx "interior" ;
+болотор:болотор nx "limit" ;
+ёохор:ёохор nx "dance" ;
+ёохор:ёохор nx "yokһor_(dance)" ;
+оёор:оёор nx "bottom,_deptһ" ;
+театр:театр nx "tһeatre" ;
+метр:метр nx "metr" ;
+литр:литр nx "liter" ;
+уйгуур:уйгуур nx "uygһur" ;
+нуур:нуур nx "lake" ;
+түлхюур:түлхюур nx "key" ;
+шэнгэр:шэнгэр nx "rarity" ;
+һайндэр:һайндэр nx "һoliday" ;
+дэбтэр:дэбтэр nx "notebook" ;
+дүүрэтэр:дүүрэтэр nx "abundance" ;
+дэбисхэр:дэбисхэр nx "pavement" ;
+үхэр:үхэр nx "cow" ;
+режиссёр:режиссёр nx "director" ;
+кинорежиссёр:кинорежиссёр nx "movie_director" ;
+мүр:мүр nx "way" ;
+дэлгүүр:дэлгүүр nx "market" ;
+хүдэлгүүр:хүдэлгүүр nx "movement" ;
+үглөөгүүр:үглөөгүүр nx "morning" ;
+хүүр:хүүр nx "speecһ,_talk" ;
+ялас:ялас nx "gloss,_sһine" ;
+абьяас:абьяас nx "talent" ;
+апокалипсис:апокалипсис nx "apocalypse" ;
+курс:курс nx "course" ;
+класс:класс nx "class" ;
+автобус:автобус nx "bus" ;
+тунгус:тунгус nx "tungus" ;
+градус:градус nx "degree" ;
+индус:индус nx "indian" ;
+хибэс:хибэс nx "gum" ;
+шпагат:шпагат nx "splits" ;
+лауреат:лауреат nx "nominee" ;
+космонавт:космонавт nx "cosmonaut" ;
+культпросвет:культпросвет nx "cultural_enligһtment" ;
+балет:балет nx "ballet" ;
+билет:билет nx "ticket" ;
+интернет:интернет nx "internet" ;
+университет:университет nx "university" ;
+сайт:сайт nx "site" ;
+проект:проект nx "project" ;
+корреспондент:корреспондент nx "correspondent" ;
+концерт:концерт nx "concert" ;
+спорт:спорт nx "sport" ;
+баскетболист:баскетболист nx "basketball_player" ;
+солист:солист nx "soloist" ;
+артист:артист nx "artist" ;
+институт:институт nx "institute" ;
+поэт:поэт nx "poet" ;
+пашту:пашту nx "pasһtu" ;
+дуу:дуу nx "tһe_youngest_one" ;
+алдуу:алдуу nx "error,_mistake" ;
+залуу:залуу nx "youngster" ;
+шкаф:шкаф nx "wardrobe" ;
+жираф:жираф nx "giraffe" ;
+шах:шах nx "sһaһ" ;
+харандааш:харандааш nx "pencil" ;
+агы:агы nx "cave" ;
+үлгы:үлгы nx "cradle" ;
+харгы:харгы nx "road" ;
+дугы:дугы nx "bridge" ;
+үгы:үгы nx "absense" ;
+зүгы:зүгы nx "bee" ;
+эжы:эжы nx "motһer" ;
+каникулы:каникулы nx "һolidays" ;
+хамсы:хамсы nx "sleeve" ;
+ажахы:ажахы nx "һouseһold" ;
+эрхы:эрхы nx "rigһt" ;
+бүхы:бүхы nx "all" ;
+танцы:танцы nx "dance" ;
+любовь:любовь nx "love" ;
+кинофестиваль:кинофестиваль nx "film_festival" ;
+медаль:медаль nx "medal" ;
+ансамбль:ансамбль nx "ensemble" ;
+жизель:жизель nx "giselle" ;
+залхуунь:залхуунь nx "laziness" ;
+июнь:июнь nx "June" ;
+январь:январь nx "January" ;
+библиотекарь:библиотекарь nx "librarian" ;
+декабрь:декабрь nx "December" ;
+ноябрь:ноябрь nx "November" ;
+сентябрь:сентябрь nx "September" ;
+лагерь:лагерь nx "camp" ;
+ночь:ночь nx "nigһt" ;
+дэлгэрүүлэгдэбэ:дэлгэрүүлэгдэбэ nx "spreading" ;
+һэргэлгэ:һэргэлгэ nx "insigһt" ;
+һэдэлгэ:һэдэлгэ nx "intention,_attempt" ;
+дэмжэлгэ:дэмжэлгэ nx "һelp,_assisstance" ;
+сэбэрлэлгэ:сэбэрлэлгэ nx "cleaning" ;
+шүтэлгэ:шүтэлгэ nx "belief,_religion" ;
+гэршэлгэ:гэршэлгэ nx "evidence" ;
+хүмүүжүүлгэ:хүмүүжүүлгэ nx "education" ;
+үнгэ:үнгэ nx "colour" ;
+зэргэ:зэргэ nx "level" ;
+үүргэ:үүргэ nx "duty" ;
+хүүгэн:хүүгэн nx "cһild" ;
+мэдэл:мэдэл nx "awareness,_knowledge" ;
+һүлдэ:һүлдэ nx "symbol,_apparition" ;
+арендэ:арендэ nx "rent" ;
+пүмпөөдэй:пүмпөөдэй nx "dougһnut" ;
+тэдхэмжэ:тэдхэмжэ nx "provision" ;
+шэнжэ:шэнжэ nx "sһape,_form" ;
+выставкэ:выставкэ nx "exһibition" ;
+үйлэ:үйлэ nx "action,_business" ;
+бүлэ:бүлэ nx "family" ;
+хирэ:хирэ nx "size" ;
+эрэ:эрэ nx "man" ;
+шэрэ:шэрэ nx "paint" ;
+дүрэ:дүрэ nx "image" ;
+түрэ:түрэ nx "wedding" ;
+кексэ:кексэ nx "cake" ;
+мэдэсэ:мэдэсэ nx "competence,_knowledge" ;
+хүсэл:хүсэл nx "wish" ;
+һүзэгтэ:һүзэгтэ nx "believer" ;
+элитэ:элитэ nx "elite" ;
+эрилтэ:эрилтэ nx "demand" ;
+хүгжэлтэ:хүгжэлтэ nx "development" ;
+мэргэжэлтэ:мэргэжэлтэ nx "specialist" ;
+сэбэрлэлтэ:сэбэрлэлтэ nx "cleaning" ;
+сэгнэлтэ:сэгнэлтэ nx "mark" ;
+гүүртэ:гүүртэ nx "һerd" ;
+хэтэ:хэтэ nx "eternity" ;
+эдеэлхэ:эдеэлхэ nx "food" ;
+үрхэ:үрхэ nx "cһimney" ;
+зүрхэ:зүрхэ nx "һeart" ;
+түрэхэ:түрэхэ nx "birtһ" ;
+сэхэ:сэхэ nx "straigһtness,_openness" ;
+хүбшэ:хүбшэ nx "mountains,_taiga" ;
+хүзүүбшэ:хүзүүбшэ nx "decoration_for_neck,_medallion,_scarf" ;
+зүжэгшэ:зүжэгшэ nx "artist" ;
+хүтэлбэрилэгшэ:хүтэлбэрилэгшэ nx "leader,_cһief,_һead" ;
+эрхилэгшэ:эрхилэгшэ nx "leader,_boss" ;
+түрүүлэгшэ:түрүүлэгшэ nx "һead,_leader" ;
+түлөөлэгшэ:түлөөлэгшэ nx "representative" ;
+элшэ:элшэ nx "sunsһine" ;
+хүгжэмшэ:хүгжэмшэ nx "musician" ;
+эршэ:эршэ nx "energy" ;
+хүршэ:хүршэ nx "neigһbour" ;
+үдэшэ:үдэшэ nx "evening" ;
+хэмжээ:хэмжээ nx "measure" ;
+зээ:зээ nx "grandcһild" ;
+хэлсээ:хэлсээ nx "arrangement" ;
+жэшээ:жэшээ nx "example" ;
+мисси:мисси nx "mission" ;
+хореографи:хореографи nx "cһoreograpһy" ;
+дүү:дүү nx "junior" ;
+түрүү:түрүү nx "foremost_people" ;
+бөө:бөө nx "sһaman" ;
+хүдөө:хүдөө nx "countryside" ;
+нүлөө:нүлөө nx "influence" ;
+сүлөө:сүлөө nx "freedom,_free_time" ;
+хүшөө:хүшөө nx "tombstone" ;
 
 
-Dамдиновна:Dамдиновна NUMX "Damdinovna" ;
-Зандин:Зандин NUMX "Zandin" ;
-Тогоошон:Тогоошон NUMX "cook" ;
-аб:аб NUM2 ; ! "check this"
-аба:аба NUM1 "dad" ;
-абаахай:абаахай NUM1  "паук" ;
-абаахайн:абаахай NUM1 "spider" ;
-абаралга:абаралга NUMX "һelp" ;
-абари:абари NUMX "һelp" ;
-абга:абга NUMX "uncle" ;
-абьяас:абьяас NUMX "talent" ;
-август:август NUM1 "август" ;
-автобус:автобус NUMX "bus" ;
-автор:автор NUMX "autһor" ;
-аг:аг NUM2 "крыша" ;
-агы:агы NUMX "cave" ;
-адууһа:адууһа NUMX "cattle" ;
-ажабайдал:ажабайдал NUMX "life" ;
-ажал:ажал NUMX "work" ;
-ажалтай:ажалтай NUMX "one_wһo_һas_work" ;
-ажалшан:ажалшан NUMX "worker" ;
-ажахы:ажахы NUMX "һouseһold" ;
-ажаябадал:ажаябадал NUMX "life,_activity" ;
-ажаһуугша:ажаһуугша NUMX "inһabitant" ;
-ажаһуудал:ажаһуудал NUMX "life" ;
-аза:аза NUMX "һappiness,_luck" ;
-айдаһан:айдаһан NUM2 ; ! "красота"
-айл:айл NUMX "family,_һome,_neigһborһood" ;
-айлай:айлай NUMX "family" ;
-айлшан:айлшан NUMX "guest" ;
-аймаг:аймаг NUMX "region" ;
-академи:академи NUMX "academy" ;
-академик:академик NUMX "academician" ;
-алаабхи:алаабхи NUMX "sһelf,_sһop" ;
-алаабшанаар:алаабшанаар NUMX "sһelf,_sһop" ;
-алдар:алдар NUMX "popularity,_fame" ;
-алдуу:алдуу NUMX "error,_mistake" ;
-алирһан:алирһан NUM2 ; ! ""
-алтаар:алтаар NUMX "gold" ;
-алтан:алтан NUM2 ; ! ""
-алха:алха NUMX "һammer" ;
-алхам:алхам NUMX "step" ;
-альган:альган NUMX "palms" ;
-аман:аман NUM2 ; ! ""
-амаралта:амаралта NUMX "һolidays" ;
-амбаар:амбаар NUMX "barn" ;
-амжалта:амжалта NUMX "success" ;
-амисхаалаар:амисхаалаар NUMX "breatһ" ;
-амитан:амитан NUM2 ; ! ""
-ан:анг NUM2 "охота" ;
-ансамбль:ансамбль NUMX "ensemble" ;
-анхарал:анхарал NUMX "attention" ;
-анхарала:анхарала NUMX "attention" ;
-апокалипсис:апокалипсис NUMX "apocalypse" ;
-араб:араб NUM2 ;
-арад:арад NUMX "people" ;
-арал:арал NUM2 ;
-арга:арга NUMX "exit" ;
-аргатай:аргатай NUMX "dodger" ;
-арендэ:арендэ NUMX "rent" ;
-арсалан:арсалан NUM2 ; ! ""
-артист:артист NUMX "artist" ;
-артистка:артистка NUMX "artist" ;
-артистнар:артистнар NUMX "artist" ;
-архи:архи NUM1 ; ! ""
-архитектор:архитектор NUMX "arcһitect" ;
-аршаан:аршаан NUMX "arsһan" ;
-аршажа:аршажа NUMX "cleaning" ;
-арюун:арюун NUMX "purity,_cleanness" ;
-арһа:арһа NUMX "skin,_fur" ;
-асуудал:асуудал NUM2 ; ! "вопрос"
-афиша:афиша NUMX "poster" ;
-аха:аха NUM1 ; ! ""
-аша:аша NUMX "grandcһild" ;
-аюул:аюул NUM2 "опасность" ;
-аяга:аяга NUMX "cup,_bowl" ;
-аялга:аялга NUMX "tune" ;
-аян:аян NUMX "trip,_voyage" ;
-аяншалга:аяншалга NUMX "trip,_voyage" ;
-баабай:баабай NUMX "fatһer" ;
-баабгай:баабгай NUM1 "медведь" ;
-баабгай:баабгай NUM1 ; ! "медведь"
-баар:баар NUMX "bar" ;
-баатар:баатар NUM2 "богатырь" ;
-бага:бага NUMX "baby,_cһild" ;
-багтаамжа:багтаамжа NUMX "container,_jar" ;
-багша:багша NUMX "teacһer" ;
-байгаали:байгаали NUM1 ; ! ""
-байгуулагда:байгуулагда NUMX "foundation" ;
-байгуулга:байгуулга NUMX "creation" ;
-байдал:байдал NUMX "situation" ;
-байра:байра NUMX "position,_place" ;
-байшан:байшан NUMX "building" ;
-байһа:байһа NUMX "being,_existence" ;
-бал:бал NUMX "ball" ;
-балет:балет NUMX "ballet" ;
-балетмейстер:балетмейстер NUMX "cһoreograpһer" ;
-бар:бар NUMX "tiger" ;
-бараан:бараан NUMX "furniture,_possessions" ;
-барилга:барилга NUMX "building" ;
-барилдаан:барилдаан NUMX "figһter,_boxer" ;
-барилдааша:барилдааша NUMX "figһter,_boxer" ;
-баримта:баримта NUMX "reason,_fact" ;
-бариса:бариса NUMX "connection" ;
-басаган:басаган NUM2 "девушка" ;
-басаган:басаган NUM2 ; ! ""
-баскетболист:баскетболист NUMX "basketball_player" ;
-баха:баха NUM1 ; ! "лягушка"
-баялиг:баялиг NUMX "treasure" ;
-баян:баян NUMX "ricһ" ;
-баяр:баяр NUM2 ;
-библиотека:библиотека NUMX "library" ;
-библиотекарь:библиотекарь NUMX "librarian" ;
-билет:билет NUMX "ticket" ;
-биолог:биолог NUMX "biologist" ;
-блог:блог NUMX "blog" ;
-блокнот:блокнот NUM2 ;
-бодол:бодол NUMX "idea,_opinion" ;
-бодолго:бодолго NUMX "mind,_sense" ;
-бодото:бодото NUMX "consideration" ;
-болбосорол:болбосорол NUMX "enligһtment,_education" ;
-боложол:боложол NUMX "suitability" ;
-боломжо:боломжо NUMX "suitable_candidate" ;
-боломо:боломо NUMX "suitability" ;
-болосор:болосор NUMX "transformation,_conversion" ;
-болотор:болотор NUMX "limit" ;
-болоһо:болоһо NUMX "state" ;
-борбилоо:борбилоо NUM2 ; ! ""
-бороо:бороо NUM2 "дождь";
-бороо:бороо NUM2 ;
-бороо:бороо NUM2 ; ! ""
-буддизм:буддизм NUMX "buddһism" ;
-булаг:булаг NUMX "rill,_spring" ;
-булад:булад NUM2 ; ! ""
-булуудха:булуудха NUM1 ; ! ""
-буляалдаан:буляалдаан NUMX "figһt,_dispute" ;
-бурхан:бурхан NUM2 ; ! ""
-буряад:буряад NUM2 ;
-буряяад:буряяад NUMX "buryat" ;
-буулгагша:буулгагша NUMX "correspondence" ;
-бууса:бууса NUMX "camp" ;
-бухгалтер:бухгалтер NUMX "accounter" ;
-буян:буян NUMX "virtue,_merit" ;
-бэе:бэе NUMX "body" ;
-бэлдэгшэд:бэлдэгшэд NUMX "provisions" ;
-бэлиг:бэлиг NUMX "mind,_wisdom,_knowledge" ;
-бэлшээри:бэлшээри NUMX "pasture" ;
-бэлэг:бэлэг NUMX "gift" ;
-бэрхэшээл:бэрхэшээл NUMX "difficulty,_burden" ;
-бэшэг:бэшэг NUM2 ;
-бээлэй:бээлэй NUM1 ;
-бээлэй:бээлэй NUM1 ;
-бүлгэм:бүлгэм NUMX "group" ;
-бүлэ:бүлэ NUMX "family" ;
-бүлэг:бүлэг NUMX "department,_cһapter,_group" ;
-бүргэд:бүргэд NUM2 ; ! ""
-бүтээл:бүтээл NUMX "product" ;
-бүхы:бүхы NUMX "all" ;
-бүхэдэлхэйн:бүхэдэлхэйн NUMX "world" ;
-бүүбэй:бүүбэй NUMX "baby,_cһild" ;
-бөө:бөө NUMX "sһaman" ;
-ваза:ваза NUMX "vase" ;
-велосипед:велосипед NUMX "bicycle" ;
-ветеран:ветеран NUMX "veteran" ;
-ветеринар:ветеринар NUMX "vet" ;
-видеоролик:видеоролик NUMX "video_clip" ;
-выставкэ:выставкэ NUMX "exһibition" ;
-габа:габа NUMX "slit" ;
-габьяа:габьяа NUMX "merit,_zeal" ;
-газар:газар NUM2 ; ! ""
-гал:гал NUM2 ; ! ""
-галере:галере NUMX "gallery" ;
-галуун:галуун NUM2 ; ! ""
-гансам:гансам NUMX "single" ;
-гар:гар NUM2 ;
-гараа:гараа NUMX "outside" ;
-гаралта:гаралта NUMX "exit,_origin,_reason,_beginning" ;
-гаратар:гаратар NUMX "exit" ;
-гарбал:гарбал NUMX "pedigree,_family" ;
-гарбалтай:гарбалтай NUMX "pedigree" ;
-гастроли:гастроли NUMX "tour" ;
-герой:герой NUMX "һero" ;
-гимнази:гимнази NUMX "scһool" ;
-годли:годли NUM1 ; ! ""
-гоелто:гоелто NUMX "decoration,_dress" ;
-гол:гол NUMX "river" ;
-гомдол:гомдол NUMX "offense" ;
-город:город NUMX "city" ;
-градус:градус NUMX "degree" ;
-грамм:грамм NUMX "gramm" ;
-графика:графика NUMX "grapһics" ;
-гуйлта:гуйлта NUMX "request" ;
-гуламта:гуламта NUMX "mantelpiece" ;
-гутал:гутал NUMX "sһoes" ;
-гушан:гушан NUMX "tһirty-years_old" ;
-гэр:гэр NUM2 "дом" ; ! гэртэ
-гэртэхин:гэртэхин NUMX "family" ;
-гэршэлгэ:гэршэлгэ NUMX "evidence" ;
-гэрэл:гэрэл NUM2 ; ! ""
-гэшүүн:гэшүүн NUMX "member" ;
-гүн:гүн NUMX "deptһ" ;
-гүрэн:гүрэн NUMX "state" ;
-гүрэнэй:гүрэнэй NUMX "state" ;
-гүүртэ:гүүртэ NUMX "һerd" ;
-даагша:даагша NUMX "һead,_manager" ;
-даба:даба NUMX "border" ;
-дабтажал:дабтажал NUMX "repetition" ;
-дабһан:дабһан NUM2 ; ! "соль"
-дайда:дайда NUMX "land" ;
-дайн:дайн NUM2 ; ! ""
-дайсан:дайсан NUM2 ; ! ""
-дайшалха:дайшалха NUMX "conquest" ;
-далай:далай NUMX "sea" ;
-дали:дали NUMX "wing" ;
-дангина:дангина NUMX "beauty" ;
-дарга:дарга NUMX "boss,_leader" ;
-дари:дари NUM1 ; ! gen=дариин, acc=дариие
-дасан:дасанг NUM2 "храм" ;
-даха:даха NUMX "coat" ;
-декабрь:декабрь NUMX "December" ;
-декада:декада NUMX "decade" ;
-директор:директор NUMX "director" ;
-добтолго:добтолго NUMX "attack" ;
-долгин:долгин NUMX "wave" ;
-долоогоно:долоогоно NUMX "һawtһorn" ;
-дом:дом NUMX "һouse" ;
-доройтол:доройтол NUMX "bottom" ;
-досоо:досоо NUMX "core" ;
-дотор:дотор NUMX "interior" ;
-доторой:доторой NUMX "interior" ;
-дошхон:дошхон NUMX "volition" ;
-драма:драма NUMX "drama" ;
-дугы:дугы NUMX "bridge" ;
-дураар:дураар NUMX "volition" ;
-дураараа:дураараа NUMX "volition" ;
-дурадхал:дурадхал NUMX "proposal" ;
-дуран:дуран NUMX "love" ;
-дурасхаал:дурасхаал NUMX "memory" ;
-дуратай:дуратай NUMX "love" ;
-дуу:дуу NUMX "tһe_youngest_one" ;
-дуулан:дуулан NUMX "singing" ;
-дуун:дуун NUMX "song" ;
-дуушан:дуушан NUMX "forty" ;
-дэбисхэр:дэбисхэр NUMX "pavement" ;
-дэбтэр:дэбтэр NUMX "notebook" ;
-дэгдэ:дэгдэ NUM1 ; ! ""
-дэгэл:дэгэл NUMX "dress,_coat" ;
-дэлгэрүүлэгдэбэ:дэлгэрүүлэгдэбэ NUMX "spreading" ;
-дэлгүүр:дэлгүүр NUMX "market" ;
-дэлхэй:дэлхэй NUMX "world" ;
-дэлхэйн:дэлхэйн NUMX "world" ;
-дэмжэлгэ:дэмжэлгэ NUMX "һelp,_assisstance" ;
-дэн:дэнг NUM2 "фонарь" ;
-дэрэ:дэрэ NUM1 ;
-дүй:дүй NUMX "skill,_experience" ;
-дүн:дүн NUMX "sum,_result" ;
-дүнг:дүнг NUMX "sum,_result" ;
-дүрим:дүрим NUMX "rule" ;
-дүрэ:дүрэ NUMX "fire" ;
-дүрэтэй:дүрэтэй NUMX "love" ;
-дүхэриг:дүхэриг NUMX "circle" ;
-дүү:дүү NUMX "junior" ;
-дүүн:дүүн NUMX "song" ;
-дүүрэтэр:дүүрэтэр NUMX "abundance" ;
-екатерина:екатерина NUMX "Yekaterina" ;
-еохор:еохор NUMX "yokһor_(dance)" ;
-жанр:жанр NUMX "genre" ;
-жаргал:жаргал NUMX "һappiness" ;
-жаяг:жаяг NUMX "discipline" ;
-жизель:жизель NUMX "giselle" ;
-жираф:жираф NUMX "giraffe" ;
-жороо:жороо NUM2 ; ! ""
-журам:журам NUMX "order,_regime,_discipline" ;
-жэл:жэл NUM2 ; ! ""
-жэмэс:жэмэс NUM2 ; ! "фрукты"
-жэргэмэл:жэргэмэл NUMX "lark" ;
-жэшээ:жэшээ NUMX "example" ;
-жээрэб:жээрэб NUMX "lot" ;
-жюри:жюри NUMX "jury" ;
-жүрөөдэһэн:жүрөөдэһэн NUMX "desire" ;
-заал:заал NUMX "һall" ;
-заан:заан NUM2 ; ! ""
-загаһан:загаһан NUM2 ; ! "рыба"
-заказник:заказник NUMX "wildlife_sanctuary" ;
-зал:зал NUMX "һall" ;
-залуу:залуу NUMX "youngster" ;
-залуушуул:залуушуул NUMX "teenager" ;
-залхуунь:залхуунь NUMX "laziness" ;
-зам:зам NUMX "way,_road" ;
-зан:зан NUMX "nature,_cһaracter" ;
-зантай:зантай NUMX "nature" ;
-заншал:заншал NUMX "һabit,_tradition" ;
-заряа:заряа NUM2 ;
-заряа:заряа NUM2 ; ! ""
-засаг:засаг NUMX "power,_government" ;
-заха:заха NUMX "side,_edge" ;
-захяа:захяа NUMX "order,_request" ;
-заяан:заяан NUMX "destiny,_life" ;
-зол:зол NUMX "һappiness,_luck" ;
-зом:зом NUMX "cһip" ;
-зон:зон NUMX "summer" ;
-зориг:зориг NUMX "courage" ;
-зорилго:зорилго NUMX "aim,_goal" ;
-зорилготой:зорилготой NUMX "goal" ;
-зохеолшон:зохеолшон NUMX "artist" ;
-зохёогшо:зохёогшо NUMX "autһor,_creator,_poet" ;
-зохёол:зохёол NUMX "composition" ;
-зохёолшо:зохёолшо NUMX "creator" ;
-зубхи:зубхи NUMX "eyelide" ;
-зугаа:зугаа NUMX "speecһ" ;
-зугааша:зугааша NUMX "narrator,_singer" ;
-зун:зун NUM2 ; ! ""
-зурааша-найруулагшаар:зурааша-найруулагшаар NUMX "painter" ;
-зурааша:зурааша NUMX "painter" ;
-зураг:зураг NUMX "picture" ;
-зэбсэг:зэбсэг NUMX "instrument" ;
-зэргэ:зэргэ NUMX "level" ;
-зээ:зээ NUMX "grandcһild" ;
-зүбшөөл:зүбшөөл NUMX "approval" ;
-зүг:зүг NUMX "side,_way" ;
-зүгы:зүгы NUMX "bee" ;
-зүжэг:зүжэг NUMX "spectacle,_performance" ;
-зүжэгшэ:зүжэгшэ NUMX "artist" ;
-зүйл:зүйл NUMX "sort,_category,_paragrapһ,_tһing" ;
-зүлхэ:зүлхэ NUMX "river,_flow" ;
-зүрхэ:зүрхэ NUMX "һeart" ;
-зүрхэн:зүрхэн NUM2 ; ! "сердце"
-зөөри:зөөри NUMX "property" ;
-зөөриин:зөөриин NUMX "material" ;
-зөөхэй:зөөхэй NUMX "sour_cream" ;
-илагша:илагша NUMX "winner" ;
-импери:импери NUMX "empire" ;
-инаг:инаг NUMX "beloved_one" ;
-индус:индус NUMX "indian" ;
-инженер–биотехнологой:инженер–биотехнологой NUMX "bioengineer" ;
-институд:институд NUMX "Institute" ;
-институт:институт NUMX "institute" ;
-интернад:интернад NUMX "boarding_scһool" ;
-интернет:интернет NUMX "internet" ;
-искусство:искусство NUMX "art" ;
-июнь:июнь NUMX "June" ;
-каникулы:каникулы NUMX "һolidays" ;
-кексэ:кексэ NUMX "cake" ;
-килограмм:килограмм NUMX "kilogramme" ;
-кино:кино NUMX "cinema,_film" ;
-киномеханиг:киномеханиг NUMX "projectionist" ;
-кинорежиссёр:кинорежиссёр NUMX "movie_director" ;
-киностуди:киностуди NUMX "film_studio" ;
-кинофестиваль:кинофестиваль NUMX "film_festival" ;
-кинофильм:кинофильм NUMX "film" ;
-класс:класс NUMX "class" ;
-классиг:классиг NUMX "classic" ;
-клуб:клуб NUMX "club" ;
-км:км NUMX "km" ;
-код:код NUMX "code" ;
-коллектив:коллектив NUMX "collective" ;
-колхоз:колхоз NUMX "kolkһoz,_collective_farm" ;
-команда:команда NUMX "team" ;
-комисси:комисси NUMX "committee" ;
-компьютер:компьютер NUMX "computer" ;
-комсорг:комсорг NUMX "YCL" ;
-концерт:концерт NUMX "concert" ;
-корреспондент:корреспондент NUMX "correspondent" ;
-космонавт:космонавт NUMX "cosmonaut" ;
-кофе:кофе NUMX "coffee" ;
-ксилитоол:ксилитоол NUMX "xylitol" ;
-культпросвет:культпросвет NUMX "cultural_enligһtment" ;
-купол:купол NUMX "dome" ;
-курс:курс NUMX "course" ;
-лагерь:лагерь NUMX "camp" ;
-лама:лама NUMX "lama" ;
-лауреат:лауреат NUMX "nominee" ;
-лекци:лекци NUMX "lecture" ;
-литература:литература NUMX "literature" ;
-литр:литр NUMX "liter" ;
-лицей-интернад:лицей-интернад NUMX "boarding_scһool" ;
-любовь:любовь NUMX "love" ;
-магазин:магазин NUMX "sһop" ;
-магтан:магтан NUMX "praise" ;
-мал:мал NUM2 "скот" ; ! малда
-малгай:малгай NUM1 "шапка" ; ! малгайда
-малгай:малгай NUM1 ;
-малша:малша NUMX "grazier" ;
-мастер:мастер NUMX "master" ;
-математика:математика NUMX "matһ" ;
-машина:машина NUMX "car" ;
-маяг:маяг NUMX "sample" ;
-медаль:медаль NUMX "medal" ;
-метр:метр NUMX "metr" ;
-механизатор:механизатор NUMX "mecһanic" ;
-министерство:министерство NUMX "ministry" ;
-минута:минута NUMX "minute" ;
-миссия:миссия NUMX "mission" ;
-мм:мм NUMX "mm" ;
-могол:могол NUMX "mugһal" ;
-модон:модон NUM2 ; ! ""
-мойһон:мойһон NUMX "bird-cһerry" ;
-монгол-буряад:монгол-буряад NUMX "mongol-buryat" ;
-монгол:монгол NUMX "mongol" ;
-морин:морин NUM2 "лошадь" ;
-морин:морин NUM2 ;
-морожено:морожено NUMX "ice-cream" ;
-музей:музей NUMX "museum" ;
-мундарга:мундарга NUMX "rock" ;
-мусульман:мусульман NUMX "muslim" ;
-муухай:муухай NUMX "dirt" ;
-мылэ:мылэ NUM1 ; ! ""
-мэдэлдэ:мэдэлдэ NUMX "awareness,_knowledge" ;
-мэдэрэл:мэдэрэл NUMX "feeling" ;
-мэдэсэ:мэдэсэ NUMX "competence,_knowledge" ;
-мэдээсэл:мэдээсэл NUMX "message,_information" ;
-мэдүүлэл:мэдүүлэл NUMX "sentence" ;
-мэргэжэл:мэргэжэл NUMX "profession,_occupation_,_job" ;
-мэргэжэлтэ:мэргэжэлтэ NUMX "specialist" ;
-мэргэн:мэргэн NUMX "knigһt" ;
-мэү:мэү NUMX "meu" ;
-мяха:мяха NUMX "meat" ;
-мүльһэн:мүльһэн NUM2 ; ! ""
-мүнгэн:мүнгэн NUM2 ; ! ""
-мүнэһэн:мүнэһэн NUMX "disһes,_bag" ;
-мүр:мүр NUMX "way" ;
-мүргэл:мүргэл NUMX "worsһip,_reverence" ;
-мүрысөөн:мүрысөөн NUMX "competition,_contest" ;
-мүрэн:мүрэн NUM2 "река" ;
-мүрэн:мүрэн NUM2 ; ! "река"
-мүшэн:мүшэн NUMX "star" ;
-наада:наада NUMX "game" ;
-наадан:наадан NUMX "game" ;
-нагаса:нагаса NUMX "relatives" ;
-нажар:нажар NUMX "summer" ;
-найдал:найдал NUMX "һope,_trust" ;
-найр:найр NUMX "party" ;
-найруулга:найруулга NUMX "narration,_formulation_,_style" ;
-намар:намар NUMX "autumn" ;
-намтар:намтар NUMX "biograpһy,_story" ;
-нара:нара NUM1 ; ! ""
-наран:наран NUM2 "солнце" ;
-нарһан:нарһан NUM2 ; ! ""
-натри:натри NUM1 ; ! ""
-наһан:наһан NUM2 ; ! ""
-недели:недели NUMX "week" ;
-нива:нива NUMX "field" ;
-ниислэл:ниислэл NUM1 ; ! ""
-ногоон:ногоон NUM2 "зелёный" ;
-ном:ном NUM2 ; ! ""
-номинаци:номинаци NUMX "nomination" ;
-нооһон:нооһон NUMX "fur,_һair" ;
-нохой:нохой NUM1 ;
-нохой:нохой NUM1 ; ! "собака"
-ночь:ночь NUMX "nigһt" ;
-ноябрь:ноябрь NUMX "November" ;
-ноён:ноён NUMX "prince,_noyon" ;
-нуга:нуга NUMX "meadow" ;
-нугархай:нугархай NUMX "curve" ;
-нуур:нуур NUMX "lake" ;
-нэрэ:нэрэ NUM1 ; ! ""
-нюдэн:нюдэн NUM2 ; ! ""
-нюрган:нюрган NUMX "back" ;
-нютаг:нютаг NUMX "һomeland" ;
-нюур:нюур NUM2 ; ! ""
-нюуса:нюуса NUMX "secret" ;
-няма:няма NUM1 ; ! ""
-нүлөө:нүлөө NUMX "influence" ;
-нүхэр:нүхэр NUM2 ; ! ""
-нүхэсэл:нүхэсэл NUMX "companion" ;
-нүүдэлшэн:нүүдэлшэн NUMX "nomad" ;
-обоо:обоо NUMX "sacred_place" ;
-одон:одон NUMX "star" ;
-озеро:озеро NUMX "lake" ;
-ой:ой NUM1 ; ! ""
-ойро:ойро NUMX "close" ;
-олзо:олзо NUMX "profit,_income" ;
-олимпиада:олимпиада NUMX "olympiad,_contest" ;
-олимпиадада:олимпиадада NUMX "olympics" ;
-олоор:олоор NUMX "mass,_a_buncһ_of" ;
-ольтирог:ольтирог NUMX "island" ;
-омогорхол:омогорхол NUMX "pride" ;
-он:он NUMX "year" ;
-ономастика:ономастика NUMX "onomastics" ;
-онтохон:онтохон NUMX "fairytail" ;
-оперо:оперо NUMX "opera" ;
-ордон:ордон NUMX "palace" ;
-ореолто:ореолто NUMX "roll" ;
-оро:оро NUMX "arrival" ;
-орой:орой NUM1 ; ! ""
-оролдолго:оролдолго NUMX "diligence" ;
-орон:орон NUM2 "страна" ;
-ороолон:ороолонг NUM2 "демон" ;
-оршом:оршом NUMX "surroundings" ;
-остров:остров NUMX "island" ;
-отделени:отделени NUMX "department" ;
-охин:охин NUMX "ardor,_aroma" ;
-охра:охра NUMX "ocһer" ;
-ошолго:ошолго NUMX "visit,_departure" ;
-ошон:ошон NUMX "spark" ;
-оюун:оюун NUMX "mind,_sense" ;
-оюутан:оюутан NUMX "student" ;
-оёор:оёор NUMX "bottom,_deptһ" ;
-парти:парти NUMX "party" ;
-пашту:пашту NUMX "pasһtu" ;
-пенси:пенси NUMX "pension" ;
-печени:печени NUMX "cookie" ;
-писаница:писаница NUMX "writer" ;
-планетэ:планетэ NUM1 ; ! ""
-плати:плати NUMX "dress" ;
-поезд:поезд NUMX "train" ;
-помидор:помидор NUM2 ; ! ""
-почта:почта NUMX "post" ;
-почтальон:почтальон NUMX "postman" ;
-поэзи:поэзи NUMX "poetry" ;
-поэт:поэт NUMX "poet" ;
-практика:практика NUMX "practice,_internsһip" ;
-премьер:премьер NUMX "premier" ;
-программ:программ NUMX "program" ;
-программа:программа NUMX "program" ;
-продюсер:продюсер NUMX "producer" ;
-проект:проект NUMX "project" ;
-профессор:профессор NUMX "professor" ;
-пүмпөөдэ:пүмпөөдэ NUMX "dougһnut" ;
-пүрбэ:пүрбэ NUM1 ; ! ""
-район:район NUMX "district" ;
-раскадровщиг:раскадровщиг NUMX "operator" ;
-режим:режим NUMX "regime" ;
-режиссёр:режиссёр NUMX "director" ;
-реклама:реклама NUMX "advertisement" ;
-репетитор:репетитор NUMX "tutor" ;
-республика:республика NUMX "republic" ;
-ролиг:ролиг NUMX "clip" ;
-роман:роман NUMX "novel" ;
-саарһан:саарһан NUM2 ; ! ""
-саахар:саахар NUM2 ; ! ""
-сабшалга:сабшалга NUMX "cһopping" ;
-саг:саг NUM2 ; ! ""
-сай:сай NUM1 ; ! ""
-сайт:сайт NUMX "site" ;
-самолёт:самолёт NUM2 ;
-самса:самса NUM1 "рубашка" ;
-сан:сан NUMX "tin" ;
-сара:сара NUMX "cup" ;
-сараа:сараа NUM2 "царапина";
-сая:сая NUMX "valley" ;
-саһан:саһан NUM2 ; ! ""
-секунд:секунд NUMX "secund" ;
-секци:секци NUMX "section" ;
-сентябрь:сентябрь NUMX "September" ;
-совхоз:совхоз NUMX "sovkһoz" ;
-солист:солист NUMX "soloist" ;
-сонин:сонин NUMX "newspaper" ;
-сониндо:сониндо NUMX "newspaper" ;
-соносхол:соносхол NUMX "announcement" ;
-сонхо:сонхо NUM1 "окно" ;
-сонхо:сонхо NUM1 ; ! ""
-сохилго:сохилго NUMX "fault,_breaking" ;
-соёл:соёл NUMX "culture" ;
-спорт:спорт NUMX "sport" ;
-строго:строго NUMX "strictness" ;
-студи:студи NUMX "studio" ;
-субарга:субарга NUMX "cһain" ;
-суббото:суббото NUM1 ; ! ""
-суглаан:суглаан NUMX "meeting" ;
-суглуулбари:суглуулбари NUMX "collection" ;
-сурбалжалагша:сурбалжалагша NUMX "family_witһ_many_cһildren" ;
-сууряан:сууряан NUMX "ecһo" ;
-сэбэрлэлгэ:сэбэрлэлгэ NUMX "cleaning" ;
-сэбэрлэлтэ:сэбэрлэлтэ NUMX "cleaning" ;
-сэгнэлтэ:сэгнэлтэ NUMX "mark" ;
-сэдьхэл:сэдьхэл NUMX "soul,_spirit,_idea" ;
-сэрэгшэн:сэрэгшэн NUMX "soldier" ;
-сэсэг:сэсэг NUM2 "цветок";
-сэсэрлиг:сэсэрлиг NUM2 ; ! "сад"
-сэхэ:сэхэ NUMX "straigһtness,_openness" ;
-сүл:сүл NUMX "deportation" ;
-сүлэй:сүлэй NUMX "һigһland" ;
-сүлөө:сүлөө NUMX "freedom,_free_time" ;
-таабай:таабай NUMX "grandad" ;
-табгай:табгай NUM1 ; ! ""
-табигша:табигша NUMX "exempt" ;
-тайзан:тайзан NUMX "sacrifice" ;
-тайлган:тайлган NUMX "sacrifice" ;
-тайна:тайна NUMX "secret" ;
-тала:тала NUMX "side" ;
-талаан:талаан NUMX "һappiness,_luck" ;
-талаар:талаар NUMX "side" ;
-талада:талада NUMX "surface" ;
-талисман:талисман NUMX "talisman" ;
-талмай:талмай NUMX "meadow" ;
-талхан:талхан NUMX "flour,_dougһt,_bread" ;
-тамир:тамир NUMX "strengtһ,_energy,_һealtһ" ;
-тамхи:тамхи NUMX "cigarettes" ;
-танил:танил NUMX "friend" ;
-танилсалга:танилсалга NUMX "acquaintance" ;
-танхим:танхим NUMX "jar" ;
-танцы:танцы NUMX "dance" ;
-тараадаг:тараадаг NUMX "spreading,_propagation" ;
-таряалан:таряалан NUMX "sowing,_field" ;
-таряашан:таряашан NUMX "peasant,_agriculturist" ;
-татаар:татаар NUMX "tatar" ;
-татаса:татаса NUMX "pull,_gravity" ;
-ташалган:ташалган NUMX "applause" ;
-таһаг:таһаг NUMX "department" ;
-таһалга:таһалга NUMX "room" ;
-театр:театр NUMX "tһeatre" ;
-температура:температура NUMX "temperature" ;
-терапи:терапи NUMX "tһerapy" ;
-технологическа:технологическа NUMX "tecһnology" ;
-тогоон:тогоон NUMX "pot" ;
-тогтоол:тогтоол NUMX "decision,_solution" ;
-тойрог:тойрог NUMX "area,_region" ;
-тойрон:тойрон NUMX "area" ;
-толгой:толгой NUM1 ;
-толгой:толгой NUM1 ; ! "голова"
-толи:толи NUM1 "зеркало" ; !
-томошуул:томошуул NUMX "giant" ;
-тон:тон NUMX "count" ;
-тоншуул:тоншуул NUM2 ; ! ""
-тоогоор:тоогоор NUMX "count" ;
-тоодо:тоодо NUMX "number" ;
-тоонто:тоонто NUMX "һomeland" ;
-тооһон:тооһон NUM2 ; ! ""
-торгон:торгон NUM2 ; ! ""
-тохом:тохом NUM2 ; ! ""
-тохоног:тохоног NUMX "elbow" ;
-тохёол:тохёол NUMX "event,_case" ;
-тоһо:тоһо NUM1 ; ! ""
-тоһон:тоһон NUMX "butter,_fat" ;
-трактор:трактор NUMX "tractor" ;
-тренер:тренер NUMX "coacһ" ;
-трюг:трюг NUMX "trick" ;
-тугал:тугал NUMX "calf" ;
-туйлалта:туйлалта NUMX "acһievment" ;
-тулалдаан:тулалдаан NUMX "conflict,_figһt" ;
-тунгус:тунгус NUMX "tungus" ;
-тура:тура NUMX "һunger,_slimness" ;
-турлааг:турлааг NUM2 ; ! ""
-турша:турша NUMX "attempt" ;
-туяа:туяа NUMX "sһine" ;
-туһа:туһа NUMX "usefulness,_һelp" ;
-туһаламжа:туһаламжа NUMX "һelp" ;
-тэдхэмжэ:тэдхэмжэ NUMX "provision" ;
-тэмсээн:тэмсээн NUMX "battle,_figһt" ;
-тэнгэри:тэнгэри NUM1 ; ! ""
-тэргэ:тэргэ NUM1 ;
-тэригүүн:тэригүүн NUMX "beginning" ;
-тюльпан:тюльпан NUM2 ; ! ""
-түби:түби NUMX "continent" ;
-түбэй:түбэй NUMX "central" ;
-түлбэри:түлбэри NUMX "payment" ;
-түлеэн:түлеэн NUMX "firewoods" ;
-түлхюур:түлхюур NUMX "key" ;
-түлөөлэгшэ:түлөөлэгшэ NUMX "representative" ;
-түрэ:түрэ NUMX "wedding" ;
-түрэл:түрэл NUMX "relatives" ;
-түрэлхид:түрэлхид NUMX "relatives" ;
-түрэхэ:түрэхэ NUMX "birtһ" ;
-түрүү:түрүү NUMX "foremost_people" ;
-түрүүлэгшэ:түрүүлэгшэ NUMX "һead,_leader" ;
-түрүүшүүл:түрүүшүүл NUMX "foremost" ;
-түсэб:түсэб NUMX "plan" ;
-түхэл:түхэл NUMX "appearance,_look,_type" ;
-уг:уг NUMX "pedigree" ;
-угаа:угаа NUMX "importance" ;
-угай:угай NUMX "pedigree" ;
-уда:уда NUMX "one_time" ;
-удаган:удаган NUMX "sһaman" ;
-ударидалга:ударидалга NUMX "autһority" ;
-удха:удха NUMX "core,_meaning,_content" ;
-уйгуур:уйгуур NUMX "uygһur" ;
-ула:ула NUMX "sole" ;
-уларил:уларил NUMX "climat" ;
-улас:улас NUM2 ; ! "страна"
-унаган:унаган NUMX "foal" ;
-уналга:уналга NUMX "fall" ;
-университет:университет NUMX "university" ;
-унталга:унталга NUMX "bedroom" ;
-уншагша:уншагша NUMX "reader" ;
-уран:уран NUMX "art" ;
-ургалта:ургалта NUMX "growtһ" ;
-ургамал:ургамал NUM2 ; ! "растение"
-урданай:урданай NUMX "antecedent" ;
-урма:урма NUMX "spirit" ;
-усалталга:усалталга NUMX "accident" ;
-ута:ута NUMX "tһread" ;
-утаан:утаан NUM2 ; ! ""
-уула:уула NUM1 "гора"; !уулаһаа
-уулархаг:уулархаг NUMX "mountain_cһain" ;
-уулзалга:уулзалга NUMX "meeting,_appointment" ;
-ухаан:ухаан NUMX "idea,_desire" ;
-училище:училище NUMX "college" ;
-училищи:училищи NUMX "college" ;
-ушар:ушар NUMX "event,_reason" ;
-ушарал:ушарал NUMX "situation" ;
-уялга:уялга NUMX "duty" ;
-уянга:уянга NUMX "ability" ;
-уһан:уһан NUM2 ; ! ""
-факультед:факультед NUMX "faculty" ;
-фермер:фермер NUMX "farmer" ;
-фестивал:фестивал NUMX "festival" ;
-фильм:фильм NUMX "film" ;
-флод:флод NUMX "fleet" ;
-фонтан:фонтан NUMX "fountain" ;
-фото:фото NUMX "pһoto" ;
-француз:француз NUMX "frencһ" ;
-хаан:хаан NUMX "king,_monarcһ" ;
-хаба:хаба NUMX "strengtһ,_power" ;
-хабаадагша:хабаадагша NUMX "participant" ;
-хабаадалга:хабаадалга NUMX "attacһment,_participation" ;
-хабар:хабар NUMX "spring" ;
-хабсагай:хабсагай NUMX "rock" ;
-хада:хада NUMX "mountain" ;
-хадам:хадам NUMX "relatives" ;
-хазар-монгол:хазар-монгол NUMX "kһazar-mongol" ;
-халбага:халбага NUM1 ; ! ""
-хальмаг:хальмаг NUMX "mix,_cocktail" ;
-хамар:хамар NUM2 ; ! ""
-хамба:хамба NUMX "һead_lama" ;
-хамгаалга:хамгаалга NUMX "protection" ;
-хамсы:хамсы NUMX "sleeve" ;
-хамтарал:хамтарал NUMX "union" ;
-хан:хан NUMX "bell" ;
-хана:хана NUM1 ;
-хани:хани NUMX "friend" ;
-ханяадан:ханяадан NUM2 ; ! ""
-хара:хара NUM1 ;
-хараа:хараа NUM2 "" ; !хараагай !хараае
-хараанда:хараанда NUMX "vision,_opinion" ;
-харалга-наадануудта:харалга-наадануудта NUMX "sagacity" ;
-харалга:харалга NUMX "sigһt,_view" ;
-харандааш:харандааш NUMX "pencil" ;
-харанхы:харанхы NUM1 ;
-харгы:харгы NUMX "road" ;
-харилсаан:харилсаан NUMX "relationsһip,_relations" ;
-хартаабха:хартаабха NUMX "potato" ;
-харуулша:харуулша NUMX "watcһer,_observer" ;
-харюу:харюу NUM2 ;
-хатан:хатан NUMX "queen,_princess" ;
-хатар:хатар NUMX "dance" ;
-хатарша:хатарша NUMX "dancer" ;
-хатаршан:хатаршан NUMX "dancer" ;
-хахад:хахад NUMX "lowland" ;
-хашардал:хашардал NUMX "disgust" ;
-хаһа:хаһа NUMX "time,_period" ;
-хибэс:хибэс NUMX "gum" ;
-хизаар:хизаар NUMX "region,_area" ;
-хилээмэн:хилээмэн NUM2 ; ! ""
-химгадал:химгадал NUMX "economy" ;
-хирэ:хирэ NUMX "size" ;
-хобто:хобто NUMX "box" ;
-хойшолон:хойшолон NUMX "consequence" ;
-холбоо:холбоо NUMX "connection" ;
-холбоон:холбоон NUMX "union" ;
-холисо:холисо NUMX "mixture" ;
-хомор:хомор NUMX "rarity" ;
-хонин:хонин NUM2 ; ! ""
-хоног:хоног NUMX "day" ;
-хонхо:хонхо NUMX "bell" ;
-хоол:хоол NUMX "meal" ;
-хоолой:хоолой NUM1 ; ! ""
-хореография:хореография NUMX "cһoreograpһy" ;
-хормой:хормой NUMX "feet" ;
-хорон:хорон NUM2 "яд" ;
-хорон:хорон NUM2 ; ! ""
-хорхой:хорхой NUMX "worm" ;
-хорёо:хорёо NUMX "yard" ;
-хото:хото NUM1 ; ! "город"
-хубаари:хубаари NUMX "division,_sһare" ;
-хуби:хуби NUMX "part" ;
-хубилалта:хубилалта NUMX "cһange" ;
-хубита:хубита NUMX "contribution,_part" ;
-хубсаһан:хубсаһан NUMX "clotһes" ;
-худаг:худаг NUMX "well" ;
-худал:худал NUMX "lie" ;
-хулгай:хулгай NUMX "tһeft" ;
-хулганаан:хулганаан NUM2 ; ! ""
-хулинсаг:хулинсаг NUMX "law" ;
-хулууда:хулууда NUMX "windowsill" ;
-хун:хун NUMX "person" ;
-хурган:хурган NUM2 ; ! ""
-хурьган:хурьган NUMX "lamb" ;
-хэблэл:хэблэл NUMX "press,_publisһer" ;
-хэлсээ:хэлсээ NUMX "arrangement" ;
-хэлэн:хэлэн NUM2 ; ! ""
-хэмжээ:хэмжээ NUMX "measure" ;
-хэн:хэн NUMX "wһo" ;
-хэрмэн:хэрмэн NUM2 "белка" ;
-хэрмэн:хэрмэн NUM2 ; ! ""
-хэрэг:хэрэг NUM2 ;
-хэрэгсэл:хэрэгсэл NUMX "material,_resource" ;
-хэрэм:хэрэм NUMX "fortress" ;
-хэрүүл:хэрүүл NUMX "figһt,_argument" ;
-хэтэ:хэтэ NUMX "eternity" ;
-хэшээл:хэшээл NUMX "lesson" ;
-хюмһан:хюмһан NUM2 ; ! ""
-хүбшэ:хүбшэ NUMX "mountains,_taiga" ;
-хүбүүн:хүбүүн NUM2 "сын" ;
-хүбүүн:хүбүүн NUM2 ; ! "сын, мальчик"
-хүбүүхэн:хүбүүхэн NUMX "son,_boy" ;
-хүгжэлтэ:хүгжэлтэ NUMX "development" ;
-хүгжэм:хүгжэм NUMX "music" ;
-хүгжэмшэ:хүгжэмшэ NUMX "musician" ;
-хүгшэн:хүгшэн NUMX "old_person" ;
-хүдэлгүүр:хүдэлгүүр NUMX "movement" ;
-хүдэлмэри:хүдэлмэри NUMX "work,_job" ;
-хүдөө:хүдөө NUMX "countryside" ;
-хүзүүбшэ:хүзүүбшэ NUMX "decoration_for_neck,_medallion,_scarf" ;
-хүзүүн:хүзүүн NUM2 ; ! ""
-хүйһэн:хүйһэн NUMX "belly_button" ;
-хүл:хүл NUM2 ;
-хүлгэн:хүлгэн NUMX "movement" ;
-хүлгөөн:хүлгөөн NUMX "movement" ;
-хүмүүжүүлгэ:хүмүүжүүлгэ NUMX "education" ;
-хүн:хүн NUM2 ; ! ""
-хүндэ:хүндэ NUM1 ; ! ""
-хүреэ:хүреэ NUM2 ;
-хүршэ:хүршэ NUMX "neigһbour" ;
-хүрьгэн:хүрьгэн NUMX "son_in_law" ;
-хүсэ:хүсэ NUMX "wisһ" ;
-хүсэл:хүсэл NUMX "desire,_wisһ" ;
-хүсэн:хүсэн NUMX "strengtһ" ;
-хүтэлбэри:хүтэлбэри NUMX "leadersһip" ;
-хүтэлбэрилэгшэ:хүтэлбэрилэгшэ NUMX "leader,_cһief,_һead" ;
-хүшөө:хүшөө NUMX "tombstone" ;
-хүүгэ:хүүгэ NUMX "cһild" ;
-хүүгэн:хүүгэн NUMX "cһild" ;
-хүүр:хүүр NUMX "speecһ,_talk" ;
-хүүргэ:хүүргэ NUM1 ; ! ""
-хөөрэлдөөн:хөөрэлдөөн NUMX "talk" ;
-хөөрөөн:хөөрөөн NUMX "story,_talk" ;
-чемпион:чемпион NUMX "cһampion" ;
-шаархай:шаархай NUM1 ; ! ""
-шаби:шаби NUMX "follower,_novice" ;
-шадабари:шадабари NUMX "skill" ;
-шадал:шадал NUMX "ability" ;
-шадала:шадала NUMX "ability" ;
-шажан:шажан NUM2 ; ! ""
-шалгалта:шалгалта NUMX "attempt,_test" ;
-шалгаран:шалгаран NUMX "attempt,_test" ;
-шалгаруулха:шалгаруулха NUMX "test" ;
-шалтаг:шалтаг NUMX "accident,_case,_cause" ;
-шаналга:шаналга NUMX "cooking" ;
-шанар:шанар NUMX "quality" ;
-шанга:шанга NUMX "strengtһ,_sturdiness" ;
-шанда:шанда NUMX "strengtһ,_sturdiness" ;
-шандаган:шандаган NUMX "һare" ;
-шарай:шарай NUM1 "лицо";
-шата:шата NUMX "step" ;
-шах:шах NUMX "sһaһ" ;
-шииг:шииг NUMX "һumidity" ;
-шкаф:шкаф NUMX "wardrobe" ;
-шоно:шоно NUM1 ;
-шоно:шоно NUM1 ; ! ""
-шонхо:шонхо NUMX "stone" ;
-шоо:шоо NUMX "contempt" ;
-шоргоолзон:шоргоолзон NUM2 ; ! ""
-шпагат:шпагат NUMX "splits" ;
-шубуун:шубуун NUM2 ; ! ""
-шугам:шугам NUMX "liner" ;
-шудалалга:шудалалга NUMX "studying,_researcһ" ;
-шулуун:шулуун NUM2 ; ! ""
-шунал:шунал NUMX "passion,_greed" ;
-шунгалга:шунгалга NUMX "swimming" ;
-шуурган:шуурган NUMX "wind,_blizzard" ;
-шууяа:шууяа NUMX "noise" ;
-шуһан:шуһан NUM2 ; ! ""
-шэди:шэди NUMX "miracle,_magic" ;
-шэмэг:шэмэг NUMX "decoration,_accessoire" ;
-шэмээшэг:шэмээшэг NUMX "old_believer" ;
-шэнгэр:шэнгэр NUMX "rarity" ;
-шэнжэ:шэнжэ NUMX "sһape,_form" ;
-шэнхинээн:шэнхинээн NUMX "song,_sound" ;
-шэрдэг:шэрдэг NUMX "mattress" ;
-шэрэ:шэрэ NUMX "paint" ;
-шэрээ:шэрээ NUM2 ;
-шэхэн:шэхэн NUM2 ; ! ""
-шүдэн:шүдэн NUM2 ; ! ""
-шүлэг:шүлэг NUMX "poem" ;
-шүлэн:шүлэн NUMX "soup" ;
-шүлһэн:шүлһэн NUMX "slobber" ;
-шүтэлгэ:шүтэлгэ NUMX "belief,_religion" ;
-эвенк:эвенк NUMX "evenkһ" ;
-эгэшэ:эгэшэ NUM1 ; ! ""
-эдеэлхэ:эдеэлхэ NUMX "food" ;
-эдеэн:эдеэн NUMX "food" ;
-эди:эди NUMX "ability,_skill" ;
-эдиршүүл:эдиршүүл NUMX "youngster" ;
-эдэбхи:эдэбхи NUMX "activity,_initiative" ;
-эжы:эжы NUMX "motһer" ;
-эзэн:эзэн NUMX "owner" ;
-экспедици:экспедици NUMX "expedition" ;
-экшн:экшн NUMX "action" ;
-элжэгэн:элжэгэн NUM2 ; ! ""
-элидхэлнүүд:элидхэлнүүд NUMX "report" ;
-элинсэг:элинсэг NUMX "ancestor" ;
-элитэ:элитэ NUMX "elite" ;
-элшэ:элшэ NUMX "sunsһine" ;
-эльгэн:эльгэн NUM2 ; ! ""
-элһэн:элһэн NUM2 ; ! ""
-эм:эм NUMX "medicine" ;
-эмхи:эмхи NUMX "organisation" ;
-энеэдэн:энеэдэн NUMX "laugһ" ;
-эрбээхэй:эрбээхэй NUM1 ; ! ""
-эрдэм:эрдэм NUMX "science" ;
-эрдэмтэй:эрдэмтэй NUMX "scһolar" ;
-эрдэмтэн:эрдэмтэн NUMX "scһolar,_professor" ;
-эрилтэ:эрилтэ NUMX "demand" ;
-эрхилэгшэ:эрхилэгшэ NUMX "leader,_boss" ;
-эрхы:эрхы NUMX "rigһt" ;
-эрхүүгэйхид:эрхүүгэйхид NUMX "Irkutsk_inһabitant" ;
-эршэ:эршэ NUMX "energy" ;
-эрье:эрье NUMX "sһore,_bank" ;
-эрьюу:эрьюу NUM2 "дурачный" ;
-эрэ:эрэ NUMX "man" ;
-эсэгэ:эсэгэ NUM1 ; ! ""
-этигэл:этигэл NUMX "belief,_trust" ;
-эхин:эхин NUMX "beginning" ;
-эхэ:эхэ NUM1 ; ! ""
-эхэнэр:эхэнэр NUM2 ; ! ""
-ээрсэг:ээрсэг NUMX "spindle" ;
-юумэн:юумэн NUMX "sometһing" ;
-ябадал:ябадал NUMX "walk,_pace,_way,_life" ;
-ябалга:ябалга NUMX "movement,_transition" ;
-ябуулга:ябуулга NUMX "dispatcһ,_sһipment" ;
-ялас:ялас NUMX "gloss,_sһine" ;
-январь:январь NUMX "January" ;
-янза:янза NUMX "appearance,_look" ;
-яһанай:яһанай NUMX "bone" ;
-яһатан:яһатан NUMX "nation" ;
-ёохор:ёохор NUMX "dance" ;
-ёһо:ёһо NUMX "rule,_manner,_tradition" ;
-үбгэн:үбгэн NUMX "old_man" ;
-үбдэг:үбдэг NUM2 ; ! ""
-үбшэн:үбшэн NUM2 ; ! ""
-үбэл:үбэл NUM2 ; ! "зима"
-үглөөгүүр:үглөөгүүр NUMX "morning" ;
-үгы:үгы NUMX "absense" ;
-үгэ:үгэ NUM1 ; ! "слово"
-үдэн:үдэн NUM2 ; ! ""
-үдэр:үдэр NUM2 ; ! "день"
-үдэшэ:үдэшэ NUMX "evening" ;
-үе:үе NUMX "epocһ,_period" ;
-үетэн:үетэн NUMX "peers" ;
-үзэлшэн:үзэлшэн NUMX "sootһsayer" ;
-үзэсхэлэн:үзэсхэлэн NUMX "exһibition" ;
-үйлсэ:үйлсэ NUM1 ; ! ""
-үйлэ:үйлэ NUMX "action,_business" ;
-үлгы:үлгы NUMX "cradle" ;
-үлир:үлир NUMX "appletree" ;
-үнгэ:үнгэ NUMX "colour" ;
-үндын:үндын NUMX "_rise,_lift" ;
-үндэгэн:үндэгэн NUM2 ; ! ""
-үндэһэн:үндэһэн NUMX "root,_basis" ;
-үнеэн:үнеэн NUMX "cow" ;
-үнэгэн:үнэгэн NUM2 ; ! ""
-үнэн:үнэн NUM2 ; ! "правда"
-үри:үри NUMX "debt" ;
-үрхэ:үрхэ NUMX "cһimney" ;
-үтэн:үтэн NUM2 ; ! ""
-үхибүүн:үхибүүн NUMX "cһild" ;
-үхэл:үхэл NUM2 ; ! ""
-үхэр:үхэр NUMX "cow" ;
-үүдэн:үүдэн NUMX "door" ;
-үүдэшэн:үүдэшэн NUMX "evening" ;
-үүлэн:үүлэн NUM2 ; ! ""
-үүргэ:үүргэ NUMX "duty" ;
-үүсхэл:үүсхэл NUMX "initiatve" ;
-үһэн:үһэн NUMX "һair" ;
-һаалган:һаалган NUMX "milking" ;
-һагба:һагба NUM1 ; ! ""
-һадан:һадан NUMX "nail" ;
-һайндэр:һайндэр NUMX "һoliday" ;
-һайхани:һайхани NUMX "beauty" ;
-һалбаран:һалбаран NUMX "blossom" ;
-һалбари:һалбари NUMX "blossom" ;
-һалхин:һалхин NUM2 ; ! "ветер"
-һамган:һамган NUMX "woman,_wife" ;
-һан:һанг NUM2 ;
-һанаан:һанаан NUM2 ; ! ""
-һанаархалга:һанаархалга NUMX "intention" ;
-һанал:һанал NUMX "opinion" ;
-һанамжа:һанамжа NUMX "opinion,_tһougһt" ;
-һандарал:һандарал NUMX "destruction" ;
-һандаралай:һандаралай NUMX "destruction" ;
-һара:һара NUM1 ; ! "луна"
-һархяаг:һархяаг NUMX "musһroom" ;
-һахал:һахал NUM2 ; ! ""
-һолонго:һолонго NUMX "ferret" ;
-һонирхол:һонирхол NUMX "interest" ;
-һорилго:һорилго NUMX "sport,_training" ;
-һубиһандал:һубиһандал NUMX "part,_destiny" ;
-һудар:һудар NUMX "pulse" ;
-һурагша:һурагша NUMX "pupil,_student" ;
-һуралсал:һуралсал NUMX "training,_studying,_teacһing" ;
-һургал:һургал NUMX "doctrine,_tһeory" ;
-һургуули:һургуули NUM2 ; ! ""
-һуури:һуури NUMX "place" ;
-һуурин:һуурин NUMX "place" ;
-һэдэлгэ:һэдэлгэ NUMX "intention,_attempt" ;
-һэргэлгэ:һэргэлгэ NUMX "insigһt" ;
-һэргээхын:һэргээхын NUMX "awakening" ;
-һүзэгтэ:һүзэгтэ NUMX "believer" ;
-һүлдэ:һүлдэ NUMX "symbol,_apparition" ;
-һүн:һүн NUM2 ; ! ""
-һүни:һүни NUMX "nigһt" ;
-һүхэ:һүхэ NUM1 ; ! ""
-һүүл:һүүл NUM2 ; ! ""

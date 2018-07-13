@@ -4,6 +4,11 @@
 
 LEXICON Propernoun
 
+Зүлхэ:Зүлхэ nX "river,_flow" ;
+Дамдиновна:Дамдиновна PROPX "Damdinovna" ;
+Зандин:Зандин PROPX "Zandin" ;
+Тогоошон:Тогоошон PROPX "cook" ;
+Далахай:Далахай PROPX "Dalakһai" ;
 Байгал:Байгал PROPX "Baikal" ;
 буряад:буряад PROPX "Buryatia" ;
 Булад:Булад PROPX "Bulad" ;
@@ -16,11 +21,10 @@ LEXICON Propernoun
 Солбон:Солбон PROPX "Solbon" ;
 Соёлма:Соёлма PROPX "Soyolma" ;
 России:России PROPX "Russia" ;
-Магдан:Магдан PROPX "Magdan" ;
-Буряяад:Буряяад PROPX "Buryatia" ;
+Магадан:Магадан PROPX "Magadan" ;
+Буряад:Буряад PROPX "Buryatia" ;
 Агууехэ:Агууехэ PROPX "Great" ;
-Чингисхаан:Чингисхаан PROPX "Gengһis Kһan" ;
-Улаан-Үдэ:Улаан-Үдэ PROPX "Ulan-Ude" ;
+Чингис% хаан:Чингис% хаан PROPX "Gengһis Kһan" ;
 Улаан-Үдэ:Улаан-Үдэ PROPX "Ulan-Ude" ;
 Могол:Могол PROPX "Mugһal" ;
 Матти:Матти PROPX "Matti" ;

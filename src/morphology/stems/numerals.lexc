@@ -31,6 +31,7 @@ LEXICON Numeral
 
 тысяча:тысяча NUM ; ! ""
 одна:одна NUM ; ! ""
+сая:сая NUM "million" ;
 
 
 

@@ -1,29 +1,29 @@
 !! !!!Buryaad noun affixes
 
-!! We have two lexica, NUM1 and NUM2, 
-!! NUM1 with -нар plural and V-initial Gen, Ins, and
-!! NUM2 with -ууд plural and г-initial Gen, Ins
+!! We have two lexica, n1 and n2, 
+!! n1 with -нар plural and V-initial Gen, Ins, and
+!! n2 with -ууд plural and г-initial Gen, Ins
 
 !! !! The noun classes
 
-LEXICON NUMX !!= * __@CODE@__ unclassified nouns
-NUM1 ;
+LEXICON nx !!= * __@CODE@__ unclassified nouns, to n2 for now
+n2 ;
 
-LEXICON NUM1 !!= * __@CODE@__ with Gen -IIN, and -нар- suffix for oblique cases
+LEXICON n1 !!= * __@CODE@__ with Gen -IIN, and -нар- suffix for oblique cases
   +N+Sg:      case1 ;
   +N+Pl:%>нар case1 ; ! was uncommented
 
-LEXICON NUM2 !!= * __@CODE@__ with Gen -GAj and -ууд suffič for oblique cases
+LEXICON n2 !!= * __@CODE@__ with Gen -GAj and -ууд suffič for oblique cases
   +N+Sg:      case2 ;
   +N+Pl:%>ууд case2 ; ! was uncommented
 
 !! !! The class-specific case morphology (Gen, Ins)
-LEXICON case1 !!= * __@CODE@__ Gen, Ins for NUM1 nouns, and pointing to common cases
+LEXICON case1 !!= * __@CODE@__ Gen, Ins for n1 nouns, and pointing to common cases
   +Gen:%>%{I%}%{I%}н K    ;
   +Ins:%>%{A%}%{A%}р K    ;
   commoncase ;
 
-LEXICON case2 !!= * __@CODE@__ Gen, Ins for NUM2 nouns, and pointing to common cases
+LEXICON case2 !!= * __@CODE@__ Gen, Ins for n2 nouns, and pointing to common cases
   +Gen:%>г%{A%}й K ;
   +Ins:%>г%{A%}%{A%}р K    ;
   commoncase ;
