@@ -21,17 +21,17 @@ Tests:
     һууха+V+Ind+Prs+Pl3: һууна
 
     һууха+V+Ind+Prt+Derm+Sg1: һуубаб
-    һууха+V+Ind+Prt+Derm+Sg2: һууба
+    һууха+V+Ind+Prt+Derm+Sg2: һуубаш
     һууха+V+Ind+Prt+Derm+Sg3: һууба
-    һууха+V+Ind+Prt+Derm+Pl1: һуубаб
-    һууха+V+Ind+Prt+Derm+Pl2: һууба
+    һууха+V+Ind+Prt+Derm+Pl1: һуубабди
+    һууха+V+Ind+Prt+Derm+Pl2: һуубат
     һууха+V+Ind+Prt+Derm+Pl3: һууба
 
     һууха+V+Ind+Prt+Conf+Sg1: һуулайб
-    һууха+V+Ind+Prt+Conf+Sg2: һуулай
+    һууха+V+Ind+Prt+Conf+Sg2: һуулайш
     һууха+V+Ind+Prt+Conf+Sg3: һуулай
-    һууха+V+Ind+Prt+Conf+Pl1: һуулайб
-    һууха+V+Ind+Prt+Conf+Pl2: һуулай
+    һууха+V+Ind+Prt+Conf+Pl1: һуулайбди
+    һууха+V+Ind+Prt+Conf+Pl2: һуулайт
     һууха+V+Ind+Prt+Conf+Pl3: һуулай
 
     һууха+V+Imp+Sg2: һуу
@@ -79,7 +79,7 @@ Tests:
     һууха+V+PerfPrc+Sg1: һууһанби
     һууха+V+PerfPrc+Sg2: һууһанши
     һууха+V+PerfPrc+Sg3: һууһан
-    һууха+V+PerfPrc+Pl1: һууһанбди
+    һууха+V+PerfPrc+Pl1: [һууһанбди, һууһамди]
     һууха+V+PerfPrc+Pl2: һууһанта
     һууха+V+PerfPrc+Pl3: һууһан
 
