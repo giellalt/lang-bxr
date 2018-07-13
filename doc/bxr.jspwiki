@@ -382,8 +382,32 @@ Here come all the rules (marked with RULE:), and test cases.
 * __амила>х{A}^END __
 * __амил0>ха0 __
 
+* __боли>х{A}^END __
+* __боли>хо0 __
 
+* __дохи>х{A}^END __
+* __дохи>хо0 __
 
+* __зори>х{A}^END __
+* __зори>хо0 __
+
+* __орхи>х{A}^END __
+* __орхи>хо0 __
+
+* __долгил>х{A}^END __
+* __долгил>хо0 __
+
+* __хушажархи>х{A}^END __
+* __хушажархи>ха0 __
+
+* __орило>х{A}^END __
+* __орил0>хо0 __
+
+* __доһоло>х{A}^END __
+* __доһол0>хо0 __
+
+* __гэршэлэ>х{A}^END __
+* __гэршэл0>хэ0 __
 
 
 
@@ -421,24 +445,26 @@ be moved to bxr-propernouns.lexc
 
 
 
+
+
 !!!Buryaad noun affixes
 
-We have two lexica, NUM1 and NUM2, 
-NUM1 with -нар plural and V-initial Gen, Ins, and
-NUM2 with -ууд plural and г-initial Gen, Ins
+We have two lexica, n1 and n2, 
+n1 with -нар plural and V-initial Gen, Ins, and
+n2 with -ууд plural and г-initial Gen, Ins
 
 The noun classes
 
- * __LEXICON NUMX __ unclassified nouns
+ * __LEXICON nx __ unclassified nouns, to n2 for now
 
- * __LEXICON NUM1 __ with Gen -IIN, and -нар- suffix for oblique cases
+ * __LEXICON n1 __ with Gen -IIN, and -нар- suffix for oblique cases
 
- * __LEXICON NUM2 __ with Gen -GAj and -ууд suffič for oblique cases
+ * __LEXICON n2 __ with Gen -GAj and -ууд suffič for oblique cases
 
 The class-specific case morphology (Gen, Ins)
- * __LEXICON case1 __ Gen, Ins for NUM1 nouns, and pointing to common cases
+ * __LEXICON case1 __ Gen, Ins for n1 nouns, and pointing to common cases
 
- * __LEXICON case2 __ Gen, Ins for NUM2 nouns, and pointing to common cases
+ * __LEXICON case2 __ Gen, Ins for n2 nouns, and pointing to common cases
 
  * __LEXICON case3 __ case3 are numerals, for now pointing to case2
 
@@ -571,6 +597,7 @@ Also, some of the aux-es may have wrong baseform.
  ** хүрэхэ:хүрэ v1 "reach" ; 
  ** һууха:һуу v2 "sit" ; 
 
+Here come the new verbs
 !!!Buryaad proper noun morphology
 
 This file add +N+Prop and points to the noun case morphology
