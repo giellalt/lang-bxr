@@ -4,7 +4,7 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   >
   <about label="About">
-    <index label="Index" href="index.html" description="Welcome to the Russia Buriat documentation"/>
+    <index label="Index" href="index.html" description="Welcome to the Russia Buryad documentation"/>
     <links label="Links" href="Links.html"
            description="Links to all documentation"
            tab="Links" />
