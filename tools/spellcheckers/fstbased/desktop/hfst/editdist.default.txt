@@ -97,6 +97,8 @@
 п	б	4
 к	г	4
 т	д	4
+ү	у	8
+о	у	7
 
 ## Swaps:
 ## Change dh into hd with the weight 0.5:
