@@ -1,9 +1,9 @@
 
-This is a grammatical analyser for Buriat.
+This is a grammatical analyser for Buryad.
 
 Almost nothing has been done to it yet, it contain dummy files. The one
-exception is the Buriat genitive, the rule set has a proedure for analysing
-and generating the relative complex structiure of Genitive in Buriat.
+exception is the Buryad genitive, the rule set has a proedure for analysing
+and generating the relative complex structiure of Genitive in Buryad.
 
 ----
 
