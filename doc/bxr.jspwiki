@@ -409,7 +409,8 @@ Here come all the rules (marked with RULE:), and test cases.
 * __гэршэлэ>х{A}^END __
 * __гэршэл0>хэ0 __
 
-
+* __һуу>х{A}й{A}{A} __
+* __һуу>ха0яа __
 
 
 
@@ -440,6 +441,9 @@ This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
 
 There are some names here, they should eventually
 be moved to bxr-propernouns.lexc
+
+
+
 
 
 
