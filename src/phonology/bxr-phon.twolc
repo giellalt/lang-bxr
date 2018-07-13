@@ -72,7 +72,7 @@ Rules
 
 "Vowel harmony A:o"
 !! * RULE:  __@RULENAME@__ gives o after stems with o or jo
-%{A%}:о <=> [о|ё] [RealCns:|ю (у)|ы|ё]*      %> [(Cns:* - й:) (%{A%}:)]* _  ;
+%{A%}:о <=> [о|ё] [RealCns:|ю (у)|ы|ё]* (о:) %> [(Cns:* - й:) (%{A%}:)]* _  ;
             [о|ё]  RealCns:+ и: ([л|р]) (о:) %> [(Cns:* - й:) (%{A%}:)]* _  ; ! орхи>х{A}^END
             [о|ё]  RealCns   и:              %> :ё _  ; 
 !!€ самолёт>{D}{A}^END
