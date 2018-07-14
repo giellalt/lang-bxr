@@ -127,7 +127,7 @@ LIST ConAbtmp = ConAbtmp  ;
 LIST ConFin  =   ConFin ;
 LIST ConIntnt=  ConIntnt  ;
 LIST ConSucc =  ConSucc  ;
-LIST ConCmp  =  ConCmp
+LIST ConCmp  =  ConCmp ;
 LIST ConMod = ConMod ;
 
 #!! !Numeral tags
