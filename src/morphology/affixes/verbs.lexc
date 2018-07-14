@@ -123,16 +123,11 @@ LEXICON imperative   !!= * __@CODE@__ for imperative suffixes (Sg2, Pl2)
 
 LEXICON voluntative   !!= * __@CODE@__ for suffixes: яа, 0, ...
 +Sg1:%>яа K ;
-+Sg2:  K ;
-+Sg3: K ;
 +Pl1:%>й%{A%} K ;
 +Pl1+Use/NG:%>й%{A%}бди K ;
-+Pl2:  K ;
-+Pl3: K ;
 
 LEXICON optative   !!= * __@CODE@__ for suffixes: -һууб, ...
 +Sg1:%>һ%{U%}%{U%}б K ;
-+Sg2:  K ;
 +Pl1:%>һ%{U%}%{U%}бди K ;
 
 LEXICON presc  !!= * __@CODE@__ for suffixes: -арайгтыт, ...
@@ -147,8 +142,8 @@ LEXICON participles   !!= * __@CODE@__ giving 11 different participle tags: +Fut
 +HabPrc:%>д%{A%}г   ptc2 ;
 +AgPrc:%>гш%{A%}   ptc ;
 +AgConstPrc:%>%{A%}%{A%}ш%{A%}   ptc ;
-+PerfPrc:%>һ%{A%}н   ptc2 ;
-+PerfPrc+Pl1:%>һ%{A%}мди  # ;
++PrfPrc:%>һ%{A%}н   ptc2 ;
++PrfPrc+Pl1:%>һ%{A%}мди  # ;
 +PotPrc:%>х%{A%}%{A%}р   ptc2 ;
 +DualPrc:%>м%{A%}%{A%}р   ptc2 ;
 +PassPrc:%>%{A%}%{A%}т%{A%}й   ptc ;
