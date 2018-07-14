@@ -70,12 +70,12 @@ Tests:
     бариха+V+AgConstPrc+Pl2: баряашат
     бариха+V+AgConstPrc+Pl3: баряаша
 
-    бариха+V+PerfPrc+Sg1: бариһанби
-    бариха+V+PerfPrc+Sg2: бариһанши
-    бариха+V+PerfPrc+Sg3: бариһан
-    бариха+V+PerfPrc+Pl1: [бариһанбди, бариһамди]
-    бариха+V+PerfPrc+Pl2: бариһанта
-    бариха+V+PerfPrc+Pl3: бариһан
+    бариха+V+PrfPrc+Sg1: бариһанби
+    бариха+V+PrfPrc+Sg2: бариһанши
+    бариха+V+PrfPrc+Sg3: бариһан
+    бариха+V+PrfPrc+Pl1: [бариһанбди, бариһамди]
+    бариха+V+PrfPrc+Pl2: бариһанта
+    бариха+V+PrfPrc+Pl3: бариһан
 
     бариха+V+PotPrc+Sg1: барихаарби
     бариха+V+PotPrc+Sg2: барихаарши
