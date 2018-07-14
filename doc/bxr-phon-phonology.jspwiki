@@ -23,6 +23,7 @@ This is a list of all symbols in use.
 
  * %> 		         = suffix border
  * а2:а я2:я        = invariant а/я in loanwords
+ * м2:м        = м to be deleted for PxSg1
  * %^END:0	         = auxiliary end symbol to fix xerox bug
 
 !!!Sets
@@ -151,6 +152,10 @@ Here come all the rules (marked with RULE:), and test cases.
 * __бар0яа __
 
 
+* __һургуули>{I}{I}н^END __
+* __һургуул0>иин0 __
+
+
 * RULE:  __Deletion of ы in -ые for aj and VV stems__ 
 
 * RULE:  __Deletion of Y in predicative particle -b for vowel stem__ 
@@ -185,7 +190,7 @@ Here come all the rules (marked with RULE:), and test cases.
 
 !Consonant deletion rules
 
-* RULE:  __Deletion of possessive m for consonant stems__ 
+* RULE:  __Deletion of possessive м2 for consonant stems__ 
 
 * RULE:  __Deletion of n before m in possessive and before gAAr__ 
 

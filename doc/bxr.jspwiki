@@ -27,6 +27,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * +Prop     Propernoun
  * +Num      Numaral
  * +Det      Determiner (Demonstrative?)
+ * +Po      Postposition
 
  * +Prs     Present
  * +Fut     Future
@@ -55,6 +56,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * +TV     Transitive
  * +IV      Intransitive
 
+ * +Sg      Singular
  * +Pl      Plural
 
  * +Nom     Nominative
@@ -66,6 +68,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * +Com     Comitative
  * +Ord     Ordinal
  * +Presc    Prescriptive mood
+
 
  * +AgPrc   
  * +AgConstPrc   
@@ -113,7 +116,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 
 
 
- * а2 я2  these are а and я in Russian loanwords that do not weaken to ых
+ * а2 я2 м2  these are а and я in Russian loanwords that do not weaken to ых
 
  * %^END   we do the mhr trick to harmonise twolc and lexc
 
@@ -169,7 +172,7 @@ Key lexicon
  * Punctuation ;		    
  * Conjunction ;		    
  * Numeral ;		    
-
+ * Abbreviation ;		    
 !!!Buryaad morphophonology
 
 This file expresses Buryaad morphophonological alternation, from abstract underlying forms.
@@ -195,6 +198,7 @@ This is a list of all symbols in use.
 
  * %> 		         = suffix border
  * а2:а я2:я        = invariant а/я in loanwords
+ * м2:м        = м to be deleted for PxSg1
  * %^END:0	         = auxiliary end symbol to fix xerox bug
 
 !!!Sets
@@ -323,6 +327,10 @@ Here come all the rules (marked with RULE:), and test cases.
 * __бар0яа __
 
 
+* __һургуули>{I}{I}н^END __
+* __һургуул0>иин0 __
+
+
 * RULE:  __Deletion of ы in -ые for aj and VV stems__ 
 
 * RULE:  __Deletion of Y in predicative particle -b for vowel stem__ 
@@ -357,7 +365,7 @@ Here come all the rules (marked with RULE:), and test cases.
 
 !Consonant deletion rules
 
-* RULE:  __Deletion of possessive m for consonant stems__ 
+* RULE:  __Deletion of possessive м2 for consonant stems__ 
 
 * RULE:  __Deletion of n before m in possessive and before gAAr__ 
 
@@ -496,6 +504,7 @@ This file contains 40 postpositions
 !!!Buryaad adverbs
 
 Here follows a lost of some 20 adverbs.
+
 
 
 

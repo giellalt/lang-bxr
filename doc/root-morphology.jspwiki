@@ -16,6 +16,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * +Prop     Propernoun
  * +Num      Numaral
  * +Det      Determiner (Demonstrative?)
+ * +Po      Postposition
 
  * +Prs     Present
  * +Fut     Future
@@ -44,6 +45,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * +TV     Transitive
  * +IV      Intransitive
 
+ * +Sg      Singular
  * +Pl      Plural
 
  * +Nom     Nominative
@@ -55,6 +57,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * +Com     Comitative
  * +Ord     Ordinal
  * +Presc    Prescriptive mood
+
 
  * +AgPrc   
  * +AgConstPrc   
@@ -102,7 +105,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 
 
 
- * а2 я2  these are а and я in Russian loanwords that do not weaken to ых
+ * а2 я2 м2  these are а and я in Russian loanwords that do not weaken to ых
 
  * %^END   we do the mhr trick to harmonise twolc and lexc
 
@@ -158,4 +161,4 @@ Key lexicon
  * Punctuation ;		    
  * Conjunction ;		    
  * Numeral ;		    
-
+ * Abbreviation ;		    
