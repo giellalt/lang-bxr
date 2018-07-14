@@ -91,7 +91,7 @@ LEXICON NUM-PREFIXES   !!≈ !! __@CODE@__
   s%.:s%.    ARABIC ; ! s.24
 
 LEXICON ARABICS
-            +Use/Circ: ARABIC          ; ! for the arabic numerals
+                       ARABIC          ; ! for the arabic numerals
                        ARABICDATE       ; ! for dates
                        ARABICYEAR       ; ! for years
                        ARABICCLOCK       ; ! for time
@@ -103,13 +103,10 @@ LEXICON ARABIC   !!≈ * __@CODE@__ arabic numerals
 LEXICON ARABICLOOPS
  ARABICLOOP      ;
  ARABICSabcdef ;
-! ARABICLOOPORD   ; !vi begrenser til tall opp til 100
-! ARABICLOOPphone ; !denne overgenerer
- 
+ ARABICCASES ;
  
 LEXICON ARABICSabcdef
  < [a|b|c|d|e|f|f %  f] > ARABICCASE ;
- 
  
 LEXICON ARABICDATE
                                       ARABICDATENUM ;
@@ -152,10 +149,8 @@ LEXICON ARABICCLOCK2
  <   [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclock ;
  <   [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclock ;
 
-
 LEXICON numclock
  +Num+Sem/Time-clock: ARABICCASES ; !foreløpig
-
 
 LEXICON ARABICYEAR
  < [1|2] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > numyear ;
