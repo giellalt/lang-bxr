@@ -61,10 +61,12 @@ Here come all the rules (marked with RULE:), and test cases.
 * __бари>халаар __
 
 * RULE:  __Vowel harmony A:o__ gives o after stems with o or jo
+
 * __самолёт>{D}{A}^END __
 * __самолёд>то0 __
 
 * RULE:  __Vowel harmony A:э__ gives e after e etc
+
 
 * __басаган>г{A}й __
 * __басаган>0ай __
