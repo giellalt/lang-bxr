@@ -58,11 +58,11 @@ Rules
 
 "Vowel harmony A:а"
 !! * RULE:  __@RULENAME@__ gives a after stems with a or juu
-%{A%}:а <=> .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] [(Cns и) RealCns:|ю (у)|ы|а:]* %> [(Cns:* - й:) (%{A%}:)]*       _  ;
-            .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] RealCns и:          %> :я [(Cns:* - й:) (%{A%}:)]*    _  ; 
-            .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] RealCns:+ и         %> [Cns:+ - й:] (%{A%}:)               _  ; ! бари>х{A}
-            .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] (RealCns [и|а])     %> [Cns:+ - й:] (%{A%}:) й: (%{A%}:) %{A%}: _  ; ! бари>х{A}
-            .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] RealCns и           %> [Cns:+ - й:]  %{A%}:  л  (%{A%}:) _  ; ! бари>х{A}
+%{A%}:а <=> .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] [(Cns (и) и) RealCns:|ю (у)|ы|а:]* %> [(Cns:* - й:) (%{A%}:)]*       _  ;
+            .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] RealCns (и) и:          %> :я [(Cns:* - й:) (%{A%}:)]*    _  ; 
+            .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] RealCns:+ (и) и         %> [Cns:+ - й:] (%{A%}:)               _  ; ! бари>х{A}
+            .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] (RealCns (и) [и|а])     %> [Cns:+ - й:] (%{A%}:) й: (%{A%}:) %{A%}: _  ; ! бари>х{A}
+            .#. ~$[е|ё|э|о|ү|ө] [:а|:я|:у] RealCns (и) и           %> [Cns:+ - й:]  %{A%}:  л  (%{A%}:) _  ; ! бари>х{A}
 
 !@ б а с а г а н >:0 г:0 {A}:а й
 !!€ басаган>г{A}й
@@ -74,15 +74,19 @@ Rules
 "Vowel harmony A:o"
 !! * RULE:  __@RULENAME@__ gives o after stems with o or jo
 %{A%}:о <=> [о|ё] [RealCns:|ю (у)|ы|ё]* (о:) %> [(Cns:* - й:) (%{A%}:)]* _  ;
-            [о|ё]  RealCns:+ и: ([л|р]) (о:) %> [(Cns:* - й:) (%{A%}:)]* _  ; ! орхи>х{A}^END
-            [о|ё]  RealCns   и:              %> :ё _  ; 
+            [о|ё]  RealCns:+ (и) и: ([л|р]) (о:) %> [(Cns:* - й:) (%{A%}:)]* _  ; ! орхи>х{A}^END
+            [о|ё]  RealCns (и) и:              %> :ё _  ; 
+            
 !!€ самолёт>{D}{A}^END
 !!€ самолёд>то0
 
 "Vowel harmony A:э"
 !! * RULE:  __@RULENAME@__ gives e after e etc
 %{A%}:э <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|и|е|э:]* %> [(Cns:* - й:) (%{A%}:)]* _  ;
-            [э|е|ү|ө ө]  RealCns и:                %> :е _  ;
+            .#. Cns:* и и RealCns:* (ы)            %> [(Cns:* - й:) (%{A%}:)]* _  ;
+            .#. Cns:* ю   RealCns:+ (ы)            %> [(Cns:* - й:) (%{A%}:)]* _  ;
+            [э|е|ү|ө ө]  RealCns (и) и:            %> :е _  ;
+            
 
 !@ б а с а г а н >:0 г:0 {A}:а й
 !!€ басаган>г{A}й
@@ -93,9 +97,9 @@ Rules
 
 "Vowel harmony A:я"
 !! * RULE:  __@RULENAME@__ gives я after stems with a or juu
-%{A%}:я <=> [:а|:я|\ю у]  [RealCns:|ю (у)|ы|и|:0]* %>  [(Cns:* - й:) (%{A%}:)]* й: _ ;
-            [:а|:я|\ю у]   RealCns          и:     %>                _ ;
-            [:а|:я|\ю у]   RealCns      [а|и]      %> :Cns %{A%}: й: _ ;
+%{A%}:я <=> [:а|:я|\ю у]  [RealCns:|ю (у)|ы|(и) и|:0]* %>  [(Cns:* - й:) (%{A%}:)]* й: _ ;
+            [:а|:я|\ю у]   RealCns      (и) и:     %>                _ ;
+            [:а|:я|\ю у]   RealCns  (и)  [а|и]      %> :Cns %{A%}: й: _ ;
 
 !!€ хара>х{A}й{A}{A}
 !!€ хара>ха0яа
@@ -104,14 +108,14 @@ Rules
 
 "Vowel harmony A:ё"
 !! * RULE:  __@RULENAME@__ gives ё after stems with o or jo
-%{A%}:ё <=> [о|ё]       [RealCns:|ю (у)|ы|и]*  %> й: _  ;
+%{A%}:ё <=> [о|ё]       [RealCns:|ю (у)|ы|(и) и]*  %> й: _  ;
 
 !!€ самолёт>{D}{A}^END
 !!€ самолёд>то0
 
 "Vowel harmony A:е"
 !! * RULE:  __@RULENAME@__ gives е after e etc and preceeding 
-%{A%}:е <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|и]*  %> й: _  ;
+%{A%}:е <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|(и) и]*  %> й: _  ;
 
 "Vowel harmony й:0"
 !! * RULE:  __@RULENAME@__ deletes й in front of A
@@ -120,12 +124,12 @@ Rules
 
 "Vowel harmony U:у"
 !! * RULE:  __@RULENAME@__ gives a after stems with a or juu
-%{U%}:у <=> [:а|:я|\ю у]  [RealCns:|ю (у)|ы|и|:0]*  %> (Cns:) (%{U%}:) _  ;
+%{U%}:у <=> [:а|:я|\ю у]  [RealCns:|ю (у)|ы|(и) и|:0]*  %> (Cns:) (%{U%}:) _  ;
 
 
 "Vowel harmony U:ү"
 !! * RULE:  __@RULENAME@__ gives e after e etc
-%{U%}:ү <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|и]*  %> (Cns:) (%{U%}:) _  ;
+%{U%}:ү <=> [э|е|ү|ө ө] [RealCns:|ю (у)|ы|(и) и]*  %> (Cns:) (%{U%}:) _  ;
 
 
 
@@ -133,8 +137,7 @@ Rules
 
 "Vowel harmony ӨӨ:аa"
 !! * RULE:  __@RULENAME@__ gives aa after a
-!%{Ө%}:а <=> а (:RealCns) г: %> һ ( %{Ө%}: ) _  ;
-%{Ө%}:а <=> [а|у] :RealCns*  (и:) %> ([:RealCns|:RealVow]*  %>:) һ ( %{Ө%}: ) _  ;
+%{Ө%}:а <=> .#. ~$[э|ө|ү] [а|у|о] :RealCns* и:* %> ([:RealCns|:RealVow]*  %>:) һ ( %{Ө%}: ) _  ;
 
 !!€ анг>һ{Ө}{Ө}^END
 !!€ анг>һаа0
@@ -144,15 +147,15 @@ Rules
 
 "Vowel harmony ӨӨ:оо"
 !! * RULE:  __@RULENAME@__ gives oo after o
-%{Ө%}:о <=> о :RealCns* (и:) %> ([:RealCns|:RealVow]*  %>:) һ ( %{Ө%}: ) _  ;
+%{Ө%}:о <=> .#. ~$[э|ө|ү] о :RealCns* и:* %> ([:RealCns|:RealVow]*  %>:) һ ( %{Ө%}: ) _  ;
 
 "Vowel harmony ӨӨ:ээ"
 !! * RULE:  __@RULENAME@__ gives ee after e
-%{Ө%}:э <=> э :RealCns* (и:) %> ([:RealCns|:RealVow]*  %>:) һ ( %{Ө%}: ) _  ;
+%{Ө%}:э <=> .#. ~$[а|о|ө|у] э :RealCns* и:* %> ([:RealCns|:RealVow]*  %>:) һ ( %{Ө%}: ) _  ;
 
 "Vowel harmony ӨӨ:өө"
 !! * RULE:  __@RULENAME@__ gives ø after ø
-%{Ө%}:ө <=> ө :RealCns* (и:) %> ([:RealCns|:RealVow]*  %>:) һ ( %{Ө%}: ) _  ;
+%{Ө%}:ө <=> .#. ~$[а|о|у|э] ө :RealCns* и:* %> ([:RealCns|:RealVow - а]*  %>:) һ ( %{Ө%}: ) _  ;
 
 
 
