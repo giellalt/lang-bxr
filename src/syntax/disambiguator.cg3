@@ -90,7 +90,6 @@ LIST Nec = Nec nec ;         #!! Nec
 LIST Neg = Neg neg ; 		 #!! Neg
 LIST NegPrc = NegPrc ; 			 #!! NegPrc
 LIST Pass = Pass ; 			 #!! Pass
-LIST Prc = Prc ; 			 #!! Prc
 LIST PrfPrc = PrfPrc ; 			 #!! PrfPrc
 
 #!! Verbal person-number tags
@@ -101,6 +100,35 @@ LIST Pl1 = Pl1 ; 			 #!! Pl1
 LIST Pl2 = Pl2 ; 			 #!! Pl2
 LIST Pl3 = Pl3 ; 			 #!! Pl3
 
+LIST Sg3Pl3 = Sg3 Pl3 ;
+
+LIST AgPrc   =	AgPrc  ;
+LIST AgConstPrc =  AgConstPrc ;
+LIST DualPrc = DualPrc   ;
+LIST FutPrc	 = FutPrc   ;
+LIST HabPrc	 = HabPrc   ;
+LIST ImpfPrc = ImpfPrc   ;
+LIST PassPrc = PassPrc   ;
+LIST PerfPrc = PerfPrc   ;
+LIST PotPrc	 = PotPrc   ;
+LIST PrsPrc	 = PrsPrc   ;
+LIST ResPrc	 = ResPrc   ;
+
+
+LIST AllPrc = AgPrc AgConstPrc DualPrc FutPrc HabPrc ImpfPrc PassPrc PerfPrc PotPrc PrsPrc ResPrc ; 
+
+LIST ConImpf = ConImpf   ;
+LIST ConPrf  = ConPrf   ;
+LIST ConCond = ConCond     ;
+LIST ConConc =  ConConc  ;
+LIST ConTerm =  ConConc  ;
+LIST ConCntmp =  ConCntmp ;
+LIST ConAbtmp = ConAbtmp  ;
+LIST ConFin  =   ConFin ;
+LIST ConIntnt=  ConIntnt  ;
+LIST ConSucc =  ConSucc  ;
+LIST ConCmp  =  ConCmp
+LIST ConMod = ConMod ;
 
 #!! !Numeral tags
 
@@ -182,6 +210,8 @@ LIST @>N = @>N ;
 LIST @OBJ> = @OBJ> ;
 LIST @SUBJ> = SUBJ> ;
 LIST @+FMAINV = @+FMAINV ;
+
+
 #!! !!Sets
 
 LIST CASE = Nom Gen Abl Dat Com Cns Acc Ins Ine Ill Cmpr ; #!! * __CASE__ = all cases
@@ -209,6 +239,19 @@ SECTION
 #!! !!Early, contextless rules
 
 #!! !!Phrase internal rules
+
+#!! !!Verb disambituation rules
+
+#!! !Participles
+
+REMOVE:PrcN Sg23Pl3 IF (0 AllPrc)(1 N);
+
+#!! Plural verbforms
+#!! * __BolonBusad__ and others gives plural
+REMOVE:BolonBusad Sg3 IF (*-1 ("бусад") LINK -1 ("болон"));
+
+#!! ConMod
+REMOVE:NoConModAfterGen ConMod IF (-1 Gen);
 
 
 SECTION
