@@ -125,7 +125,7 @@ LIST ConTerm =  ConConc  ;
 LIST ConCntmp =  ConCntmp ;
 LIST ConAbtmp = ConAbtmp  ;
 LIST ConFin  =   ConFin ;
-LIST ConIntnt=  ConIntnt  ;
+LIST ConIntnt =  ConIntnt  ;
 LIST ConSucc =  ConSucc  ;
 LIST ConCmp  =  ConCmp ;
 LIST ConMod = ConMod ;
@@ -244,7 +244,7 @@ SECTION
 
 #!! !Participles
 
-REMOVE:PrcN Sg23Pl3 IF (0 AllPrc)(1 N);
+REMOVE:PrcN Sg3Pl3 IF (0 AllPrc)(1 N);
 
 #!! Plural verbforms
 #!! * __BolonBusad__ and others gives plural
