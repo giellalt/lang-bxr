@@ -76,12 +76,12 @@ Tests:
     хараха+V+AgConstPrc+Pl2: хараашат
     хараха+V+AgConstPrc+Pl3: харааша
 
-    хараха+V+PerfPrc+Sg1: хараһанби
-    хараха+V+PerfPrc+Sg2: хараһанши
-    хараха+V+PerfPrc+Sg3: хараһан
-    хараха+V+PerfPrc+Pl1: [хараһамди, хараһанбди]
-    хараха+V+PerfPrc+Pl2: хараһанта
-    хараха+V+PerfPrc+Pl3: хараһан
+    хараха+V+PrfPrc+Sg1: хараһанби
+    хараха+V+PrfPrc+Sg2: хараһанши
+    хараха+V+PrfPrc+Sg3: хараһан
+    хараха+V+PrfPrc+Pl1: [хараһамди, хараһанбди]
+    хараха+V+PrfPrc+Pl2: хараһанта
+    хараха+V+PrfPrc+Pl3: хараһан
 
     хараха+V+PotPrc+Sg1: харахаарби
     хараха+V+PotPrc+Sg2: харахаарши
