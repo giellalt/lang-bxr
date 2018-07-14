@@ -24,6 +24,7 @@ Alphabet
 
 %> 		        !!= * @CODE@ = suffix border
 а2:а я2:я       !!= * @CODE@ = invariant а/я in loanwords
+м2:м       !!= * @CODE@ = м to be deleted for PxSg1
 %^END:0	        !!= * @CODE@ = auxiliary end symbol to fix xerox bug
  ;
 
@@ -133,7 +134,7 @@ Rules
 "Vowel harmony ӨӨ:аa"
 !! * RULE:  __@RULENAME@__ gives aa after a
 !%{Ө%}:а <=> а (:RealCns) г: %> һ ( %{Ө%}: ) _  ;
-%{Ө%}:а <=> а :RealCns*  %> ([:RealCns|:RealVow]*  %>:) һ ( %{Ө%}: ) _  ;
+%{Ө%}:а <=> [а|у] :RealCns*  (и:) %> ([:RealCns|:RealVow]*  %>:) һ ( %{Ө%}: ) _  ;
 
 !!€ анг>һ{Ө}{Ө}^END
 !!€ анг>һаа0
@@ -143,15 +144,15 @@ Rules
 
 "Vowel harmony ӨӨ:оо"
 !! * RULE:  __@RULENAME@__ gives oo after o
-%{Ө%}:о <=> о (:RealCns) %> г: һ ( %{Ө%}: ) _  ;
+%{Ө%}:о <=> о :RealCns* (и:) %> ([:RealCns|:RealVow]*  %>:) һ ( %{Ө%}: ) _  ;
 
 "Vowel harmony ӨӨ:ээ"
 !! * RULE:  __@RULENAME@__ gives ee after e
-%{Ө%}:э <=> э (:RealCns) %> г: һ ( %{Ө%}: ) _  ;
+%{Ө%}:э <=> э :RealCns* (и:) %> ([:RealCns|:RealVow]*  %>:) һ ( %{Ө%}: ) _  ;
 
 "Vowel harmony ӨӨ:өө"
 !! * RULE:  __@RULENAME@__ gives ø after ø
-%{Ө%}:ө <=> ө (:RealCns) %> г: һ ( %{Ө%}: ) _  ;
+%{Ө%}:ө <=> ө :RealCns* (и:) %> ([:RealCns|:RealVow]*  %>:) һ ( %{Ө%}: ) _  ;
 
 
 
@@ -219,9 +220,14 @@ Vx:0 <=> :RealCns _ %> [:ы (:0) [н|е]|:а :а|:о :о|:э :э|:ө :ө] ;
 и:0 <=>       _ н %> е %{A%}: р ;
         и %> _ :и е ;
              _ %> %{A%}: ; ! deletes и in front of A initial suffix
+             _ %> %{I%}: %{I%}: ;
 
 !!€ бари>{A}{A}       = twolc upper:lower b:c
 !!€ бар0яа
+
+
+!!€ һургуули>{I}{I}н^END
+!!€ һургуул0>иин0
 
 
 "Deletion of ы in -ые for aj and VV stems"
@@ -271,9 +277,9 @@ Vx:0 <=> :RealCns _ %> [:ы (:0) [н|е]|:а :а|:о :о|:э :э|:ө :ө] ;
 
 !! !Consonant deletion rules
 
-"Deletion of possessive m for consonant stems"
+"Deletion of possessive м2 for consonant stems"
 !! * RULE:  __@RULENAME@__ 
-м:0 <=> [Cns: - [н:|й:]] %> _ ;
+м2:0 <=> [Cns: - [н:|й:]] %> _ .#. ;
 
 "Deletion of n before m in possessive and before gAAr"
 !! * RULE:  __@RULENAME@__ 
