@@ -42,7 +42,8 @@ LEXICON commoncase  !!= * __@CODE@__ common treatment of Nom, Dat, Acc, Abl, Com
 
 LEXICON Poss !!= * __@CODE@__ for Px, common for all nouns
   K ; ! Absolute declension
-+PxSg1:%>мни K ;
++PxSg1:%>мни K ; ! final C, V
++PxSg1:%>м2ни K ; ! final C
 +PxSg1+Use/NG:%>м K ; ! in case of one, prefer -мни
 +PxSg2:%>шни K ;
 +PxSg2+Use/NG:%>ш K ;
