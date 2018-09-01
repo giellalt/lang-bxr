@@ -235,6 +235,14 @@ Here come all the rules (marked with RULE:), and test cases.
 * __бари>х{A}л{A}{A}р __
 * __бари>халаар __
 
+* RULE:  __Vowel harmony A:я__ gives я after stems with a or juu
+
+* __хара>х{A}й{A}{A} __
+* __хара>ха0яа __
+* __бари>х{A}й{A}{A} __
+* __бари>ха0яа __
+
+
 * RULE:  __Vowel harmony A:o__ gives o after stems with o or jo
 
 * __самолёт>{D}{A}^END __
@@ -242,19 +250,14 @@ Here come all the rules (marked with RULE:), and test cases.
 
 * RULE:  __Vowel harmony A:э__ gives e after e etc
 
-
 * __басаган>г{A}й __
 * __басаган>0ай __
 
 * __бэелэ>х{A}^END __
 * __бэел0>хэ0 __
 
-* RULE:  __Vowel harmony A:я__ gives я after stems with a or juu
-
-* __хара>х{A}й{A}{A} __
-* __хара>ха0яа __
-* __бари>х{A}й{A}{A} __
-* __бари>ха0яа __
+* __автоматизировалэ>х{A} __
+* __автоматизировал0>хэ __
 
 * RULE:  __Vowel harmony A:ё__ gives ё after stems with o or jo
 
@@ -325,8 +328,8 @@ Here come all the rules (marked with RULE:), and test cases.
 
 * RULE:  __Deletion of и in word-final иие and Deletion SHV and Vowel harmony и:0__ 
 
-* __бари>{A}{A} __ {{= }} (Eng. twolc upper:lower b:c)
-* __бар0яа __
+* __бари>{A}{A} __
+* __бар0>яа __
 
 
 * __һургуули>{I}{I}н^END __
@@ -424,6 +427,8 @@ Here come all the rules (marked with RULE:), and test cases.
 
 
 
+* __т __ {{е }} (Eng. с т р а б о т а е т)
+* __в __ {{т }} (Eng. е с т е о ш и б к а)
 
 
 
