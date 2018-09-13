@@ -39,7 +39,6 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/postpositions.lexc \
 			 stems/pronouns.lexc \
 			 stems/propernouns.lexc \
-			 stems/punctuation.lexc \
 			 stems/subjunctions.lexc \
 			 stems/verbs.lexc \
 			 clitics.lexc
@@ -63,7 +62,8 @@ GT_LEXC_L2_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-			generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc
+			generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc \
+			generated_files/punctuation.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=
