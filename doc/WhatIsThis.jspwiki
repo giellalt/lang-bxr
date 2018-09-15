@@ -1,9 +1,8 @@
 
 This is a grammatical analyser for Buryad.
 
-Almost nothing has been done to it yet, it contain dummy files. The one
-exception is the Buryad genitive, the rule set has a proedure for analysing
-and generating the relative complex structiure of Genitive in Buryad.
+It contains 16000 stems, and the basic nominal and verbal morphology.
+
 
 ----
 
