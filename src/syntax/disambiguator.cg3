@@ -115,7 +115,7 @@ LIST PrsPrc	 = PrsPrc   ;
 LIST ResPrc	 = ResPrc   ;
 
 
-LIST AllPrc = AgPrc AgConstPrc DualPrc FutPrc HabPrc ImpfPrc PassPrc PerfPrc PotPrc PrsPrc ResPrc ; 
+LIST AllPrc = AgPrc AgConstPrc DualPrc FutPrc HabPrc ImpfPrc PassPrc PrfPrc PotPrc PrsPrc ResPrc ; 
 
 LIST ConImpf = ConImpf   ;
 LIST ConPrf  = ConPrf   ;
@@ -244,7 +244,7 @@ SECTION
 
 #!! !Participles
 
-REMOVE:PrcN Sg3Pl3 IF (0 AllPrc)(1 N);
+REMOVE:PrcN Sg3Pl3 IF (0 AllPrc)(1 N OR A OR Num);
 
 #!! Plural verbforms
 #!! * __BolonBusad__ and others gives plural
