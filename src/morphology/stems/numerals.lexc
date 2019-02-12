@@ -32,6 +32,17 @@ LEXICON WRITTEN ! Numbers are written separately
          зуун:зуу    NUM   ; ! "100"
        мянган:мянга  NUM-н ; ! "1000"
 
+миллион:миллион NUM ;
+миллиард:миллиард NUM ;
+дүрбэнэй:дүрбэнэй NUM ;
+найманай:найманай NUM ;
+арбанай:арбанай NUM ;
+зуунай:зуунай NUM ;
+мянганай:мянганай NUM ;
+паар:паар NUM ;
+дюжинэ:дюжинэ NUM ;
+полста:полста NUM ;
+
 
 дүшэн:дүшөөд NUM-DIST ; ! ""
 мянган:мянгаад NUM-DIST ; ! ""
@@ -424,3 +435,4 @@ LEXICON ISOLATED-NUMEXP   !!≈ * __@CODE@__ some isolated numeral expressions
 
 
 !----
+
