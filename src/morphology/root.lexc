@@ -33,6 +33,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Num     !!= * @CODE@ Numaral
 +Det     !!= * @CODE@ Determiner (Demonstrative?)
 +Po     !!= * @CODE@ Postposition
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
 ! Verbal MSP
 +Prs    !!= * @CODE@ Present
