@@ -12,7 +12,7 @@
 
 !!! Grammatical issues
 
-* What tags to use? Cf the tags in use [for Buriaad|https://gtsvn.uit.no/langtech/trunk/langs/bxr/src/morphology/root.lexc], and [for the other languages|../common/MorphologicalTags.html] (todo: harmonise)
+* What tags to use? Cf the tags in use [for Buriaad|https://gtsvn.uit.no/langtech/trunk/langs/bxr/src/morphology/root.lexc], and [for the other languages|/lang/common/MorphologicalTags.html] (todo: harmonise)
 
 
 !!!Project planning
