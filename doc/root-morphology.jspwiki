@@ -17,6 +17,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * +Num      Numaral
  * +Det      Determiner (Demonstrative?)
  * +Po      Postposition
+ * +Symbol = independent symbols in the text stream, like £, €, ©
 
  * +Prs     Present
  * +Fut     Future
@@ -158,7 +159,8 @@ Key lexicon
  * Propernoun ;			   
  * Postposition ;		    
  * Particles ;		    , these should rather be adverbs
- * Punctuation ;		    
- * Conjunction ;		    
+ * Punctuation ;		   
+ * Symbols     ;		   
+ * Conjunction ;		   
  * Numeral ;		    
  * Abbreviation ;		    
