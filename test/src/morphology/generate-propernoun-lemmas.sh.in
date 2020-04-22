@@ -23,7 +23,7 @@
 POS=propernouns
 GTLANG=@GTLANG@
 ### in ###
-source_file=./../../../src/morphology/generated_files/urj-Cyrl-${GTLANG}-${POS}.lexc
+source_file=${srcdir}/../../../src/fst/generated_files/urj-Cyrl-${GTLANG}-${POS}.lexc
 generator_file=./../../../src/generator-gt-norm
 analyser_file=./../../../src/analyser-gt-norm
 
