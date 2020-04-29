@@ -4,15 +4,15 @@
 !!! Dynamic documentation
 
 * [Links to generated source file documentation|Links.html]
-* Source files: [stems|https://gtsvn.uit.no/langtech/trunk/langs/bxr/src/morphology/stems/]   
-  / [affixes|https://gtsvn.uit.no/langtech/trunk/langs/bxr/src/morphology/affixes/] 
+* Source files: [stems|https://gtsvn.uit.no/langtech/trunk/langs/bxr/src/fst/stems/]   
+  / [affixes|https://gtsvn.uit.no/langtech/trunk/langs/bxr/src/fst/affixes/] 
   / [syntax|https://gtsvn.uit.no/langtech/trunk/langs/bxr/src/syntax/] 
   / [twolc|https://gtsvn.uit.no/langtech/trunk/langs/bxr/src/phonology/bxr-phon.twolc]   
   / [yaml|https://gtsvn.uit.no/langtech/trunk/langs/bxr/test/src/gt-norm-yamls/]
 
 !!! Grammatical issues
 
-* What tags to use? Cf the tags in use [for Buriaad|https://gtsvn.uit.no/langtech/trunk/langs/bxr/src/morphology/root.lexc], and [for the other languages|/lang/common/MorphologicalTags.html] (todo: harmonise)
+* What tags to use? Cf the tags in use [for Buriaad|https://gtsvn.uit.no/langtech/trunk/langs/bxr/src/fst/root.lexc], and [for the other languages|/lang/common/MorphologicalTags.html] (todo: harmonise)
 
 
 !!!Project planning
