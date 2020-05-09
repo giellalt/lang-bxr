@@ -1,7 +1,0 @@
-Voikko-Dictionary-Format: 5
-Language: bxr-x-svfst
-Description: Russia Buriat dictionary for VFST backend
-Morphology-Backend: null
-Speller-Backend: vfst
-Suggestion-Backend: vfst
-Grammar-Backend: null
