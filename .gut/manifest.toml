@@ -1,0 +1,35 @@
+[package]
+name = "bxr"
+human_name = "Russia Buriat"
+version = "0.1.0"
+
+# Table of speller tag -> filename to include in the bundle
+# filenames depends on specific project
+[spellers.bxr]
+filename = "bxr-mobile.zhfst"
+
+# Table of bundles to generated
+# key is the type of bundle
+# Windows speller bundle require a uuid for the installer
+[bundles.speller_win]
+package = "speller-bxr"
+platform = "windows"
+uuid = "DB2B3C08-FB2F-4982-ABB3-4079C50DD605"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_macos]
+pkg_id = "no.divvun.MacDivvun.bxr"
+package = "speller-bxr"
+platform = "macos"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_win_mso]
+package = "speller-bxr-mso"
+platform = "windows"
+uuid = "59ACDF4B-328D-4AFA-A35D-1DD03F4D1F7D"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_mobile]
+package = "speller-bxr"
+platform = "mobile"
+repo = "https://pahkat.uit.no/main/"
