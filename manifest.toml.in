@@ -1,0 +1,9 @@
+name = "Russia Buriat"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.bxr"
+
+[windows]
+system_product_code = "DB2B3C08-FB2F-4982-ABB3-4079C50DD605"
+msoffice_product_code = "59ACDF4B-328D-4AFA-A35D-1DD03F4D1F7D"
