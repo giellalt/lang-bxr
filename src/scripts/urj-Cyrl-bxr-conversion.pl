@@ -41,6 +41,7 @@ while(<>) {
 	s/ Deriv-RUS-КИЙ_SURMAL/ PROP1/g ;
 	s/ Deriv-RUS-ОЙ_SURMAL/ PROP1/g ;
 	s/ Deriv-RUS-ЫЙ_SURMAL/ PROP1/g ;
+	s/ PROP_KUDO_SURFEM/ PROP2/g ;
 	s/ PROP-PLC_KAL/ PROP2/g ;
 	s/ PROP-PLC_KIT/ PROP2/g ;
 	s/ PROP-PLC_KUDO/ PROP2/g ;
