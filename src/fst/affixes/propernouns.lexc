@@ -6,9 +6,134 @@ LEXICON PROPX ! unclassified
 PROP1 ;
 
 LEXICON PROP1
-+N+Prop+Sg: case1 ;
++N+Prop: prop1_case1 ;
 !+N+Pl:%>ууд case1 ;
 
 LEXICON PROP2
-+N+Prop+Sg: case2 ;
++N+Prop: prop2_case2 ;
 !+N+Pl:%>ууд case2 ;
+
+! LEXICON CYRL-A_SUR
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! 
+! LEXICON CYRL-CONS_SUR
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! 
+! LEXICON CYRL-K_SUR
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! 
+! LEXICON CYRL-L_SUR
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! 
+! LEXICON CYRL-SIBILANT_SUR
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! 
+! LEXICON CYRL-T_SUR
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! 
+! LEXICON CYRL-VOW_SUR
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! 
+! LEXICON Deriv-RUS-AN_SURMAL
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON Deriv-RUS-IJ_SURMAL
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON Deriv-RUS-IN_SURMAL
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON Deriv-RUS-KIJ_SURMAL
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON Deriv-RUS-OJ_SURMAL
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON Deriv-RUS-V_SURMAL
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON Deriv-RUS-YJ_SURMAL
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON PROP-PLC_KAL
+! +N+Prop+Sem/Plc: Prop_default_infl ;
+! 
+! LEXICON PROP-PLC_KIT
+! +N+Prop+Sem/Plc: Prop_default_infl ;
+! 
+! LEXICON PROP-PLC_KUDO
+! +N+Prop+Sem/Plc: Prop_default_infl ;
+! 
+! LEXICON PROP_KAL_FEM
+! +N+Prop+Sem/Fem: Prop_default_infl ;
+! 
+! LEXICON PROP_KAL_MAL
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON PROP_KIT_FEM
+! +N+Prop+Sem/Fem: Prop_default_infl ;
+! 
+! LEXICON PROP_KIT_MAL
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON PROP_KIT_SUR
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! 
+! LEXICON PROP_KUDO_FEM
+! +N+Prop+Sem/Fem: Prop_default_infl ;
+! 
+! LEXICON PROP_KUDO_MAL
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON PROP_KUDO_PATRFEM
+! +N+Prop+Sem/Fem: Prop_default_infl ;
+! 
+! LEXICON PROP_KUDO_SURFEM
+! +N+Prop+Sem/Fem: Prop_default_infl ;
+! +N+Prop+Sem/Sur: Prop_default_infl ;
+! 
+! LEXICON PROP_LAK_MAL
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON PROP_OSH_FEM
+! +N+Prop+Sem/Fem: Prop_default_infl ;
+! 
+! LEXICON PROP_OSH_MAL
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON PROP_OSH_PATRMAL
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON PropNameMaleDer-I-YEvich
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON PropNameMaleDer-IJ-I0Evich
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON PropNameMaleDer-IJ-Y0Evich
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON PropNameMaleDer-J-0Evich
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON PropNameMaleDer-Ovich
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON PropNameMaleDer-Y-0Evich
+! +N+Prop+Sem/Mal: Prop_default_infl ;
+! 
+! LEXICON Prop_default_infl
+! +Sg: case1 ;
+
+LEXICON prop1_case1
++Sg: case1 ;
+
+LEXICON prop2_case2
++Sg: case2 ;
