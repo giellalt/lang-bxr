@@ -16,7 +16,6 @@ use open qw( :encoding(UTF-8) :std );
 
 while(<>) {
 	# Continuation lexicon substitutions:
-	s/ Deriv-RUS-V_SURMAL/ PROP2/g ;
 	s/ CYRL-A_SUR/ PROP2/g ;
 	s/ CYRL-CONS_SUR/ PROP2/g ;
 	s/ CYRL-K_SUR/ PROP2/g ;
@@ -33,6 +32,7 @@ while(<>) {
 	s/ Deriv-RUS-IN_SURMAL/ PROP2/g ;
 	s/ Deriv-RUS-KIJ_SURMAL/ PROP2/g ;
 	s/ Deriv-RUS-OJ_SURMAL/ PROP2/g ;
+	s/ Deriv-RUS-V_SURMAL/ PROP2/g ;
 	s/ Deriv-RUS-YJ_SURMAL/ PROP2/g ;
 	s/ Deriv-RUS-АН_SURMAL/ PROP2/g ;
 	s/ Deriv-RUS-В_SURMAL/ PROP2/g ;
