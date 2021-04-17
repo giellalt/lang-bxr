@@ -8,7 +8,7 @@
 
 
 # ================ #
-#!!  !!!Sentence delimiters
+#!! # Sentence delimiters
 # ================ #
 
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent ;
@@ -22,11 +22,11 @@ LIST DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<,>" "<;>" sent ; #SASHA ADD
 # !!!Tags and sets
 # ============= #
 
-#!! The __Tags__ section lists all the tags inherited from the fst, and defines them for
+#!! The **Tags** section lists all the tags inherited from the fst, and defines them for
 #!! use in the syntactic analysis.
 #!! The tags are documented in the root.lexc file, and here only listed for reference.
 
-#!! The next section, __Sets__, contains sets defined
+#!! The next section, **Sets**, contains sets defined
 #!! on the basis of the tags listed here, those set names are not visible in the output.
 
 LIST DAT-V = "куанаш" ;
@@ -37,22 +37,22 @@ LIST DAT-A = "поян" "тале" "пайдале" ;
 
 SETS
 
-#!! !!Tags
+#!! ## Tags
 
 
 
-#!! !Beginning and end of sentence
+#!! ### Beginning and end of sentence
 
 LIST BOS = (>>>) (<s>); #!! BOS
 LIST EOS = (<<<) (</s>); #!! EOS
 
-#!! !Clause boundary
+#!! ### Clause boundary
 LIST C-BOUNDARY = CS Rel ; #ADDED BY JEREMY AND SASHA 28-06-2017
 
 # We define end of clause and beginning of clause in a way so that the file
 # may be read both by the CG-2 and the vislcg formalisms.
 
-#!! !Parts of speech tags
+#!! ### Parts of speech tags
 
 LIST N = N ;                    #!! N
 LIST V = V ;                    #!! V
@@ -70,7 +70,7 @@ LIST Po = Po ; 					#!! Po
 #!! WORD is the set of all POS
 LIST WORD = N V A Adv CC CS Interj Pron Num Pcle Clt Po ;
 
-#!! !Verbal tense and mood tags
+#!! ### Verbal tense and mood tags
 LIST Prs = Prs ; 		 #!! Prs
 LIST Prt1 = Prt1 ; 		 #!! Prt1
 LIST Prt2 = Prt2 ; 		 #!! Prt2
@@ -80,7 +80,7 @@ LIST Ind = Ind ind ; 		 #!! Ind
 LIST Cond = Cond cond ; 	 #!! Cond
 LIST Des = Des des ;		 #!! Des
 
-#!! !Other verbal tags
+#!! ### Other verbal tags
 LIST Act = Act ; 			 #!! Act
 LIST ConNeg = ConNeg conneg; #!! ConNeg
 LIST FutPrc = FutPrc ; 			 #!! FutPrc
@@ -130,12 +130,12 @@ LIST ConSucc =  ConSucc  ;
 LIST ConCmp  =  ConCmp ;
 LIST ConMod = ConMod ;
 
-#!! !Numeral tags
+#!! ### Numeral tags
 
 LIST Sg = Sg sg ; 	  #!! Sg
 LIST Pl = Pl pl ; 	  #!! Pl
 
-#!! !Case tags
+#!! ### Case tags
 
 LIST Nom = Nom nom ;  #!! Nom
 LIST Gen = Gen gen ;  #!! Gen
@@ -149,7 +149,7 @@ LIST Ine = Ine ine ;   #!! Ine
 LIST Ill = Ill ill ;   #!! Ill
 LIST Cmpr = Cmpr ; 	   #!! Cmpr (case)
 
-#!! !Other nominal tags
+#!! ### Other nominal tags
 
 LIST Pers = Pers ;	   #!! Pers
 LIST Refl = Refl ; 	   #!! Refl
@@ -161,13 +161,13 @@ LIST ABBR = ABBR ;	  #!! ABBR
 LIST Pron1Sg = "мый" "Мый" ; #SASHA ADDED 3-07-2017
 LIST Pron2Sg = "тый" "Тый" ; #SASHA ADDED 3-07-2017
 
-#!! !Adjective comparison tags
+#!! ### Adjective comparison tags
 
 LIST Pos = Pos ; 	 #!! Pos (?)
 LIST Superl = Superl ; #!! Superl
 LIST Comp = Comp ; 	   #!! Comp
 
-#!! !Possessive suffix tags
+#!! ### Possessive suffix tags
 
 LIST PxSg1 = PxSg1 ; #!! PxSg1
 LIST PxSg2 = PxSg2 ; #!! PxSg2
@@ -176,14 +176,14 @@ LIST PxPl1 = PxPl1 ; #!! PxPl1
 LIST PxPl2 = PxPl2 ; #!! PxPl2
 LIST PxPl3 = PxPl3 ; #!! PxPl3
 
-#!! !Numeral tags
+#!! ### Numeral tags
 
 LIST Card = Card ; #!! Card
 LIST Coll = Coll ;  #!! Coll
 LIST Ord = Ord ;  #!! Ord
 LIST Temp = Temp ;  #!! Temp (?)
 
-#!! !Punctuation marks
+#!! ### Punctuation marks
 
 LIST CLB = CLB ; 	  #!! CLB
 LIST PUNCT = PUNCT ;  #!! PUCT
@@ -191,16 +191,16 @@ LIST LEFT = LEFT ; 	  #!! LEFT
 LIST RIGHT = RIGHT ;  #!! RIGHT
 LIST COMMA = "," ;	  #!! COMMA
 
-#!! !Derivation tags
+#!! ### Derivation tags
 LIST Der/MWN = Der/MWN ; #!! Der/MWN
 LIST Der/са = Der/са ;	 #!! Der/sa
 
-#!! !Particles
+#!! ### Particles
 LIST Qst = Qst ; #!! Qst
 LIST Foc = Foc ; #!! Foc
 
 
-#!! !Tags for internal testing
+#!! ### Tags for internal testing
 LIST CmpTest = CmpTest ; #!! CmpTest
 LIST Err = Err ; #!! Err
 
@@ -212,11 +212,11 @@ LIST @SUBJ> = SUBJ> ;
 LIST @+FMAINV = @+FMAINV ;
 
 
-#!! !!Sets
+#!! ## Sets
 
-LIST CASE = Nom Gen Abl Dat Com Cns Acc Ins Ine Ill Cmpr ; #!! * __CASE__ = all cases
-SET OBLCASE = CASE - Nom ; #!! * __OBLCASE__ = All cases except Nom
-SET VFIN = Ind | Cond | Des | Imprt ; #!! * __VFIN__ = All moods
+LIST CASE = Nom Gen Abl Dat Com Cns Acc Ins Ine Ill Cmpr ; #!! * **CASE** = all cases
+SET OBLCASE = CASE - Nom ; #!! * **OBLCASE** = All cases except Nom
+SET VFIN = Ind | Cond | Des | Imprt ; #!! * **VFIN** = All moods
 
 LIST WORD = N V A Adv CC CS Interj Pron Num Pcle Clt Po ;
 
@@ -231,23 +231,23 @@ SET NOT-ADJ-OR-NOUN = WORD - ADJ-OR-NOUN ;
 LIST DER-N = Der/MWN ; 
 SET LEX-N = N - DER-N ;
 
-#!! !!!Rule section
+#!! # Rule section
 
 
 SECTION
 
-#!! !!Early, contextless rules
+#!! ## Early, contextless rules
 
-#!! !!Phrase internal rules
+#!! ## Phrase internal rules
 
-#!! !!Verb disambituation rules
+#!! ## Verb disambituation rules
 
-#!! !Participles
+#!! ### Participles
 
 REMOVE:PrcN Sg3Pl3 IF (0 AllPrc)(1 N OR A OR Num);
 
 #!! Plural verbforms
-#!! * __BolonBusad__ and others gives plural
+#!! * **BolonBusad** and others gives plural
 REMOVE:BolonBusad Sg3 IF (*-1 ("бусад") LINK -1 ("болон"));
 
 #!! ConMod
