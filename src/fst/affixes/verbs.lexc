@@ -1,16 +1,16 @@
- !! !!!Buryaad verb affixes
+ !! # Buryaad verb affixes
 
 !! This is the file for Buryaad verb morphology. The documentation
 !! shortly explains the rationale behind each continuation lexicon.
 
 
-!! !!The verb classes
+!! ## The verb classes
 
-!! !Auxiliary verbs
+!! ### Auxiliary verbs
 
 !! No auxiliary verbs for now.
 
-!! !Ordinary verbs
+!! ### Ordinary verbs
 
 !! v1 the default verb category, v2 stem in long vowel or ditphtong, 
 !! v3 stem in и
@@ -37,7 +37,7 @@ LEXICON v2i !!= * @CODE@ the intransitive v2 verbs (add +IV and go on)
 +V+IV: v2lex ;
 +V+IV: finite_indicative ;
 
-LEXICON v2 !!= * __@CODE@__ stem in long vowel or diphthong
+LEXICON v2 !!= * **@CODE@** stem in long vowel or diphthong
 +V: v2lex ;
 +V: finite_indicative ;
 
@@ -50,23 +50,23 @@ LEXICON v3i !!= * @CODE@ the intransitive v3 verbs (add +IV and go on)
 +V+IV: finite_indicative ;
 
 
-LEXICON v3 !!= * __@CODE@__ stem in и
+LEXICON v3 !!= * **@CODE@** stem in и
 +V: v3lex ;
 +V: finite_indicative ;
 
-!! !!Verb morphology
+!! ## Verb morphology
 !! We see the contlexes as two layers: The first layer to divide
 !! the different stem types into different suffix lexica, and
 !! the one for these suffixes.
 
-!! !Layer one: Dividing v1, v2, v3 into suffix lexica
+!! ### Layer one: Dividing v1, v2, v3 into suffix lexica
 
 LEXICON finite_indicative
 +Ind+Prs:%>н%{A%} persprd ;
 +Ind+Prt+Derm:%>б%{A%} persprd ;
 +Ind+Prt+Conf:%>л%{A%}й persprd ;
 
-LEXICON v1lex !!= * __@CODE@__ the common v1 morphology
+LEXICON v1lex !!= * **@CODE@** the common v1 morphology
 +Imp: imperative ;
 +Vol: voluntative ;
 +Opt: optative ;
@@ -74,7 +74,7 @@ LEXICON v1lex !!= * __@CODE@__ the common v1 morphology
  participles ;
  converbs ;
 
-LEXICON v2lex !!= * __@CODE@__ the common v2 morphology
+LEXICON v2lex !!= * **@CODE@** the common v2 morphology
 +Imp: imperative ;
 +Vol: voluntative ;
 +Opt: optative ;
@@ -91,9 +91,9 @@ LEXICON v3lex
  converbs ;
 
 
-!! !Layer two: The suffix lexica themselves.
+!! ### Layer two: The suffix lexica themselves.
 
-LEXICON persprd  !!= * __@CODE@__ for suffixes: б, ш, ...
+LEXICON persprd  !!= * **@CODE@** for suffixes: б, ш, ...
 +Sg1:%>б K ;
 +Sg2:%>ш  K ;
 +Sg3: K ;
@@ -101,7 +101,7 @@ LEXICON persprd  !!= * __@CODE@__ for suffixes: б, ш, ...
 +Pl2:%>т  K ;
 +Pl3: K ;
 
-LEXICON persprd2  !!= * __@CODE@__ for suffixes: би, ши, ...
+LEXICON persprd2  !!= * **@CODE@** for suffixes: би, ши, ...
 +Sg1:%>би K ;
 +Sg2:%>ши  K ;
 +Sg3: K ;
@@ -117,26 +117,26 @@ LEXICON persprd2  !!= * __@CODE@__ for suffixes: би, ши, ...
 !+Pl2:  K ;
 !+Pl3: K ;
 
-LEXICON imperative   !!= * __@CODE@__ for imperative suffixes (Sg2, Pl2)
+LEXICON imperative   !!= * **@CODE@** for imperative suffixes (Sg2, Pl2)
 +Sg2:  K ;
 +Pl2:%>гты  K ;
 
-LEXICON voluntative   !!= * __@CODE@__ for suffixes: яа, 0, ...
+LEXICON voluntative   !!= * **@CODE@** for suffixes: яа, 0, ...
 +Sg1:%>яа K ;
 +Pl1:%>й%{A%} K ;
 +Pl1+Use/NG:%>й%{A%}бди K ;
 
-LEXICON optative   !!= * __@CODE@__ for suffixes: -һууб, ...
+LEXICON optative   !!= * **@CODE@** for suffixes: -һууб, ...
 +Sg1:%>һ%{U%}%{U%}б K ;
 +Pl1:%>һ%{U%}%{U%}бди K ;
 
-LEXICON presc  !!= * __@CODE@__ for suffixes: -арайгтыт, ...
+LEXICON presc  !!= * **@CODE@** for suffixes: -арайгтыт, ...
 +Sg2:%>%{A%}р%{A%}йгтыт K ;
 +Pl2:%>%{A%}р%{A%}йгтыш K ;
 +Sg2:%>ыт K ;
 +Pl2:%>ыш K ;
 
-LEXICON participles   !!= * __@CODE@__ giving 11 different participle tags: +FutPrc, +ImpPrc, ...
+LEXICON participles   !!= * **@CODE@** giving 11 different participle tags: +FutPrc, +ImpPrc, ...
 +FutPrc:%>х%{A%}   ptc ; 
 +ImpfPrc:%>%{A%}%{A%}   ptc ;
 +HabPrc:%>д%{A%}г   ptc2 ;
@@ -149,15 +149,15 @@ LEXICON participles   !!= * __@CODE@__ giving 11 different participle tags: +Fut
 +PassPrc:%>%{A%}%{A%}т%{A%}й   ptc ;
 +ResPrc:%>нх%{A%}й   ptc ;
 
-LEXICON ptc   !!= * __@CODE@__ either stop or go to persprd suff
+LEXICON ptc   !!= * **@CODE@** either stop or go to persprd suff
 K ;
 persprd ;
 
-LEXICON ptc2   !!= * __@CODE@__ either stop or go to persprd2 suff
+LEXICON ptc2   !!= * **@CODE@** either stop or go to persprd2 suff
 K ;
 persprd2 ;
 
-LEXICON converbs   !!= * __@CODE@__ listing 12 converb suffixes: -н, -жа, ...
+LEXICON converbs   !!= * **@CODE@** listing 12 converb suffixes: -н, -жа, ...
 +ConMod:%>н    # ;
 +ConImpf:%>ж%{A%}    # ;
 +ConPrf:%>%{A%}%{A%}д    # ;

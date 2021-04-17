@@ -1,18 +1,18 @@
 
-!! !!!Buryaad particles
+!! # Buryaad particles
 
 !! Consider whether these are aeverbs.
 
 LEXICON pcle !!= * @CODE@ 
-+Pcle: # ; !!= ** @CODE@ 
++Pcle: # ; !!=     - @CODE@ 
 
 LEXICON Particles  !!= * @CODE@ 
 
-ааб pcle "" ;  !!= ** @CODE@ 
-бшуу pcle "" ;  !!= ** @CODE@ 
-бэ pcle "" ;  !!= ** @CODE@ 
-бэзэ pcle "" ;  !!= ** @CODE@ 
-бэлэй pcle "" ;  !!= ** @CODE@ ...
+ааб pcle "" ;  !!=     - @CODE@ 
+бшуу pcle "" ;  !!=     - @CODE@ 
+бэ pcle "" ;  !!=     - @CODE@ 
+бэзэ pcle "" ;  !!=     - @CODE@ 
+бэлэй pcle "" ;  !!=     - @CODE@ ...
 бэлэйбди pcle "" ;
 бэшэб pcle "" ;
 бү pcle "" ;

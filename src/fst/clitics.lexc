@@ -1,14 +1,14 @@
 
 
-!! !!Buryaad clitics
+!! ## Buryaad clitics
 
 !! This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
 
-LEXICON K  !!= * __@CODE@__ , in principle containing clitics, but no one so far, and pointing to ENDLEX
+LEXICON K  !!= * **@CODE@** , in principle containing clitics, but no one so far, and pointing to ENDLEX
 ENDLEX ;
 !+Qst:гү ENDLEX ; ! гү always written separately
 
 
-LEXICON ENDLEX !!= * __@CODE@__ is the lexicon adding ^END, for technical reasons.
+LEXICON ENDLEX !!= * **@CODE@** is the lexicon adding ^END, for technical reasons.
  :%^END # ;
  
