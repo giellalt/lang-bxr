@@ -10,8 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-bxr)](https://github.com/giellalt/lang-bxr/issues)
-[![Build Status](https://github.com/giellalt/lang-bxr/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-bxr/actions)
-[![License](https://img.shields.io/github/license/giellalt/template-lang-bxr)](https://raw.githubusercontent.com/giellalt/lang-bxr/develop/LICENSE)
+[![Build Status](https://github.com/giellalt/lang-bxr/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-bxr/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-bxr)](https://raw.githubusercontent.com/giellalt/lang-bxr/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-bxr)
 for the Russia Buryad language by using the [Divvun Installer](http://divvun.no)
