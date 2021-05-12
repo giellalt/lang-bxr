@@ -5,11 +5,11 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-bxr)](https://github.com/giellalt/lang-bxr/issues)
 [![Build status](https://github.com/giellalt/lang-bxr/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-bxr/actions)
 
-This page documents the work on the **Russia Buriat language model**. 
+This page documents the work on the [Russia Buriat language model](https://github.com/giellalt/lang-bxr). 
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+* [Topics for analyser work, summer 2018](Topics.html)
 
 # In-source documentation
 
