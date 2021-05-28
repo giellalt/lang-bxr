@@ -1,5 +1,7 @@
 !! # Buryaad morphophonology
 
+!! This file documents the [phonology.twolc file](http://github.com/giellalt/lang-bxr/blob/main/src/fst/phonology.twolc) 
+
 !! This file expresses Buryaad morphophonological alternation, from abstract underlying forms.
 
 !! # Alphabet
