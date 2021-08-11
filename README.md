@@ -3,7 +3,7 @@ The Russia Buryad morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-bxr)](https://github.com/giellalt/lang-bxr/issues)
 [![Build Status](https://github.com/giellalt/lang-bxr/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-bxr/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-bxr)](https://raw.githubusercontent.com/giellalt/lang-bxr/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-bxr)](https://github.com/giellalt/lang-bxr/blob/main/LICENSE)
 
 This repository contains finite state source files for the Russia Buryad language,
 for building morphological analysers, proofing tools
