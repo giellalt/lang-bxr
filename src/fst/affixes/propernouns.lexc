@@ -137,3 +137,6 @@ LEXICON prop1_case1
 
 LEXICON prop2_case2
 +Sg: case2 ;
+
+LEXICON PROP-PATR-MAL_END-IN-CH/DZ
+ +Sem/Mal+Sg: case1 ;
