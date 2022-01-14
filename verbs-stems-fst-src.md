@@ -1,0 +1,17 @@
+# Buryaad verbs
+
+This file is almost empty, it contains ca 40 verbs of 3 types, v1, v2, v3:
+
+ * LEXICON Verb 
+
+Verbs marked aux may perhaps be changed to v1, ...
+
+It is unclear whether the distinction is morphologically relevant.
+
+Also, some of the aux-es may have wrong baseform.
+     - хүрэхэ:хүрэ v1 "reach" ; 
+     - һууха:һуу v2 "sit" ; 
+
+Here come the new verbs
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/verbs.lexc)</small>

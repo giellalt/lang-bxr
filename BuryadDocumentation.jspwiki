@@ -1,0 +1,21 @@
+[What is this?|WhatIsThis.html]
+
+
+
+
+ 
+!!! Grammatical issues
+
+* What tags to use? Cf the tags in use [for Buriaad|https://gtsvn.uit.no/langtech/trunk/langs/bxr/src/fst/root.lexc], and [for the other languages|/lang/common/MorphologicalTags.html] (todo: harmonise)
+
+
+!!!Project planning
+
+* [Topics for the summer of 2018|Topics.html]
+
+
+
+!!!Using the analysers
+
+* In the terminal: analyse words by writing ''ubxr'', generate with ''dbxr''
+* For more info, see [How to use the morphological parsers|/tools/docu-sme-manual.html]
