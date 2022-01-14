@@ -117,6 +117,28 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 +PxPl3  !!= * @CODE@ third person plural possessive
 +Px3  !!= * @CODE@ third person plural possessive
 
+!! # Semantic tags
++Sem/Mal    !!= * @CODE@
++Sem/Date
++Sem/Plc
++Sem/Time-clock
++Sem/Year
+
+!! # Other tags
+!! To be properly organised
++ABBR
++Dem
++Dim
++Dist
++Ela
++Err/Orth
++Err/Orth-colloq
++Ess
++Ill
++Ine
++Rom
++Use/Circ
+
 %{A%}  !!= * @CODE@ letter class 
 %{D%}  !!= * @CODE@ letter class 
 %{G%}  !!= * @CODE@ letter class 
