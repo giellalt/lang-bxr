@@ -28,6 +28,12 @@ Alphabet
 а2:а я2:я       !!= * @CODE@ = invariant а/я in loanwords
 м2:м       !!= * @CODE@ = м to be deleted for PxSg1
 %^END:0	        !!= * @CODE@ = auxiliary end symbol to fix xerox bug
+
+! Other symbols - escaped due to crash with morpheme border symbols:
+ «7
+ »7
+ %[<%]
+ %[>%]
  ;
 
 !! # Sets
