@@ -809,7 +809,7 @@ ConMod
 # Buryaad morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 
- # Definitions for Multichar_Symbols
+# Definitions for Multichar_Symbols@CODE@
 
  * +N	      Noun 
  * +V	      Verb
@@ -824,7 +824,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
  * +Num      Numaral
  * +Det      Determiner (Demonstrative?)
  * +Po      Postposition
- * +Symbol = independent symbols in the text stream, like £, €, ©
+* +Symbol© = independent symbols in the text stream, like £, €, ©
 
  * +Prs     Present
  * +Fut     Future
@@ -929,8 +929,8 @@ To be properly organised
 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
- * **»7**:  Literal »
- * **«7**:  Literal «
+* **»7»**:  Literal »
+* **«7«**:  Literal «
 ```
   %[%>%]  - Literal >
   %[%<%]  - Literal <
@@ -941,29 +941,29 @@ To be properly organised
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+|  @P.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@nominalised | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+|  @P.CmpFrst.FALSE@first | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ENDLEX | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@compounds | Block these words from making further compounds
+|  @D.CmpLast.TRUE@R | Block such words from entering R
+|  @D.CmpNone.TRUE@compounding | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@compounding | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@R | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@root. | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Obl@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
 
 Key lexicon
 
@@ -1559,14 +1559,14 @@ Here come the new verbs
 
 
 
- ##  **LEXICON NUM-PREFIXES**
+##  **LEXICON NUM-PREFIXES**@CODE@****
 This lexicon contains a number of letters and other
 symbols found in front of digits. Their continuation
 lexicons should probably be changed as we restructure
 the arabic numerals.
 
 
- * **LEXICON ARABIC** arabic numerals
+* **LEXICON ARABICnumerals** arabic numerals
 
 
 
@@ -1590,16 +1590,16 @@ the arabic numerals.
 
 
 
- * **LEXICON ARABICLOOP**
+* **LEXICON ARABICLOOP**@CODE@****
 
 
 
- * **LEXICON ARABICLOOPORD** ordinals
+* **LEXICON ARABICLOOPORDordinals** ordinals
 
 
 
 
- * **LEXICON ARABICDELIMITER**  blank + 3 delim, what does the lg counc prefer?
+* **LEXICON ARABICDELIMITERprefer?**  blank + 3 delim, what does the lg counc prefer?
 
 
 
@@ -1608,53 +1608,53 @@ the arabic numerals.
 
 
 
- * **LEXICON ROMAN**  roman numerals
+* **LEXICON ROMANnumerals**  roman numerals
 
- * **LEXICON ROM-THOUSAND**
+* **LEXICON ROM-THOUSAND**@CODE@****
 
- * **LEXICON ROM-THOUSAND-TAG**
+* **LEXICON ROM-THOUSAND-TAG**@CODE@****
 
- * **LEXICON ROM-HUNDRED**
+* **LEXICON ROM-HUNDRED**@CODE@****
 
- * **LEXICON ROM-HUNDRED-TAG**
+* **LEXICON ROM-HUNDRED-TAG**@CODE@****
 
- * **LEXICON ROM-TEN**
+* **LEXICON ROM-TEN**@CODE@****
 
- * **LEXICON ROM-TEN-TAG**
+* **LEXICON ROM-TEN-TAG**@CODE@****
 
- * **LEXICON ROM-ONE**
+* **LEXICON ROM-ONE**@CODE@****
 
- * **LEXICON ROM-ONE-TAG**
+* **LEXICON ROM-ONE-TAG**@CODE@****
 
 
- * **LEXICON ROM-SPLIT**
+* **LEXICON ROM-SPLIT**@CODE@****
 
 
 
- * **LEXICON 2ROMAN**
+* **LEXICON 2ROMAN**@CODE@****
 
- * **LEXICON 2ROM-THOUSAND**
+* **LEXICON 2ROM-THOUSAND**@CODE@****
 
- * **LEXICON 2ROM-THOUSAND-TAG**
+* **LEXICON 2ROM-THOUSAND-TAG**@CODE@****
 
- * **LEXICON 2ROM-HUNDRED**
+* **LEXICON 2ROM-HUNDRED**@CODE@****
 
- * **LEXICON 2ROM-HUNDRED-TAG**
+* **LEXICON 2ROM-HUNDRED-TAG**@CODE@****
 
- * **LEXICON 2ROM-TEN**
+* **LEXICON 2ROM-TEN**@CODE@****
 
- * **LEXICON 2ROM-TEN-TAG**
+* **LEXICON 2ROM-TEN-TAG**@CODE@****
 
- * **LEXICON 2ROM-ONE**
+* **LEXICON 2ROM-ONE**@CODE@****
 
- * **LEXICON 2ROM-ONE-TAG**
+* **LEXICON 2ROM-ONE-TAG**@CODE@****
 
- * **LEXICON ROMNUMTAG**
+* **LEXICON ROMNUMTAG**@CODE@****
 
 
 
 
- * **LEXICON ISOLATED-NUMEXP** some isolated numeral expressions
+* **LEXICON ISOLATED-NUMEXPexpressions** some isolated numeral expressions
 
 
 
