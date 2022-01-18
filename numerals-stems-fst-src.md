@@ -19,14 +19,14 @@
 
 
 
-##  **LEXICON NUM-PREFIXES**@CODE@****
+##  **LEXICON NUM-PREFIXES**
 This lexicon contains a number of letters and other
 symbols found in front of digits. Their continuation
 lexicons should probably be changed as we restructure
 the arabic numerals.
 
 
-* **LEXICON ARABICnumerals** arabic numerals
+* **LEXICON ARABIC** arabic numerals
 
 
 
@@ -50,16 +50,16 @@ the arabic numerals.
 
 
 
-* **LEXICON ARABICLOOP**@CODE@****
+* **LEXICON ARABICLOOP**
 
 
 
-* **LEXICON ARABICLOOPORDordinals** ordinals
+* **LEXICON ARABICLOOPORD** ordinals
 
 
 
 
-* **LEXICON ARABICDELIMITERprefer?**  blank + 3 delim, what does the lg counc prefer?
+* **LEXICON ARABICDELIMITER**  blank + 3 delim, what does the lg counc prefer?
 
 
 
@@ -68,53 +68,53 @@ the arabic numerals.
 
 
 
-* **LEXICON ROMANnumerals**  roman numerals
+* **LEXICON ROMAN**  roman numerals
 
-* **LEXICON ROM-THOUSAND**@CODE@****
+* **LEXICON ROM-THOUSAND**
 
-* **LEXICON ROM-THOUSAND-TAG**@CODE@****
+* **LEXICON ROM-THOUSAND-TAG**
 
-* **LEXICON ROM-HUNDRED**@CODE@****
+* **LEXICON ROM-HUNDRED**
 
-* **LEXICON ROM-HUNDRED-TAG**@CODE@****
+* **LEXICON ROM-HUNDRED-TAG**
 
-* **LEXICON ROM-TEN**@CODE@****
+* **LEXICON ROM-TEN**
 
-* **LEXICON ROM-TEN-TAG**@CODE@****
+* **LEXICON ROM-TEN-TAG**
 
-* **LEXICON ROM-ONE**@CODE@****
+* **LEXICON ROM-ONE**
 
-* **LEXICON ROM-ONE-TAG**@CODE@****
+* **LEXICON ROM-ONE-TAG**
 
 
-* **LEXICON ROM-SPLIT**@CODE@****
+* **LEXICON ROM-SPLIT**
 
 
 
-* **LEXICON 2ROMAN**@CODE@****
+* **LEXICON 2ROMAN**
 
-* **LEXICON 2ROM-THOUSAND**@CODE@****
+* **LEXICON 2ROM-THOUSAND**
 
-* **LEXICON 2ROM-THOUSAND-TAG**@CODE@****
+* **LEXICON 2ROM-THOUSAND-TAG**
 
-* **LEXICON 2ROM-HUNDRED**@CODE@****
+* **LEXICON 2ROM-HUNDRED**
 
-* **LEXICON 2ROM-HUNDRED-TAG**@CODE@****
+* **LEXICON 2ROM-HUNDRED-TAG**
 
-* **LEXICON 2ROM-TEN**@CODE@****
+* **LEXICON 2ROM-TEN**
 
-* **LEXICON 2ROM-TEN-TAG**@CODE@****
+* **LEXICON 2ROM-TEN-TAG**
 
-* **LEXICON 2ROM-ONE**@CODE@****
+* **LEXICON 2ROM-ONE**
 
-* **LEXICON 2ROM-ONE-TAG**@CODE@****
+* **LEXICON 2ROM-ONE-TAG**
 
-* **LEXICON ROMNUMTAG**@CODE@****
+* **LEXICON ROMNUMTAG**
 
 
 
 
-* **LEXICON ISOLATED-NUMEXPexpressions** some isolated numeral expressions
+* **LEXICON ISOLATED-NUMEXP** some isolated numeral expressions
 
 
 

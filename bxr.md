@@ -809,131 +809,131 @@ ConMod
 # Buryaad morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 
-# Definitions for Multichar_Symbols@CODE@
+# Definitions for Multichar_Symbols
 
- * +N	      Noun 
- * +V	      Verb
- * +A	      Adjective
- * +Adv      Adverb
- * +Pcle      Particles (Probably adverbs, look into this)
- * +CC	      Conjunction
- * +CS	      Subjunction
- * +Interj   Interjection
- * +Pron     Pronoun
- * +Prop     Propernoun
- * +Num      Numaral
- * +Det      Determiner (Demonstrative?)
- * +Po      Postposition
-* +Symbol© = independent symbols in the text stream, like £, €, ©
+* +N	      Noun 
+* +V	      Verb
+* +A	      Adjective
+* +Adv      Adverb
+* +Pcle      Particles (Probably adverbs, look into this)
+* +CC	      Conjunction
+* +CS	      Subjunction
+* +Interj   Interjection
+* +Pron     Pronoun
+* +Prop     Propernoun
+* +Num      Numaral
+* +Det      Determiner (Demonstrative?)
+* +Po      Postposition
+* +Symbol = independent symbols in the text stream, like £, €, ©
 
- * +Prs     Present
- * +Fut     Future
- * +Prt     Preterite
- * +Prf     Perfect
- * +Ind     Indicative
- * +Imp     Imperative
- * +Cond    Conditional
- * +Opt     Optative
- * +Vol     Voluntative
- * +Dur     Durative
- * +Term     Terminative
- * +Conf     Conf
+* +Prs     Present
+* +Fut     Future
+* +Prt     Preterite
+* +Prf     Perfect
+* +Ind     Indicative
+* +Imp     Imperative
+* +Cond    Conditional
+* +Opt     Optative
+* +Vol     Voluntative
+* +Dur     Durative
+* +Term     Terminative
+* +Conf     Conf
 
- * +Sg1     first person singular
- * +Sg2     second person singular
- * +Sg3     third person singular
- * +Pl1     first person plural
- * +Pl2     second person plural
- * +Pl3     third person plural
+* +Sg1     first person singular
+* +Sg2     second person singular
+* +Sg3     third person singular
+* +Pl1     first person plural
+* +Pl2     second person plural
+* +Pl3     third person plural
 
- * +Inf     Infinitive
- * +Pos     Positive
- * +Neg     Negative
+* +Inf     Infinitive
+* +Pos     Positive
+* +Neg     Negative
 
- * +TV     Transitive
- * +IV      Intransitive
+* +TV     Transitive
+* +IV      Intransitive
 
- * +Sg      Singular
- * +Pl      Plural
+* +Sg      Singular
+* +Pl      Plural
 
- * +Nom     Nominative
- * +Acc     Accusative
- * +Gen     Genitive
- * +Abl     Ablative
- * +Dat     Dative
- * +Ins     Instrumental
- * +Com     Comitative
- * +Ord     Ordinal
- * +Presc    Prescriptive mood
-
-
- * +AgPrc   
- * +AgConstPrc   
- * +DualPrc      
- * +FutPrc	      
- * +HabPrc	      
- * +ImpfPrc      
- * +PassPrc      
- * +PrfPrc       
- * +PotPrc	      
- * +PrsPrc	      
- * +ResPrc	      
-
- * +ConMod    
- * +ConImpf    
- * +ConPrf    
- * +ConCond    
- * +ConConc    
- * +ConTerm    
- * +ConCntmp    
- * +ConAbtmp    
- * +ConFin    
- * +ConIntnt    
- * +ConSucc    
- * +ConCmp    
+* +Nom     Nominative
+* +Acc     Accusative
+* +Gen     Genitive
+* +Abl     Ablative
+* +Dat     Dative
+* +Ins     Instrumental
+* +Com     Comitative
+* +Ord     Ordinal
+* +Presc    Prescriptive mood
 
 
- * +PxSg1   first person singular possessive
- * +PxSg2   second person singular possessive
- * +PxSg3   third person singular possessive
- * +PxPl1   first person plural possessive
- * +PxPl2   second person plural possessive
- * +PxPl3   third person plural possessive
- * +Px3   third person plural possessive
+* +AgPrc   
+* +AgConstPrc   
+* +DualPrc      
+* +FutPrc	      
+* +HabPrc	      
+* +ImpfPrc      
+* +PassPrc      
+* +PrfPrc       
+* +PotPrc	      
+* +PrsPrc	      
+* +ResPrc	      
+
+* +ConMod    
+* +ConImpf    
+* +ConPrf    
+* +ConCond    
+* +ConConc    
+* +ConTerm    
+* +ConCntmp    
+* +ConAbtmp    
+* +ConFin    
+* +ConIntnt    
+* +ConSucc    
+* +ConCmp    
+
+
+* +PxSg1   first person singular possessive
+* +PxSg2   second person singular possessive
+* +PxSg3   third person singular possessive
+* +PxPl1   first person plural possessive
+* +PxPl2   second person plural possessive
+* +PxPl3   third person plural possessive
+* +Px3   third person plural possessive
 
 # Semantic tags
- * +Sem/Mal    
+* +Sem/Mal    
 
 # Other tags
 To be properly organised
 
- * %{A%}   letter class 
- * %{D%}   letter class 
- * %{G%}   letter class 
- * %{I%}   letter class 
- * %{J%}   letter class 
- * %{U%}   letter class 
- * %{V%}   letter class 
- * %{Ө%}   letter class 
- * %{Y%}   kept after Cns, deleted after Vow
+* %{A%}   letter class 
+* %{D%}   letter class 
+* %{G%}   letter class 
+* %{I%}   letter class 
+* %{J%}   letter class 
+* %{U%}   letter class 
+* %{V%}   letter class 
+* %{Ө%}   letter class 
+* %{Y%}   kept after Cns, deleted after Vow
 
 
 
- * а2 я2 м2  these are а and я in Russian loanwords that do not weaken to ых
+* а2 я2 м2  these are а and я in Russian loanwords that do not weaken to ых
 
- * %^END   we do the mhr trick to harmonise twolc and lexc
+* %^END   we do the mhr trick to harmonise twolc and lexc
 
 ## Usage tags
 
- * +Use/NG   Do not generate 
+* +Use/NG   Do not generate 
 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
-* **»7»**:  Literal »
-* **«7«**:  Literal «
+* **»7**:  Literal »
+* **«7**:  Literal «
 ```
-  %[%>%]  - Literal >
-  %[%<%]  - Literal <
+ %[%>%]  - Literal >
+ %[%<%]  - Literal <
 ```
 
 
@@ -941,51 +941,51 @@ To be properly organised
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
-|  @P.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
-|  @D.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
-|  @C.NeedNoun@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
-|  @P.CmpFrst.FALSE@first | Require that words tagged as such only appear first
-|  @D.CmpPref.TRUE@ENDLEX | Block such words from entering ENDLEX
-|  @P.CmpPref.FALSE@compounds | Block these words from making further compounds
-|  @D.CmpLast.TRUE@R | Block such words from entering R
-|  @D.CmpNone.TRUE@compounding | Combines with the next tag to prohibit compounding
-|  @U.CmpNone.FALSE@compounding | Combines with the prev tag to prohibit compounding
-|  @P.CmpOnly.TRUE@R | Sets a flag to indicate that the word has passed R
-|  @D.CmpOnly.FALSE@root. | Disallow words coming directly from root.
+|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@ | Block these words from making further compounds
+|  @D.CmpLast.TRUE@ | Block such words from entering R
+|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
-|  @U.Cap.Obl@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
-|  @U.Cap.Opt@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
 Key lexicon
 
- **LEXICON Root ** is where it all starts, with these lexica:
+**LEXICON Root ** is where it all starts, with these lexica:
 
- * Noun ;				   
- * urj-Cyrl-ProperNouns ; 
- * bxr-Propernouns ;	   
- * Verb ;				   
- * Adjective ;			   
- * Adverb ;			   
- * Subjunction ;		   
- * Interjection ;		   
- * Pronoun ;			   
- * Propernoun ;			   
- * Postposition ;		    
- * Particles ;		    , these should rather be adverbs
- * Punctuation ;		   
- * Symbols     ;		   
- * Conjunction ;		   
- * Numeral ;		    
- * Abbreviation ;		    
+* Noun ;				   
+* urj-Cyrl-ProperNouns ; 
+* bxr-Propernouns ;	   
+* Verb ;				   
+* Adjective ;			   
+* Adverb ;			   
+* Subjunction ;		   
+* Interjection ;		   
+* Pronoun ;			   
+* Propernoun ;			   
+* Postposition ;		    
+* Particles ;		    , these should rather be adverbs
+* Punctuation ;		   
+* Symbols     ;		   
+* Conjunction ;		   
+* Numeral ;		    
+* Abbreviation ;		    
 * * *
 <small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/root.lexc)</small>
 # Symbol affixes
@@ -1003,29 +1003,29 @@ n2 with -ууд plural and г-initial Gen, Ins
 
 The noun classes
 
- * **LEXICON nx ** unclassified nouns, to n2 for now
+* **LEXICON nx ** unclassified nouns, to n2 for now
 
- * **LEXICON n1 ** with Gen -IIN, and -нар- suffix for oblique cases
+* **LEXICON n1 ** with Gen -IIN, and -нар- suffix for oblique cases
 
- * **LEXICON n2 ** with Gen -GAj and -ууд suffič for oblique cases
+* **LEXICON n2 ** with Gen -GAj and -ууд suffič for oblique cases
 
 The class-specific case morphology (Gen, Ins)
- * **LEXICON case1 ** Gen, Ins for n1 nouns, and pointing to common cases
+* **LEXICON case1 ** Gen, Ins for n1 nouns, and pointing to common cases
 
- * **LEXICON case2 ** Gen, Ins for n2 nouns, and pointing to common cases
+* **LEXICON case2 ** Gen, Ins for n2 nouns, and pointing to common cases
 
- * **LEXICON case3 ** case3 are numerals, for now pointing to case2
+* **LEXICON case3 ** case3 are numerals, for now pointing to case2
 
 The morphology common to the different stem classes
 
- * **LEXICON commoncase  ** common treatment of Nom, Dat, Acc, Abl, Com for all nouns
+* **LEXICON commoncase  ** common treatment of Nom, Dat, Acc, Abl, Com for all nouns
 
- * **LEXICON Poss ** for Px, common for all nouns
+* **LEXICON Poss ** for Px, common for all nouns
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/nouns.lexc)</small>
 # Buryaad adjective morphology
 
-LEXICON adj   just adding the +A tag.
+LEXICON adj  just adding the +A tag.
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/adjectives.lexc)</small># Buryaad verb affixes
 
@@ -1046,24 +1046,24 @@ v3 stem in и
 The difference comes for the non-indicative forms, thus
 all verb types point to the same finite_indicative.
 
- * LEXICON v1t  the transitive v1 verbs (add +TV and go on)
+* LEXICON v1t  the transitive v1 verbs (add +TV and go on)
 
- * LEXICON v1i  the intransitive v1 verbs (add +IV and go on)
+* LEXICON v1i  the intransitive v1 verbs (add +IV and go on)
 
- * LEXICON v1  the v1 verbs not yet classified for transitivity
+* LEXICON v1  the v1 verbs not yet classified for transitivity
 
- * LEXICON v2t  the transitive v2 verbs (add +TV and go on)
+* LEXICON v2t  the transitive v2 verbs (add +TV and go on)
 
- * LEXICON v2i  the intransitive v2 verbs (add +IV and go on)
+* LEXICON v2i  the intransitive v2 verbs (add +IV and go on)
 
- * **LEXICON v2 ** stem in long vowel or diphthong
+* **LEXICON v2 ** stem in long vowel or diphthong
 
- * LEXICON v3t  the transitive v3 verbs (add +TV and go on)
+* LEXICON v3t  the transitive v3 verbs (add +TV and go on)
 
- * LEXICON v3i  the intransitive v3 verbs (add +IV and go on)
+* LEXICON v3i  the intransitive v3 verbs (add +IV and go on)
 
 
- * **LEXICON v3 ** stem in и
+* **LEXICON v3 ** stem in и
 
 ## Verb morphology
 We see the contlexes as two layers: The first layer to divide
@@ -1073,34 +1073,34 @@ the one for these suffixes.
 ### Layer one: Dividing v1, v2, v3 into suffix lexica
 
 
- * **LEXICON v1lex ** the common v1 morphology
+* **LEXICON v1lex ** the common v1 morphology
 
- * **LEXICON v2lex ** the common v2 morphology
+* **LEXICON v2lex ** the common v2 morphology
 
 
 
 ### Layer two: The suffix lexica themselves.
 
- * **LEXICON persprd  ** for suffixes: б, ш, ...
+* **LEXICON persprd  ** for suffixes: б, ш, ...
 
- * **LEXICON persprd2  ** for suffixes: би, ши, ...
+* **LEXICON persprd2  ** for suffixes: би, ши, ...
 
 
- * **LEXICON imperative   ** for imperative suffixes (Sg2, Pl2)
+* **LEXICON imperative   ** for imperative suffixes (Sg2, Pl2)
 
- * **LEXICON voluntative   ** for suffixes: яа, 0, ...
+* **LEXICON voluntative   ** for suffixes: яа, 0, ...
 
- * **LEXICON optative   ** for suffixes: -һууб, ...
+* **LEXICON optative   ** for suffixes: -һууб, ...
 
- * **LEXICON presc  ** for suffixes: -арайгтыт, ...
+* **LEXICON presc  ** for suffixes: -арайгтыт, ...
 
- * **LEXICON participles   ** giving 11 different participle tags: +FutPrc, +ImpPrc, ...
+* **LEXICON participles   ** giving 11 different participle tags: +FutPrc, +ImpPrc, ...
 
- * **LEXICON ptc   ** either stop or go to persprd suff
+* **LEXICON ptc   ** either stop or go to persprd suff
 
- * **LEXICON ptc2   ** either stop or go to persprd2 suff
+* **LEXICON ptc2   ** either stop or go to persprd2 suff
 
- * **LEXICON converbs   ** listing 12 converb suffixes: -н, -жа, ...
+* **LEXICON converbs   ** listing 12 converb suffixes: -н, -жа, ...
 
 
 * * *
@@ -1121,10 +1121,10 @@ This file add +N+Prop and points to the noun case morphology
 
 This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
 
- * **LEXICON K  ** , in principle containing clitics, but no one so far, and pointing to ENDLEX
+* **LEXICON K  ** , in principle containing clitics, but no one so far, and pointing to ENDLEX
 
 
- * **LEXICON ENDLEX ** is the lexicon adding ^END, for technical reasons.
+* **LEXICON ENDLEX ** is the lexicon adding ^END, for technical reasons.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/clitics.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/clitics.lexc)</small># Buryaad morphophonology
@@ -1138,42 +1138,42 @@ This file expresses Buryaad morphophonological alternation, from abstract underl
 This is a list of all symbols in use.
 
 
- * А Б В Г Д Е Ё Ж З И Й К Л М Н О    
-   Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ь Ы     
-   Ъ Э Ю Я							   = Capital letters
- * а б в г д е ё ж з и й к л м н о    
-   ө п р с т у ү ф х һ ц ч ш щ ь ы   
-   ъ э ю я							   = Small letters
- * %{A%}:а %{A%}:о %{A%}:э			   = archivowel A
- * %{A%}:я %{A%}:ё %{A%}:е			   = archivowel A
- * %{U%}:у %{U%}:ү  				   = archivowel U
- * %{Ө%}:а %{Ө%}:о %{Ө%}:э %{Ө%}:ө	   = archivowel Ө 
- * %{I%}:и %{I%}:ы %{I%}:0			   = archivowel I
- * %{Y%}:и %{Y%}:0               = archivowel Y, kept after Cns, deleted after Vow
- * %{D%}:т %{D%}:д					   = arciconsonant D
+* А Б В Г Д Е Ё Ж З И Й К Л М Н О    
+  Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ь Ы     
+  Ъ Э Ю Я							   = Capital letters
+* а б в г д е ё ж з и й к л м н о    
+  ө п р с т у ү ф х һ ц ч ш щ ь ы   
+  ъ э ю я							   = Small letters
+* %{A%}:а %{A%}:о %{A%}:э			   = archivowel A
+* %{A%}:я %{A%}:ё %{A%}:е			   = archivowel A
+* %{U%}:у %{U%}:ү  				   = archivowel U
+* %{Ө%}:а %{Ө%}:о %{Ө%}:э %{Ө%}:ө	   = archivowel Ө 
+* %{I%}:и %{I%}:ы %{I%}:0			   = archivowel I
+* %{Y%}:и %{Y%}:0               = archivowel Y, kept after Cns, deleted after Vow
+* %{D%}:т %{D%}:д					   = arciconsonant D
 
- * %> 		         = suffix border
- * а2:а я2:я        = invariant а/я in loanwords
- * м2:м        = м to be deleted for PxSg1
- * %^END:0	         = auxiliary end symbol to fix xerox bug
+* %> 		         = suffix border
+* а2:а я2:я        = invariant а/я in loanwords
+* м2:м        = м to be deleted for PxSg1
+* %^END:0	         = auxiliary end symbol to fix xerox bug
 
 
 # Sets
 
 Some of the symbols are bundled together in sets
 
- * RealVow =  А Е Ё И О Ө У Ү Ы Э Ю Я			   
-              а е ё и о ө у ү ы э ю я ;		   
- * ArchiVow = а2 %{A%} %{U%} %{Ө%} %{I%} %{Y%} ;  
- * RealCns =  Б В Г Д Ж З Й К Л М Н П Р С Т	   
-              Ф Х Һ Ц Ч Ш Щ Ь Ъ				   
-              б в г д ж з й к л м н п р с т	   
-              ф х һ ц ч ш щ ь ъ ;				   
- * ArchiCns = %{D%} ;							   
+* RealVow =  А Е Ё И О Ө У Ү Ы Э Ю Я			   
+             а е ё и о ө у ү ы э ю я ;		   
+* ArchiVow = а2 %{A%} %{U%} %{Ө%} %{I%} %{Y%} ;  
+* RealCns =  Б В Г Д Ж З Й К Л М Н П Р С Т	   
+             Ф Х Һ Ц Ч Ш Щ Ь Ъ				   
+             б в г д ж з й к л м н п р с т	   
+             ф х һ ц ч ш щ ь ъ ;				   
+* ArchiCns = %{D%} ;							   
 
- * Vow = RealVow ArchiVow ;   
- * Cns = RealCns ArchiCns ;   
- * Sgm = Vow Cns ;			   
+* Vow = RealVow ArchiVow ;   
+* Cns = RealCns ArchiCns ;   
+* Sgm = Vow Cns ;			   
 
 
 # Rules
@@ -1401,13 +1401,13 @@ Here come all the rules (marked with RULE:), and test cases.
 
 This file contains 40 postpositions
 
- LEXICON pp  = These are the indeclieable ones , tag +Po
+LEXICON pp  = These are the indeclieable ones , tag +Po
 
- LEXICON Postposition   = The lexicon
+LEXICON Postposition   = The lexicon
 
- * болон pp "until" ;   
- * болотор pp "until" ;   
- * гадна pp "besides" ;  ... 
+* болон pp "until" ;   
+* болотор pp "until" ;   
+* гадна pp "besides" ;  ... 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/postpositions.lexc)</small># Buryaad interjections
 
@@ -1422,16 +1422,16 @@ This file is still empty.
 
 Consider whether these are aeverbs.
 
- * LEXICON pcle  
-     - +Pcle: # ;  
+* LEXICON pcle  
+    - +Pcle: # ;  
 
- * LEXICON Particles   
+* LEXICON Particles   
 
-     - ааб pcle "" ;   
-     - бшуу pcle "" ;   
-     - бэ pcle "" ;   
-     - бэзэ pcle "" ;   
-     - бэлэй pcle "" ;   ...
+    - ааб pcle "" ;   
+    - бшуу pcle "" ;   
+    - бэ pcle "" ;   
+    - бэзэ pcle "" ;   
+    - бэлэй pcle "" ;   ...
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/particles.lexc)</small>
 # Buryaad proper nouns
@@ -1457,7 +1457,7 @@ This file is still empty.
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/conjunctions.lexc)</small># Buryaad noun stems
 
- * **LEXICON Noun ** the lexicon itself
+* **LEXICON Noun ** the lexicon itself
 
 There are some names here, they should eventually
 be moved to bxr-propernouns.lexc
@@ -1484,9 +1484,9 @@ This file contains pronouns.
 
 So far, the following pronouns are covered:
 
-LEXICON Pronoun   * **@CODE***
+LEXICON Pronoun  * **@CODE***
 
-Personal ;               - **@CODE***
+Personal ;              - **@CODE***
 
 
 
@@ -1526,15 +1526,15 @@ This file is still empty.
 
 This file is almost empty, it contains ca 40 verbs of 3 types, v1, v2, v3:
 
- * LEXICON Verb 
+* LEXICON Verb 
 
 Verbs marked aux may perhaps be changed to v1, ...
 
 It is unclear whether the distinction is morphologically relevant.
 
 Also, some of the aux-es may have wrong baseform.
-     - хүрэхэ:хүрэ v1 "reach" ; 
-     - һууха:һуу v2 "sit" ; 
+    - хүрэхэ:хүрэ v1 "reach" ; 
+    - һууха:һуу v2 "sit" ; 
 
 Here come the new verbs
 * * *
@@ -1559,14 +1559,14 @@ Here come the new verbs
 
 
 
-##  **LEXICON NUM-PREFIXES**@CODE@****
+##  **LEXICON NUM-PREFIXES**
 This lexicon contains a number of letters and other
 symbols found in front of digits. Their continuation
 lexicons should probably be changed as we restructure
 the arabic numerals.
 
 
-* **LEXICON ARABICnumerals** arabic numerals
+* **LEXICON ARABIC** arabic numerals
 
 
 
@@ -1590,16 +1590,16 @@ the arabic numerals.
 
 
 
-* **LEXICON ARABICLOOP**@CODE@****
+* **LEXICON ARABICLOOP**
 
 
 
-* **LEXICON ARABICLOOPORDordinals** ordinals
+* **LEXICON ARABICLOOPORD** ordinals
 
 
 
 
-* **LEXICON ARABICDELIMITERprefer?**  blank + 3 delim, what does the lg counc prefer?
+* **LEXICON ARABICDELIMITER**  blank + 3 delim, what does the lg counc prefer?
 
 
 
@@ -1608,53 +1608,53 @@ the arabic numerals.
 
 
 
-* **LEXICON ROMANnumerals**  roman numerals
+* **LEXICON ROMAN**  roman numerals
 
-* **LEXICON ROM-THOUSAND**@CODE@****
+* **LEXICON ROM-THOUSAND**
 
-* **LEXICON ROM-THOUSAND-TAG**@CODE@****
+* **LEXICON ROM-THOUSAND-TAG**
 
-* **LEXICON ROM-HUNDRED**@CODE@****
+* **LEXICON ROM-HUNDRED**
 
-* **LEXICON ROM-HUNDRED-TAG**@CODE@****
+* **LEXICON ROM-HUNDRED-TAG**
 
-* **LEXICON ROM-TEN**@CODE@****
+* **LEXICON ROM-TEN**
 
-* **LEXICON ROM-TEN-TAG**@CODE@****
+* **LEXICON ROM-TEN-TAG**
 
-* **LEXICON ROM-ONE**@CODE@****
+* **LEXICON ROM-ONE**
 
-* **LEXICON ROM-ONE-TAG**@CODE@****
+* **LEXICON ROM-ONE-TAG**
 
 
-* **LEXICON ROM-SPLIT**@CODE@****
+* **LEXICON ROM-SPLIT**
 
 
 
-* **LEXICON 2ROMAN**@CODE@****
+* **LEXICON 2ROMAN**
 
-* **LEXICON 2ROM-THOUSAND**@CODE@****
+* **LEXICON 2ROM-THOUSAND**
 
-* **LEXICON 2ROM-THOUSAND-TAG**@CODE@****
+* **LEXICON 2ROM-THOUSAND-TAG**
 
-* **LEXICON 2ROM-HUNDRED**@CODE@****
+* **LEXICON 2ROM-HUNDRED**
 
-* **LEXICON 2ROM-HUNDRED-TAG**@CODE@****
+* **LEXICON 2ROM-HUNDRED-TAG**
 
-* **LEXICON 2ROM-TEN**@CODE@****
+* **LEXICON 2ROM-TEN**
 
-* **LEXICON 2ROM-TEN-TAG**@CODE@****
+* **LEXICON 2ROM-TEN-TAG**
 
-* **LEXICON 2ROM-ONE**@CODE@****
+* **LEXICON 2ROM-ONE**
 
-* **LEXICON 2ROM-ONE-TAG**@CODE@****
+* **LEXICON 2ROM-ONE-TAG**
 
-* **LEXICON ROMNUMTAG**@CODE@****
+* **LEXICON ROMNUMTAG**
 
 
 
 
-* **LEXICON ISOLATED-NUMEXPexpressions** some isolated numeral expressions
+* **LEXICON ISOLATED-NUMEXP** some isolated numeral expressions
 
 
 
@@ -1685,12 +1685,12 @@ for text-to-speech systems.
 
 For example:
 
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
+* s.:syntynyt # ;  
+* os.:omaa% sukua # ;  
+* v.:vuosi # ;  
+* v.:vuonna # ;  
+* esim.:esimerkki # ; 
+* esim.:esimerkiksi # ; 
 
 
 * * *

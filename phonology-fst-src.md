@@ -9,42 +9,42 @@ This file expresses Buryaad morphophonological alternation, from abstract underl
 This is a list of all symbols in use.
 
 
- * А Б В Г Д Е Ё Ж З И Й К Л М Н О    
-   Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ь Ы     
-   Ъ Э Ю Я							   = Capital letters
- * а б в г д е ё ж з и й к л м н о    
-   ө п р с т у ү ф х һ ц ч ш щ ь ы   
-   ъ э ю я							   = Small letters
- * %{A%}:а %{A%}:о %{A%}:э			   = archivowel A
- * %{A%}:я %{A%}:ё %{A%}:е			   = archivowel A
- * %{U%}:у %{U%}:ү  				   = archivowel U
- * %{Ө%}:а %{Ө%}:о %{Ө%}:э %{Ө%}:ө	   = archivowel Ө 
- * %{I%}:и %{I%}:ы %{I%}:0			   = archivowel I
- * %{Y%}:и %{Y%}:0               = archivowel Y, kept after Cns, deleted after Vow
- * %{D%}:т %{D%}:д					   = arciconsonant D
+* А Б В Г Д Е Ё Ж З И Й К Л М Н О    
+  Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ь Ы     
+  Ъ Э Ю Я							   = Capital letters
+* а б в г д е ё ж з и й к л м н о    
+  ө п р с т у ү ф х һ ц ч ш щ ь ы   
+  ъ э ю я							   = Small letters
+* %{A%}:а %{A%}:о %{A%}:э			   = archivowel A
+* %{A%}:я %{A%}:ё %{A%}:е			   = archivowel A
+* %{U%}:у %{U%}:ү  				   = archivowel U
+* %{Ө%}:а %{Ө%}:о %{Ө%}:э %{Ө%}:ө	   = archivowel Ө 
+* %{I%}:и %{I%}:ы %{I%}:0			   = archivowel I
+* %{Y%}:и %{Y%}:0               = archivowel Y, kept after Cns, deleted after Vow
+* %{D%}:т %{D%}:д					   = arciconsonant D
 
- * %> 		         = suffix border
- * а2:а я2:я        = invariant а/я in loanwords
- * м2:м        = м to be deleted for PxSg1
- * %^END:0	         = auxiliary end symbol to fix xerox bug
+* %> 		         = suffix border
+* а2:а я2:я        = invariant а/я in loanwords
+* м2:м        = м to be deleted for PxSg1
+* %^END:0	         = auxiliary end symbol to fix xerox bug
 
 
 # Sets
 
 Some of the symbols are bundled together in sets
 
- * RealVow =  А Е Ё И О Ө У Ү Ы Э Ю Я			   
-              а е ё и о ө у ү ы э ю я ;		   
- * ArchiVow = а2 %{A%} %{U%} %{Ө%} %{I%} %{Y%} ;  
- * RealCns =  Б В Г Д Ж З Й К Л М Н П Р С Т	   
-              Ф Х Һ Ц Ч Ш Щ Ь Ъ				   
-              б в г д ж з й к л м н п р с т	   
-              ф х һ ц ч ш щ ь ъ ;				   
- * ArchiCns = %{D%} ;							   
+* RealVow =  А Е Ё И О Ө У Ү Ы Э Ю Я			   
+             а е ё и о ө у ү ы э ю я ;		   
+* ArchiVow = а2 %{A%} %{U%} %{Ө%} %{I%} %{Y%} ;  
+* RealCns =  Б В Г Д Ж З Й К Л М Н П Р С Т	   
+             Ф Х Һ Ц Ч Ш Щ Ь Ъ				   
+             б в г д ж з й к л м н п р с т	   
+             ф х һ ц ч ш щ ь ъ ;				   
+* ArchiCns = %{D%} ;							   
 
- * Vow = RealVow ArchiVow ;   
- * Cns = RealCns ArchiCns ;   
- * Sgm = Vow Cns ;			   
+* Vow = RealVow ArchiVow ;   
+* Cns = RealCns ArchiCns ;   
+* Sgm = Vow Cns ;			   
 
 
 # Rules

@@ -7,6 +7,10 @@
 
 This page documents the work on the [Russia Buriat language model](https://github.com/giellalt/lang-bxr). 
 
+It contains 20000 stems, and the basic nominal and verbal morphology.
+
+This site also contains a Buryaad keyboard layout.
+
 # Project documentation
 
 * [Topics for analyser work, summer 2018](Topics.html)

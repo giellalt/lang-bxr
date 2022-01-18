@@ -1,6 +1,6 @@
 # Buryaad noun stems
 
- * **LEXICON Noun ** the lexicon itself
+* **LEXICON Noun ** the lexicon itself
 
 There are some names here, they should eventually
 be moved to bxr-propernouns.lexc
