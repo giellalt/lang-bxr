@@ -1,4 +1,203 @@
+This is the Eastern Mari disambiguation file. It chooses
+the correct morphological analyses in any given sentence context.
 
+The file first defines sentence delimiters and tags and sets.
+Thereafter come the rules, each rule is listed below.
+
+TODO: adapt it to BURYAAD
+
+
+# Sentence delimiters
+
+The delimiters are: "<.>" "<!>" "<?>" "<...>" "<¶>" sent
+
+
+
+
+The **Tags** section lists all the tags inherited from the fst, and defines them for
+use in the syntactic analysis.
+The tags are documented in the root.lexc file, and here only listed for reference.
+
+The next section, **Sets**, contains sets defined
+on the basis of the tags listed here, those set names are not visible in the output.
+
+
+
+
+
+## Tags
+
+
+
+### Beginning and end of sentence
+
+BOS
+EOS
+
+### Clause boundary
+
+
+### Parts of speech tags
+
+N
+V
+A
+Adv
+CC
+CS
+Interj
+Pron
+Num
+Pcle
+Clt
+Po
+
+WORD is the set of all POS
+
+### Verbal tense and mood tags
+Prs
+Prt1
+Prt2
+Fut
+Imprt
+Ind
+Cond
+Des
+
+### Other verbal tags
+Act
+ConNeg
+FutPrc
+Ger
+Inf
+Nec
+Neg
+NegPrc
+Pass
+PrfPrc
+
+Verbal person-number tags
+Sg1
+Sg2
+Sg3
+Pl1
+Pl2
+Pl3
+
+
+
+
+
+
+### Numeral tags
+
+Sg
+Pl
+
+### Case tags
+
+Nom
+Gen
+Abl
+Dat
+Com
+Cns
+Acc
+Ins
+Ine
+Ill
+Cmpr (case)
+
+### Other nominal tags
+
+Pers
+Refl
+Rel
+Interr
+Recipr
+Dem
+ABBR
+
+### Adjective comparison tags
+
+Pos (?)
+Superl
+Comp
+
+### Possessive suffix tags
+
+PxSg1
+PxSg2
+PxSg3
+PxPl1
+PxPl2
+PxPl3
+
+### Numeral tags
+
+Card
+Coll
+Ord
+Temp (?)
+
+### Punctuation marks
+
+CLB
+PUCT
+LEFT
+RIGHT
+COMMA
+
+### Derivation tags
+Der/MWN
+Der/sa
+
+### Particles
+Qst
+Foc
+
+
+### Tags for internal testing
+CmpTest
+Err
+
+
+
+## Sets
+
+* **CASE** = all cases
+* **OBLCASE** = All cases except Nom
+* **VFIN** = All moods
+
+
+
+
+
+
+
+# Rule section
+
+
+
+## Early, contextless rules
+
+## Phrase internal rules
+
+## Verb disambituation rules
+
+### Participles
+
+
+Plural verbforms
+* **BolonBusad** and others gives plural
+
+ConMod
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-bxr/blob/main/../src/cg3/disambiguator.cg3)</small>
 
 
 
@@ -606,516 +805,7 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-bxr/blob/main/../src/cg3/functions.cg3)</small>This is the Eastern Mari disambiguation file. It chooses
-the correct morphological analyses in any given sentence context.
-
-The file first defines sentence delimiters and tags and sets.
-Thereafter come the rules, each rule is listed below.
-
-TODO: adapt it to BURYAAD
-
-
-# Sentence delimiters
-
-The delimiters are: "<.>" "<!>" "<?>" "<...>" "<¶>" sent
-
-
-
-
-The **Tags** section lists all the tags inherited from the fst, and defines them for
-use in the syntactic analysis.
-The tags are documented in the root.lexc file, and here only listed for reference.
-
-The next section, **Sets**, contains sets defined
-on the basis of the tags listed here, those set names are not visible in the output.
-
-
-
-
-
-## Tags
-
-
-
-### Beginning and end of sentence
-
-BOS
-EOS
-
-### Clause boundary
-
-
-### Parts of speech tags
-
-N
-V
-A
-Adv
-CC
-CS
-Interj
-Pron
-Num
-Pcle
-Clt
-Po
-
-WORD is the set of all POS
-
-### Verbal tense and mood tags
-Prs
-Prt1
-Prt2
-Fut
-Imprt
-Ind
-Cond
-Des
-
-### Other verbal tags
-Act
-ConNeg
-FutPrc
-Ger
-Inf
-Nec
-Neg
-NegPrc
-Pass
-PrfPrc
-
-Verbal person-number tags
-Sg1
-Sg2
-Sg3
-Pl1
-Pl2
-Pl3
-
-
-
-
-
-
-### Numeral tags
-
-Sg
-Pl
-
-### Case tags
-
-Nom
-Gen
-Abl
-Dat
-Com
-Cns
-Acc
-Ins
-Ine
-Ill
-Cmpr (case)
-
-### Other nominal tags
-
-Pers
-Refl
-Rel
-Interr
-Recipr
-Dem
-ABBR
-
-### Adjective comparison tags
-
-Pos (?)
-Superl
-Comp
-
-### Possessive suffix tags
-
-PxSg1
-PxSg2
-PxSg3
-PxPl1
-PxPl2
-PxPl3
-
-### Numeral tags
-
-Card
-Coll
-Ord
-Temp (?)
-
-### Punctuation marks
-
-CLB
-PUCT
-LEFT
-RIGHT
-COMMA
-
-### Derivation tags
-Der/MWN
-Der/sa
-
-### Particles
-Qst
-Foc
-
-
-### Tags for internal testing
-CmpTest
-Err
-
-
-
-## Sets
-
-* **CASE** = all cases
-* **OBLCASE** = All cases except Nom
-* **VFIN** = All moods
-
-
-
-
-
-
-
-# Rule section
-
-
-
-## Early, contextless rules
-
-## Phrase internal rules
-
-## Verb disambituation rules
-
-### Participles
-
-
-Plural verbforms
-* **BolonBusad** and others gives plural
-
-ConMod
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-bxr/blob/main/../src/cg3/disambiguator.cg3)</small>
-# Buryaad morphological analyser                      !
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
-
-# Definitions for Multichar_Symbols
-
-* +N	      Noun 
-* +V	      Verb
-* +A	      Adjective
-* +Adv      Adverb
-* +Pcle      Particles (Probably adverbs, look into this)
-* +CC	      Conjunction
-* +CS	      Subjunction
-* +Interj   Interjection
-* +Pron     Pronoun
-* +Prop     Propernoun
-* +Num      Numaral
-* +Det      Determiner (Demonstrative?)
-* +Po      Postposition
-* +Symbol = independent symbols in the text stream, like £, €, ©
-
-* +Prs     Present
-* +Fut     Future
-* +Prt     Preterite
-* +Prf     Perfect
-* +Ind     Indicative
-* +Imp     Imperative
-* +Cond    Conditional
-* +Opt     Optative
-* +Vol     Voluntative
-* +Dur     Durative
-* +Term     Terminative
-* +Conf     Conf
-
-* +Sg1     first person singular
-* +Sg2     second person singular
-* +Sg3     third person singular
-* +Pl1     first person plural
-* +Pl2     second person plural
-* +Pl3     third person plural
-
-* +Inf     Infinitive
-* +Pos     Positive
-* +Neg     Negative
-
-* +TV     Transitive
-* +IV      Intransitive
-
-* +Sg      Singular
-* +Pl      Plural
-
-* +Nom     Nominative
-* +Acc     Accusative
-* +Gen     Genitive
-* +Abl     Ablative
-* +Dat     Dative
-* +Ins     Instrumental
-* +Com     Comitative
-* +Ord     Ordinal
-* +Presc    Prescriptive mood
-
-
-* +AgPrc   
-* +AgConstPrc   
-* +DualPrc      
-* +FutPrc	      
-* +HabPrc	      
-* +ImpfPrc      
-* +PassPrc      
-* +PrfPrc       
-* +PotPrc	      
-* +PrsPrc	      
-* +ResPrc	      
-
-* +ConMod    
-* +ConImpf    
-* +ConPrf    
-* +ConCond    
-* +ConConc    
-* +ConTerm    
-* +ConCntmp    
-* +ConAbtmp    
-* +ConFin    
-* +ConIntnt    
-* +ConSucc    
-* +ConCmp    
-
-
-* +PxSg1   first person singular possessive
-* +PxSg2   second person singular possessive
-* +PxSg3   third person singular possessive
-* +PxPl1   first person plural possessive
-* +PxPl2   second person plural possessive
-* +PxPl3   third person plural possessive
-* +Px3   third person plural possessive
-
-# Semantic tags
-* +Sem/Mal    
-
-# Other tags
-To be properly organised
-
-* %{A%}   letter class 
-* %{D%}   letter class 
-* %{G%}   letter class 
-* %{I%}   letter class 
-* %{J%}   letter class 
-* %{U%}   letter class 
-* %{V%}   letter class 
-* %{Ө%}   letter class 
-* %{Y%}   kept after Cns, deleted after Vow
-
-
-
-* а2 я2 м2  these are а and я in Russian loanwords that do not weaken to ых
-
-* %^END   we do the mhr trick to harmonise twolc and lexc
-
-## Usage tags
-
-* +Use/NG   Do not generate 
-
-
-## Symbols that need to be escaped on the lower side (towards twolc):
-* **»7**:  Literal »
-* **«7**:  Literal «
-```
- %[%>%]  - Literal >
- %[%<%]  - Literal <
-```
-
-
-## Flag diacritics
-We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morhpological combinatorics - only allow compounds
-with verbs if the verb is further derived into a noun again:
-|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
-|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
-|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
-
-For languages that allow compounding, the following flag diacritics are needed
-to control position-based compounding restrictions for nominals. Their use is
-handled automatically if combined with +CmpN/xxx tags. If not used, they will
-do no harm.
-|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
-|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
-|  @P.CmpPref.FALSE@ | Block these words from making further compounds
-|  @D.CmpLast.TRUE@ | Block such words from entering R
-|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
-|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
-|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
-|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
-
-Use the following flag diacritics to control downcasing of derived proper
-nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
-these flags. There exists a ready-made regex that will do the actual down-casing
-given the proper use of these flags.
-|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
-|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
-
-Key lexicon
-
-**LEXICON Root ** is where it all starts, with these lexica:
-
-* Noun ;				   
-* urj-Cyrl-ProperNouns ; 
-* bxr-Propernouns ;	   
-* Verb ;				   
-* Adjective ;			   
-* Adverb ;			   
-* Subjunction ;		   
-* Interjection ;		   
-* Pronoun ;			   
-* Propernoun ;			   
-* Postposition ;		    
-* Particles ;		    , these should rather be adverbs
-* Punctuation ;		   
-* Symbols     ;		   
-* Conjunction ;		   
-* Numeral ;		    
-* Abbreviation ;		    
-* * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/root.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/symbols.lexc)</small># Buryaad noun affixes
-
-We have two lexica, n1 and n2, 
-n1 with -нар plural and V-initial Gen, Ins, and
-n2 with -ууд plural and г-initial Gen, Ins
-
-The noun classes
-
-* **LEXICON nx ** unclassified nouns, to n2 for now
-
-* **LEXICON n1 ** with Gen -IIN, and -нар- suffix for oblique cases
-
-* **LEXICON n2 ** with Gen -GAj and -ууд suffič for oblique cases
-
-The class-specific case morphology (Gen, Ins)
-* **LEXICON case1 ** Gen, Ins for n1 nouns, and pointing to common cases
-
-* **LEXICON case2 ** Gen, Ins for n2 nouns, and pointing to common cases
-
-* **LEXICON case3 ** case3 are numerals, for now pointing to case2
-
-The morphology common to the different stem classes
-
-* **LEXICON commoncase  ** common treatment of Nom, Dat, Acc, Abl, Com for all nouns
-
-* **LEXICON Poss ** for Px, common for all nouns
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/nouns.lexc)</small>
-# Buryaad adjective morphology
-
-LEXICON adj  just adding the +A tag.
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/adjectives.lexc)</small># Buryaad verb affixes
-
-This is the file for Buryaad verb morphology. The documentation
-shortly explains the rationale behind each continuation lexicon.
-
-
-## The verb classes
-
-### Auxiliary verbs
-
-No auxiliary verbs for now.
-
-### Ordinary verbs
-
-v1 the default verb category, v2 stem in long vowel or ditphtong, 
-v3 stem in и
-The difference comes for the non-indicative forms, thus
-all verb types point to the same finite_indicative.
-
-* LEXICON v1t  the transitive v1 verbs (add +TV and go on)
-
-* LEXICON v1i  the intransitive v1 verbs (add +IV and go on)
-
-* LEXICON v1  the v1 verbs not yet classified for transitivity
-
-* LEXICON v2t  the transitive v2 verbs (add +TV and go on)
-
-* LEXICON v2i  the intransitive v2 verbs (add +IV and go on)
-
-* **LEXICON v2 ** stem in long vowel or diphthong
-
-* LEXICON v3t  the transitive v3 verbs (add +TV and go on)
-
-* LEXICON v3i  the intransitive v3 verbs (add +IV and go on)
-
-
-* **LEXICON v3 ** stem in и
-
-## Verb morphology
-We see the contlexes as two layers: The first layer to divide
-the different stem types into different suffix lexica, and
-the one for these suffixes.
-
-### Layer one: Dividing v1, v2, v3 into suffix lexica
-
-
-* **LEXICON v1lex ** the common v1 morphology
-
-* **LEXICON v2lex ** the common v2 morphology
-
-
-
-### Layer two: The suffix lexica themselves.
-
-* **LEXICON persprd  ** for suffixes: б, ш, ...
-
-* **LEXICON persprd2  ** for suffixes: би, ши, ...
-
-
-* **LEXICON imperative   ** for imperative suffixes (Sg2, Pl2)
-
-* **LEXICON voluntative   ** for suffixes: яа, 0, ...
-
-* **LEXICON optative   ** for suffixes: -һууб, ...
-
-* **LEXICON presc  ** for suffixes: -арайгтыт, ...
-
-* **LEXICON participles   ** giving 11 different participle tags: +FutPrc, +ImpPrc, ...
-
-* **LEXICON ptc   ** either stop or go to persprd suff
-
-* **LEXICON ptc2   ** either stop or go to persprd2 suff
-
-* **LEXICON converbs   ** listing 12 converb suffixes: -н, -жа, ...
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/verbs.lexc)</small># Buryaad proper noun morphology
-
-This file add +N+Prop and points to the noun case morphology
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-bxr/blob/main/../src/cg3/functions.cg3)</small>
 
 ## Buryaad clitics
 
@@ -1397,19 +1087,317 @@ Here come all the rules (marked with RULE:), and test cases.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/phonology.twolc)</small># Buryaad postpositions
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/phonology.twolc)</small>
+# Buryaad morphological analyser                      !
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 
-This file contains 40 postpositions
+# Definitions for Multichar_Symbols
 
-LEXICON pp  = These are the indeclieable ones , tag +Po
+* +N	      Noun 
+* +V	      Verb
+* +A	      Adjective
+* +Adv      Adverb
+* +Pcle      Particles (Probably adverbs, look into this)
+* +CC	      Conjunction
+* +CS	      Subjunction
+* +Interj   Interjection
+* +Pron     Pronoun
+* +Prop     Propernoun
+* +Num      Numaral
+* +Det      Determiner (Demonstrative?)
+* +Po      Postposition
+* +Symbol = independent symbols in the text stream, like £, €, ©
 
-LEXICON Postposition   = The lexicon
+* +Prs     Present
+* +Fut     Future
+* +Prt     Preterite
+* +Prf     Perfect
+* +Ind     Indicative
+* +Imp     Imperative
+* +Cond    Conditional
+* +Opt     Optative
+* +Vol     Voluntative
+* +Dur     Durative
+* +Term     Terminative
+* +Conf     Conf
 
-* болон pp "until" ;   
-* болотор pp "until" ;   
-* гадна pp "besides" ;  ... 
+* +Sg1     first person singular
+* +Sg2     second person singular
+* +Sg3     third person singular
+* +Pl1     first person plural
+* +Pl2     second person plural
+* +Pl3     third person plural
+
+* +Inf     Infinitive
+* +Pos     Positive
+* +Neg     Negative
+
+* +TV     Transitive
+* +IV      Intransitive
+
+* +Sg      Singular
+* +Pl      Plural
+
+* +Nom     Nominative
+* +Acc     Accusative
+* +Gen     Genitive
+* +Abl     Ablative
+* +Dat     Dative
+* +Ins     Instrumental
+* +Com     Comitative
+* +Ord     Ordinal
+* +Presc    Prescriptive mood
+
+
+* +AgPrc   
+* +AgConstPrc   
+* +DualPrc      
+* +FutPrc	      
+* +HabPrc	      
+* +ImpfPrc      
+* +PassPrc      
+* +PrfPrc       
+* +PotPrc	      
+* +PrsPrc	      
+* +ResPrc	      
+
+* +ConMod    
+* +ConImpf    
+* +ConPrf    
+* +ConCond    
+* +ConConc    
+* +ConTerm    
+* +ConCntmp    
+* +ConAbtmp    
+* +ConFin    
+* +ConIntnt    
+* +ConSucc    
+* +ConCmp    
+
+
+* +PxSg1   first person singular possessive
+* +PxSg2   second person singular possessive
+* +PxSg3   third person singular possessive
+* +PxPl1   first person plural possessive
+* +PxPl2   second person plural possessive
+* +PxPl3   third person plural possessive
+* +Px3   third person plural possessive
+
+# Semantic tags
+* +Sem/Mal    
+
+# Other tags
+To be properly organised
+
+* %{A%}   letter class 
+* %{D%}   letter class 
+* %{G%}   letter class 
+* %{I%}   letter class 
+* %{J%}   letter class 
+* %{U%}   letter class 
+* %{V%}   letter class 
+* %{Ө%}   letter class 
+* %{Y%}   kept after Cns, deleted after Vow
+
+
+
+* а2 я2 м2  these are а and я in Russian loanwords that do not weaken to ых
+
+* %^END   we do the mhr trick to harmonise twolc and lexc
+
+## Usage tags
+
+* +Use/NG   Do not generate 
+
+
+## Symbols that need to be escaped on the lower side (towards twolc):
+* **»7**:  Literal »
+* **«7**:  Literal «
+```
+ %[%>%]  - Literal >
+ %[%<%]  - Literal <
+```
+
+
+## Flag diacritics
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics - only allow compounds
+with verbs if the verb is further derived into a noun again:
+|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+
+For languages that allow compounding, the following flag diacritics are needed
+to control position-based compounding restrictions for nominals. Their use is
+handled automatically if combined with +CmpN/xxx tags. If not used, they will
+do no harm.
+|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@ | Block these words from making further compounds
+|  @D.CmpLast.TRUE@ | Block such words from entering R
+|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+
+Use the following flag diacritics to control downcasing of derived proper
+nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+these flags. There exists a ready-made regex that will do the actual down-casing
+given the proper use of these flags.
+|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+Key lexicon
+
+**LEXICON Root ** is where it all starts, with these lexica:
+
+* Noun ;				   
+* urj-Cyrl-ProperNouns ; 
+* bxr-Propernouns ;	   
+* Verb ;				   
+* Adjective ;			   
+* Adverb ;			   
+* Subjunction ;		   
+* Interjection ;		   
+* Pronoun ;			   
+* Propernoun ;			   
+* Postposition ;		    
+* Particles ;		    , these should rather be adverbs
+* Punctuation ;		   
+* Symbols     ;		   
+* Conjunction ;		   
+* Numeral ;		    
+* Abbreviation ;		    
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/postpositions.lexc)</small># Buryaad interjections
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/root.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/symbols.lexc)</small># Buryaad proper noun morphology
+
+This file add +N+Prop and points to the noun case morphology
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/propernouns.lexc)</small># Buryaad verb affixes
+
+This is the file for Buryaad verb morphology. The documentation
+shortly explains the rationale behind each continuation lexicon.
+
+
+## The verb classes
+
+### Auxiliary verbs
+
+No auxiliary verbs for now.
+
+### Ordinary verbs
+
+v1 the default verb category, v2 stem in long vowel or ditphtong, 
+v3 stem in и
+The difference comes for the non-indicative forms, thus
+all verb types point to the same finite_indicative.
+
+* LEXICON v1t  the transitive v1 verbs (add +TV and go on)
+
+* LEXICON v1i  the intransitive v1 verbs (add +IV and go on)
+
+* LEXICON v1  the v1 verbs not yet classified for transitivity
+
+* LEXICON v2t  the transitive v2 verbs (add +TV and go on)
+
+* LEXICON v2i  the intransitive v2 verbs (add +IV and go on)
+
+* **LEXICON v2 ** stem in long vowel or diphthong
+
+* LEXICON v3t  the transitive v3 verbs (add +TV and go on)
+
+* LEXICON v3i  the intransitive v3 verbs (add +IV and go on)
+
+
+* **LEXICON v3 ** stem in и
+
+## Verb morphology
+We see the contlexes as two layers: The first layer to divide
+the different stem types into different suffix lexica, and
+the one for these suffixes.
+
+### Layer one: Dividing v1, v2, v3 into suffix lexica
+
+
+* **LEXICON v1lex ** the common v1 morphology
+
+* **LEXICON v2lex ** the common v2 morphology
+
+
+
+### Layer two: The suffix lexica themselves.
+
+* **LEXICON persprd  ** for suffixes: б, ш, ...
+
+* **LEXICON persprd2  ** for suffixes: би, ши, ...
+
+
+* **LEXICON imperative   ** for imperative suffixes (Sg2, Pl2)
+
+* **LEXICON voluntative   ** for suffixes: яа, 0, ...
+
+* **LEXICON optative   ** for suffixes: -һууб, ...
+
+* **LEXICON presc  ** for suffixes: -арайгтыт, ...
+
+* **LEXICON participles   ** giving 11 different participle tags: +FutPrc, +ImpPrc, ...
+
+* **LEXICON ptc   ** either stop or go to persprd suff
+
+* **LEXICON ptc2   ** either stop or go to persprd2 suff
+
+* **LEXICON converbs   ** listing 12 converb suffixes: -н, -жа, ...
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/verbs.lexc)</small>
+# Buryaad adjective morphology
+
+LEXICON adj  just adding the +A tag.
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/adjectives.lexc)</small># Buryaad noun affixes
+
+We have two lexica, n1 and n2, 
+n1 with -нар plural and V-initial Gen, Ins, and
+n2 with -ууд plural and г-initial Gen, Ins
+
+The noun classes
+
+* **LEXICON nx ** unclassified nouns, to n2 for now
+
+* **LEXICON n1 ** with Gen -IIN, and -нар- suffix for oblique cases
+
+* **LEXICON n2 ** with Gen -GAj and -ууд suffič for oblique cases
+
+The class-specific case morphology (Gen, Ins)
+* **LEXICON case1 ** Gen, Ins for n1 nouns, and pointing to common cases
+
+* **LEXICON case2 ** Gen, Ins for n2 nouns, and pointing to common cases
+
+* **LEXICON case3 ** case3 are numerals, for now pointing to case2
+
+The morphology common to the different stem classes
+
+* **LEXICON commoncase  ** common treatment of Nom, Dat, Acc, Abl, Com for all nouns
+
+* **LEXICON Poss ** for Px, common for all nouns
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/nouns.lexc)</small># Buryaad interjections
 
 This file is still empty.
 
@@ -1417,23 +1405,30 @@ This file is still empty.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/interjections.lexc)</small>
-# Buryaad particles
+<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/interjections.lexc)</small># Buryaad conjunctions
 
-Consider whether these are aeverbs.
+This file is still empty.
 
-* LEXICON pcle  
-    - +Pcle: # ;  
 
-* LEXICON Particles   
 
-    - ааб pcle "" ;   
-    - бшуу pcle "" ;   
-    - бэ pcle "" ;   
-    - бэзэ pcle "" ;   
-    - бэлэй pcle "" ;   ...
+
+
+
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/particles.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/conjunctions.lexc)</small># Buryaad subjunctions
+
+This file is still empty.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/subjunctions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/subjunctions.lexc)</small>
+# Propernouns
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/propernouns.lexc)</small>
 # Buryaad proper nouns
 
 This file is still empty.
@@ -1444,85 +1439,7 @@ and international names will be taken from the urj-Cyrl file.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/bxr-propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/bxr-propernouns.lexc)</small># Buryaad conjunctions
-
-This file is still empty.
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/conjunctions.lexc)</small># Buryaad noun stems
-
-* **LEXICON Noun ** the lexicon itself
-
-There are some names here, they should eventually
-be moved to bxr-propernouns.lexc
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/nouns.lexc)</small># Buryaad adjectives
-
-here there are some 500 adjectives from the Apertium source files.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/adjectives.lexc)</small># Buryaad pronouns
-
-This file contains pronouns.
-
-So far, the following pronouns are covered:
-
-LEXICON Pronoun  * **@CODE***
-
-Personal ;              - **@CODE***
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/pronouns.lexc)</small># Buryaad subjunctions
-
-This file is still empty.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/subjunctions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/subjunctions.lexc)</small># Buryaad verbs
+<small>This (part of) documentation was generated from [../src/fst/stems/bxr-propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/bxr-propernouns.lexc)</small># Buryaad verbs
 
 This file is almost empty, it contains ca 40 verbs of 3 types, v1, v2, v3:
 
@@ -1538,7 +1455,13 @@ Also, some of the aux-es may have wrong baseform.
 
 Here come the new verbs
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/verbs.lexc)</small># Buryaad adjectives
+
+here there are some 500 adjectives from the Apertium source files.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/adjectives.lexc)</small>
 
 
 
@@ -1662,7 +1585,90 @@ the arabic numerals.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/numerals.lexc)</small># Buryaad noun stems
+
+* **LEXICON Noun ** the lexicon itself
+
+There are some names here, they should eventually
+be moved to bxr-propernouns.lexc
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/nouns.lexc)</small># Buryaad pronouns
+
+This file contains pronouns.
+
+So far, the following pronouns are covered:
+
+LEXICON Pronoun  * **@CODE***
+
+Personal ;              - **@CODE***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/pronouns.lexc)</small># Buryaad postpositions
+
+This file contains 40 postpositions
+
+LEXICON pp  = These are the indeclieable ones , tag +Po
+
+LEXICON Postposition   = The lexicon
+
+* болон pp "until" ;   
+* болотор pp "until" ;   
+* гадна pp "besides" ;  ... 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/postpositions.lexc)</small>
+# Buryaad particles
+
+Consider whether these are aeverbs.
+
+* LEXICON pcle  
+    - +Pcle: # ;  
+
+* LEXICON Particles   
+
+    - ааб pcle "" ;   
+    - бшуу pcle "" ;   
+    - бэ pcle "" ;   
+    - бэзэ pcle "" ;   
+    - бэлэй pcle "" ;   ...
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/particles.lexc)</small>
 # Buryaad adverbs
 
 Here follows a lost of some 20 adverbs.
@@ -1672,12 +1678,6 @@ Here follows a lost of some 20 adverbs.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/adverbs.lexc)</small>
-# Propernouns
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/propernouns.lexc)</small>
 
 
 We describe here how abbreviations are in Russia Buriat are read out, e.g.
