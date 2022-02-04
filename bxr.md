@@ -805,19 +805,7 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-bxr/blob/main/../src/cg3/functions.cg3)</small>
-
-## Buryaad clitics
-
-This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
-
-* **LEXICON K  ** , in principle containing clitics, but no one so far, and pointing to ENDLEX
-
-
-* **LEXICON ENDLEX ** is the lexicon adding ^END, for technical reasons.
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/clitics.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/clitics.lexc)</small># Buryaad morphophonology
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-bxr/blob/main/../src/cg3/functions.cg3)</small># Buryaad morphophonology
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-bxr/blob/main/src/fst/phonology.twolc) 
 
@@ -1087,7 +1075,427 @@ Here come all the rules (marked with RULE:), and test cases.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/phonology.twolc)</small># Buryaad noun stems
+
+* **LEXICON Noun ** the lexicon itself
+
+There are some names here, they should eventually
+be moved to bxr-propernouns.lexc
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/nouns.lexc)</small>
+# Buryaad particles
+
+Consider whether these are aeverbs.
+
+* LEXICON pcle  
+    - +Pcle: # ;  
+
+* LEXICON Particles   
+
+    - ааб pcle "" ;   
+    - бшуу pcle "" ;   
+    - бэ pcle "" ;   
+    - бэзэ pcle "" ;   
+    - бэлэй pcle "" ;   ...
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/particles.lexc)</small>
+# Buryaad adverbs
+
+Here follows a lost of some 20 adverbs.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/adverbs.lexc)</small># Buryaad interjections
+
+This file is still empty.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/interjections.lexc)</small># Buryaad pronouns
+
+This file contains pronouns.
+
+So far, the following pronouns are covered:
+
+LEXICON Pronoun  * **@CODE***
+
+Personal ;              - **@CODE***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/pronouns.lexc)</small># Buryaad subjunctions
+
+This file is still empty.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/subjunctions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/subjunctions.lexc)</small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##  **LEXICON NUM-PREFIXES**
+This lexicon contains a number of letters and other
+symbols found in front of digits. Their continuation
+lexicons should probably be changed as we restructure
+the arabic numerals.
+
+
+* **LEXICON ARABIC** arabic numerals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **LEXICON ARABICLOOP**
+
+
+
+* **LEXICON ARABICLOOPORD** ordinals
+
+
+
+
+* **LEXICON ARABICDELIMITER**  blank + 3 delim, what does the lg counc prefer?
+
+
+
+
+
+
+
+
+* **LEXICON ROMAN**  roman numerals
+
+* **LEXICON ROM-THOUSAND**
+
+* **LEXICON ROM-THOUSAND-TAG**
+
+* **LEXICON ROM-HUNDRED**
+
+* **LEXICON ROM-HUNDRED-TAG**
+
+* **LEXICON ROM-TEN**
+
+* **LEXICON ROM-TEN-TAG**
+
+* **LEXICON ROM-ONE**
+
+* **LEXICON ROM-ONE-TAG**
+
+
+* **LEXICON ROM-SPLIT**
+
+
+
+* **LEXICON 2ROMAN**
+
+* **LEXICON 2ROM-THOUSAND**
+
+* **LEXICON 2ROM-THOUSAND-TAG**
+
+* **LEXICON 2ROM-HUNDRED**
+
+* **LEXICON 2ROM-HUNDRED-TAG**
+
+* **LEXICON 2ROM-TEN**
+
+* **LEXICON 2ROM-TEN-TAG**
+
+* **LEXICON 2ROM-ONE**
+
+* **LEXICON 2ROM-ONE-TAG**
+
+* **LEXICON ROMNUMTAG**
+
+
+
+
+* **LEXICON ISOLATED-NUMEXP** some isolated numeral expressions
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/numerals.lexc)</small># Buryaad postpositions
+
+This file contains 40 postpositions
+
+LEXICON pp  = These are the indeclieable ones , tag +Po
+
+LEXICON Postposition   = The lexicon
+
+* болон pp "until" ;   
+* болотор pp "until" ;   
+* гадна pp "besides" ;  ... 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/postpositions.lexc)</small>
+# Propernouns
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/propernouns.lexc)</small>
+# Buryaad proper nouns
+
+This file is still empty.
+
+It will eventually contain Buryaad-specific names. General Russian
+and international names will be taken from the urj-Cyrl file.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/bxr-propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/bxr-propernouns.lexc)</small># Buryaad adjectives
+
+here there are some 500 adjectives from the Apertium source files.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/adjectives.lexc)</small># Buryaad verbs
+
+This file is almost empty, it contains ca 40 verbs of 3 types, v1, v2, v3:
+
+* LEXICON Verb 
+
+Verbs marked aux may perhaps be changed to v1, ...
+
+It is unclear whether the distinction is morphologically relevant.
+
+Also, some of the aux-es may have wrong baseform.
+    - хүрэхэ:хүрэ v1 "reach" ; 
+    - һууха:һуу v2 "sit" ; 
+
+Here come the new verbs
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/verbs.lexc)</small># Buryaad conjunctions
+
+This file is still empty.
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/conjunctions.lexc)</small>
+
+## Buryaad clitics
+
+This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
+
+* **LEXICON K  ** , in principle containing clitics, but no one so far, and pointing to ENDLEX
+
+
+* **LEXICON ENDLEX ** is the lexicon adding ^END, for technical reasons.
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/clitics.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/clitics.lexc)</small># Buryaad noun affixes
+
+We have two lexica, n1 and n2, 
+n1 with -нар plural and V-initial Gen, Ins, and
+n2 with -ууд plural and г-initial Gen, Ins
+
+The noun classes
+
+* **LEXICON nx ** unclassified nouns, to n2 for now
+
+* **LEXICON n1 ** with Gen -IIN, and -нар- suffix for oblique cases
+
+* **LEXICON n2 ** with Gen -GAj and -ууд suffič for oblique cases
+
+The class-specific case morphology (Gen, Ins)
+* **LEXICON case1 ** Gen, Ins for n1 nouns, and pointing to common cases
+
+* **LEXICON case2 ** Gen, Ins for n2 nouns, and pointing to common cases
+
+* **LEXICON case3 ** case3 are numerals, for now pointing to case2
+
+The morphology common to the different stem classes
+
+* **LEXICON commoncase  ** common treatment of Nom, Dat, Acc, Abl, Com for all nouns
+
+* **LEXICON Poss ** for Px, common for all nouns
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/nouns.lexc)</small># Buryaad proper noun morphology
+
+This file add +N+Prop and points to the noun case morphology
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+# Buryaad adjective morphology
+
+LEXICON adj  just adding the +A tag.
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/adjectives.lexc)</small># Buryaad verb affixes
+
+This is the file for Buryaad verb morphology. The documentation
+shortly explains the rationale behind each continuation lexicon.
+
+
+## The verb classes
+
+### Auxiliary verbs
+
+No auxiliary verbs for now.
+
+### Ordinary verbs
+
+v1 the default verb category, v2 stem in long vowel or ditphtong, 
+v3 stem in и
+The difference comes for the non-indicative forms, thus
+all verb types point to the same finite_indicative.
+
+* LEXICON v1t  the transitive v1 verbs (add +TV and go on)
+
+* LEXICON v1i  the intransitive v1 verbs (add +IV and go on)
+
+* LEXICON v1  the v1 verbs not yet classified for transitivity
+
+* LEXICON v2t  the transitive v2 verbs (add +TV and go on)
+
+* LEXICON v2i  the intransitive v2 verbs (add +IV and go on)
+
+* **LEXICON v2 ** stem in long vowel or diphthong
+
+* LEXICON v3t  the transitive v3 verbs (add +TV and go on)
+
+* LEXICON v3i  the intransitive v3 verbs (add +IV and go on)
+
+
+* **LEXICON v3 ** stem in и
+
+## Verb morphology
+We see the contlexes as two layers: The first layer to divide
+the different stem types into different suffix lexica, and
+the one for these suffixes.
+
+### Layer one: Dividing v1, v2, v3 into suffix lexica
+
+
+* **LEXICON v1lex ** the common v1 morphology
+
+* **LEXICON v2lex ** the common v2 morphology
+
+
+
+### Layer two: The suffix lexica themselves.
+
+* **LEXICON persprd  ** for suffixes: б, ш, ...
+
+* **LEXICON persprd2  ** for suffixes: би, ши, ...
+
+
+* **LEXICON imperative   ** for imperative suffixes (Sg2, Pl2)
+
+* **LEXICON voluntative   ** for suffixes: яа, 0, ...
+
+* **LEXICON optative   ** for suffixes: -һууб, ...
+
+* **LEXICON presc  ** for suffixes: -арайгтыт, ...
+
+* **LEXICON participles   ** giving 11 different participle tags: +FutPrc, +ImpPrc, ...
+
+* **LEXICON ptc   ** either stop or go to persprd suff
+
+* **LEXICON ptc2   ** either stop or go to persprd2 suff
+
+* **LEXICON converbs   ** listing 12 converb suffixes: -н, -жа, ...
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/verbs.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/symbols.lexc)</small>
 # Buryaad morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 
@@ -1270,414 +1678,6 @@ Key lexicon
 * Abbreviation ;		    
 * * *
 <small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/root.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/symbols.lexc)</small># Buryaad proper noun morphology
-
-This file add +N+Prop and points to the noun case morphology
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/propernouns.lexc)</small># Buryaad verb affixes
-
-This is the file for Buryaad verb morphology. The documentation
-shortly explains the rationale behind each continuation lexicon.
-
-
-## The verb classes
-
-### Auxiliary verbs
-
-No auxiliary verbs for now.
-
-### Ordinary verbs
-
-v1 the default verb category, v2 stem in long vowel or ditphtong, 
-v3 stem in и
-The difference comes for the non-indicative forms, thus
-all verb types point to the same finite_indicative.
-
-* LEXICON v1t  the transitive v1 verbs (add +TV and go on)
-
-* LEXICON v1i  the intransitive v1 verbs (add +IV and go on)
-
-* LEXICON v1  the v1 verbs not yet classified for transitivity
-
-* LEXICON v2t  the transitive v2 verbs (add +TV and go on)
-
-* LEXICON v2i  the intransitive v2 verbs (add +IV and go on)
-
-* **LEXICON v2 ** stem in long vowel or diphthong
-
-* LEXICON v3t  the transitive v3 verbs (add +TV and go on)
-
-* LEXICON v3i  the intransitive v3 verbs (add +IV and go on)
-
-
-* **LEXICON v3 ** stem in и
-
-## Verb morphology
-We see the contlexes as two layers: The first layer to divide
-the different stem types into different suffix lexica, and
-the one for these suffixes.
-
-### Layer one: Dividing v1, v2, v3 into suffix lexica
-
-
-* **LEXICON v1lex ** the common v1 morphology
-
-* **LEXICON v2lex ** the common v2 morphology
-
-
-
-### Layer two: The suffix lexica themselves.
-
-* **LEXICON persprd  ** for suffixes: б, ш, ...
-
-* **LEXICON persprd2  ** for suffixes: би, ши, ...
-
-
-* **LEXICON imperative   ** for imperative suffixes (Sg2, Pl2)
-
-* **LEXICON voluntative   ** for suffixes: яа, 0, ...
-
-* **LEXICON optative   ** for suffixes: -һууб, ...
-
-* **LEXICON presc  ** for suffixes: -арайгтыт, ...
-
-* **LEXICON participles   ** giving 11 different participle tags: +FutPrc, +ImpPrc, ...
-
-* **LEXICON ptc   ** either stop or go to persprd suff
-
-* **LEXICON ptc2   ** either stop or go to persprd2 suff
-
-* **LEXICON converbs   ** listing 12 converb suffixes: -н, -жа, ...
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/verbs.lexc)</small>
-# Buryaad adjective morphology
-
-LEXICON adj  just adding the +A tag.
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/adjectives.lexc)</small># Buryaad noun affixes
-
-We have two lexica, n1 and n2, 
-n1 with -нар plural and V-initial Gen, Ins, and
-n2 with -ууд plural and г-initial Gen, Ins
-
-The noun classes
-
-* **LEXICON nx ** unclassified nouns, to n2 for now
-
-* **LEXICON n1 ** with Gen -IIN, and -нар- suffix for oblique cases
-
-* **LEXICON n2 ** with Gen -GAj and -ууд suffič for oblique cases
-
-The class-specific case morphology (Gen, Ins)
-* **LEXICON case1 ** Gen, Ins for n1 nouns, and pointing to common cases
-
-* **LEXICON case2 ** Gen, Ins for n2 nouns, and pointing to common cases
-
-* **LEXICON case3 ** case3 are numerals, for now pointing to case2
-
-The morphology common to the different stem classes
-
-* **LEXICON commoncase  ** common treatment of Nom, Dat, Acc, Abl, Com for all nouns
-
-* **LEXICON Poss ** for Px, common for all nouns
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/nouns.lexc)</small># Buryaad interjections
-
-This file is still empty.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/interjections.lexc)</small># Buryaad conjunctions
-
-This file is still empty.
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/conjunctions.lexc)</small># Buryaad subjunctions
-
-This file is still empty.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/subjunctions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/subjunctions.lexc)</small>
-# Propernouns
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/propernouns.lexc)</small>
-# Buryaad proper nouns
-
-This file is still empty.
-
-It will eventually contain Buryaad-specific names. General Russian
-and international names will be taken from the urj-Cyrl file.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/bxr-propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/bxr-propernouns.lexc)</small># Buryaad verbs
-
-This file is almost empty, it contains ca 40 verbs of 3 types, v1, v2, v3:
-
-* LEXICON Verb 
-
-Verbs marked aux may perhaps be changed to v1, ...
-
-It is unclear whether the distinction is morphologically relevant.
-
-Also, some of the aux-es may have wrong baseform.
-    - хүрэхэ:хүрэ v1 "reach" ; 
-    - һууха:һуу v2 "sit" ; 
-
-Here come the new verbs
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/verbs.lexc)</small># Buryaad adjectives
-
-here there are some 500 adjectives from the Apertium source files.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/adjectives.lexc)</small>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##  **LEXICON NUM-PREFIXES**
-This lexicon contains a number of letters and other
-symbols found in front of digits. Their continuation
-lexicons should probably be changed as we restructure
-the arabic numerals.
-
-
-* **LEXICON ARABIC** arabic numerals
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **LEXICON ARABICLOOP**
-
-
-
-* **LEXICON ARABICLOOPORD** ordinals
-
-
-
-
-* **LEXICON ARABICDELIMITER**  blank + 3 delim, what does the lg counc prefer?
-
-
-
-
-
-
-
-
-* **LEXICON ROMAN**  roman numerals
-
-* **LEXICON ROM-THOUSAND**
-
-* **LEXICON ROM-THOUSAND-TAG**
-
-* **LEXICON ROM-HUNDRED**
-
-* **LEXICON ROM-HUNDRED-TAG**
-
-* **LEXICON ROM-TEN**
-
-* **LEXICON ROM-TEN-TAG**
-
-* **LEXICON ROM-ONE**
-
-* **LEXICON ROM-ONE-TAG**
-
-
-* **LEXICON ROM-SPLIT**
-
-
-
-* **LEXICON 2ROMAN**
-
-* **LEXICON 2ROM-THOUSAND**
-
-* **LEXICON 2ROM-THOUSAND-TAG**
-
-* **LEXICON 2ROM-HUNDRED**
-
-* **LEXICON 2ROM-HUNDRED-TAG**
-
-* **LEXICON 2ROM-TEN**
-
-* **LEXICON 2ROM-TEN-TAG**
-
-* **LEXICON 2ROM-ONE**
-
-* **LEXICON 2ROM-ONE-TAG**
-
-* **LEXICON ROMNUMTAG**
-
-
-
-
-* **LEXICON ISOLATED-NUMEXP** some isolated numeral expressions
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/numerals.lexc)</small># Buryaad noun stems
-
-* **LEXICON Noun ** the lexicon itself
-
-There are some names here, they should eventually
-be moved to bxr-propernouns.lexc
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/nouns.lexc)</small># Buryaad pronouns
-
-This file contains pronouns.
-
-So far, the following pronouns are covered:
-
-LEXICON Pronoun  * **@CODE***
-
-Personal ;              - **@CODE***
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/pronouns.lexc)</small># Buryaad postpositions
-
-This file contains 40 postpositions
-
-LEXICON pp  = These are the indeclieable ones , tag +Po
-
-LEXICON Postposition   = The lexicon
-
-* болон pp "until" ;   
-* болотор pp "until" ;   
-* гадна pp "besides" ;  ... 
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/postpositions.lexc)</small>
-# Buryaad particles
-
-Consider whether these are aeverbs.
-
-* LEXICON pcle  
-    - +Pcle: # ;  
-
-* LEXICON Particles   
-
-    - ааб pcle "" ;   
-    - бшуу pcle "" ;   
-    - бэ pcle "" ;   
-    - бэзэ pcle "" ;   
-    - бэлэй pcle "" ;   ...
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/particles.lexc)</small>
-# Buryaad adverbs
-
-Here follows a lost of some 20 adverbs.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/adverbs.lexc)</small>
 
 
 We describe here how abbreviations are in Russia Buriat are read out, e.g.
@@ -2106,4 +2106,158 @@ expression **WORD - premodifiers**.
 
 
 * * *
-<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-bxr/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>
+<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-bxr/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+Then just:
+$ make
+$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+
+Issues:
+- [X] Ambiguous input
+- Seems to work fine
+- [X] Ambiguous multiword expessions with ambiguous tokenisation
+- Seems to work – represented within lexc now; hfst-tokenise also
+supports forms on the analyses now
+- [X] Ambiguous multiword expessions need reorganising after CG
+- The module cg-mwesplit takes wordforms from readings and turns them into
+new cohorts
+- [X] Unknown words
+- The set-difference method only works for words without
+flag diacritics (even though we should be working only on the form-side?)
+and leads to binary blow-up: With only lower unknowns, we get 45M;
+lower+upper gives 67M, while no unknowns gives 27M
+- Fixed instead by treating empty analyses as unknown-tokens in
+hfst-tokenise, and outputting unmatched strings with a prefix
+- [ ] Treat input that's within superblanks as unmatched
+- probably requires a change in hfst-tokenise itself
+- [X] Try >1 space for ambiguous MWE's? – represented within lexc now
+- [ ] Try set-difference-unknowns method with regular hfst commands?
+
+More usage examples:
+$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+
+Pmatch documentation:
+https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
+
+
+
+
+
+
+Characters which have analyses in the lexicon, but can appear without spaces
+before/after, that is, with no context conditions, and adjacent to words:
+* Punct contains ASCII punctuation marks
+* The symbol after m-dash is soft-hyphen `U+00AD`
+* The symbol following {•} is byte-order-mark / zero-width no-break space
+`U+FEFF`.
+
+Whitespace contains ASCII white space and
+the List contains some unicode white space characters
+* En Quad U+2000 to Zero-Width Joiner U+200d'
+* Narrow No-Break Space U+202F
+* Medium Mathematical Space U+205F
+* Word joiner U+2060
+
+
+
+
+Apart from what's in our morphology, there are
+1) unknown word-like forms, and
+2) unmatched strings
+We want to give 1) a match, but let 2) be treated specially by hfst-tokenise -a
+* select extended latin symbols
+* select symbols
+* various symbols from Private area (probably Microsoft),
+so far:
+* U+F0B7 for "x in box"
+
+TODO: Could use something like this, but built-in's don't include šžđčŋ:
+
+
+Simply give an empty reading when something is unknown:
+hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
+remove empty analyses from other readings. Empty readings are also
+legal in CG, they get a default baseform equal to the wordform, but
+no tag to check, so it's safer to let hfst-tokenise handle them.
+
+
+
+Finally we mark as a token any sequence making up a:
+* known word in context
+* unknown (OOV) token in context
+* sequence of word and punctuation
+* URL in context
+
+* * *
+<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](http://github.com/giellalt/lang-bxr/blob/main/../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small># Tokeniser for bxr
+
+Usage:
+```
+$ make
+$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
+
+Pmatch documentation:
+https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
+
+
+
+
+
+
+Characters which have analyses in the lexicon, but can appear without spaces
+before/after, that is, with no context conditions, and adjacent to words:
+* Punct contains ASCII punctuation marks
+* The symbol after m-dash is soft-hyphen `U+00AD`
+* The symbol following {•} is byte-order-mark / zero-width no-break space
+`U+FEFF`.
+
+Whitespace contains ASCII white space and
+the List contains some unicode white space characters
+* En Quad U+2000 to Zero-Width Joiner U+200d'
+* Narrow No-Break Space U+202F
+* Medium Mathematical Space U+205F
+* Word joiner U+2060
+
+
+
+
+Apart from what's in our morphology, there are
+1. unknown word-like forms, and
+2. unmatched strings
+We want to give 1) a match, but let 2) be treated specially by
+`hfst-tokenise -a`
+Unknowns are made of:
+* lower-case ASCII
+* upper-case ASCII
+* select extended latin symbols
+ASCII digits
+* select symbols
+* Combining diacritics as individual symbols,
+* various symbols from Private area (probably Microsoft),
+so far:
+* U+F0B7 for "x in box"
+
+
+
+## Unknown handling
+Unknowns are tagged ?? and treated specially with `hfst-tokenise`
+hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
+remove empty analyses from other readings. Empty readings are also
+legal in CG, they get a default baseform equal to the wordform, but
+no tag to check, so it's safer to let hfst-tokenise handle them.
+
+
+
+Finally we mark as a token any sequence making up a:
+* known word in context
+* unknown (OOV) token in context
+* sequence of word and punctuation
+* URL in context
+
+* * *
+<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](http://github.com/giellalt/lang-bxr/blob/main/../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
