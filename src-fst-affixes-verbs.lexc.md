@@ -3,7 +3,6 @@
 This is the file for Buryaad verb morphology. The documentation
 shortly explains the rationale behind each continuation lexicon.
 
-
 ## The verb classes
 
 ### Auxiliary verbs
@@ -33,7 +32,6 @@ all verb types point to the same finite_indicative.
 
 * LEXICON v3i  the intransitive v3 verbs (add +IV and go on)
 
-
 * **LEXICON v3 ** stem in и
 
 ## Verb morphology
@@ -43,19 +41,15 @@ the one for these suffixes.
 
 ### Layer one: Dividing v1, v2, v3 into suffix lexica
 
-
 * **LEXICON v1lex ** the common v1 morphology
 
 * **LEXICON v2lex ** the common v2 morphology
-
-
 
 ### Layer two: The suffix lexica themselves.
 
 * **LEXICON persprd  ** for suffixes: б, ш, ...
 
 * **LEXICON persprd2  ** for suffixes: би, ши, ...
-
 
 * **LEXICON imperative   ** for imperative suffixes (Sg2, Pl2)
 
@@ -73,6 +67,9 @@ the one for these suffixes.
 
 * **LEXICON converbs   ** listing 12 converb suffixes: -н, -жа, ...
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+

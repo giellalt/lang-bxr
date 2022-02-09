@@ -6,13 +6,9 @@ Thereafter come the rules, each rule is listed below.
 
 TODO: adapt it to BURYAAD
 
-
 # Sentence delimiters
 
 The delimiters are: "<.>" "<!>" "<?>" "<...>" "<¶>" sent
-
-
-
 
 The **Tags** section lists all the tags inherited from the fst, and defines them for
 use in the syntactic analysis.
@@ -21,13 +17,7 @@ The tags are documented in the root.lexc file, and here only listed for referenc
 The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-
-
-
-
 ## Tags
-
-
 
 ### Beginning and end of sentence
 
@@ -35,7 +25,6 @@ BOS
 EOS
 
 ### Clause boundary
-
 
 ### Parts of speech tags
 
@@ -83,11 +72,6 @@ Sg3
 Pl1
 Pl2
 Pl3
-
-
-
-
-
 
 ### Numeral tags
 
@@ -156,12 +140,9 @@ Der/sa
 Qst
 Foc
 
-
 ### Tags for internal testing
 CmpTest
 Err
-
-
 
 ## Sets
 
@@ -169,15 +150,7 @@ Err
 * **OBLCASE** = All cases except Nom
 * **VFIN** = All moods
 
-
-
-
-
-
-
 # Rule section
-
-
 
 ## Early, contextless rules
 
@@ -187,14 +160,14 @@ Err
 
 ### Participles
 
-
 Plural verbforms
 * **BolonBusad** and others gives plural
 
 ConMod
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-bxr/blob/main/../src/cg3/disambiguator.cg3)</small>
+
+<small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-bxr/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+

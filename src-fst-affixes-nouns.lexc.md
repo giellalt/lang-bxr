@@ -24,5 +24,10 @@ The morphology common to the different stem classes
 * **LEXICON commoncase  ** common treatment of Nom, Dat, Acc, Abl, Com for all nouns
 
 * **LEXICON Poss ** for Px, common for all nouns
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+

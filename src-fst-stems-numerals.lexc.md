@@ -1,72 +1,18 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ##  **LEXICON NUM-PREFIXES**
 This lexicon contains a number of letters and other
 symbols found in front of digits. Their continuation
 lexicons should probably be changed as we restructure
 the arabic numerals.
 
-
 * **LEXICON ARABIC** arabic numerals
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON ARABICLOOP**
 
-
-
 * **LEXICON ARABICLOOPORD** ordinals
 
-
-
-
 * **LEXICON ARABICDELIMITER**  blank + 3 delim, what does the lg counc prefer?
-
-
-
-
-
-
-
 
 * **LEXICON ROMAN**  roman numerals
 
@@ -86,10 +32,7 @@ the arabic numerals.
 
 * **LEXICON ROM-ONE-TAG**
 
-
 * **LEXICON ROM-SPLIT**
-
-
 
 * **LEXICON 2ROMAN**
 
@@ -111,15 +54,11 @@ the arabic numerals.
 
 * **LEXICON ROMNUMTAG**
 
-
-
-
 * **LEXICON ISOLATED-NUMEXP** some isolated numeral expressions
 
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/numerals.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/numerals.lexc)</small>
+
+---
+

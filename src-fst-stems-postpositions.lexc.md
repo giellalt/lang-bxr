@@ -9,5 +9,10 @@ LEXICON Postposition   = The lexicon
 * болон pp "until" ;   
 * болотор pp "until" ;   
 * гадна pp "besides" ;  ... 
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/postpositions.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/postpositions.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/postpositions.lexc)</small>
+
+---
+

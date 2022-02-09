@@ -13,5 +13,10 @@ Consider whether these are aeverbs.
     - бэ pcle "" ;   
     - бэзэ pcle "" ;   
     - бэлэй pcle "" ;   ...
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/particles.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/particles.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/particles.lexc)</small>
+
+---
+

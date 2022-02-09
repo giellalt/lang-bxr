@@ -59,7 +59,6 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 * +Ord     Ordinal
 * +Presc    Prescriptive mood
 
-
 * +AgPrc   
 * +AgConstPrc   
 * +DualPrc      
@@ -85,7 +84,6 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 * +ConSucc    
 * +ConCmp    
 
-
 * +PxSg1   first person singular possessive
 * +PxSg2   second person singular possessive
 * +PxSg3   third person singular possessive
@@ -110,8 +108,6 @@ To be properly organised
 * %{Ө%}   letter class 
 * %{Y%}   kept after Cns, deleted after Vow
 
-
-
 * а2 я2 м2  these are а and я in Russian loanwords that do not weaken to ых
 
 * %^END   we do the mhr trick to harmonise twolc and lexc
@@ -120,7 +116,6 @@ To be properly organised
 
 * +Use/NG   Do not generate 
 
-
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
 * **«7**:  Literal «
@@ -128,7 +123,6 @@ To be properly organised
  %[%>%]  - Literal >
  %[%<%]  - Literal <
 ```
-
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -179,5 +173,10 @@ Key lexicon
 * Conjunction ;		   
 * Numeral ;		    
 * Abbreviation ;		    
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/root.lexc)</small>
+
+---
+

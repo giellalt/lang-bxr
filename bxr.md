@@ -1,3 +1,7 @@
+# Russia Buriat description 
+
+All documents in one file
+
 This is the Eastern Mari disambiguation file. It chooses
 the correct morphological analyses in any given sentence context.
 
@@ -6,13 +10,9 @@ Thereafter come the rules, each rule is listed below.
 
 TODO: adapt it to BURYAAD
 
-
 # Sentence delimiters
 
 The delimiters are: "<.>" "<!>" "<?>" "<...>" "<¶>" sent
-
-
-
 
 The **Tags** section lists all the tags inherited from the fst, and defines them for
 use in the syntactic analysis.
@@ -21,13 +21,7 @@ The tags are documented in the root.lexc file, and here only listed for referenc
 The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-
-
-
-
 ## Tags
-
-
 
 ### Beginning and end of sentence
 
@@ -35,7 +29,6 @@ BOS
 EOS
 
 ### Clause boundary
-
 
 ### Parts of speech tags
 
@@ -83,11 +76,6 @@ Sg3
 Pl1
 Pl2
 Pl3
-
-
-
-
-
 
 ### Numeral tags
 
@@ -156,12 +144,9 @@ Der/sa
 Qst
 Foc
 
-
 ### Tags for internal testing
 CmpTest
 Err
-
-
 
 ## Sets
 
@@ -169,15 +154,7 @@ Err
 * **OBLCASE** = All cases except Nom
 * **VFIN** = All moods
 
-
-
-
-
-
-
 # Rule section
-
-
 
 ## Early, contextless rules
 
@@ -187,238 +164,34 @@ Err
 
 ### Participles
 
-
 Plural verbforms
 * **BolonBusad** and others gives plural
 
 ConMod
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-bxr/blob/main/../src/cg3/disambiguator.cg3)</small>
 
+<small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-bxr/blob/main/src/cg3/disambiguator.cg3)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
 * Sets for POS sub-categories
 
-
-
-
-
 * Sets for Semantic tags
-
-
-
-
 
 * Sets for Morphosyntactic properties
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * Sets for verbs
-
 
 - V is all readings with a V tag in them, REAL-V should
 be the ones without an N tag following the V.  
 The REAL-V set thus awaits a fix to the preprocess V ... N bug.
 
-
-
 * The set COPULAS is for predicative constructions
 
-
-
-
-
-
-
 * NP sets defined according to their morphosyntactic features
-
-
-
-
-
-
 
 * The PRE-NP-HEAD family of sets
 
@@ -426,90 +199,30 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-
-
-
-
-
-
-
-
-
-
-
 The set **NOT-NPMOD** is used to find barriers between NPs.
 Typical usage: ... (*1 N BARRIER NPT-NPMOD) ...
 meaning: Scan to the first noun, ignoring anything that can be
 part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
-
-
-
-
-
 * Miscellaneous sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * Border sets and their complements
 
-
-
-
-
-
-
-
-
-
-
-
-
 * Syntactic sets
-
-
-
 
 These were the set types.
 
-
-
 ## HABITIVE MAPPING
 
-
 * **hab1** 
-
 
 * **hab2** 
 
 * **hab3** (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
 
-
-
 * **habNomLeft** 
 
-
 * **hab4** 	
-
-
 
 * **hab6** 
 
@@ -518,90 +231,11 @@ These were the set types.
 * **hab8** This is not HAB
 * **hab5**  This is not HAB
 
-
-
 * **habDain** (<hab> @ADVL>) for (Pron Dem Pl Loc) if leat followed by Nom to the right
-
-
-
 
 * **habGen** (<hab> @<ADVL) hab for Gen; if Gen is located in the end of the sentence and Nom is sentence initial
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **spred<obj** (@SPRED<OBJ) for Acc; the object of an SPRPED. Not to be mistaken with OPRED. If SPRED is to the left, and copulas is to the left of it. Nom or Hab are found sentence initially.
-
 
 * **Hab<spred** (@<SPRED) for Nom; if copulas, goallut or jápmit is FMAINV and habitive or human Loc is found to the left. OR: if Ill or @Pron< followed by HAB are found to the left.
 
@@ -613,14 +247,11 @@ These were the set types.
 
 * **<spred** (<ext> @<SUBJ) for Nom, but not for Pers. To the left boahtit or heaŋgát as MAINV, and futher to the left is some kind of place related word, or time related word
 
-
 * **<spredQst1** (<ext> @<SUBJ) for Nom in a typically question sentence; if A) Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. B) same as a, only the Qst-pcle is attached to copulas. C) Qst to the left, with copulas to its left, but not if two Nom:s are found somewhere to the right. D) copulas to the left, and BOS to the left. E) Loc or Ill to the left, and Loc or Hab to the left of this, Qst and copulas to the left. F) Num @>N to the left, Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. NOTE) for all these rules; human, Loc or Sem/Plc not allowed to the right.
 
 * **<spredQst2** (@<SPRED) for Nom; in a typically question sentence; differs from <spredQst1 by not beeing as restricted to the right. Though you are not allowed to be Pers or human.
 
 * **Nom<spredQst** (@<SPRED) for Nom; in a typically question sentence. Differs from <spredQst2 by letting Nom be found between SPRED and copulas
-
-
 
 * **<spred** (@<SPRED) for A Nom or N Nom if; the subject Nom is on the same side of copulas as you: on the right side of copulas
 
@@ -629,7 +260,6 @@ These were the set types.
 * **leftCop<spred** (@<SPRED) for Nom; if copulas is the main verb to the left, and there is no Ess found to the left of cop (note that Loc is allowed between target and cop). OR: if you are Coll or Sem/Group with copulas to your left. 
 
 * **<spredLocEXPERIMENT** (@<SPRED) for material Loc; if you are to the right of copulas, and the Nom to the left of copulas is not a hab-actor
-
 
 * **NumTime** (@<SPRED) for A Nom
 
@@ -651,22 +281,13 @@ These were the set types.
 
 * **r492>** (@SPRED>) for Interr Gen; consisting only of negations. You are not allowed to be MII. You are not allowed to have an adjective or noun to yor right. You are not allowed to have a verb to your right; the exception beeing an aux.
 
-
-
 * **AdjSpredSg>** (@SPRED>) for A Sg Nom; if copulas to the right, but not if A or @<SPRED are found to the right of copulas
 
 * **SpredSg>Hab** (@SPRED>) for Nom; if you are sentence initial, copulas is located to the right, and there is a habitive to the right of copulas
 
-
-
 * **Spred>SubjInf** (@SPRED>) for Nom; if copulas to the right, and the subject of copulas is an Inf to the right
 
 * **spredCoord** (@<SPRED) coordination for Nom; only if there already is a SPRED to the left of CNP. Not if there is some kind of comparison involved.
-
-
-
-
-
 
 * **subj>Sgnr1** (@SUBJ>) for Nom Sg, including Indef Nom if; VFIN + Sg3 or Pl3 to the right (VFIN not allowed to the left) 
 
@@ -675,137 +296,59 @@ These were the set types.
 
 * **subj>Pl** (@SUBJ>) for plural nominatives
 
-
 * **subj>Sgnr2** (@SUBJ>) for Nom Sg; if VFIN + Sg3 to the right.
 
 * **<subjSg** (@<SUBJ) for Nom Sg; if VFIN Sg3 or Du2 to the left (no HAB allowed to the left).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **f<advl** (@-F<ADVL) for infinite adverbials
 
 * **f<advl** (@-F<ADVL) for infinite adverbials
-
-
 
 * **s-boundary=advl>** (@ADVL>) for ADVL that resemble s-booundaries. Mainverb to the right.
-
-
-
 
 * **-fobj>** (@-FOBJ>) for Acc 
 
 * **-fobj>** (@-FOBJ>) for Acc
 
-
-
-
 * **advl>mainV** (@ADVL>) if; finite mainverb not found to the left, but the finite mainverb is found to the right.
 
-
 * **<advl** (@<ADVL) if; finite mainverb found to the left. Not if a comma is found immediately to the left and a finite mainverb is located somewhere to the right of this comma.
-
-
-
 
 * **<advlPoPr** (@<ADVL) if mainverb to the left.
 * **advlPoPr>** (@<ADVL) if mainverb to the right.
 
-
-
 * **advlEss>** (@<ADVL) for weather and time Ess, if FMAINV to the left.
-
-
-
-
-
 
 * **advl>inbetween** (@ADVL>) for Adv; if inbetween two sentenceboundaries where no mainverb is present.
 
 * **comma<advlEOS** (@<ADVL) if; comma found to the left and the finite mainverb to the left of comma. To the right is the end of the sentence.
 
-
-
 * **advlBOS>** (@ADVL>) if; you are N Ill and found sentnece initially. First one to your right is a clause.
-
 
 * **<advlPoEOS** (@<ADVL) for Po; if you are found at the very end of a sentence. A mainverb is needed to the right though.
 
-
-
 * **cleanupILL<advl** (@<ADVL) for N Ill if; there are no boundarysymbols to your left, if you arent already @N< OR @APP-N<, and no mainverb is to yor left.
-
-
-
-
-
-
-
-
-
-
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-
 ### sma object
-
-
-
-
-
-
-
-
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
-
-
-
-
 
 ## SUBJ MAPPING - leftovers
 
 ## OBJ MAPPING - leftovers
 
-
 ## HNOUN MAPPING
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-bxr/blob/main/../src/cg3/functions.cg3)</small># Buryaad morphophonology
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-bxr/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# Buryaad morphophonology
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-bxr/blob/main/src/fst/phonology.twolc) 
 
@@ -814,7 +357,6 @@ This file expresses Buryaad morphophonological alternation, from abstract underl
 # Alphabet
 
 This is a list of all symbols in use.
-
 
 * А Б В Г Д Е Ё Ж З И Й К Л М Н О    
   Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ь Ы     
@@ -835,7 +377,6 @@ This is a list of all symbols in use.
 * м2:м        = м to be deleted for PxSg1
 * %^END:0	         = auxiliary end symbol to fix xerox bug
 
-
 # Sets
 
 Some of the symbols are bundled together in sets
@@ -853,11 +394,9 @@ Some of the symbols are bundled together in sets
 * Cns = RealCns ArchiCns ;   
 * Sgm = Vow Cns ;			   
 
-
 # Rules
 
 Here come all the rules (marked with RULE:), and test cases.
-
 
 ## Vowel harmony
 ### Vowel harmony for short vowels
@@ -876,7 +415,6 @@ Here come all the rules (marked with RULE:), and test cases.
 * *хара>ха0яа*
 * *бари>х{A}й{A}{A}*
 * *бари>ха0яа*
-
 
 * RULE:  **Vowel harmony A:o** gives o after stems with o or jo
 
@@ -903,13 +441,9 @@ Here come all the rules (marked with RULE:), and test cases.
 
 * RULE:  **Vowel harmony й:0** deletes й in front of A
 
-
 * RULE:  **Vowel harmony U:у** gives a after stems with a or juu
 
-
 * RULE:  **Vowel harmony U:ү** gives e after e etc
-
-
 
 ### Vowel harmony for long vowels
 
@@ -927,14 +461,11 @@ Here come all the rules (marked with RULE:), and test cases.
 
 * RULE:  **Vowel harmony ӨӨ:өө** gives ø after ø
 
-
-
 ### Realisation of I as ы and и
 
 * RULE:  **{I}{I} to ы in Gen/Acc and Poss 1** gives y for the first I
 
 * RULE:  **{I}{I} to ы in Gen/Acc and Poss 2** deletes the second I
-
 
 * *Байгал>{I}{I}нь^END*
 * *Байгал>ы0нь0*
@@ -950,9 +481,6 @@ Here come all the rules (marked with RULE:), and test cases.
 * *морин>{I}{I}нь^END*
 * *морин>иинь0*
 
-
-
-
 ## Other vowel rules
 ### Vowel deletion rules
 
@@ -966,10 +494,8 @@ Here come all the rules (marked with RULE:), and test cases.
 * *бари>{A}{A}*
 * *бар0>яа*
 
-
 * *һургуули>{I}{I}н^END*
 * *һургуул0>иин0*
-
 
 * RULE:  **Deletion of ы in -ые for aj and VV stems** 
 
@@ -995,13 +521,10 @@ Here come all the rules (marked with RULE:), and test cases.
 
 * RULE:  **D to d after n i l  ** 
 
-
-
 * RULE:  **Final consonant ptd voicing to bdg in loanwords** 
 
 * *самолёт>{A}й^END*
 * *самолёд>ой0*
-
 
 ### Consonant deletion rules
 
@@ -1012,11 +535,7 @@ Here come all the rules (marked with RULE:), and test cases.
 * *һанаан>{I}{I}е^END*
 * *һанаа0>ы0е0*
 
-
-
-
 * RULE:  **Deletion of g in word-final ng and before gaj and haa** 
-
 
 * *анг>{D}{A}^END*
 * *ан0>да0*
@@ -1060,39 +579,29 @@ Here come all the rules (marked with RULE:), and test cases.
 * *һуу>х{A}й{A}{A}*
 * *һуу>ха0яа*
 
-
-
 * *т* `е` (Eng. с т р а б о т а е т)
 * *в* `т` (Eng. е с т е о ш и б к а)
 
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/phonology.twolc)</small># Buryaad noun stems
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/phonology.twolc)</small>
+
+---
+
+# Buryaad noun stems
 
 * **LEXICON Noun ** the lexicon itself
 
 There are some names here, they should eventually
 be moved to bxr-propernouns.lexc
 
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/nouns.lexc)</small>
+
+---
+
+
 # Buryaad particles
 
 Consider whether these are aeverbs.
@@ -1107,25 +616,35 @@ Consider whether these are aeverbs.
     - бэ pcle "" ;   
     - бэзэ pcle "" ;   
     - бэлэй pcle "" ;   ...
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/particles.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/particles.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/particles.lexc)</small>
+
+---
+
+
 # Buryaad adverbs
 
 Here follows a lost of some 20 adverbs.
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/adverbs.lexc)</small># Buryaad interjections
+
+<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/adverbs.lexc)</small>
+
+---
+
+# Buryaad interjections
 
 This file is still empty.
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/interjections.lexc)</small># Buryaad pronouns
+
+<small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/interjections.lexc)</small>
+
+---
+
+# Buryaad pronouns
 
 This file contains pronouns.
 
@@ -1135,58 +654,21 @@ LEXICON Pronoun  * **@CODE***
 
 Personal ;              - **@CODE***
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/pronouns.lexc)</small># Buryaad subjunctions
+
+<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/pronouns.lexc)</small>
+
+---
+
+# Buryaad subjunctions
 
 This file is still empty.
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/subjunctions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/subjunctions.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/stems/subjunctions.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/subjunctions.lexc)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -1196,48 +678,13 @@ symbols found in front of digits. Their continuation
 lexicons should probably be changed as we restructure
 the arabic numerals.
 
-
 * **LEXICON ARABIC** arabic numerals
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON ARABICLOOP**
 
-
-
 * **LEXICON ARABICLOOPORD** ordinals
 
-
-
-
 * **LEXICON ARABICDELIMITER**  blank + 3 delim, what does the lg counc prefer?
-
-
-
-
-
-
-
 
 * **LEXICON ROMAN**  roman numerals
 
@@ -1257,10 +704,7 @@ the arabic numerals.
 
 * **LEXICON ROM-ONE-TAG**
 
-
 * **LEXICON ROM-SPLIT**
-
-
 
 * **LEXICON 2ROMAN**
 
@@ -1282,18 +726,15 @@ the arabic numerals.
 
 * **LEXICON ROMNUMTAG**
 
-
-
-
 * **LEXICON ISOLATED-NUMEXP** some isolated numeral expressions
 
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/numerals.lexc)</small># Buryaad postpositions
+
+<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/numerals.lexc)</small>
+
+---
+
+# Buryaad postpositions
 
 This file contains 40 postpositions
 
@@ -1304,14 +745,23 @@ LEXICON Postposition   = The lexicon
 * болон pp "until" ;   
 * болотор pp "until" ;   
 * гадна pp "besides" ;  ... 
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/postpositions.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/postpositions.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/postpositions.lexc)</small>
+
+---
+
+
 # Propernouns
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/propernouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/propernouns.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/propernouns.lexc)</small>
+
+---
+
+
 # Buryaad proper nouns
 
 This file is still empty.
@@ -1319,16 +769,23 @@ This file is still empty.
 It will eventually contain Buryaad-specific names. General Russian
 and international names will be taken from the urj-Cyrl file.
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/bxr-propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/bxr-propernouns.lexc)</small># Buryaad adjectives
+
+<small>This (part of) documentation was generated from [src/fst/stems/bxr-propernouns.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/bxr-propernouns.lexc)</small>
+
+---
+
+# Buryaad adjectives
 
 here there are some 500 adjectives from the Apertium source files.
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/adjectives.lexc)</small># Buryaad verbs
+
+<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/adjectives.lexc)</small>
+
+---
+
+# Buryaad verbs
 
 This file is almost empty, it contains ca 40 verbs of 3 types, v1, v2, v3:
 
@@ -1343,19 +800,24 @@ Also, some of the aux-es may have wrong baseform.
     - һууха:һуу v2 "sit" ; 
 
 Here come the new verbs
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/verbs.lexc)</small># Buryaad conjunctions
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/verbs.lexc)</small>
+
+---
+
+# Buryaad conjunctions
 
 This file is still empty.
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/stems/conjunctions.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/stems/conjunctions.lexc)</small>
+
+---
+
+
 
 ## Buryaad clitics
 
@@ -1363,11 +825,15 @@ This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
 
 * **LEXICON K  ** , in principle containing clitics, but no one so far, and pointing to ENDLEX
 
-
 * **LEXICON ENDLEX ** is the lexicon adding ^END, for technical reasons.
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/clitics.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/clitics.lexc)</small># Buryaad noun affixes
+
+<small>This (part of) documentation was generated from [src/fst/clitics.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/clitics.lexc)</small>
+
+---
+
+# Buryaad noun affixes
 
 We have two lexica, n1 and n2, 
 n1 with -нар plural and V-initial Gen, Ins, and
@@ -1393,28 +859,38 @@ The morphology common to the different stem classes
 * **LEXICON commoncase  ** common treatment of Nom, Dat, Acc, Abl, Com for all nouns
 
 * **LEXICON Poss ** for Px, common for all nouns
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/nouns.lexc)</small># Buryaad proper noun morphology
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+
+# Buryaad proper noun morphology
 
 This file add +N+Prop and points to the noun case morphology
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/affixes/propernouns.lexc)</small>
+
+---
+
+
 # Buryaad adjective morphology
 
 LEXICON adj  just adding the +A tag.
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/adjectives.lexc)</small># Buryaad verb affixes
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/affixes/adjectives.lexc)</small>
+
+---
+
+# Buryaad verb affixes
 
 This is the file for Buryaad verb morphology. The documentation
 shortly explains the rationale behind each continuation lexicon.
-
 
 ## The verb classes
 
@@ -1445,7 +921,6 @@ all verb types point to the same finite_indicative.
 
 * LEXICON v3i  the intransitive v3 verbs (add +IV and go on)
 
-
 * **LEXICON v3 ** stem in и
 
 ## Verb morphology
@@ -1455,19 +930,15 @@ the one for these suffixes.
 
 ### Layer one: Dividing v1, v2, v3 into suffix lexica
 
-
 * **LEXICON v1lex ** the common v1 morphology
 
 * **LEXICON v2lex ** the common v2 morphology
-
-
 
 ### Layer two: The suffix lexica themselves.
 
 * **LEXICON persprd  ** for suffixes: б, ш, ...
 
 * **LEXICON persprd2  ** for suffixes: би, ши, ...
-
 
 * **LEXICON imperative   ** for imperative suffixes (Sg2, Pl2)
 
@@ -1485,17 +956,22 @@ the one for these suffixes.
 
 * **LEXICON converbs   ** listing 12 converb suffixes: -н, -жа, ...
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+
+
 # Symbol affixes
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/affixes/symbols.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/affixes/symbols.lexc)</small>
+
+---
+
+
 # Buryaad morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 
@@ -1556,7 +1032,6 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 * +Ord     Ordinal
 * +Presc    Prescriptive mood
 
-
 * +AgPrc   
 * +AgConstPrc   
 * +DualPrc      
@@ -1582,7 +1057,6 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 * +ConSucc    
 * +ConCmp    
 
-
 * +PxSg1   first person singular possessive
 * +PxSg2   second person singular possessive
 * +PxSg3   third person singular possessive
@@ -1607,8 +1081,6 @@ To be properly organised
 * %{Ө%}   letter class 
 * %{Y%}   kept after Cns, deleted after Vow
 
-
-
 * а2 я2 м2  these are а and я in Russian loanwords that do not weaken to ых
 
 * %^END   we do the mhr trick to harmonise twolc and lexc
@@ -1617,7 +1089,6 @@ To be properly organised
 
 * +Use/NG   Do not generate 
 
-
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
 * **«7**:  Literal «
@@ -1625,7 +1096,6 @@ To be properly organised
  %[%>%]  - Literal >
  %[%<%]  - Literal <
 ```
-
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -1676,8 +1146,13 @@ Key lexicon
 * Conjunction ;		   
 * Numeral ;		    
 * Abbreviation ;		    
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/root.lexc)</small>
+
+---
+
 
 
 We describe here how abbreviations are in Russia Buriat are read out, e.g.
@@ -1692,41 +1167,28 @@ For example:
 * esim.:esimerkki # ; 
 * esim.:esimerkiksi # ; 
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-bxr/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+---
+
+
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
-
-
-
-
-
-
-
-
 
 # DELIMITERS
 
-
 # TAGS AND SETS
 
-
-
 ## Tags
-
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-
-
-
 ### Beginning and end of sentence
 BOS
 EOS
-
-
 
 ### Parts of speech tags
 
@@ -1756,8 +1218,6 @@ PUNCT
 COMMA
 ¶
 
-
-
 ### Tags for POS sub-categories
 
 Pers
@@ -1773,7 +1233,6 @@ Prop
 Allegro
 Arab
 Romertall
-
 
 ### Tags for morphosyntactic properties
 
@@ -1836,11 +1295,7 @@ Sup
 Actio
 VAbess
 
-
-
 Err/Orth
-
-
 
 ### Semantic tags
 
@@ -1873,14 +1328,10 @@ HUMAN
 HAB-ACTOR
 HAB-ACTOR-NOT-HUMAN
 
-
 PROP-ATTR
 PROP-SUR
 
-
-
 TIME-N-SET
-
 
 ###  Syntactic tags
 
@@ -1952,22 +1403,15 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-
-
-
-
 ## Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-
-
 ### Sets for Single-word sets
 
 INITIAL
-
 
 ### Sets for word or not
 
@@ -1975,7 +1419,6 @@ WORD
 REAL-WORD
 REAL-WORD-NOT-ABBR
 NOT-COMMA
-
 
 ### Case sets
 
@@ -1990,7 +1433,6 @@ NOT-ACC
 
 ### Verb sets
 
-
 NOT-V
 
 ### Sets for finiteness and mood
@@ -2000,7 +1442,6 @@ REAL-NEG
 MOOD-V
 
 NOT-PRFPRC
-
 
 ### Sets for person
 
@@ -2014,49 +1455,15 @@ PL1-V
 PL2-V
 PL3-V
 
-
-
-
-
 ### Pronoun sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Adjectival sets and their complements
 
-
-
-
 ### Adverbial sets and their complements
-
-
-
 
 ### Sets of elements with common syntactic behaviour
 
-
 ### NP sets defined according to their morphosyntactic features
-
-
-
-
-
-
-
 
 ### The PRE-NP-HEAD family of sets
 
@@ -2064,86 +1471,34 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Border sets and their complements
-
-
-
-
-
-
-
-
-
-
 
 ### Grammarchecker sets
 
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-bxr/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-bxr/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# Grammar checker tokenisation for bxr
+
+Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
+```
 $ make
 $ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-
-Issues:
-- [X] Ambiguous input
-- Seems to work fine
-- [X] Ambiguous multiword expessions with ambiguous tokenisation
-- Seems to work – represented within lexc now; hfst-tokenise also
-supports forms on the analyses now
-- [X] Ambiguous multiword expessions need reorganising after CG
-- The module cg-mwesplit takes wordforms from readings and turns them into
-new cohorts
-- [X] Unknown words
-- The set-difference method only works for words without
-flag diacritics (even though we should be working only on the form-side?)
-and leads to binary blow-up: With only lower unknowns, we get 45M;
-lower+upper gives 67M, while no unknowns gives 27M
-- Fixed instead by treating empty analyses as unknown-tokens in
-hfst-tokenise, and outputting unmatched strings with a prefix
-- [ ] Treat input that's within superblanks as unmatched
-- probably requires a change in hfst-tokenise itself
-- [X] Try >1 space for ambiguous MWE's? – represented within lexc now
-- [ ] Try set-difference-unknowns method with regular hfst commands?
+```
 
 More usage examples:
+```
 $ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -2158,9 +1513,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1) unknown word-like forms, and
@@ -2174,14 +1526,11 @@ so far:
 
 TODO: Could use something like this, but built-in's don't include šžđčŋ:
 
-
 Simply give an empty reading when something is unknown:
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -2190,7 +1539,12 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](http://github.com/giellalt/lang-bxr/blob/main/../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small># Tokeniser for bxr
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-bxr/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
+
+---
+
+# Tokeniser for bxr
 
 Usage:
 ```
@@ -2202,12 +1556,7 @@ $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-des
 ```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -2222,9 +1571,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1. unknown word-like forms, and
@@ -2242,16 +1588,12 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-
-
 ## Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -2260,4 +1602,8 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](http://github.com/giellalt/lang-bxr/blob/main/../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-bxr/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+---
+

@@ -8,7 +8,6 @@ This file expresses Buryaad morphophonological alternation, from abstract underl
 
 This is a list of all symbols in use.
 
-
 * А Б В Г Д Е Ё Ж З И Й К Л М Н О    
   Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ь Ы     
   Ъ Э Ю Я							   = Capital letters
@@ -28,7 +27,6 @@ This is a list of all symbols in use.
 * м2:м        = м to be deleted for PxSg1
 * %^END:0	         = auxiliary end symbol to fix xerox bug
 
-
 # Sets
 
 Some of the symbols are bundled together in sets
@@ -46,11 +44,9 @@ Some of the symbols are bundled together in sets
 * Cns = RealCns ArchiCns ;   
 * Sgm = Vow Cns ;			   
 
-
 # Rules
 
 Here come all the rules (marked with RULE:), and test cases.
-
 
 ## Vowel harmony
 ### Vowel harmony for short vowels
@@ -69,7 +65,6 @@ Here come all the rules (marked with RULE:), and test cases.
 * *хара>ха0яа*
 * *бари>х{A}й{A}{A}*
 * *бари>ха0яа*
-
 
 * RULE:  **Vowel harmony A:o** gives o after stems with o or jo
 
@@ -96,13 +91,9 @@ Here come all the rules (marked with RULE:), and test cases.
 
 * RULE:  **Vowel harmony й:0** deletes й in front of A
 
-
 * RULE:  **Vowel harmony U:у** gives a after stems with a or juu
 
-
 * RULE:  **Vowel harmony U:ү** gives e after e etc
-
-
 
 ### Vowel harmony for long vowels
 
@@ -120,14 +111,11 @@ Here come all the rules (marked with RULE:), and test cases.
 
 * RULE:  **Vowel harmony ӨӨ:өө** gives ø after ø
 
-
-
 ### Realisation of I as ы and и
 
 * RULE:  **{I}{I} to ы in Gen/Acc and Poss 1** gives y for the first I
 
 * RULE:  **{I}{I} to ы in Gen/Acc and Poss 2** deletes the second I
-
 
 * *Байгал>{I}{I}нь^END*
 * *Байгал>ы0нь0*
@@ -143,9 +131,6 @@ Here come all the rules (marked with RULE:), and test cases.
 * *морин>{I}{I}нь^END*
 * *морин>иинь0*
 
-
-
-
 ## Other vowel rules
 ### Vowel deletion rules
 
@@ -159,10 +144,8 @@ Here come all the rules (marked with RULE:), and test cases.
 * *бари>{A}{A}*
 * *бар0>яа*
 
-
 * *һургуули>{I}{I}н^END*
 * *һургуул0>иин0*
-
 
 * RULE:  **Deletion of ы in -ые for aj and VV stems** 
 
@@ -188,13 +171,10 @@ Here come all the rules (marked with RULE:), and test cases.
 
 * RULE:  **D to d after n i l  ** 
 
-
-
 * RULE:  **Final consonant ptd voicing to bdg in loanwords** 
 
 * *самолёт>{A}й^END*
 * *самолёд>ой0*
-
 
 ### Consonant deletion rules
 
@@ -205,11 +185,7 @@ Here come all the rules (marked with RULE:), and test cases.
 * *һанаан>{I}{I}е^END*
 * *һанаа0>ы0е0*
 
-
-
-
 * RULE:  **Deletion of g in word-final ng and before gaj and haa** 
-
 
 * *анг>{D}{A}^END*
 * *ан0>да0*
@@ -253,19 +229,12 @@ Here come all the rules (marked with RULE:), and test cases.
 * *һуу>х{A}й{A}{A}*
 * *һуу>ха0яа*
 
-
-
 * *т* `е` (Eng. с т р а б о т а е т)
 * *в* `т` (Eng. е с т е о ш и б к а)
 
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-bxr/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/phonology.twolc)</small>
+
+---
+
