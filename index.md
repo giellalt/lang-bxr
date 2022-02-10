@@ -1,7 +1,7 @@
 # Russia Buriat documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-bxr)](https://raw.githubusercontent.com/giellalt/lang-bxr/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-bxr)](https://github.com/giellalt/lang-bxr/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-bxr)](https://github.com/giellalt/lang-bxr/issues)
 [![Build status](https://github.com/giellalt/lang-bxr/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-bxr/actions)
 
