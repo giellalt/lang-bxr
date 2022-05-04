@@ -4,9 +4,9 @@ This file contains pronouns.
 
 So far, the following pronouns are covered:
 
-LEXICON Pronoun  * **@CODE***
+* **@CODE***
 
-Personal ;              - **@CODE***
+    - **@CODE***
 
 * * *
 

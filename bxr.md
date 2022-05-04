@@ -341,7 +341,7 @@ These were the set types.
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-bxr/blob/main/src/cg3/functions.cg3)</small>
 # Buryaad adjective morphology
 
-LEXICON adj  just adding the +A tag.
+just adding the +A tag.
 
 * * *
 
@@ -1092,9 +1092,9 @@ This file contains pronouns.
 
 So far, the following pronouns are covered:
 
-LEXICON Pronoun  * **@CODE***
+* **@CODE***
 
-Personal ;              - **@CODE***
+    - **@CODE***
 
 * * *
 

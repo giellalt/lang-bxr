@@ -1,7 +1,7 @@
 
 # Buryaad adjective morphology
 
-LEXICON adj  just adding the +A tag.
+just adding the +A tag.
 
 * * *
 
