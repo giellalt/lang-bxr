@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-bxr)](https://github.com/giellalt/lang-bxr/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-bxr)](https://github.com/giellalt/lang-bxr/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-bxr/main/badge.svg)](https://github.com/giellalt/lang-bxr/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-bxr/main/badge.svg)](https://github.com/giellalt/lang-bxr/actions)
 
 This page documents the work on the [Russia Buriat language model](https://github.com/giellalt/lang-bxr). 
 
