@@ -1,0 +1,45 @@
+## Process this file with automake to produce Makefile.in
+
+## Copyright (C) 2011 Samediggi
+
+## This program is free software: you can redistribute it and/or modify
+## it under the terms of the GNU General Public License as published by
+## the Free Software Foundation, either version 3 of the License, or
+## (at your option) any later version.
+
+## This program is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+## GNU General Public License for more details.
+
+## You should have received a copy of the GNU General Public License
+## along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# Add local build rules and shared here...
+
+if HAVE_SHARED_URJ_CYRL
+# step one: copy from shared urj cyrl
+generated_files/urj-Cyrl-propernouns.lexc: \
+		$(gt_SHARED_urj_Cyrl)/src/fst/stems/urj-Cyrl-propernouns.lexc
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_V_CP)cp -f $< $@
+
+# step two:   copy the local file, add a comment (using echo) ...
+# step three: ... and run the giella-core copy through the  perl script and add it to
+#             the copy of the local file
+
+generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc: \
+		generated_files/urj-Cyrl-propernouns.lexc \
+		$(srcdir)/stems/$(GTLANG)-propernouns.lexc
+	$(AM_V_at)rm -f $@
+	$(AM_V_GEN)cp -f $(srcdir)/stems/$(GTLANG)-propernouns.lexc $@
+	$(AM_V_at)echo "" >> $@
+	$(AM_V_at)echo "! <--- Dump from urj-Cyrl -->" >> $@
+	$(AM_V_at)echo "" >> $@
+	$(AM_V_GEN)$(top_srcdir)/src/scripts/urj-Cyrl-bxr-conversion.pl $< >> $@
+else
+generated_files/urj_Cyrl-$(GTLANG)-propernouns.lexc:
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_C_GEN)echo "! Missing shared common data" > $@
+endif
+
