@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>bxr</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Russia Buriat</title>
+    <title>Russia Buriat</title>
     <description>This is an fst-based speller for Russia Buriat. It is based
     on the normative subset of the morphological analyser for Russia Buriat.
     The source code can be found at:
