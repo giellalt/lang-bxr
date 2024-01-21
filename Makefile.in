@@ -207,6 +207,8 @@ AUTOHEADER = @AUTOHEADER@
 AUTOMAKE = @AUTOMAKE@
 AWK = @AWK@
 BC = @BC@
+CG3_CFLAGS = @CG3_CFLAGS@
+CG3_LIBS = @CG3_LIBS@
 CGFLOOKUP = @CGFLOOKUP@
 CG_MWESPLIT = @CG_MWESPLIT@
 CG_RELABEL = @CG_RELABEL@
@@ -245,6 +247,7 @@ GIELLA_CORE_VERSION = @GIELLA_CORE_VERSION@
 GLANG = @GLANG@
 GLANG2 = @GLANG2@
 GLANGUAGE = @GLANGUAGE@
+GRAMCHECKVERSION = @GRAMCHECKVERSION@
 GTCORE = @GTCORE@
 GTCORESH = @GTCORESH@
 GTLANG = @GTLANG@
@@ -322,6 +325,9 @@ PACKAGE_VERSION = @PACKAGE_VERSION@
 PATGEN = @PATGEN@
 PATH_SEPARATOR = @PATH_SEPARATOR@
 PERL = @PERL@
+PKG_CONFIG = @PKG_CONFIG@
+PKG_CONFIG_LIBDIR = @PKG_CONFIG_LIBDIR@
+PKG_CONFIG_PATH = @PKG_CONFIG_PATH@
 PRINTF = @PRINTF@
 PYTHON = @PYTHON@
 PYTHON_EXEC_PREFIX = @PYTHON_EXEC_PREFIX@
@@ -413,9 +419,11 @@ ALLINONE_MD_PAGE = $(srcdir)/$(GTLANG).md
 LINKS = $(srcdir)/Links.md
 HEADER = $(srcdir)/index-header.md
 INDEX = $(srcdir)/index.md
+REPONAME = $(shell  grep '__REPO__' $(top_srcdir)/.gut/delta.toml | cut -d'"' -f2)
+# " reset syntax colouring - gets confused by the single double quote in the previous line
 
 # no regenerations while debugging
-doc_DATA = $(INDEX) $(LINKS) $(ALLINONE_MD_PAGE)
+doc_DATA = $(INDEX) $(LINKS) $(ALLINONE_MD_PAGE) lemmacount.json maturity.json
 DOCC2MDWIKI = $(GTCORE)/scripts/doccomments2ghpages.awk
 DOCC2MDWIKI_CG3 = $(GTCORE)/scripts/doccomments2ghpages-vislcg.awk
 GRAPHPLOTTER = $(GTCORE)/scripts/plot-speller-progress.R
@@ -926,6 +934,15 @@ regenerate-markdown: generate-markdown
 @WANT_SPELLERS_FALSE@report.json: 
 @WANT_SPELLERS_FALSE@	@echo need to configure --enable-spellers to generate statistics
 @WANT_SPELLERS_FALSE@	touch $@
+
+# Generate endpoint json file for shield.io lemma count badge.
+# Only to be stored in the gh-pages branch, ignored in main.
+$(srcdir)/lemmacount.json: $(top_srcdir)/src/fst/morphology/stems/*.lexc
+	$(AM_V_GEN)$(GTCORE)/scripts/make-lemmacount.json.sh $(abs_top_srcdir) > $@
+
+# Generate a maturity.json file as endpoint for the maturity badge.
+$(srcdir)/maturity.json:
+	$(AM_V_GEN)$(GTCORE)/scripts/make-maturity.json.sh $(REPONAME) > $@
 
 # Convert source filenames to extracted documentation filenames, VPATH safe:
 # ../../../src/fst/stems/adverbs.lexc => src-fst-stems-adverbs.lexc.md
