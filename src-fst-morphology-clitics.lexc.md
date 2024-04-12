@@ -11,6 +11,3 @@ This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/clitics.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/morphology/clitics.lexc)</small>
-
----
-

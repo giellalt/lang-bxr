@@ -1,6 +1,10 @@
-# Russia Buriat description 
+# Russia Buriat language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-disambiguator.cg3.md 
 
 This is the Eastern Mari disambiguation file. It chooses
 the correct morphological analyses in any given sentence context.
@@ -170,7 +174,14 @@ Plural verbforms
 ConMod
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-bxr/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+
+# src-cg3-functions.cg3.md 
+
+
 
 * Sets for POS sub-categories
 
@@ -338,7 +349,14 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-bxr/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+
 # Buryaad adjective morphology
 
 just adding the +A tag.
@@ -348,6 +366,8 @@ just adding the +A tag.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 # Buryaad noun affixes
 
@@ -382,6 +402,8 @@ The morphology common to the different stem classes
 
 ---
 
+# src-fst-morphology-affixes-propernouns.lexc.md 
+
 # Buryaad proper noun morphology
 
 This file add +N+Prop and points to the noun case morphology
@@ -392,6 +414,8 @@ This file add +N+Prop and points to the noun case morphology
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -400,6 +424,8 @@ This file add +N+Prop and points to the noun case morphology
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 # Buryaad verb affixes
 
@@ -476,6 +502,8 @@ the one for these suffixes.
 
 ---
 
+# src-fst-morphology-clitics.lexc.md 
+
 
 
 ## Buryaad clitics
@@ -491,6 +519,8 @@ This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
 <small>This (part of) documentation was generated from [src/fst/morphology/clitics.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/morphology/clitics.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 # Buryaad morphophonology
 
@@ -732,6 +762,8 @@ Here come all the rules (marked with RULE:), and test cases.
 
 ---
 
+# src-fst-morphology-root.lexc.md 
+
 
 # Buryaad morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
@@ -914,6 +946,8 @@ Key lexicon
 
 ---
 
+# src-fst-morphology-stems-adjectives.lexc.md 
+
 # Buryaad adjectives
 
 here there are some 500 adjectives from the Apertium source files.
@@ -923,6 +957,8 @@ here there are some 500 adjectives from the Apertium source files.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-adverbs.lexc.md 
 
 
 # Buryaad adverbs
@@ -934,6 +970,8 @@ Here follows a lost of some 20 adverbs.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-bxr-propernouns.lexc.md 
 
 
 # Buryaad proper nouns
@@ -949,6 +987,8 @@ and international names will be taken from the urj-Cyrl file.
 
 ---
 
+# src-fst-morphology-stems-conjunctions.lexc.md 
+
 # Buryaad conjunctions
 
 This file is still empty.
@@ -959,6 +999,8 @@ This file is still empty.
 
 ---
 
+# src-fst-morphology-stems-interjections.lexc.md 
+
 # Buryaad interjections
 
 This file is still empty.
@@ -968,6 +1010,8 @@ This file is still empty.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/interjections.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/morphology/stems/interjections.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-nouns.lexc.md 
 
 # Buryaad noun stems
 
@@ -981,6 +1025,8 @@ be moved to bxr-propernouns.lexc
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-numerals.lexc.md 
 
 
 
@@ -1046,6 +1092,8 @@ the arabic numerals.
 
 ---
 
+# src-fst-morphology-stems-particles.lexc.md 
+
 
 # Buryaad particles
 
@@ -1068,6 +1116,8 @@ Consider whether these are aeverbs.
 
 ---
 
+# src-fst-morphology-stems-postpositions.lexc.md 
+
 # Buryaad postpositions
 
 This file contains 40 postpositions
@@ -1086,6 +1136,8 @@ LEXICON Postposition   = The lexicon
 
 ---
 
+# src-fst-morphology-stems-pronouns.lexc.md 
+
 # Buryaad pronouns
 
 This file contains pronouns.
@@ -1102,6 +1154,8 @@ So far, the following pronouns are covered:
 
 ---
 
+# src-fst-morphology-stems-propernouns.lexc.md 
+
 
 # Propernouns
 
@@ -1110,6 +1164,8 @@ So far, the following pronouns are covered:
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/morphology/stems/propernouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-subjunctions.lexc.md 
 
 # Buryaad subjunctions
 
@@ -1120,6 +1176,8 @@ This file is still empty.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/subjunctions.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/morphology/stems/subjunctions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-verbs.lexc.md 
 
 # Buryaad verbs
 
@@ -1143,6 +1201,8 @@ Here come the new verbs
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Russia Buriat are read out, e.g.
@@ -1162,6 +1222,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-bxr/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
@@ -1460,7 +1522,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-bxr/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for bxr
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-bxr/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for bxr
 
 Usage:
 ```
@@ -1523,6 +1592,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-bxr/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for bxr
 
@@ -1587,6 +1658,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -1648,6 +1721,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-bxr/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-
