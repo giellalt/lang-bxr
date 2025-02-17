@@ -10,7 +10,7 @@ TESTS_ENVIRONMENT = export GIELLA_CORE=$(GIELLA_CORE);
 
 # List here (space separated) all test scripts that should be run
 # unconditionally:
-TESTS=tag_test.sh
+TESTS=missing-multichars.sh
 
 # Add your shell scripts for running tests requiring only a generator:
 GENERATION_TESTS_IN=
@@ -25,7 +25,7 @@ endif # WANT_GENERATION
 # be fixed *later*, but is not critical at the moment:
 XFAIL_TESTS=generate-verb-lemmas.sh \
 			generate-adjective-lemmas.sh \
-			tag_test.sh
+			missing-multichars.sh
 
 
 
