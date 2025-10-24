@@ -4,7 +4,7 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-disambiguator.cg3.md 
+## src-cg3-disambiguator.cg3.md 
 
 This is the Eastern Mari disambiguation file. It chooses
 the correct morphological analyses in any given sentence context.
@@ -14,7 +14,7 @@ Thereafter come the rules, each rule is listed below.
 
 TODO: adapt it to BURYAAD
 
-# Sentence delimiters
+## Sentence delimiters
 
 The delimiters are: "<.>" "<!>" "<?>" "<...>" "<¶>" sent
 
@@ -25,16 +25,16 @@ The tags are documented in the root.lexc file, and here only listed for referenc
 The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-## Tags
+### Tags
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 
 BOS
 EOS
 
-### Clause boundary
+#### Clause boundary
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 V
@@ -51,7 +51,7 @@ Po
 
 WORD is the set of all POS
 
-### Verbal tense and mood tags
+#### Verbal tense and mood tags
 Prs
 Prt1
 Prt2
@@ -61,7 +61,7 @@ Ind
 Cond
 Des
 
-### Other verbal tags
+#### Other verbal tags
 Act
 ConNeg
 FutPrc
@@ -81,12 +81,12 @@ Pl1
 Pl2
 Pl3
 
-### Numeral tags
+#### Numeral tags
 
 Sg
 Pl
 
-### Case tags
+#### Case tags
 
 Nom
 Gen
@@ -100,7 +100,7 @@ Ine
 Ill
 Cmpr (case)
 
-### Other nominal tags
+#### Other nominal tags
 
 Pers
 Refl
@@ -110,13 +110,13 @@ Recipr
 Dem
 ABBR
 
-### Adjective comparison tags
+#### Adjective comparison tags
 
 Pos (?)
 Superl
 Comp
 
-### Possessive suffix tags
+#### Possessive suffix tags
 
 PxSg1
 PxSg2
@@ -125,14 +125,14 @@ PxPl1
 PxPl2
 PxPl3
 
-### Numeral tags
+#### Numeral tags
 
 Card
 Coll
 Ord
 Temp (?)
 
-### Punctuation marks
+#### Punctuation marks
 
 CLB
 PUCT
@@ -140,33 +140,33 @@ LEFT
 RIGHT
 COMMA
 
-### Derivation tags
+#### Derivation tags
 Der/MWN
 Der/sa
 
-### Particles
+#### Particles
 Qst
 Foc
 
-### Tags for internal testing
+#### Tags for internal testing
 CmpTest
 Err
 
-## Sets
+### Sets
 
 * **CASE** = all cases
 * **OBLCASE** = All cases except Nom
 * **VFIN** = All moods
 
-# Rule section
+## Rule section
 
-## Early, contextless rules
+### Early, contextless rules
 
-## Phrase internal rules
+### Phrase internal rules
 
-## Verb disambituation rules
+### Verb disambituation rules
 
-### Participles
+#### Participles
 
 Plural verbforms
 * **BolonBusad** and others gives plural
@@ -179,7 +179,7 @@ ConMod
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
 
 
@@ -218,7 +218,7 @@ part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
 These were the set types.
 
-## HABITIVE MAPPING
+### HABITIVE MAPPING
 
 * **hab1** 
 
@@ -337,16 +337,16 @@ These were the set types.
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-### sma object
+#### sma object
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
 
-## SUBJ MAPPING - leftovers
+### SUBJ MAPPING - leftovers
 
-## OBJ MAPPING - leftovers
+### OBJ MAPPING - leftovers
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * * *
 
@@ -354,10 +354,10 @@ These were the set types.
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
 
-# Buryaad adjective morphology
+## Buryaad adjective morphology
 
 just adding the +A tag.
 
@@ -367,9 +367,9 @@ just adding the +A tag.
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
-# Buryaad noun affixes
+## Buryaad noun affixes
 
 We have two lexica, n1 and n2, 
 n1 with -нар plural and V-initial Gen, Ins, and
@@ -402,9 +402,9 @@ The morphology common to the different stem classes
 
 ---
 
-# src-fst-morphology-affixes-propernouns.lexc.md 
+## src-fst-morphology-affixes-propernouns.lexc.md 
 
-# Buryaad proper noun morphology
+## Buryaad proper noun morphology
 
 This file add +N+Prop and points to the noun case morphology
 
@@ -414,10 +414,10 @@ This file add +N+Prop and points to the noun case morphology
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 * * *
 
@@ -425,20 +425,20 @@ This file add +N+Prop and points to the noun case morphology
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
-# Buryaad verb affixes
+## Buryaad verb affixes
 
 This is the file for Buryaad verb morphology. The documentation
 shortly explains the rationale behind each continuation lexicon.
 
-## The verb classes
+### The verb classes
 
-### Auxiliary verbs
+#### Auxiliary verbs
 
 No auxiliary verbs for now.
 
-### Ordinary verbs
+#### Ordinary verbs
 
 v1 the default verb category, v2 stem in long vowel or ditphtong, 
 v3 stem in и
@@ -463,18 +463,18 @@ all verb types point to the same finite_indicative.
 
 * **LEXICON v3 ** stem in и
 
-## Verb morphology
+### Verb morphology
 We see the contlexes as two layers: The first layer to divide
 the different stem types into different suffix lexica, and
 the one for these suffixes.
 
-### Layer one: Dividing v1, v2, v3 into suffix lexica
+#### Layer one: Dividing v1, v2, v3 into suffix lexica
 
 * **LEXICON v1lex ** the common v1 morphology
 
 * **LEXICON v2lex ** the common v2 morphology
 
-### Layer two: The suffix lexica themselves.
+#### Layer two: The suffix lexica themselves.
 
 * **LEXICON persprd  ** for suffixes: б, ш, ...
 
@@ -502,11 +502,11 @@ the one for these suffixes.
 
 ---
 
-# src-fst-morphology-clitics.lexc.md 
+## src-fst-morphology-clitics.lexc.md 
 
 
 
-## Buryaad clitics
+### Buryaad clitics
 
 This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
 
@@ -520,15 +520,15 @@ This file contains the clitic lexicon K, pointing (via clitics) to ENDLEX
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
-# Buryaad morphophonology
+## Buryaad morphophonology
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-bxr/blob/main/src/fst/phonology.twolc) 
 
 This file expresses Buryaad morphophonological alternation, from abstract underlying forms.
 
-# Alphabet
+## Alphabet
 
 This is a list of all symbols in use.
 
@@ -551,7 +551,7 @@ This is a list of all symbols in use.
 * м2:м        = м to be deleted for PxSg1
 * %^END:0	         = auxiliary end symbol to fix xerox bug
 
-# Sets
+## Sets
 
 Some of the symbols are bundled together in sets
 
@@ -568,12 +568,12 @@ Some of the symbols are bundled together in sets
 * Cns = RealCns ArchiCns ;   
 * Sgm = Vow Cns ;			   
 
-# Rules
+## Rules
 
 Here come all the rules (marked with RULE:), and test cases.
 
-## Vowel harmony
-### Vowel harmony for short vowels
+### Vowel harmony
+#### Vowel harmony for short vowels
 
 * RULE:  **Vowel harmony A:а** gives a after stems with a or juu
 
@@ -619,7 +619,7 @@ Here come all the rules (marked with RULE:), and test cases.
 
 * RULE:  **Vowel harmony U:ү** gives e after e etc
 
-### Vowel harmony for long vowels
+#### Vowel harmony for long vowels
 
 * RULE:  **Vowel harmony ӨӨ:аa** gives aa after a
 
@@ -635,7 +635,7 @@ Here come all the rules (marked with RULE:), and test cases.
 
 * RULE:  **Vowel harmony ӨӨ:өө** gives ø after ø
 
-### Realisation of I as ы and и
+#### Realisation of I as ы and и
 
 * RULE:  **{I}{I} to ы in Gen/Acc and Poss 1** gives y for the first I
 
@@ -655,8 +655,8 @@ Here come all the rules (marked with RULE:), and test cases.
 * *морин>{I}{I}нь^END*
 * *морин>иинь0*
 
-## Other vowel rules
-### Vowel deletion rules
+### Other vowel rules
+#### Vowel deletion rules
 
 * RULE:  **Final stem vowel deletion before ые and ын** 
 
@@ -678,15 +678,15 @@ Here come all the rules (marked with RULE:), and test cases.
 * *би>б{Y}^END*
 * *би>б00*
 
-### Vowel change rules
+#### Vowel change rules
 
 * RULE:  **Y to i in predicative particle -bi for consonant stem** 
 
 * *тэдэнэр>б{Y}^END*
 * *тэдэнэр>би0*
 
-## Consonant rules
-### Consonant change rules
+### Consonant rules
+#### Consonant change rules
 
 * RULE:  **D to t suffix initially for VC stems** 
 
@@ -700,7 +700,7 @@ Here come all the rules (marked with RULE:), and test cases.
 * *самолёт>{A}й^END*
 * *самолёд>ой0*
 
-### Consonant deletion rules
+#### Consonant deletion rules
 
 * RULE:  **Deletion of possessive м2 for consonant stems** 
 
@@ -762,13 +762,13 @@ Here come all the rules (marked with RULE:), and test cases.
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
-# Buryaad morphological analyser                      !
+## Buryaad morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 
-# Definitions for Multichar_Symbols
+## Definitions for Multichar_Symbols
 
 * +N	      Noun 
 * +V	      Verb
@@ -858,10 +858,10 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF BURYAAD.
 * +PxPl3   third person plural possessive
 * +Px3   third person plural possessive
 
-# Semantic tags
+## Semantic tags
 * +Sem/Mal    
 
-# Other tags
+## Other tags
 To be properly organised
 
 * %{A%}   letter class 
@@ -878,11 +878,11 @@ To be properly organised
 
 * %^END   we do the mhr trick to harmonise twolc and lexc
 
-## Usage tags
+### Usage tags
 
 * +Use/NG   Do not generate 
 
-## Symbols that need to be escaped on the lower side (towards twolc):
+### Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
 * **«7**:  Literal «
 ```
@@ -890,7 +890,7 @@ To be properly organised
  %[%<%]  - Literal <
 ```
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -946,9 +946,9 @@ Key lexicon
 
 ---
 
-# src-fst-morphology-stems-adjectives.lexc.md 
+## src-fst-morphology-stems-adjectives.lexc.md 
 
-# Buryaad adjectives
+## Buryaad adjectives
 
 here there are some 500 adjectives from the Apertium source files.
 
@@ -958,10 +958,10 @@ here there are some 500 adjectives from the Apertium source files.
 
 ---
 
-# src-fst-morphology-stems-adverbs.lexc.md 
+## src-fst-morphology-stems-adverbs.lexc.md 
 
 
-# Buryaad adverbs
+## Buryaad adverbs
 
 Here follows a lost of some 20 adverbs.
 
@@ -971,10 +971,10 @@ Here follows a lost of some 20 adverbs.
 
 ---
 
-# src-fst-morphology-stems-bxr-propernouns.lexc.md 
+## src-fst-morphology-stems-bxr-propernouns.lexc.md 
 
 
-# Buryaad proper nouns
+## Buryaad proper nouns
 
 This file is still empty.
 
@@ -987,9 +987,9 @@ and international names will be taken from the urj-Cyrl file.
 
 ---
 
-# src-fst-morphology-stems-conjunctions.lexc.md 
+## src-fst-morphology-stems-conjunctions.lexc.md 
 
-# Buryaad conjunctions
+## Buryaad conjunctions
 
 This file is still empty.
 
@@ -999,9 +999,9 @@ This file is still empty.
 
 ---
 
-# src-fst-morphology-stems-interjections.lexc.md 
+## src-fst-morphology-stems-interjections.lexc.md 
 
-# Buryaad interjections
+## Buryaad interjections
 
 This file is still empty.
 
@@ -1011,9 +1011,9 @@ This file is still empty.
 
 ---
 
-# src-fst-morphology-stems-nouns.lexc.md 
+## src-fst-morphology-stems-nouns.lexc.md 
 
-# Buryaad noun stems
+## Buryaad noun stems
 
 * **LEXICON Noun ** the lexicon itself
 
@@ -1026,11 +1026,11 @@ be moved to bxr-propernouns.lexc
 
 ---
 
-# src-fst-morphology-stems-numerals.lexc.md 
+## src-fst-morphology-stems-numerals.lexc.md 
 
 
 
-##  **LEXICON NUM-PREFIXES**
+###  **LEXICON NUM-PREFIXES**
 This lexicon contains a number of letters and other
 symbols found in front of digits. Their continuation
 lexicons should probably be changed as we restructure
@@ -1092,10 +1092,10 @@ the arabic numerals.
 
 ---
 
-# src-fst-morphology-stems-particles.lexc.md 
+## src-fst-morphology-stems-particles.lexc.md 
 
 
-# Buryaad particles
+## Buryaad particles
 
 Consider whether these are aeverbs.
 
@@ -1116,9 +1116,9 @@ Consider whether these are aeverbs.
 
 ---
 
-# src-fst-morphology-stems-postpositions.lexc.md 
+## src-fst-morphology-stems-postpositions.lexc.md 
 
-# Buryaad postpositions
+## Buryaad postpositions
 
 This file contains 40 postpositions
 
@@ -1136,9 +1136,9 @@ LEXICON Postposition   = The lexicon
 
 ---
 
-# src-fst-morphology-stems-pronouns.lexc.md 
+## src-fst-morphology-stems-pronouns.lexc.md 
 
-# Buryaad pronouns
+## Buryaad pronouns
 
 This file contains pronouns.
 
@@ -1154,10 +1154,10 @@ So far, the following pronouns are covered:
 
 ---
 
-# src-fst-morphology-stems-propernouns.lexc.md 
+## src-fst-morphology-stems-propernouns.lexc.md 
 
 
-# Propernouns
+## Propernouns
 
 * * *
 
@@ -1165,9 +1165,9 @@ So far, the following pronouns are covered:
 
 ---
 
-# src-fst-morphology-stems-subjunctions.lexc.md 
+## src-fst-morphology-stems-subjunctions.lexc.md 
 
-# Buryaad subjunctions
+## Buryaad subjunctions
 
 This file is still empty.
 
@@ -1177,9 +1177,9 @@ This file is still empty.
 
 ---
 
-# src-fst-morphology-stems-verbs.lexc.md 
+## src-fst-morphology-stems-verbs.lexc.md 
 
-# Buryaad verbs
+## Buryaad verbs
 
 This file is almost empty, it contains ca 40 verbs of 3 types, v1, v2, v3:
 
@@ -1201,7 +1201,7 @@ Here come the new verbs
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -1223,26 +1223,26 @@ For example:
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
-# DELIMITERS
+## DELIMITERS
 
-# TAGS AND SETS
+## TAGS AND SETS
 
-## Tags
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 A
@@ -1269,7 +1269,7 @@ PUNCT
 COMMA
 ¶
 
-### Tags for POS sub-categories
+#### Tags for POS sub-categories
 
 Pers
 Dem
@@ -1285,7 +1285,7 @@ Allegro
 Arab
 Romertall
 
-### Tags for morphosyntactic properties
+#### Tags for morphosyntactic properties
 
 Nom
 Acc
@@ -1348,7 +1348,7 @@ VAbess
 
 Err/Orth
 
-### Semantic tags
+#### Semantic tags
 
 Sem/Act
 Sem/Ani
@@ -1381,7 +1381,7 @@ PROP-SUR
 
 TIME-N-SET
 
-###  Syntactic tags
+####  Syntactic tags
 
 @+FAUXV
 @+FMAINV
@@ -1451,22 +1451,22 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
 WORD
 NOT-COMMA
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
@@ -1477,11 +1477,11 @@ NOT-NOM
 NOT-GEN
 NOT-ACC
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 REAL-NEG
 
@@ -1489,7 +1489,7 @@ MOOD-V
 
 NOT-PRFPRC
 
-### Sets for person
+#### Sets for person
 
 SG1-V
 SG2-V
@@ -1501,25 +1501,25 @@ PL1-V
 PL2-V
 PL3-V
 
-### Pronoun sets
+#### Pronoun sets
 
-### Adjectival sets and their complements
+#### Adjectival sets and their complements
 
-### Adverbial sets and their complements
+#### Adverbial sets and their complements
 
-### Sets of elements with common syntactic behaviour
+#### Sets of elements with common syntactic behaviour
 
-### NP sets defined according to their morphosyntactic features
+#### NP sets defined according to their morphosyntactic features
 
-### The PRE-NP-HEAD family of sets
+#### The PRE-NP-HEAD family of sets
 
 These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-### Border sets and their complements
+#### Border sets and their complements
 
-### Grammarchecker sets
+#### Grammarchecker sets
 
 * * *
 
@@ -1527,9 +1527,9 @@ expression **WORD - premodifiers**.
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for bxr
+## Tokeniser for bxr
 
 Usage:
 ```
@@ -1574,7 +1574,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -1593,9 +1593,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for bxr
+## Grammar checker tokenisation for bxr
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -1658,9 +1658,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
